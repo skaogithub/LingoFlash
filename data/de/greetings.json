@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "title": "German Greetings",
+    "language": "de",
+    "description": "Common German greetings and polite phrases",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Hallo",
+      "translation": "Hello",
+      "sentences": [
+        {
+          "original": "Hallo, wie geht es dir?",
+          "translation": "Hello, how are you?"
+        },
+        {
+          "original": "Hallo Peter!",
+          "translation": "Hello Peter!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Guten Morgen",
+      "translation": "Good morning",
+      "sentences": [
+        {
+          "original": "Guten Morgen, Mama.",
+          "translation": "Good morning, Mom."
+        },
+        {
+          "original": "Guten Morgen, wie hast du geschlafen?",
+          "translation": "Good morning, how did you sleep?",
+          "chunks": [
+            {
+              "text": "Guten Morgen,",
+              "meaning": "Good morning,"
+            },
+            {
+              "text": "wie hast du geschlafen?",
+              "meaning": "how did you sleep?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Guten Tag",
+      "translation": "Good day / Hello",
+      "sentences": [
+        {
+          "original": "Guten Tag, Herr Schmidt.",
+          "translation": "Good day, Mr. Schmidt."
+        },
+        {
+          "original": "Guten Tag, kann ich Ihnen helfen?",
+          "translation": "Good day, can I help you?",
+          "chunks": [
+            {
+              "text": "Guten Tag,",
+              "meaning": "Good day,"
+            },
+            {
+              "text": "kann ich Ihnen helfen?",
+              "meaning": "can I help you?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Guten Abend",
+      "translation": "Good evening",
+      "sentences": [
+        {
+          "original": "Guten Abend, meine Damen und Herren.",
+          "translation": "Good evening, ladies and gentlemen.",
+          "chunks": [
+            {
+              "text": "Guten Abend,",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "meine Damen und Herren.",
+              "meaning": "ladies and gentlemen."
+            }
+          ]
+        },
+        {
+          "original": "Guten Abend, was möchten Sie trinken?",
+          "translation": "Good evening, what would you like to drink?",
+          "chunks": [
+            {
+              "text": "Guten Abend,",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "was möchten Sie trinken?",
+              "meaning": "what would you like to drink?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Gute Nacht",
+      "translation": "Good night",
+      "sentences": [
+        {
+          "original": "Gute Nacht und schlaf gut.",
+          "translation": "Good night and sleep well."
+        },
+        {
+          "original": "Ich gehe jetzt ins Bett, gute Nacht.",
+          "translation": "I am going to bed now, good night.",
+          "chunks": [
+            {
+              "text": "Ich gehe jetzt ins Bett,",
+              "meaning": "I am going to bed now,"
+            },
+            {
+              "text": "gute Nacht.",
+              "meaning": "good night."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tschüss",
+      "translation": "Bye",
+      "sentences": [
+        {
+          "original": "Tschüss, bis morgen!",
+          "translation": "Bye, see you tomorrow!"
+        },
+        {
+          "original": "Ich muss jetzt gehen, tschüss!",
+          "translation": "I have to go now, bye!",
+          "chunks": [
+            {
+              "text": "Ich muss jetzt gehen,",
+              "meaning": "I must go now,"
+            },
+            {
+              "text": "tschüss!",
+              "meaning": "bye!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Auf Wiedersehen",
+      "translation": "Goodbye",
+      "sentences": [
+        {
+          "original": "Auf Wiedersehen, Frau Müller.",
+          "translation": "Goodbye, Mrs. Müller."
+        },
+        {
+          "original": "Auf Wiedersehen, bis zum nächsten Mal.",
+          "translation": "Goodbye, until next time.",
+          "chunks": [
+            {
+              "text": "Auf Wiedersehen,",
+              "meaning": "Goodbye,"
+            },
+            {
+              "text": "bis zum nächsten Mal.",
+              "meaning": "until next time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Wie geht es dir?",
+      "translation": "How are you?",
+      "sentences": [
+        {
+          "original": "Hallo Maria, wie geht es dir?",
+          "translation": "Hello Maria, how are you?",
+          "chunks": [
+            {
+              "text": "Hallo Maria,",
+              "meaning": "Hello Maria,"
+            },
+            {
+              "text": "wie geht es dir?",
+              "meaning": "how are you?"
+            }
+          ]
+        },
+        {
+          "original": "Wie geht es dir heute?",
+          "translation": "How are you today?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Herzlich willkommen",
+      "translation": "Welcome",
+      "sentences": [
+        {
+          "original": "Herzlich willkommen in Berlin!",
+          "translation": "Welcome to Berlin!"
+        },
+        {
+          "original": "Ein herzliches Willkommen an alle Gäste.",
+          "translation": "A warm welcome to all guests.",
+          "chunks": [
+            {
+              "text": "Ein herzliches Willkommen",
+              "meaning": "A warm welcome"
+            },
+            {
+              "text": "an alle Gäste.",
+              "meaning": "to all guests."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Bis bald",
+      "translation": "See you soon",
+      "sentences": [
+        {
+          "original": "Bis bald, mein Freund!",
+          "translation": "See you soon, my friend!"
+        },
+        {
+          "original": "Danke für den Besuch, bis bald.",
+          "translation": "Thanks for the visit, see you soon.",
+          "chunks": [
+            {
+              "text": "Danke für den Besuch,",
+              "meaning": "Thanks for the visit,"
+            },
+            {
+              "text": "bis bald.",
+              "meaning": "see you soon."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "tengo-i-feel-or-have",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "AI-generated deck about Tengo... in Spanish"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Tengo hambre",
+      "translation": "I am hungry",
+      "sentences": [
+        {
+          "original": "Tengo hambre, quiero comer una pizza.",
+          "translation": "I am hungry, I want to eat a pizza."
+        },
+        {
+          "original": "Si tienes hambre, hay fruta en la mesa.",
+          "translation": "If you are hungry, there is fruit on the table."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo sed",
+      "translation": "I am thirsty",
+      "sentences": [
+        {
+          "original": "Tengo sed después de correr.",
+          "translation": "I am thirsty after running."
+        },
+        {
+          "original": "Dame un vaso de agua porque tengo sed.",
+          "translation": "Give me a glass of water because I am thirsty."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo calor",
+      "translation": "I am hot",
+      "sentences": [
+        {
+          "original": "Tengo calor en el verano.",
+          "translation": "I am hot in the summer."
+        },
+        {
+          "original": "Abre la ventana, tengo mucho calor.",
+          "translation": "Open the window, I am very hot."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo frío",
+      "translation": "I am cold",
+      "sentences": [
+        {
+          "original": "Tengo frío sin mi chaqueta.",
+          "translation": "I am cold without my jacket."
+        },
+        {
+          "original": "En invierno siempre tengo frío.",
+          "translation": "In winter I am always cold."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo sueño",
+      "translation": "I am sleepy",
+      "sentences": [
+        {
+          "original": "Tengo sueño porque es muy tarde.",
+          "translation": "I am sleepy because it is very late."
+        },
+        {
+          "original": "Voy a dormir un poco porque tengo sueño.",
+          "translation": "I am going to sleep a bit because I am sleepy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo miedo",
+      "translation": "I am afraid",
+      "sentences": [
+        {
+          "original": "Tengo miedo de las arañas.",
+          "translation": "I am afraid of spiders."
+        },
+        {
+          "original": "No tengas miedo, estoy aquí contigo.",
+          "translation": "Don't be afraid, I am here with you."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo prisa",
+      "translation": "I am in a hurry",
+      "sentences": [
+        {
+          "original": "Tengo prisa por llegar al trabajo.",
+          "translation": "I am in a hurry to get to work."
+        },
+        {
+          "original": "Lo siento, no puedo hablar, tengo prisa.",
+          "translation": "I'm sorry, I can't talk, I'm in a hurry."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo razón",
+      "translation": "I am right",
+      "sentences": [
+        {
+          "original": "Yo siempre tengo razón.",
+          "translation": "I am always right."
+        },
+        {
+          "original": "Tú sabes que yo tengo razón en esto.",
+          "translation": "You know that I am right about this."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo suerte",
+      "translation": "I am lucky",
+      "sentences": [
+        {
+          "original": "Tengo suerte de tener buenos amigos.",
+          "translation": "I am lucky to have good friends."
+        },
+        {
+          "original": "Hoy tengo mucha suerte.",
+          "translation": "Today I am very lucky."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tengo ... años",
+      "translation": "I am ... years old",
+      "sentences": [
+        {
+          "original": "Tengo veinte años.",
+          "translation": "I am twenty years old."
+        },
+        {
+          "original": "¿Cuántos años tienes? Yo tengo diez.",
+          "translation": "How old are you? I am ten."
+        }
+      ]
+    }
+  ]
+}

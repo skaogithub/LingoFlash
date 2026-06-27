@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "title": "Chapter 7: -er Verbs Conjugation",
+    "language": "es",
+    "description": "Conjugation examples for -er verbs.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "aprender",
+      "translation": "to learn",
+      "sentences": [
+        {
+          "original": "yo aprendo",
+          "translation": "I learn, I am learning"
+        },
+        {
+          "original": "tú aprendes",
+          "translation": "You learn, you are learning (familiar, singular)"
+        },
+        {
+          "original": "ella aprende",
+          "translation": "She learns, she is learning"
+        },
+        {
+          "original": "nosotros aprendemos",
+          "translation": "We learn, we are learning"
+        },
+        {
+          "original": "ellos aprenden",
+          "translation": "They learn, they are learning"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "beber",
+      "translation": "to drink",
+      "sentences": [
+        {
+          "original": "yo bebo",
+          "translation": "I drink, I am drinking"
+        },
+        {
+          "original": "tú bebes",
+          "translation": "You drink, you are drinking (familiar, singular)"
+        },
+        {
+          "original": "él bebe",
+          "translation": "He drinks, he is drinking"
+        },
+        {
+          "original": "nosotras bebemos",
+          "translation": "We drink, we are drinking (feminine)"
+        },
+        {
+          "original": "ellas beben",
+          "translation": "They drink, they are drinking (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "comer",
+      "translation": "to eat",
+      "sentences": [
+        {
+          "original": "yo como",
+          "translation": "I eat, I am eating"
+        },
+        {
+          "original": "tú comes",
+          "translation": "You eat, you are eating (familiar, singular)"
+        },
+        {
+          "original": "usted come",
+          "translation": "You eat, you are eating (formal, singular)"
+        },
+        {
+          "original": "nosotros comemos",
+          "translation": "We eat, we are eating"
+        },
+        {
+          "original": "ustedes comen",
+          "translation": "You eat, you are eating (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "comprender",
+      "translation": "to understand",
+      "sentences": [
+        {
+          "original": "yo comprendo",
+          "translation": "I understand, I am understanding"
+        },
+        {
+          "original": "tú comprendes",
+          "translation": "You understand, you are understanding (familiar, singular)"
+        },
+        {
+          "original": "él comprende",
+          "translation": "He understands, he is understanding"
+        },
+        {
+          "original": "nosotros comprendemos",
+          "translation": "We understand, we are understanding"
+        },
+        {
+          "original": "ellos comprenden",
+          "translation": "They understand, they are understanding"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "correr",
+      "translation": "to run",
+      "sentences": [
+        {
+          "original": "yo corro",
+          "translation": "I run, I am running"
+        },
+        {
+          "original": "tú corres",
+          "translation": "You run, you are running (familiar, singular)"
+        },
+        {
+          "original": "ella corre",
+          "translation": "She runs, she is running"
+        },
+        {
+          "original": "nosotros corremos",
+          "translation": "We run, we are running"
+        },
+        {
+          "original": "ellas corren",
+          "translation": "They run, they are running (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "creer",
+      "translation": "to believe",
+      "sentences": [
+        {
+          "original": "yo creo",
+          "translation": "I believe, I am believing"
+        },
+        {
+          "original": "tú crees",
+          "translation": "You believe, you are believing (familiar, singular)"
+        },
+        {
+          "original": "él cree",
+          "translation": "He believes, he is believing"
+        },
+        {
+          "original": "nosotros creemos",
+          "translation": "We believe, we are believing"
+        },
+        {
+          "original": "ellos creen",
+          "translation": "They believe, they are believing"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "leer",
+      "translation": "to read",
+      "sentences": [
+        {
+          "original": "yo leo",
+          "translation": "I read, I am reading"
+        },
+        {
+          "original": "tú lees",
+          "translation": "You read, you are reading (familiar, singular)"
+        },
+        {
+          "original": "usted lee",
+          "translation": "You read, you are reading (formal, singular)"
+        },
+        {
+          "original": "nosotras leemos",
+          "translation": "We read, we are reading (feminine)"
+        },
+        {
+          "original": "ustedes leen",
+          "translation": "You read, you are reading (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "querer",
+      "translation": "to want",
+      "sentences": [
+        {
+          "original": "yo quiero",
+          "translation": "I want, I am wanting (irregular: e->ie stem change)"
+        },
+        {
+          "original": "tú quieres",
+          "translation": "You want, you are wanting (familiar, singular)"
+        },
+        {
+          "original": "él quiere",
+          "translation": "He wants, he is wanting"
+        },
+        {
+          "original": "nosotros queremos",
+          "translation": "We want, we are wanting"
+        },
+        {
+          "original": "ellos quieren",
+          "translation": "They want, they are wanting"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "responder",
+      "translation": "to answer",
+      "sentences": [
+        {
+          "original": "yo respondo",
+          "translation": "I answer, I am answering"
+        },
+        {
+          "original": "tú respondes",
+          "translation": "You answer, you are answering (familiar, singular)"
+        },
+        {
+          "original": "ella responde",
+          "translation": "She answers, she is answering"
+        },
+        {
+          "original": "nosotros respondemos",
+          "translation": "We answer, we are answering"
+        },
+        {
+          "original": "ellas responden",
+          "translation": "They answer, they are answering (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "saber",
+      "translation": "to know",
+      "sentences": [
+        {
+          "original": "yo sé",
+          "translation": "I know (irregular yo form)"
+        },
+        {
+          "original": "tú sabes",
+          "translation": "You know (familiar, singular)"
+        },
+        {
+          "original": "él sabe",
+          "translation": "He knows"
+        },
+        {
+          "original": "nosotros sabemos",
+          "translation": "We know"
+        },
+        {
+          "original": "ellos saben",
+          "translation": "They know"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "vender",
+      "translation": "to sell",
+      "sentences": [
+        {
+          "original": "yo vendo",
+          "translation": "I sell, I am selling"
+        },
+        {
+          "original": "tú vendes",
+          "translation": "You sell, you are selling (familiar, singular)"
+        },
+        {
+          "original": "usted vende",
+          "translation": "You sell, you are selling (formal, singular)"
+        },
+        {
+          "original": "nosotros vendemos",
+          "translation": "We sell, we are selling"
+        },
+        {
+          "original": "ustedes venden",
+          "translation": "You sell, you are selling (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ver",
+      "translation": "to see",
+      "sentences": [
+        {
+          "original": "yo veo",
+          "translation": "I see, I am seeing (irregular yo form)"
+        },
+        {
+          "original": "tú ves",
+          "translation": "You see, you are seeing (familiar, singular)"
+        },
+        {
+          "original": "ella ve",
+          "translation": "She sees, she is seeing"
+        },
+        {
+          "original": "nosotros vemos",
+          "translation": "We see, we are seeing"
+        },
+        {
+          "original": "ellos ven",
+          "translation": "They see, they are seeing"
+        }
+      ]
+    }
+  ]
+}

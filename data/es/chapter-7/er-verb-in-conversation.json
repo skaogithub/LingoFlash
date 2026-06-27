@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "er-conjugation-in-conversation",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "Practice er verb conjugation in conversation"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "querer",
+      "translation": "want",
+      "sentences": [
+        {
+          "original": "MAMÁ: Mañana vamos a un picnic en el parque. ¿Qué quieren comer ustedes?",
+          "translation": "MOM: Tomorrow we are going to a picnic in the park. What do you all want to eat?",
+          "chunks": [
+            {
+              "text": "Mañana vamos a un picnic",
+              "meaning": "Tomorrow we are going to a picnic"
+            },
+            {
+              "text": "en el parque.",
+              "meaning": "in the park."
+            },
+            {
+              "text": "¿Qué quieren comer ustedes?",
+              "meaning": "What do you all want to eat?"
+            }
+          ]
+        },
+        {
+          "original": "JUAN: Yo quiero pizza con soda.",
+          "translation": "JUAN: I want pizza with soda."
+        },
+        {
+          "original": "MARÍA Y ROSA: Nosotras queremos tacos y hamburguesas.",
+          "translation": "MARÍA & ROSA: We want tacos and hamburgers.",
+          "chunks": [
+            {
+              "text": "Nosotras queremos",
+              "meaning": "We want"
+            },
+            {
+              "text": "tacos y hamburguesas.",
+              "meaning": "tacos and hamburgers."
+            }
+          ]
+        },
+        {
+          "original": "MAMÁ: Y tú, Jaime, ¿qué quieres comer?",
+          "translation": "MOM: And you, Jaime, what do you want to eat?",
+          "chunks": [
+            {
+              "text": "MAMÁ: Y tú, Jaime,",
+              "meaning": "MOM: And you, Jaime,"
+            },
+            {
+              "text": "¿qué quieres comer?",
+              "meaning": "what do you want to eat?"
+            }
+          ]
+        },
+        {
+          "original": "JAIME: Yo quiero un sándwich.",
+          "translation": "JAIME: I want a sandwich."
+        },
+        {
+          "original": "MARÍA: Mamá, mis amigas Luisa y Marta quieren ir.",
+          "translation": "MARÍA: Mom, my friends Luisa and Marta want to go.",
+          "chunks": [
+            {
+              "text": "mis amigas Luisa y Marta",
+              "meaning": "my friends Luisa and Marta"
+            },
+            {
+              "text": "quieren ir.",
+              "meaning": "want to go."
+            }
+          ]
+        },
+        {
+          "original": "MAMÁ: Está bien. Ahora quiero hablar con la persona más importante.",
+          "translation": "MOM: It’s okay. Now I want to talk with the most important person.",
+          "chunks": [
+            {
+              "text": "Ahora quiero hablar",
+              "meaning": "Now I want to talk"
+            },
+            {
+              "text": "con la persona más importante.",
+              "meaning": "with the most important person."
+            }
+          ]
+        },
+        {
+          "original": "TODOS: ¿Quién es la persona más importante?",
+          "translation": "EVERYONE: Who is the most important person?",
+          "chunks": [
+            {
+              "text": "¿Quién es la persona",
+              "meaning": "Who is the person"
+            },
+            {
+              "text": "más importante?",
+              "meaning": "most important?"
+            }
+          ]
+        },
+        {
+          "original": "MAMÁ: Tu papá. ¡Él tiene el mapa para llegar al parque!",
+          "translation": "MOM: Your dad. He has the map to get to the park!",
+          "chunks": [
+            {
+              "text": "¡Él tiene el mapa",
+              "meaning": "He has the map"
+            },
+            {
+              "text": "para llegar al parque!",
+              "meaning": "to get to the park!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "leer",
+      "translation": "read",
+      "sentences": [
+        {
+          "original": "Pedro: Juan, ¿qué lees?",
+          "translation": "Pedro: Juan, what are you reading?"
+        },
+        {
+          "original": "Juan: Leo una novela para mi clase de inglés.",
+          "translation": "Juan: I’m reading a novel for my English class.",
+          "chunks": [
+            {
+              "text": "Leo una novela",
+              "meaning": "I'm reading a novel"
+            },
+            {
+              "text": "para mi clase de inglés.",
+              "meaning": "for my English class."
+            }
+          ]
+        },
+        {
+          "original": "Juan: ¿Qué leen ustedes?",
+          "translation": "Juan: What are you all reading?"
+        },
+        {
+          "original": "Pedro y Liliana: Nosotros leemos una novela también.",
+          "translation": "Pedro y Liliana: We are reading a novel too.",
+          "chunks": [
+            {
+              "text": "Nosotros leemos",
+              "meaning": "We are reading"
+            },
+            {
+              "text": "una novela también.",
+              "meaning": "a novel too."
+            }
+          ]
+        },
+        {
+          "original": "Juan: ¿Oh sí? Creo que todos los alumnos de la señora Fernández leen mucho.",
+          "translation": "Juan: Oh really? I believe all of Mrs. Fernandez's students read a lot.",
+          "chunks": [
+            {
+              "text": "Creo que todos los alumnos",
+              "meaning": "I believe that all the students"
+            },
+            {
+              "text": "de la señora Fernández",
+              "meaning": "of Mrs. Fernandez"
+            },
+            {
+              "text": "leen mucho.",
+              "meaning": "read a lot."
+            }
+          ]
+        },
+        {
+          "original": "Pedro: La señora Fernández cree que si usted no lee, no aprende.",
+          "translation": "Pedro: Mrs. Fernandez believes that if you don't read, you don't learn.",
+          "chunks": [
+            {
+              "text": "La señora Fernández cree que",
+              "meaning": "Mrs. Fernandez believes that"
+            },
+            {
+              "text": "si usted no lee, no aprende.",
+              "meaning": "if you don't read, you don't learn."
+            }
+          ]
+        },
+        {
+          "original": "Liliana: Si no aprende, no pasa el curso.",
+          "translation": "Liliana: If one doesn't learn, one doesn't pass the course.",
+          "chunks": [
+            {
+              "text": "Si no aprende,",
+              "meaning": "If one doesn't learn,"
+            },
+            {
+              "text": "no pasa el curso.",
+              "meaning": "one doesn't pass the course."
+            }
+          ]
+        },
+        {
+          "original": "Todos: ¡Ay, ay, ay! Comprendemos. ¡Es importante leer!",
+          "translation": "Everyone: Oh boy! We understand. It's important to read!",
+          "chunks": [
+            {
+              "text": "Comprendemos.",
+              "meaning": "We understand."
+            },
+            {
+              "text": "¡Es importante leer!",
+              "meaning": "It's important to read!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

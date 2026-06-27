@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "title": "Portuguese Greetings",
+    "language": "pt",
+    "description": "Essential Portuguese greetings and social phrases",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Olá",
+      "translation": "Hello",
+      "sentences": [
+        {
+          "original": "Olá, como você está ?",
+          "translation": "Hello, how are you?",
+          "chunks": [
+            {
+              "text": "Olá,",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "como você está ?",
+              "meaning": "how are you?"
+            }
+          ]
+        },
+        {
+          "original": "Olá, eu sou o João.",
+          "translation": "Hello, I am João.",
+          "chunks": [
+            {
+              "text": "Olá,",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "eu sou o João.",
+              "meaning": "I am João."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Bom dia",
+      "translation": "Good morning",
+      "sentences": [
+        {
+          "original": "Bom dia, Maria !",
+          "translation": "Good morning, Maria !"
+        },
+        {
+          "original": "Bom dia a todos.",
+          "translation": "Good morning, everyone."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Boa tarde",
+      "translation": "Good afternoon",
+      "sentences": [
+        {
+          "original": "Boa tarde, gostaria de um café.",
+          "translation": "Good afternoon, I would like a coffee.",
+          "chunks": [
+            {
+              "text": "Boa tarde,",
+              "meaning": "Good afternoon,"
+            },
+            {
+              "text": "gostaria de um café.",
+              "meaning": "I would like a coffee."
+            }
+          ]
+        },
+        {
+          "original": "Boa tarde, pessoal.",
+          "translation": "Good afternoon, guys."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Boa noite",
+      "translation": "Good evening / Good night",
+      "sentences": [
+        {
+          "original": "Boa noite, dorme bem.",
+          "translation": "Good night, sleep well.",
+          "chunks": [
+            {
+              "text": "Boa noite,",
+              "meaning": "Good night,"
+            },
+            {
+              "text": "dorme bem.",
+              "meaning": "sleep well."
+            }
+          ]
+        },
+        {
+          "original": "Boa noite, prazer em ver você.",
+          "translation": "Good evening, nice to see you.",
+          "chunks": [
+            {
+              "text": "Boa noite,",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "prazer em ver você.",
+              "meaning": "pleasure in seeing you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Oi",
+      "translation": "Hi",
+      "sentences": [
+        {
+          "original": "Oi, tudo bem ?",
+          "translation": "Hi, how's it going ?"
+        },
+        {
+          "original": "Oi, meu nome é Ana.",
+          "translation": "Hi, my name is Ana.",
+          "chunks": [
+            {
+              "text": "Oi,",
+              "meaning": "Hi,"
+            },
+            {
+              "text": "meu nome é Ana.",
+              "meaning": "my name is Ana."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tudo bem ?",
+      "translation": "How are you? / Is everything well ?",
+      "sentences": [
+        {
+          "original": "Oi, tudo bien com você ?",
+          "translation": "Hi, is everything well with you ?",
+          "chunks": [
+            {
+              "text": "Oi, tudo bem",
+              "meaning": "Hi, everything fine"
+            },
+            {
+              "text": "com você ?",
+              "meaning": "with you ?"
+            }
+          ]
+        },
+        {
+          "original": "Tudo bem, e com você ?",
+          "translation": "Everything's well, and with you ?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Muito prazer",
+      "translation": "Nice to meet you",
+      "sentences": [
+        {
+          "original": "Muito prazer em conhecer você.",
+          "translation": "Nice to meet you.",
+          "chunks": [
+            {
+              "text": "Muito prazer",
+              "meaning": "Much pleasure"
+            },
+            {
+              "text": "em conocer você.",
+              "meaning": "in knowing you."
+            }
+          ]
+        },
+        {
+          "original": "Eu sou o Pedro. - Muito prazer !",
+          "translation": "I am Pedro. - Nice to meet you !"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Como vai ?",
+      "translation": "How are you? / How's it going ?",
+      "sentences": [
+        {
+          "original": "Olá, como vai você hoje ?",
+          "translation": "Hello, how are you today ?",
+          "chunks": [
+            {
+              "text": "Olá,",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "como vai você hoje ?",
+              "meaning": "how goes you today ?"
+            }
+          ]
+        },
+        {
+          "original": "Como vai a sua família ?",
+          "translation": "How is your family doing ?",
+          "chunks": [
+            {
+              "text": "Como vai",
+              "meaning": "How goes"
+            },
+            {
+              "text": "a sua família ?",
+              "meaning": "your family ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tchau",
+      "translation": "Goodbye / Bye",
+      "sentences": [
+        {
+          "original": "Tchau, até amanhã !",
+          "translation": "Bye, see you tomorrow !"
+        },
+        {
+          "original": "Preciso ir, tchau.",
+          "translation": "I need to go, bye."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Até logo",
+      "translation": "See you later",
+      "sentences": [
+        {
+          "original": "Até logo, nos vemos depois.",
+          "translation": "See you later, we'll see each other after.",
+          "chunks": [
+            {
+              "text": "Até logo,",
+              "meaning": "Until soon,"
+            },
+            {
+              "text": "nos vemos depois.",
+              "meaning": "see you later."
+            }
+          ]
+        },
+        {
+          "original": "Obrigado pela ajuda, até logo.",
+          "translation": "Thanks for the help, see you later.",
+          "chunks": [
+            {
+              "text": "Obrigado pela ajuda,",
+              "meaning": "Thanks for the help,"
+            },
+            {
+              "text": "até logo.",
+              "meaning": "until soon."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

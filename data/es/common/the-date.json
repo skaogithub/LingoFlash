@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "the-date",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "AI-generated deck about Fecha de in Spanish"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "La fecha",
+      "translation": "The date",
+      "sentences": [
+        {
+          "original": "Escribe la fecha en el papel.",
+          "translation": "Write the date on the paper."
+        },
+        {
+          "original": "Hoy la fecha es correcta.",
+          "translation": "Today the date is correct."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Fecha de nacimiento",
+      "translation": "Date of birth",
+      "sentences": [
+        {
+          "original": "Mi fecha de nacimiento es en mayo.",
+          "translation": "My date of birth is in May."
+        },
+        {
+          "original": "Necesito tu fecha de nacimiento.",
+          "translation": "I need your date of birth."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Cuál es la fecha de hoy?",
+      "translation": "What is today's date?",
+      "sentences": [
+        {
+          "original": "Disculpe, ¿cuál es la fecha de hoy?",
+          "translation": "Excuse me, what is today's date?"
+        },
+        {
+          "original": "No sé cuál es la fecha de hoy.",
+          "translation": "I do not know what today's date is."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Fecha de caducidad",
+      "translation": "Expiration date",
+      "sentences": [
+        {
+          "original": "Revisa la fecha de caducidad de la leche.",
+          "translation": "Check the expiration date of the milk."
+        },
+        {
+          "original": "El yogur tiene fecha de caducidad ayer.",
+          "translation": "The yogurt has an expiration date of yesterday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Fecha de entrega",
+      "translation": "Due date / Delivery date",
+      "sentences": [
+        {
+          "original": "La fecha de entrega de la tarea es mañana.",
+          "translation": "The homework due date is tomorrow."
+        },
+        {
+          "original": "¿Cuándo es la fecha de entrega?",
+          "translation": "When is the delivery date?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Fecha de inicio",
+      "translation": "Start date",
+      "sentences": [
+        {
+          "original": "La fecha de inicio del curso es el lunes.",
+          "translation": "The course start date is Monday."
+        },
+        {
+          "original": "Queremos saber la fecha de inicio.",
+          "translation": "We want to know the start date."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Fecha de examen",
+      "translation": "Exam date",
+      "sentences": [
+        {
+          "original": "La fecha de examen de español es el viernes.",
+          "translation": "The Spanish exam date is Friday."
+        },
+        {
+          "original": "Mi fecha de examen cambió.",
+          "translation": "My exam date changed."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Fecha de cita",
+      "translation": "Appointment date",
+      "sentences": [
+        {
+          "original": "Tengo una fecha de cita con el médico.",
+          "translation": "I have an appointment date with the doctor."
+        },
+        {
+          "original": "La fecha de cita es a las diez.",
+          "translation": "The appointment date is at ten."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Cuál es tu fecha de nacimiento?",
+      "translation": "What is your date of birth?",
+      "sentences": [
+        {
+          "original": "Por favor, dime ¿cuál es tu fecha de nacimiento?",
+          "translation": "Please tell me, what is your date of birth?"
+        },
+        {
+          "original": "Ella preguntó ¿cuál es tu fecha de nacimiento?",
+          "translation": "She asked what is your date of birth?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Fecha de salida",
+      "translation": "Departure date / Start date",
+      "sentences": [
+        {
+          "original": "La fecha de salida del tren es hoy.",
+          "translation": "The train departure date is today."
+        },
+        {
+          "original": "Confirma tu fecha de salida.",
+          "translation": "Confirm your departure date."
+        }
+      ]
+    }
+  ]
+}

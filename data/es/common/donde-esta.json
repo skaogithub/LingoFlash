@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "donde-esta",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "AI-generated deck about Phrases starts with 'donde esta' in Spanish"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está el baño?",
+      "translation": "Where is the bathroom?",
+      "sentences": [
+        {
+          "original": "¿Perdone, dónde está el baño?",
+          "translation": "Excuse me, where is the bathroom?"
+        },
+        {
+          "original": "¿Sabe usted dónde está el baño?",
+          "translation": "Do you know where the bathroom is?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está la estación?",
+      "translation": "Where is the station?",
+      "sentences": [
+        {
+          "original": "¿Dónde está la estación de tren?",
+          "translation": "Where is the train station?"
+        },
+        {
+          "original": "¿Dónde está la estación de autobús más cercana?",
+          "translation": "Where is the nearest bus station?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está el hotel?",
+      "translation": "Where is the hotel?",
+      "sentences": [
+        {
+          "original": "¿Dónde está el hotel en el mapa?",
+          "translation": "Where is the hotel on the map?"
+        },
+        {
+          "original": "¿Sabe dónde está el hotel Palace?",
+          "translation": "Do you know where the Palace hotel is?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está el restaurante?",
+      "translation": "Where is the restaurant?",
+      "sentences": [
+        {
+          "original": "¿Dónde está el restaurante italiano?",
+          "translation": "Where is the Italian restaurant?"
+        },
+        {
+          "original": "¿Dónde está el restaurante del hotel?",
+          "translation": "Where is the hotel restaurant?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está el aeropuerto?",
+      "translation": "Where is the airport?",
+      "sentences": [
+        {
+          "original": "¿Dónde está el aeropuerto de Madrid?",
+          "translation": "Where is the Madrid airport?"
+        },
+        {
+          "original": "¿A qué distancia está el aeropuerto?",
+          "translation": "How far away is the airport?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está la farmacia?",
+      "translation": "Where is the pharmacy?",
+      "sentences": [
+        {
+          "original": "¿Dónde está la farmacia de guardia?",
+          "translation": "Where is the 24-hour pharmacy?"
+        },
+        {
+          "original": "¿Sabe dónde está la farmacia más cercana?",
+          "translation": "Do you know where the nearest pharmacy is?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está el supermercado?",
+      "translation": "Where is the supermarket?",
+      "sentences": [
+        {
+          "original": "¿Dónde está el supermercado grande?",
+          "translation": "Where is the big supermarket?"
+        },
+        {
+          "original": "¿Dónde está el supermercado en este barrio?",
+          "translation": "Where is the supermarket in this neighborhood?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está el museo?",
+      "translation": "Where is the museum?",
+      "sentences": [
+        {
+          "original": "¿Dónde está el museo de arte?",
+          "translation": "Where is the art museum?"
+        },
+        {
+          "original": "¿Dónde está el museo nacional?",
+          "translation": "Where is the national museum?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está la salida?",
+      "translation": "Where is the exit?",
+      "sentences": [
+        {
+          "original": "¿Dónde está la salida de emergencia?",
+          "translation": "Where is the emergency exit?"
+        },
+        {
+          "original": "¿Por favor, dónde está la salida del edificio?",
+          "translation": "Please, where is the exit of the building?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Dónde está la biblioteca?",
+      "translation": "Where is the library?",
+      "sentences": [
+        {
+          "original": "¿Dónde está la biblioteca municipal?",
+          "translation": "Where is the municipal library?"
+        },
+        {
+          "original": "¿Dónde está la biblioteca de la universidad?",
+          "translation": "Where is the university library?"
+        }
+      ]
+    }
+  ]
+}

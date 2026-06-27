@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Parts of the Face",
+    "language": "es",
+    "description": "Spanish vocabulary for parts of the face with examples.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "La cara",
+      "translation": "The face",
+      "sentences": [
+        {
+          "original": "Lávate la cara con agua fría.",
+          "translation": "Wash your face with cold water."
+        },
+        {
+          "original": "Ella tiene una cara muy bonita.",
+          "translation": "She has a very pretty face."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Los ojos",
+      "translation": "The eyes",
+      "sentences": [
+        {
+          "original": "Mis ojos son de color café.",
+          "translation": "My eyes are brown."
+        },
+        {
+          "original": "Cierra los ojos para dormir.",
+          "translation": "Close your eyes to sleep."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La nariz",
+      "translation": "The nose",
+      "sentences": [
+        {
+          "original": "Tengo la nariz un poco roja.",
+          "translation": "My nose is a bit red."
+        },
+        {
+          "original": "Respira por la nariz.",
+          "translation": "Breathe through your nose."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La boca",
+      "translation": "The mouth",
+      "sentences": [
+        {
+          "original": "Abre la boca, por favor.",
+          "translation": "Open your mouth, please."
+        },
+        {
+          "original": "Él tiene una sonrisa en la boca.",
+          "translation": "He has a smile on his mouth."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Las orejas",
+      "translation": "The ears",
+      "sentences": [
+        {
+          "original": "Me duelen las orejas por el frío.",
+          "translation": "My ears hurt because of the cold."
+        },
+        {
+          "original": "Sus orejas son pequeñas.",
+          "translation": "Her ears are small."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La frente",
+      "translation": "The forehead",
+      "sentences": [
+        {
+          "original": "Tengo calor en la frente.",
+          "translation": "My forehead feels hot."
+        },
+        {
+          "original": "Ella se tocó la frente.",
+          "translation": "She touched her forehead."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Las mejillas",
+      "translation": "The cheeks",
+      "sentences": [
+        {
+          "original": "Sus mejillas están rojas.",
+          "translation": "Her cheeks are red."
+        },
+        {
+          "original": "Le dio un beso en la mejilla.",
+          "translation": "He gave her a kiss on the cheek."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Las cejas",
+      "translation": "The eyebrows",
+      "sentences": [
+        {
+          "original": "Él mueve las cejas cuando habla.",
+          "translation": "He moves his eyebrows when he talks."
+        },
+        {
+          "original": "Tengo las cejas oscuras.",
+          "translation": "I have dark eyebrows."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Las pestañas",
+      "translation": "The eyelashes",
+      "sentences": [
+        {
+          "original": "Ella tiene pestañas muy largas.",
+          "translation": "She has very long eyelashes."
+        },
+        {
+          "original": "No te toques las pestañas.",
+          "translation": "Do not touch your eyelashes."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La barbilla",
+      "translation": "The chin",
+      "sentences": [
+        {
+          "original": "Él tiene una pequeña cicatriz en la barbilla.",
+          "translation": "He has a small scar on his chin."
+        },
+        {
+          "original": "Apoya tu barbilla en la mano.",
+          "translation": "Rest your chin on your hand."
+        }
+      ]
+    }
+  ]
+}

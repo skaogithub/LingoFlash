@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "title": "Korean Greetings",
+    "language": "ko",
+    "description": "Essential Korean greetings and phrases",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "안녕하세요",
+      "translation": "Hello",
+      "sentences": [
+        {
+          "original": "안녕하세요, 선생님.",
+          "translation": "Hello, teacher.",
+          "chunks": [
+            {
+              "text": "안녕하세요,",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "선생님.",
+              "meaning": "teacher."
+            }
+          ]
+        },
+        {
+          "original": "여러분, 안녕하세요 ?",
+          "translation": "Hello, everyone ?",
+          "chunks": [
+            {
+              "text": "여러분,",
+              "meaning": "Everyone,"
+            },
+            {
+              "text": "안녕하세요 ?",
+              "meaning": "Hello / Are you at peace ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "반갑습니다",
+      "translation": "Nice to meet you",
+      "sentences": [
+        {
+          "original": "만나서 반갑습니다.",
+          "translation": "Nice to meet you.",
+          "chunks": [
+            {
+              "text": "만나서",
+              "meaning": "Meeting"
+            },
+            {
+              "text": "반갑습니다.",
+              "meaning": "is pleasant."
+            }
+          ]
+        },
+        {
+          "original": "만나 뵙게 되어 정말 반갑습니다.",
+          "translation": "It is a pleasure to meet you.",
+          "chunks": [
+            {
+              "text": "만나 뵙게 되어",
+              "meaning": "To come to meet you"
+            },
+            {
+              "text": "정말 반갑습니다.",
+              "meaning": "is really pleasant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "안녕히 계세요",
+      "translation": "Goodbye (to someone staying)",
+      "sentences": [
+        {
+          "original": "그럼, 안녕히 계세요.",
+          "translation": "Well then, goodbye.",
+          "chunks": [
+            {
+              "text": "그럼,",
+              "meaning": "Then,"
+            },
+            {
+              "text": "안녕히 계세요.",
+              "meaning": "stay in peace."
+            }
+          ]
+        },
+        {
+          "original": "먼저 가겠습니다. 안녕히 계세요.",
+          "translation": "I will leave first. Goodbye.",
+          "chunks": [
+            {
+              "text": "먼저 가겠습니다.",
+              "meaning": "I will go first."
+            },
+            {
+              "text": "안녕히 계세요.",
+              "meaning": "Stay in peace."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "안녕히 가세요",
+      "translation": "Goodbye (to someone leaving)",
+      "sentences": [
+        {
+          "original": "조심히 안녕히 가세요.",
+          "translation": "Go safely, goodbye.",
+          "chunks": [
+            {
+              "text": "조심히",
+              "meaning": "Carefully / Safely"
+            },
+            {
+              "text": "안녕히 가세요.",
+              "meaning": "go in peace."
+            }
+          ]
+        },
+        {
+          "original": "안녕히 가세요, 또 오세요.",
+          "translation": "Goodbye, please come again.",
+          "chunks": [
+            {
+              "text": "안녕히 가세요,",
+              "meaning": "Go in peace,"
+            },
+            {
+              "text": "또 오세요.",
+              "meaning": "come again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "좋은 아침이에요",
+      "translation": "Good morning",
+      "sentences": [
+        {
+          "original": "엄마, 좋은 아침이에요.",
+          "translation": "Mom, good morning."
+        },
+        {
+          "original": "모두들 좋은 아침이에요 !",
+          "translation": "Good morning, everyone !"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "오랜만이에요",
+      "translation": "Long time no see",
+      "sentences": [
+        {
+          "original": "지수 씨, 오랜만이에요.",
+          "translation": "Jisoo, long time no see.",
+          "chunks": [
+            {
+              "text": "지수 씨,",
+              "meaning": "Jisoo,"
+            },
+            {
+              "text": "오랜만이에요.",
+              "meaning": "it's been a long time."
+            }
+          ]
+        },
+        {
+          "original": "정말 오랜만이에요 ! 그동안 잘 지냈어요 ?",
+          "translation": "It's been a long time ! Have you been well ?",
+          "chunks": [
+            {
+              "text": "정말 오랜만이에요 !",
+              "meaning": "Really a long time !"
+            },
+            {
+              "text": "그동안 잘 지냈어요 ?",
+              "meaning": "Have you been well meanwhile ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "잘 지냈어요 ?",
+      "translation": "How have you been ?",
+      "sentences": [
+        {
+          "original": "그동안 잘 지냈어요 ?",
+          "translation": "Have you been well during that time ?",
+          "chunks": [
+            {
+              "text": "그동안",
+              "meaning": "In the meantime"
+            },
+            {
+              "text": "잘 지냈어요 ?",
+              "meaning": "have you spent it well ?"
+            }
+          ]
+        },
+        {
+          "original": "네, 저는 잘 지냈어요.",
+          "translation": "Yes, I have been well.",
+          "chunks": [
+            {
+              "text": "네, 저는",
+              "meaning": "Yes, I"
+            },
+            {
+              "text": "잘 지냈어요.",
+              "meaning": "spent it well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "안녕",
+      "translation": "Hi / Bye (Casual)",
+      "sentences": [
+        {
+          "original": "안녕, 친구야 !",
+          "translation": "Hi, friend !"
+        },
+        {
+          "original": "나 먼저 갈게, 안녕 !",
+          "translation": "I'm leaving first, bye !",
+          "chunks": [
+            {
+              "text": "나 먼저 갈게,",
+              "meaning": "I go first,"
+            },
+            {
+              "text": "안녕 !",
+              "meaning": "bye !"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "식사하셨어요 ?",
+      "translation": "Have you eaten ? (Polite greeting)",
+      "sentences": [
+        {
+          "original": "안녕하세요, 식사하셨어요 ?",
+          "translation": "Hello, have you eaten ?",
+          "chunks": [
+            {
+              "text": "안녕하세요,",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "식사하셨어요 ?",
+              "meaning": "did you have a meal ?"
+            }
+          ]
+        },
+        {
+          "original": "네, 방금 먹었어요.",
+          "translation": "Yes, I just ate."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "내일 봐요",
+      "translation": "See you tomorrow",
+      "sentences": [
+        {
+          "original": "오늘 수고하셨어요, 내일 봐요.",
+          "translation": "Good work today, see you tomorrow.",
+          "chunks": [
+            {
+              "text": "오늘 수고하셨어요,",
+              "meaning": "Hard work today,"
+            },
+            {
+              "text": "내일 봐요.",
+              "meaning": "see you tomorrow."
+            }
+          ]
+        },
+        {
+          "original": "네, 학교에서 내일 봐요 !",
+          "translation": "Yes, see you tomorrow at school !",
+          "chunks": [
+            {
+              "text": "네, 학교에서",
+              "meaning": "Yes, at school"
+            },
+            {
+              "text": "내일 봐요 !",
+              "meaning": "see you tomorrow !"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

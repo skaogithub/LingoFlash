@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "title": "Lección 8: El Bosque de Chapultepec",
+    "language": "es",
+    "description": "Full story reading with rhythmic chunk meanings.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "El Bosque de Chapultepec",
+      "translation": "Chapultepec Forest",
+      "sentences": [
+        {
+          "original": "La Ciudad de México es la ciudad más grande del mundo hispanohablante.",
+          "translation": "Mexico City is the largest city in the Spanish-speaking world.",
+          "chunks": [
+            {
+              "text": "La Ciudad de México",
+              "meaning": "Mexico City"
+            },
+            {
+              "text": "es la ciudad más grande",
+              "meaning": "is the largest city"
+            },
+            {
+              "text": "del mundo hispanohablante.",
+              "meaning": "of the Spanish-speaking world."
+            }
+          ]
+        },
+        {
+          "original": "Un parque famoso es el Bosque de Chapultepec.",
+          "translation": "A famous park is the Chapultepec Forest.",
+          "chunks": [
+            {
+              "text": "Un parque famoso",
+              "meaning": "A famous park"
+            },
+            {
+              "text": "es el Bosque de Chapultepec.",
+              "meaning": "is the Chapultepec Forest."
+            }
+          ]
+        },
+        {
+          "original": "Es el parque más grande y más visitado de la ciudad.",
+          "translation": "It is the largest and most visited park in the city.",
+          "chunks": [
+            {
+              "text": "Es el parque más grande",
+              "meaning": "It is the largest park"
+            },
+            {
+              "text": "y más visitado",
+              "meaning": "and most visited"
+            },
+            {
+              "text": "de la ciudad.",
+              "meaning": "of the city."
+            }
+          ]
+        },
+        {
+          "original": "Dentro del parque enorme hay ocho museos, tres lagos, un zoo, un parque de atracciones, una sala para conciertos, una residencia para el presidente, un castillo y un jardín botánico.",
+          "translation": "Inside the enormous park there are eight museums, three lakes, a zoo, an amusement park, a concert hall, a residence for the president, a castle, and a botanical garden.",
+          "chunks": [
+            {
+              "text": "Dentro del parque enorme",
+              "meaning": "Inside the enormous park"
+            },
+            {
+              "text": "hay ocho museos,",
+              "meaning": "there are eight museums,"
+            },
+            {
+              "text": "tres lagos, un zoo,",
+              "meaning": "three lakes, a zoo,"
+            },
+            {
+              "text": "un parque de atracciones,",
+              "meaning": "an amusement park,"
+            },
+            {
+              "text": "una sala para conciertos,",
+              "meaning": "a concert hall,"
+            },
+            {
+              "text": "una residencia para el presidente,",
+              "meaning": "a residence for the president,"
+            },
+            {
+              "text": "un castillo",
+              "meaning": "a castle"
+            },
+            {
+              "text": "y un jardín botánico.",
+              "meaning": "and a botanical garden."
+            }
+          ]
+        },
+        {
+          "original": "En una ciudad con mucho ruido, mucho tráfico y mucha contaminación del aire a causa de tantos automóviles, el parque es un oasis de aire puro y de paz.",
+          "translation": "In a city with a lot of noise, a lot of traffic, and a lot of air pollution because of so many cars, the park is an oasis of pure air and peace.",
+          "chunks": [
+            {
+              "text": "En una ciudad con mucho ruido,",
+              "meaning": "In a city with a lot of noise,"
+            },
+            {
+              "text": "mucho tráfico",
+              "meaning": "a lot of traffic"
+            },
+            {
+              "text": "y mucha contaminación del aire",
+              "meaning": "and a lot of air pollution"
+            },
+            {
+              "text": "a causa de tantos automóviles,",
+              "meaning": "because of so many cars,"
+            },
+            {
+              "text": "el parque es un oasis",
+              "meaning": "the park is an oasis"
+            },
+            {
+              "text": "de aire puro y de paz.",
+              "meaning": "of pure air and of peace."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

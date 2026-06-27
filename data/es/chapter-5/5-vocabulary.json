@@ -1,0 +1,745 @@
+{
+  "metadata": {
+    "title": "Chapter 5 Vocabulary",
+    "language": "es",
+    "description": "Vocabulary from Chapter 5.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "cero",
+      "translation": "zero (n, m)",
+      "sentences": [
+        {
+          "original": "El número es cero.",
+          "translation": "The number is zero."
+        },
+        {
+          "original": "Tengo dos ceros.",
+          "translation": "I have two zeros."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "uno",
+      "translation": "one (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo uno.",
+          "translation": "I have one."
+        },
+        {
+          "original": "Hay muchos unos.",
+          "translation": "There are many ones."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dos",
+      "translation": "two (n, m)",
+      "sentences": [
+        {
+          "original": "Dos y dos son cuatro.",
+          "translation": "Two and two are four."
+        },
+        {
+          "original": "Los doses son rojos.",
+          "translation": "The twos are red."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tres",
+      "translation": "three (n, m)",
+      "sentences": [
+        {
+          "original": "Tres y dos son cinco.",
+          "translation": "Three and two are five."
+        },
+        {
+          "original": "Escribe los treses.",
+          "translation": "Write the threes."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cuatro",
+      "translation": "four (n, m)",
+      "sentences": [
+        {
+          "original": "Cuatro menos tres es uno.",
+          "translation": "Four minus three is one."
+        },
+        {
+          "original": "Los cuatros son grandes.",
+          "translation": "The fours are big."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cinco",
+      "translation": "five (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo cinco dólares.",
+          "translation": "I have five dollars."
+        },
+        {
+          "original": "Hay muchos cincos.",
+          "translation": "There are many fives."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "seis",
+      "translation": "six (n, m)",
+      "sentences": [
+        {
+          "original": "Seis y dos son ocho.",
+          "translation": "Six and two are eight."
+        },
+        {
+          "original": "Los seises son difíciles.",
+          "translation": "The sixes are difficult."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "siete",
+      "translation": "seven (n, m)",
+      "sentences": [
+        {
+          "original": "El número es siete.",
+          "translation": "The number is seven."
+        },
+        {
+          "original": "Hay muchos sietes.",
+          "translation": "There are many sevens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ocho",
+      "translation": "eight (n, m)",
+      "sentences": [
+        {
+          "original": "Ocho y ocho son dieciséis.",
+          "translation": "Eight and eight are sixteen."
+        },
+        {
+          "original": "Los ochos son azules.",
+          "translation": "The eights are blue."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "nueve",
+      "translation": "nine (n, m)",
+      "sentences": [
+        {
+          "original": "El número es nueve.",
+          "translation": "The number is nine."
+        },
+        {
+          "original": "Tengo tres nueves.",
+          "translation": "I have three nines."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "diez",
+      "translation": "ten (n, m)",
+      "sentences": [
+        {
+          "original": "Diez menos cinco son cinco.",
+          "translation": "Ten minus five are five."
+        },
+        {
+          "original": "Los dieces son verdes.",
+          "translation": "The tens are green."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "once",
+      "translation": "eleven (n, m)",
+      "sentences": [
+        {
+          "original": "El número es once.",
+          "translation": "The number is eleven."
+        },
+        {
+          "original": "Hay dos onces.",
+          "translation": "There are two elevens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "doce",
+      "translation": "twelve (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo doce dólares.",
+          "translation": "I have twelve dollars."
+        },
+        {
+          "original": "Los doces son amarillos.",
+          "translation": "The twelves are yellow."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "trece",
+      "translation": "thirteen (n, m)",
+      "sentences": [
+        {
+          "original": "El número es trece.",
+          "translation": "The number is thirteen."
+        },
+        {
+          "original": "Hay muchos treces.",
+          "translation": "There are many thirteens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "catorce",
+      "translation": "fourteen (n, m)",
+      "sentences": [
+        {
+          "original": "Rosita es una muchacha de catorce años.",
+          "translation": "Rosita is a fourteen-year-old girl.",
+          "chunks": [
+            {
+              "text": "Rosita es una muchacha",
+              "meaning": "Rosita is a girl"
+            },
+            {
+              "text": "de catorce años.",
+              "meaning": "of fourteen years."
+            }
+          ]
+        },
+        {
+          "original": "Escribe los catorces.",
+          "translation": "Write the fourteens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "quince",
+      "translation": "fifteen (n, m)",
+      "sentences": [
+        {
+          "original": "Roberto es un muchacho de quince años.",
+          "translation": "Roberto is a fifteen-year-old boy.",
+          "chunks": [
+            {
+              "text": "Roberto es un muchacho",
+              "meaning": "Roberto is a boy"
+            },
+            {
+              "text": "de quince años.",
+              "meaning": "of fifteen years."
+            }
+          ]
+        },
+        {
+          "original": "Los quinces son bonitos.",
+          "translation": "The fifteens are pretty."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dieciséis",
+      "translation": "sixteen (n, m)",
+      "sentences": [
+        {
+          "original": "Cuatro por cuatro son dieciséis.",
+          "translation": "Four times four are sixteen."
+        },
+        {
+          "original": "Los dieciséis son grandes.",
+          "translation": "The sixteens are big."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "diecisiete",
+      "translation": "seventeen (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo el diecisiete.",
+          "translation": "I have the seventeen."
+        },
+        {
+          "original": "Hay muchos diecisietes.",
+          "translation": "There are many seventeens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dieciocho",
+      "translation": "eighteen (n, m)",
+      "sentences": [
+        {
+          "original": "El número es dieciocho.",
+          "translation": "The number is eighteen."
+        },
+        {
+          "original": "Los dieciochos son rojos.",
+          "translation": "The eighteens are red."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "diecinueve",
+      "translation": "nineteen (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo el diecinueve.",
+          "translation": "I have the nineteen."
+        },
+        {
+          "original": "Hay dos diecinueves.",
+          "translation": "There are two nineteens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veinte",
+      "translation": "twenty (n, m)",
+      "sentences": [
+        {
+          "original": "Aquí tengo veinte dólares.",
+          "translation": "I have twenty dollars here."
+        },
+        {
+          "original": "Los veintes son para pagar.",
+          "translation": "The twenties are for paying."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintiuno",
+      "translation": "twenty-one (n, m)",
+      "sentences": [
+        {
+          "original": "El número es veintiuno.",
+          "translation": "The number is twenty-one."
+        },
+        {
+          "original": "Hay muchos veintiunos.",
+          "translation": "There are many twenty-ones."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintidós",
+      "translation": "twenty-two (n, m)",
+      "sentences": [
+        {
+          "original": "Escribe el veintidós.",
+          "translation": "Write the twenty-two."
+        },
+        {
+          "original": "Los veintidós son iguales.",
+          "translation": "The twenty-twos are the same."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintitrés",
+      "translation": "twenty-three (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo el veintitrés.",
+          "translation": "I have the twenty-three."
+        },
+        {
+          "original": "Hay muchos veintitrés.",
+          "translation": "There are many twenty-threes."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veinticuatro",
+      "translation": "twenty-four (n, m)",
+      "sentences": [
+        {
+          "original": "El número es veinticuatro.",
+          "translation": "The number is twenty-four."
+        },
+        {
+          "original": "Los veinticuatros son azules.",
+          "translation": "The twenty-fours are blue."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veinticinco",
+      "translation": "twenty-five (n, m)",
+      "sentences": [
+        {
+          "original": "Cinco por cinco son veinticinco.",
+          "translation": "Five times five are twenty-five."
+        },
+        {
+          "original": "Los veinticincos son rojos.",
+          "translation": "The twenty-fives are red."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintiséis",
+      "translation": "twenty-six (n, m)",
+      "sentences": [
+        {
+          "original": "El número es veintiséis.",
+          "translation": "The number is twenty-six."
+        },
+        {
+          "original": "Hay dos veintiséis.",
+          "translation": "There are two twenty-sixes."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintisiete",
+      "translation": "twenty-seven (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo el veintisiete.",
+          "translation": "I have the twenty-seven."
+        },
+        {
+          "original": "Hay muchos veintisietes.",
+          "translation": "There are many twenty-sevens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintiocho",
+      "translation": "twenty-eight (n, m)",
+      "sentences": [
+        {
+          "original": "Veintiocho es un número.",
+          "translation": "Twenty-eight is a number."
+        },
+        {
+          "original": "Los veintiochos son grandes.",
+          "translation": "The twenty-eights are big."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintinueve",
+      "translation": "twenty-nine (n, m)",
+      "sentences": [
+        {
+          "original": "Tengo el veintinueve.",
+          "translation": "I have the twenty-nine."
+        },
+        {
+          "original": "Hay muchos veintinueves.",
+          "translation": "There are many twenty-nines."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "treinta",
+      "translation": "thirty (n, m)",
+      "sentences": [
+        {
+          "original": "El total es treinta dólares.",
+          "translation": "The total is thirty dollars."
+        },
+        {
+          "original": "Los treintas son verdes.",
+          "translation": "The thirties are green."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dividido por",
+      "translation": "divided by (exp)",
+      "sentences": [
+        {
+          "original": "Diez dividido por dos son cinco.",
+          "translation": "Ten divided by two are five.",
+          "chunks": [
+            {
+              "text": "Diez dividido por dos",
+              "meaning": "Ten divided by two"
+            },
+            {
+              "text": "son cinco.",
+              "meaning": "are five."
+            }
+          ]
+        },
+        {
+          "original": "Seis dividido por tres son dos.",
+          "translation": "Six divided by three are two.",
+          "chunks": [
+            {
+              "text": "Seis dividido por tres",
+              "meaning": "Six divided by three"
+            },
+            {
+              "text": "son dos.",
+              "meaning": "are two."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "es",
+      "translation": "is, equals (v)",
+      "sentences": [
+        {
+          "original": "Cuatro menos tres es uno.",
+          "translation": "Four minus three is one."
+        },
+        {
+          "original": "Así es la aritmética.",
+          "translation": "Thus is arithmetic."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "menos",
+      "translation": "minus (prep)",
+      "sentences": [
+        {
+          "original": "Cuatro menos tres es uno.",
+          "translation": "Four minus three is one."
+        },
+        {
+          "original": "Diez menos cinco son cinco.",
+          "translation": "Ten minus five are five."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "por",
+      "translation": "times (prep)",
+      "sentences": [
+        {
+          "original": "Cuatro por cuatro son dieciséis.",
+          "translation": "Four times four are sixteen."
+        },
+        {
+          "original": "Dos por dos son cuatro.",
+          "translation": "Two times two are four."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "son",
+      "translation": "are, equals (v)",
+      "sentences": [
+        {
+          "original": "Tres y dos son cinco.",
+          "translation": "Three and two are five."
+        },
+        {
+          "original": "Seis dividido por tres son dos.",
+          "translation": "Six divided by three are two.",
+          "chunks": [
+            {
+              "text": "Seis dividido por tres",
+              "meaning": "Six divided by three"
+            },
+            {
+              "text": "son dos.",
+              "meaning": "are two."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "y",
+      "translation": "and, plus (conj)",
+      "sentences": [
+        {
+          "original": "Tres y dos son cinco.",
+          "translation": "Three and two are five."
+        },
+        {
+          "original": "Dos y dos son cuatro.",
+          "translation": "Two and two are four."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Cuánto cuesta?",
+      "translation": "How much is it? (exp)",
+      "sentences": [
+        {
+          "original": "¿Cuánto cuesta el videojuego?",
+          "translation": "How much does the video game cost?"
+        },
+        {
+          "original": "¿Cuánto cuesta la torta?",
+          "translation": "How much does the cake cost?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dinero",
+      "translation": "money (n, m)",
+      "sentences": [
+        {
+          "original": "¡Es mucho dinero!",
+          "translation": "It is a lot of money!"
+        },
+        {
+          "original": "Los dineros son necesarios.",
+          "translation": "The monies (funds) are necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "más",
+      "translation": "more (adj/adv)",
+      "sentences": [
+        {
+          "original": "Necesito más dinero.",
+          "translation": "I need more money."
+        },
+        {
+          "original": "Hay más monedas.",
+          "translation": "Are there more coins?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "monedas",
+      "translation": "coins (n, f, pl)",
+      "sentences": [
+        {
+          "original": "Tengo una moneda.",
+          "translation": "I have a coin."
+        },
+        {
+          "original": "Hay varias monedas.",
+          "translation": "There are several coins."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "número",
+      "translation": "number (n, m)",
+      "sentences": [
+        {
+          "original": "Dime el número.",
+          "translation": "Tell me the number."
+        },
+        {
+          "original": "Los números son del uno al treinta.",
+          "translation": "The numbers are from one to thirty.",
+          "chunks": [
+            {
+              "text": "Los números son",
+              "meaning": "The numbers are"
+            },
+            {
+              "text": "del uno al treinta.",
+              "meaning": "from one to thirty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la canción",
+      "translation": "song (n, f)",
+      "sentences": [
+        {
+          "original": "La canción es de aritmética.",
+          "translation": "The song is about arithmetic."
+        },
+        {
+          "original": "Las canciones son populares.",
+          "translation": "The songs are popular."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "genio",
+      "translation": "genius (n, m)",
+      "sentences": [
+        {
+          "original": "Un genio soy yo.",
+          "translation": "I am a genius."
+        },
+        {
+          "original": "Los genios son inteligentes.",
+          "translation": "Geniuses are intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dependiente",
+      "translation": "clerk (n, m)",
+      "sentences": [
+        {
+          "original": "Él es dependiente.",
+          "translation": "He is a clerk."
+        },
+        {
+          "original": "Él es un dependiente excelente.",
+          "translation": "He is an excellent clerk."
+        }
+      ]
+    }
+  ]
+}

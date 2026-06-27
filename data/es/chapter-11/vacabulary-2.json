@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "title": "Vocabulario: La estrella brillante del Caribe (Suplemento)",
+    "language": "es",
+    "description": "Additional historical and geographical terms extracted from the vocabulary selection on page 1000020511.jpg.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "la isla del encanto",
+      "translation": "the island of enchantment",
+      "sentences": [
+        {
+          "original": "Puerto Rico es conocida como la isla del encanto.",
+          "translation": "Puerto Rico is known as the island of enchantment."
+        },
+        {
+          "original": "Nuestra próxima vacación es en la isla del encanto.",
+          "translation": "Our next vacation is on the island of enchantment."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el puerto",
+      "translation": "the port",
+      "sentences": [
+        {
+          "original": "El puerto es un lugar histórico y muy importante.",
+          "translation": "The port is a historical and very important place."
+        },
+        {
+          "original": "Hay muchos barcos grandes cerca del puerto.",
+          "translation": "There are many large ships near the port."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cometieron un error",
+      "translation": "they made a mistake",
+      "sentences": [
+        {
+          "original": "Ellos cometieron un error cuando hicieron el mapa oficial.",
+          "translation": "They made a mistake when they made the official map."
+        },
+        {
+          "original": "Los oficiales cambiaron los nombres porque cometieron un error.",
+          "translation": "The officials switched the names because they made a mistake."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "fue fundada",
+      "translation": "was founded",
+      "sentences": [
+        {
+          "original": "La ciudad de San Juan fue fundada en 1521.",
+          "translation": "The city of San Juan was founded in 1521."
+        },
+        {
+          "original": "Esta vieja capital fue fundada bajo la bandera española.",
+          "translation": "This old capital was founded under the Spanish flag."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la fortaleza",
+      "translation": "the fortress",
+      "sentences": [
+        {
+          "original": "La fortaleza «El Morro» es una estructura muy vieja.",
+          "translation": "The fortress 'El Morro' is a very old structure."
+        },
+        {
+          "original": "La fortaleza está frente al mar caribe.",
+          "translation": "The fortress is facing the Caribbean sea."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "lucharon",
+      "translation": "they fought",
+      "sentences": [
+        {
+          "original": "Los conquistadores españoles lucharon contra los piratas.",
+          "translation": "The Spanish conquistadors fought against the pirates."
+        },
+        {
+          "original": "Ellos lucharon con valentía en la fortaleza antigua.",
+          "translation": "They fought bravely in the ancient fortress."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "rascacielos",
+      "translation": "skyscrapers",
+      "sentences": [
+        {
+          "original": "La ciudad moderna tiene rascacielos muy elegantes.",
+          "translation": "The modern city has very elegant skyscrapers."
+        },
+        {
+          "original": "Estos rascacielos son altos y están en la capital.",
+          "translation": "These skyscrapers are tall and are located in the capital."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "bosque tropical",
+      "translation": "tropical rainforest",
+      "sentences": [
+        {
+          "original": "El Yunque es un bosque tropical de gran variedad vegetal.",
+          "translation": "El Yunque is a tropical rainforest with a great variety of plants."
+        },
+        {
+          "original": "Es una experiencia magnífica visitar un bosque tropical.",
+          "translation": "It is a magnificent experience to visit a tropical rainforest."
+        }
+      ]
+    }
+  ]
+}

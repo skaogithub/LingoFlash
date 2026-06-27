@@ -1,0 +1,2255 @@
+{
+  "metadata": {
+    "title": "Chapter 1 Vocabulary",
+    "language": "es",
+    "description": "Vocabulary from Chapter 1.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "el doctor",
+      "translation": "doctor (n, m)",
+      "sentences": [
+        {
+          "original": "Voy al doctor en carro.",
+          "translation": "I am going to the doctor by car."
+        },
+        {
+          "original": "El doctor es inteligente.",
+          "translation": "The doctor is intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el hotel",
+      "translation": "hotel (n, m)",
+      "sentences": [
+        {
+          "original": "El hotel es grande.",
+          "translation": "The hotel is big."
+        },
+        {
+          "original": "Voy al hotel en carro.",
+          "translation": "I am going to the hotel by car."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el actor",
+      "translation": "actor (n, m)",
+      "sentences": [
+        {
+          "original": "El actor es romántico.",
+          "translation": "The actor is romantic."
+        },
+        {
+          "original": "El actor es popular.",
+          "translation": "The actor is popular."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el sándwich",
+      "translation": "sandwich (n, m)",
+      "sentences": [
+        {
+          "original": "El sándwich es delicioso.",
+          "translation": "The sandwich is delicious."
+        },
+        {
+          "original": "El sándwich es excelente.",
+          "translation": "The sandwich is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el avión",
+      "translation": "airplane (n, m)",
+      "sentences": [
+        {
+          "original": "El avión es rápido.",
+          "translation": "The airplane is fast."
+        },
+        {
+          "original": "Voy al aeropuerto en el avión.",
+          "translation": "I am going to the airport on the airplane.",
+          "chunks": [
+            {
+              "text": "Voy al aeropuerto",
+              "meaning": "I am going to the airport"
+            },
+            {
+              "text": "en el avión.",
+              "meaning": "on the airplane."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el estudiante",
+      "translation": "student (n, m)",
+      "sentences": [
+        {
+          "original": "El estudiante es sociable.",
+          "translation": "The student is sociable."
+        },
+        {
+          "original": "El estudiante es inteligente.",
+          "translation": "The student is intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el menú",
+      "translation": "menu (n, m)",
+      "sentences": [
+        {
+          "original": "El menú es excelente.",
+          "translation": "The menu is excellent."
+        },
+        {
+          "original": "El menú es necesario.",
+          "translation": "The menu is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la actriz",
+      "translation": "actress (n, f)",
+      "sentences": [
+        {
+          "original": "La actriz es popular.",
+          "translation": "The actress is popular."
+        },
+        {
+          "original": "La actriz es romántica.",
+          "translation": "The actress is romantic."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la lección",
+      "translation": "lesson (n, f)",
+      "sentences": [
+        {
+          "original": "La lección es difícil.",
+          "translation": "The lesson is difficult."
+        },
+        {
+          "original": "La lección es excelente.",
+          "translation": "The lesson is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el perro",
+      "translation": "dog (n, m)",
+      "sentences": [
+        {
+          "original": "El perro es inteligente.",
+          "translation": "The dog is intelligent."
+        },
+        {
+          "original": "El perro es adorable.",
+          "translation": "The dog is adorable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el presidente",
+      "translation": "president (n, m)",
+      "sentences": [
+        {
+          "original": "El presidente es famoso.",
+          "translation": "The president is famous."
+        },
+        {
+          "original": "El presidente es importante.",
+          "translation": "The president is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el accidente",
+      "translation": "accident (n, m)",
+      "sentences": [
+        {
+          "original": "El accidente es terrible.",
+          "translation": "The accident is terrible."
+        },
+        {
+          "original": "El accidente es horrible.",
+          "translation": "The accident is horrible."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el auto",
+      "translation": "car (n, m)",
+      "sentences": [
+        {
+          "original": "El auto es moderno.",
+          "translation": "The car is modern."
+        },
+        {
+          "original": "El auto es rápido.",
+          "translation": "The car is fast."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el teléfono",
+      "translation": "telephone (n, m)",
+      "sentences": [
+        {
+          "original": "El teléfono es necesario.",
+          "translation": "The telephone is necessary."
+        },
+        {
+          "original": "El teléfono es moderno.",
+          "translation": "The telephone is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el libro",
+      "translation": "book (n, m)",
+      "sentences": [
+        {
+          "original": "El libro es interesante.",
+          "translation": "The book is interesting."
+        },
+        {
+          "original": "El libro es excelente.",
+          "translation": "The book is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el cereal",
+      "translation": "cereal (n, m)",
+      "sentences": [
+        {
+          "original": "El cereal es delicioso.",
+          "translation": "The cereal is delicious."
+        },
+        {
+          "original": "El cereal es popular.",
+          "translation": "The cereal is popular."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el amigo",
+      "translation": "friend (n, m)",
+      "sentences": [
+        {
+          "original": "El amigo es sincero.",
+          "translation": "The friend is sincere."
+        },
+        {
+          "original": "El amigo es sociable.",
+          "translation": "The friend is sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el programa",
+      "translation": "program (n, m)",
+      "sentences": [
+        {
+          "original": "El programa es ridículo.",
+          "translation": "The program is ridiculous."
+        },
+        {
+          "original": "El programa es tonto.",
+          "translation": "The program is silly."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la flor",
+      "translation": "flower (n, f)",
+      "sentences": [
+        {
+          "original": "La flor es plástica.",
+          "translation": "The flower is plastic."
+        },
+        {
+          "original": "La flor es bonita.",
+          "translation": "The flower is pretty."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la computadora",
+      "translation": "computer (n, f)",
+      "sentences": [
+        {
+          "original": "La computadora es importante.",
+          "translation": "The computer is important."
+        },
+        {
+          "original": "La computadora es necesaria.",
+          "translation": "The computer is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el televisor",
+      "translation": "television (n, m)",
+      "sentences": [
+        {
+          "original": "El televisor es moderno.",
+          "translation": "The television is modern."
+        },
+        {
+          "original": "El televisor es enorme.",
+          "translation": "The television is enormous."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la bicicleta",
+      "translation": "bicycle (n, f)",
+      "sentences": [
+        {
+          "original": "La bicicleta es grande.",
+          "translation": "The bicycle is big."
+        },
+        {
+          "original": "La bicicleta es rápida.",
+          "translation": "The bicycle is fast."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la guitarra",
+      "translation": "guitar (n, f)",
+      "sentences": [
+        {
+          "original": "La guitarra es eléctrica.",
+          "translation": "The guitar is electric."
+        },
+        {
+          "original": "La guitarra es excelente.",
+          "translation": "The guitar is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el estéreo",
+      "translation": "stereo (n, m)",
+      "sentences": [
+        {
+          "original": "El estéreo es magnífico.",
+          "translation": "The stereo is magnificent."
+        },
+        {
+          "original": "El estéreo es moderno.",
+          "translation": "The stereo is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la foto",
+      "translation": "photo (n, f)",
+      "sentences": [
+        {
+          "original": "La foto es adorable.",
+          "translation": "The photo is adorable."
+        },
+        {
+          "original": "La foto es importante.",
+          "translation": "The photo is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el diccionario",
+      "translation": "dictionary (n, m)",
+      "sentences": [
+        {
+          "original": "El diccionario es excelente.",
+          "translation": "The dictionary is excellent."
+        },
+        {
+          "original": "El diccionario es necesario.",
+          "translation": "The dictionary is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la lámpara",
+      "translation": "lamp (n, f)",
+      "sentences": [
+        {
+          "original": "La lámpara es atractiva.",
+          "translation": "The lamp is attractive."
+        },
+        {
+          "original": "La lámpara es moderna.",
+          "translation": "The lamp is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el gato",
+      "translation": "cat (n, m)",
+      "sentences": [
+        {
+          "original": "El gato es adorable.",
+          "translation": "The cat is adorable."
+        },
+        {
+          "original": "El gato es inteligente.",
+          "translation": "The cat is intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el muchacho",
+      "translation": "boy (n, m)",
+      "sentences": [
+        {
+          "original": "El muchacho es cómico.",
+          "translation": "The boy is funny."
+        },
+        {
+          "original": "El muchacho es inteligente.",
+          "translation": "The boy is intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la profesora",
+      "translation": "teacher (n, f)",
+      "sentences": [
+        {
+          "original": "La profesora es inteligente.",
+          "translation": "The teacher is intelligent."
+        },
+        {
+          "original": "La profesora es importante.",
+          "translation": "The teacher is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la clase",
+      "translation": "class (n, f)",
+      "sentences": [
+        {
+          "original": "La clase es interesante.",
+          "translation": "The class is interesting."
+        },
+        {
+          "original": "La clase es excelente.",
+          "translation": "The class is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la televisión",
+      "translation": "television (n, f)",
+      "sentences": [
+        {
+          "original": "La televisión es popular.",
+          "translation": "The television is popular."
+        },
+        {
+          "original": "La televisión es moderna.",
+          "translation": "The television is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el aeropuerto",
+      "translation": "airport (n, m)",
+      "sentences": [
+        {
+          "original": "El aeropuerto es grande.",
+          "translation": "The airport is big."
+        },
+        {
+          "original": "Voy al aeropuerto en carro.",
+          "translation": "I am going to the airport by car."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el jardín",
+      "translation": "garden (n, m)",
+      "sentences": [
+        {
+          "original": "El jardín es romántico.",
+          "translation": "The garden is romantic."
+        },
+        {
+          "original": "El jardín es natural.",
+          "translation": "The garden is natural."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la universidad",
+      "translation": "university (n, f)",
+      "sentences": [
+        {
+          "original": "La universidad es grande.",
+          "translation": "The university is big."
+        },
+        {
+          "original": "La universidad es importante.",
+          "translation": "The university is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la familia",
+      "translation": "family (n, f)",
+      "sentences": [
+        {
+          "original": "La familia es importante.",
+          "translation": "The family is important."
+        },
+        {
+          "original": "La familia es sociable.",
+          "translation": "The family is sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la idea",
+      "translation": "idea (n, f)",
+      "sentences": [
+        {
+          "original": "La idea es excelente.",
+          "translation": "The idea is excellent."
+        },
+        {
+          "original": "La idea es inteligente.",
+          "translation": "The idea is intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "mucho gusto",
+      "translation": "nice to meet you (exp)",
+      "sentences": [
+        {
+          "original": "Me llamo Pablo. Mucho gusto.",
+          "translation": "My name is Pablo. Nice to meet you."
+        },
+        {
+          "original": "Mucho gusto, señor.",
+          "translation": "Nice to meet you, sir."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hola",
+      "translation": "hello (exp)",
+      "sentences": [
+        {
+          "original": "Hola, Josefina.",
+          "translation": "Hello, Josefina."
+        },
+        {
+          "original": "Hola, ¿qué tal?",
+          "translation": "Hello, how are you doing?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "buenos días",
+      "translation": "good morning (exp)",
+      "sentences": [
+        {
+          "original": "Buenos días, Manuel.",
+          "translation": "Good morning, Manuel."
+        },
+        {
+          "original": "Buenos días, profesor.",
+          "translation": "Good morning, teacher."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "adiós",
+      "translation": "goodbye (exp)",
+      "sentences": [
+        {
+          "original": "Adiós, Agustina.",
+          "translation": "Goodbye, Agustina."
+        },
+        {
+          "original": "Adiós, amigo.",
+          "translation": "Goodbye, friend."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "adorable",
+      "translation": "adorable (adj)",
+      "sentences": [
+        {
+          "original": "El perro es adorable.",
+          "translation": "The dog is adorable."
+        },
+        {
+          "original": "La foto es adorable.",
+          "translation": "The photo is adorable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "artificial",
+      "translation": "artificial (adj)",
+      "sentences": [
+        {
+          "original": "La flor es artificial.",
+          "translation": "The flower is artificial."
+        },
+        {
+          "original": "La base es artificial.",
+          "translation": "The base is artificial."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "criminal",
+      "translation": "criminal (adj)",
+      "sentences": [
+        {
+          "original": "El tigre es criminal.",
+          "translation": "The tiger is criminal."
+        },
+        {
+          "original": "El león es criminal.",
+          "translation": "The lion is criminal."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cruel",
+      "translation": "cruel (adj)",
+      "sentences": [
+        {
+          "original": "El tigre es cruel.",
+          "translation": "The tiger is cruel."
+        },
+        {
+          "original": "El león es cruel.",
+          "translation": "The lion is cruel."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "natural",
+      "translation": "natural (adj)",
+      "sentences": [
+        {
+          "original": "El jardín es natural.",
+          "translation": "The garden is natural."
+        },
+        {
+          "original": "El café es natural.",
+          "translation": "The coffee is natural."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "probable",
+      "translation": "probable (adj)",
+      "sentences": [
+        {
+          "original": "El accidente es probable.",
+          "translation": "The accident is probable."
+        },
+        {
+          "original": "El programa es probable.",
+          "translation": "The program is probable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "sociable",
+      "translation": "sociable (adj)",
+      "sentences": [
+        {
+          "original": "El estudiante es sociable.",
+          "translation": "The student is sociable."
+        },
+        {
+          "original": "El amigo es sociable.",
+          "translation": "The friend is sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tropical",
+      "translation": "tropical (adj)",
+      "sentences": [
+        {
+          "original": "El jardín es tropical.",
+          "translation": "The garden is tropical."
+        },
+        {
+          "original": "La banana es tropical.",
+          "translation": "The banana is tropical."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el animal",
+      "translation": "animal (n, m)",
+      "sentences": [
+        {
+          "original": "El animal es grande.",
+          "translation": "The animal is big."
+        },
+        {
+          "original": "El animal es interesante.",
+          "translation": "The animal is interesting."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el cable",
+      "translation": "cable (n, m)",
+      "sentences": [
+        {
+          "original": "El cable es necesario.",
+          "translation": "The cable is necessary."
+        },
+        {
+          "original": "El cable es moderno.",
+          "translation": "The cable is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el celular",
+      "translation": "cellular phone (n, m)",
+      "sentences": [
+        {
+          "original": "El celular es necesario.",
+          "translation": "The cell phone is necessary."
+        },
+        {
+          "original": "El celular es moderno.",
+          "translation": "The cell phone is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el color",
+      "translation": "color (n, m)",
+      "sentences": [
+        {
+          "original": "El color es natural.",
+          "translation": "The color is natural."
+        },
+        {
+          "original": "El color es artificial.",
+          "translation": "The color is artificial."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el motor",
+      "translation": "motor (n, m)",
+      "sentences": [
+        {
+          "original": "El motor es moderno.",
+          "translation": "The motor is modern."
+        },
+        {
+          "original": "El motor es rápido.",
+          "translation": "The motor is fast."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el piano",
+      "translation": "piano (n, m)",
+      "sentences": [
+        {
+          "original": "El piano es magnífico.",
+          "translation": "The piano is magnificent."
+        },
+        {
+          "original": "El piano es moderno.",
+          "translation": "The piano is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la banana",
+      "translation": "banana (n, f)",
+      "sentences": [
+        {
+          "original": "La banana es deliciosa.",
+          "translation": "The banana is delicious."
+        },
+        {
+          "original": "La banana es natural.",
+          "translation": "The banana is natural."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la base",
+      "translation": "base (n, f)",
+      "sentences": [
+        {
+          "original": "La base es importante.",
+          "translation": "The base is important."
+        },
+        {
+          "original": "La base es moderna.",
+          "translation": "The base is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el honor",
+      "translation": "honor (n, m)",
+      "sentences": [
+        {
+          "original": "El honor es importante.",
+          "translation": "The honor is important."
+        },
+        {
+          "original": "El honor es necesario.",
+          "translation": "The honor is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la plaza",
+      "translation": "plaza (n, f)",
+      "sentences": [
+        {
+          "original": "La plaza es grande.",
+          "translation": "The plaza is big."
+        },
+        {
+          "original": "La plaza es romántica.",
+          "translation": "The plaza is romantic."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la radio",
+      "translation": "radio (n, f)",
+      "sentences": [
+        {
+          "original": "La radio es necesaria.",
+          "translation": "The radio is necessary."
+        },
+        {
+          "original": "La radio es moderna.",
+          "translation": "The radio is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "diferente",
+      "translation": "different (adj)",
+      "sentences": [
+        {
+          "original": "El actor es diferente.",
+          "translation": "The actor is different."
+        },
+        {
+          "original": "El programa es diferente.",
+          "translation": "The program is different."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "famoso",
+      "translation": "famous (adj)",
+      "sentences": [
+        {
+          "original": "El presidente es famoso.",
+          "translation": "The president is famous."
+        },
+        {
+          "original": "El actor es famoso.",
+          "translation": "The actor is famous."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "gigante",
+      "translation": "giant (adj)",
+      "sentences": [
+        {
+          "original": "El elefante es gigante.",
+          "translation": "The elephant is giant."
+        },
+        {
+          "original": "El hotel es gigante.",
+          "translation": "The hotel is giant."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "interesante",
+      "translation": "interesting (adj)",
+      "sentences": [
+        {
+          "original": "El libro es interesante.",
+          "translation": "The book is interesting."
+        },
+        {
+          "original": "El garaje es interesante.",
+          "translation": "The garage is interesting."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ordinario",
+      "translation": "ordinary (adj)",
+      "sentences": [
+        {
+          "original": "El plato es ordinario.",
+          "translation": "The plate is ordinary."
+        },
+        {
+          "original": "El vocabulario es ordinario.",
+          "translation": "The vocabulary is ordinary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el calendario",
+      "translation": "calendar (n, m)",
+      "sentences": [
+        {
+          "original": "El calendario es necesario.",
+          "translation": "The calendar is necessary."
+        },
+        {
+          "original": "El calendario es excelente.",
+          "translation": "The calendar is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el garaje",
+      "translation": "garage (n, m)",
+      "sentences": [
+        {
+          "original": "El garaje es interesante.",
+          "translation": "The garage is interesting."
+        },
+        {
+          "original": "El garaje es moderno.",
+          "translation": "The garage is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el plato",
+      "translation": "plate (n, m)",
+      "sentences": [
+        {
+          "original": "El plato es moderno.",
+          "translation": "The plate is modern."
+        },
+        {
+          "original": "El plato es excelente.",
+          "translation": "The plate is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el profesor",
+      "translation": "teacher (n, m)",
+      "sentences": [
+        {
+          "original": "El profesor es inteligente.",
+          "translation": "The teacher is intelligent."
+        },
+        {
+          "original": "El profesor es sociable.",
+          "translation": "The teacher is sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el vocabulario",
+      "translation": "vocabulary (n, m)",
+      "sentences": [
+        {
+          "original": "El vocabulario es necesario.",
+          "translation": "The vocabulary is necessary."
+        },
+        {
+          "original": "El vocabulario es excelente.",
+          "translation": "The vocabulary is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la ambulancia",
+      "translation": "ambulance (n, f)",
+      "sentences": [
+        {
+          "original": "Voy al hospital en la ambulancia.",
+          "translation": "I am going to the hospital in the ambulance."
+        },
+        {
+          "original": "La ambulancia es rápida.",
+          "translation": "The ambulance is fast."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la aspirina",
+      "translation": "aspirin (n, f)",
+      "sentences": [
+        {
+          "original": "La aspirina es necesaria.",
+          "translation": "The aspirin is necessary."
+        },
+        {
+          "original": "La aspirina es excelente.",
+          "translation": "The aspirin is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la frase",
+      "translation": "phrase (n, f)",
+      "sentences": [
+        {
+          "original": "La frase es importante.",
+          "translation": "The phrase is important."
+        },
+        {
+          "original": "La frase es excelente.",
+          "translation": "The phrase is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la gasolina",
+      "translation": "gasoline (n, f)",
+      "sentences": [
+        {
+          "original": "La gasolina es necesaria.",
+          "translation": "The gasoline is necessary."
+        },
+        {
+          "original": "La gasolina es cara.",
+          "translation": "The gasoline is expensive."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la hamburguesa",
+      "translation": "hamburger (n, f)",
+      "sentences": [
+        {
+          "original": "La hamburguesa es deliciosa.",
+          "translation": "The hamburger is delicious."
+        },
+        {
+          "original": "La hamburguesa es popular.",
+          "translation": "The hamburger is popular."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la medicina",
+      "translation": "medicine (n, f)",
+      "sentences": [
+        {
+          "original": "La medicina es necesaria.",
+          "translation": "The medicine is necessary."
+        },
+        {
+          "original": "La medicina es importante.",
+          "translation": "The medicine is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la motocicleta",
+      "translation": "motorcycle (n, f)",
+      "sentences": [
+        {
+          "original": "La motocicleta es rápida.",
+          "translation": "The motorcycle is fast."
+        },
+        {
+          "original": "La motocicleta es moderna.",
+          "translation": "The motorcycle is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la rosa",
+      "translation": "rose (n, f)",
+      "sentences": [
+        {
+          "original": "La rosa es bonita.",
+          "translation": "The rose is pretty."
+        },
+        {
+          "original": "La rosa es natural.",
+          "translation": "The rose is natural."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la secretaria",
+      "translation": "secretary (n, f)",
+      "sentences": [
+        {
+          "original": "La secretaria es inteligente.",
+          "translation": "The secretary is intelligent."
+        },
+        {
+          "original": "La secretaria es sociable.",
+          "translation": "The secretary is sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la sopa",
+      "translation": "soup (n, f)",
+      "sentences": [
+        {
+          "original": "La sopa es deliciosa.",
+          "translation": "The soup is delicious."
+        },
+        {
+          "original": "La sopa es excelente.",
+          "translation": "The soup is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el león",
+      "translation": "lion (n, m)",
+      "sentences": [
+        {
+          "original": "El león es cruel.",
+          "translation": "The lion is cruel."
+        },
+        {
+          "original": "El león es grande.",
+          "translation": "The lion is big."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el teléfono móvil",
+      "translation": "mobile phone (n, m)",
+      "sentences": [
+        {
+          "original": "El teléfono móvil es necesario.",
+          "translation": "The mobile phone is necessary."
+        },
+        {
+          "original": "El teléfono móvil es moderno.",
+          "translation": "The mobile phone is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la música",
+      "translation": "music (n, f)",
+      "sentences": [
+        {
+          "original": "La música es excelente.",
+          "translation": "The music is excellent."
+        },
+        {
+          "original": "La música es romántica.",
+          "translation": "The music is romantic."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la opinión",
+      "translation": "opinion (n, f)",
+      "sentences": [
+        {
+          "original": "La opinión es importante.",
+          "translation": "The opinion is important."
+        },
+        {
+          "original": "La opinión es necesaria.",
+          "translation": "The opinion is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la región",
+      "translation": "region (n, f)",
+      "sentences": [
+        {
+          "original": "La región es grande.",
+          "translation": "The region is big."
+        },
+        {
+          "original": "La región es tropical.",
+          "translation": "The region is tropical."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tímido",
+      "translation": "timid (adj)",
+      "sentences": [
+        {
+          "original": "El muchacho es tímido.",
+          "translation": "The boy is timid."
+        },
+        {
+          "original": "El estudiante es tímido.",
+          "translation": "The student is timid."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "romántico",
+      "translation": "romantic (adj)",
+      "sentences": [
+        {
+          "original": "El actor es romántico.",
+          "translation": "The actor is romantic."
+        },
+        {
+          "original": "El jardín es romántico.",
+          "translation": "The garden is romantic."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la fiesta",
+      "translation": "party (n, f)",
+      "sentences": [
+        {
+          "original": "La fiesta es popular.",
+          "translation": "The party is popular."
+        },
+        {
+          "original": "Voy a la fiesta.",
+          "translation": "I am going to the party."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la amiga",
+      "translation": "friend (n, f)",
+      "sentences": [
+        {
+          "original": "Mi amiga es Maria.",
+          "translation": "My friend is Maria."
+        },
+        {
+          "original": "La amiga es sociable.",
+          "translation": "The friend is sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la estación",
+      "translation": "station (n, f)",
+      "sentences": [
+        {
+          "original": "Voy a la estación en el autobús.",
+          "translation": "I am going to the station by bus."
+        },
+        {
+          "original": "La estación es grande.",
+          "translation": "The station is big."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la pluma",
+      "translation": "pen (n, f)",
+      "sentences": [
+        {
+          "original": "La pluma es necesaria.",
+          "translation": "The pen is necessary."
+        },
+        {
+          "original": "La pluma es moderna.",
+          "translation": "The pen is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el árbol",
+      "translation": "tree (n, m)",
+      "sentences": [
+        {
+          "original": "El árbol es natural.",
+          "translation": "The tree is natural."
+        },
+        {
+          "original": "El árbol es grande.",
+          "translation": "The tree is big."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la leche",
+      "translation": "milk (n, f)",
+      "sentences": [
+        {
+          "original": "La leche es deliciosa.",
+          "translation": "The milk is delicious."
+        },
+        {
+          "original": "La leche es natural.",
+          "translation": "The milk is natural."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el hombre",
+      "translation": "man (n, m)",
+      "sentences": [
+        {
+          "original": "El hombre es inteligente.",
+          "translation": "The man is intelligent."
+        },
+        {
+          "original": "El hombre es importante.",
+          "translation": "The man is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la mujer",
+      "translation": "woman (n, f)",
+      "sentences": [
+        {
+          "original": "La mujer es sociable.",
+          "translation": "The woman is sociable."
+        },
+        {
+          "original": "La mujer es importante.",
+          "translation": "The woman is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la gorra",
+      "translation": "cap (n, f)",
+      "sentences": [
+        {
+          "original": "La gorra es bonita.",
+          "translation": "The cap is pretty."
+        },
+        {
+          "original": "La gorra es moderna.",
+          "translation": "The cap is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la mano",
+      "translation": "hand (n, f)",
+      "sentences": [
+        {
+          "original": "La mano es importante.",
+          "translation": "The hand is important."
+        },
+        {
+          "original": "La mano es pequeña.",
+          "translation": "The hand is small."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la casa",
+      "translation": "house (n, f)",
+      "sentences": [
+        {
+          "original": "La casa es grande.",
+          "translation": "The house is big."
+        },
+        {
+          "original": "La casa es moderna.",
+          "translation": "The house is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la muchacha",
+      "translation": "girl (n, f)",
+      "sentences": [
+        {
+          "original": "La muchacha es inteligente.",
+          "translation": "The girl is intelligent."
+        },
+        {
+          "original": "La muchacha es sociable.",
+          "translation": "The girl is sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la madre",
+      "translation": "mother (n, f)",
+      "sentences": [
+        {
+          "original": "La madre es sociable.",
+          "translation": "The mother is sociable."
+        },
+        {
+          "original": "La madre es importante.",
+          "translation": "The mother is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el padre",
+      "translation": "father (n, m)",
+      "sentences": [
+        {
+          "original": "El padre es inteligente.",
+          "translation": "The father is intelligent."
+        },
+        {
+          "original": "El padre es famoso.",
+          "translation": "The father is famous."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "buenas tardes",
+      "translation": "good afternoon (exp)",
+      "sentences": [
+        {
+          "original": "Buenas tardes, Felipe.",
+          "translation": "Good afternoon, Felipe."
+        },
+        {
+          "original": "Buenas tardes, señora.",
+          "translation": "Good afternoon, madam."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "buenas noches",
+      "translation": "good night (exp)",
+      "sentences": [
+        {
+          "original": "Buenas noches, señor.",
+          "translation": "Good night, sir."
+        },
+        {
+          "original": "Buenas noches, mamá.",
+          "translation": "Good night, mom."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿qué tal?",
+      "translation": "how are you doing? (exp)",
+      "sentences": [
+        {
+          "original": "¿Qué tal, Juan?",
+          "translation": "How are you doing, Juan?"
+        },
+        {
+          "original": "Hola, ¿qué tal?",
+          "translation": "Hello, how are you doing?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿cómo estás?",
+      "translation": "how are you? (exp)",
+      "sentences": [
+        {
+          "original": "¿Cómo estás, José?",
+          "translation": "How are you, Jose?"
+        },
+        {
+          "original": "Muy bien, ¿y tú?",
+          "translation": "Very well, and you?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "muy bien",
+      "translation": "very well (exp)",
+      "sentences": [
+        {
+          "original": "Muy bien, Pedro.",
+          "translation": "Very well, Pedro."
+        },
+        {
+          "original": "Estoy muy bien.",
+          "translation": "I am very well."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿y tú?",
+      "translation": "and you? (exp)",
+      "sentences": [
+        {
+          "original": "Muy bien, ¿y tú?",
+          "translation": "Very well, and you?"
+        },
+        {
+          "original": "Hola, ¿y tú?",
+          "translation": "Hello, and you?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿cómo te llamas?",
+      "translation": "what is your name? (exp)",
+      "sentences": [
+        {
+          "original": "¿Cómo te llamas?",
+          "translation": "What is your name?"
+        },
+        {
+          "original": "Hola, ¿cómo te llamas?",
+          "translation": "Hello, what is your name?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "me llamo",
+      "translation": "my name is (exp)",
+      "sentences": [
+        {
+          "original": "Me llamo Mario.",
+          "translation": "My name is Mario."
+        },
+        {
+          "original": "Me llamo Pablo.",
+          "translation": "My name is Pablo."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿cómo se llama?",
+      "translation": "what is his/her name? (exp)",
+      "sentences": [
+        {
+          "original": "¿Cómo se llama el muchacho?",
+          "translation": "What is the boy's name?"
+        },
+        {
+          "original": "¿Cómo se llama la profesora?",
+          "translation": "What is the teacher's name?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "se llama",
+      "translation": "his/her name is (exp)",
+      "sentences": [
+        {
+          "original": "Se llama Francisco.",
+          "translation": "His name is Francisco."
+        },
+        {
+          "original": "Se llama Pedro.",
+          "translation": "His name is Pedro."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "muchas gracias",
+      "translation": "thank you very much (exp)",
+      "sentences": [
+        {
+          "original": "Muchas gracias.",
+          "translation": "Thank you very much."
+        },
+        {
+          "original": "Muchas gracias, señor.",
+          "translation": "Thank you very much, sir."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "de nada",
+      "translation": "you're welcome (exp)",
+      "sentences": [
+        {
+          "original": "De nada.",
+          "translation": "You're welcome."
+        },
+        {
+          "original": "Muchas gracias. De nada.",
+          "translation": "Thank you very much. You're welcome."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hasta luego",
+      "translation": "see you later (exp)",
+      "sentences": [
+        {
+          "original": "Hasta luego, Jimena.",
+          "translation": "See you later, Jimena."
+        },
+        {
+          "original": "Hasta luego, profesor.",
+          "translation": "See you later, teacher."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hasta la vista",
+      "translation": "see you later (exp)",
+      "sentences": [
+        {
+          "original": "Adiós. Hasta la vista.",
+          "translation": "Goodbye. See you later."
+        },
+        {
+          "original": "Hasta la vista, amigo.",
+          "translation": "See you later, friend."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hasta mañana",
+      "translation": "see you tomorrow (exp)",
+      "sentences": [
+        {
+          "original": "Adiós. Hasta mañana.",
+          "translation": "Goodbye. See you tomorrow."
+        },
+        {
+          "original": "Hasta mañana, profesora.",
+          "translation": "See you tomorrow, teacher."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "por favor",
+      "translation": "please (exp)",
+      "sentences": [
+        {
+          "original": "Hotel Palacio, por favor.",
+          "translation": "Palacio Hotel, please."
+        },
+        {
+          "original": "Un sándwich, por favor.",
+          "translation": "A sandwich, please."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "fácil",
+      "translation": "easy (adj)",
+      "sentences": [
+        {
+          "original": "La lección es fácil.",
+          "translation": "The lesson is easy."
+        },
+        {
+          "original": "El vocabulario es fácil.",
+          "translation": "The vocabulary is easy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "difícil",
+      "translation": "difficult (adj)",
+      "sentences": [
+        {
+          "original": "La lección es difícil.",
+          "translation": "The lesson is difficult."
+        },
+        {
+          "original": "El diccionario es difícil.",
+          "translation": "The dictionary is difficult."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "sentimental",
+      "translation": "sentimental (adj)",
+      "sentences": [
+        {
+          "original": "Mi amigo es sentimental.",
+          "translation": "My friend is sentimental."
+        },
+        {
+          "original": "El actor es sentimental.",
+          "translation": "The actor is sentimental."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "estudioso",
+      "translation": "studious (adj)",
+      "sentences": [
+        {
+          "original": "Soy estudioso.",
+          "translation": "I am studious."
+        },
+        {
+          "original": "El estudiante es estudioso.",
+          "translation": "The student is studious."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "sincero",
+      "translation": "sincere (adj)",
+      "sentences": [
+        {
+          "original": "El amigo es sincero.",
+          "translation": "The friend is sincere."
+        },
+        {
+          "original": "El profesor es sincero.",
+          "translation": "The teacher is sincere."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el médico",
+      "translation": "doctor (n, m)",
+      "sentences": [
+        {
+          "original": "El médico es norteamericano.",
+          "translation": "The doctor is North American."
+        },
+        {
+          "original": "El médico es inteligente.",
+          "translation": "The doctor is intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "magnífico",
+      "translation": "magnificent (adj)",
+      "sentences": [
+        {
+          "original": "El artista es magnífico.",
+          "translation": "The artist is magnificent."
+        },
+        {
+          "original": "El estéreo es magnífico.",
+          "translation": "The stereo is magnificent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "sincero",
+      "translation": "sincere (adj)",
+      "sentences": [
+        {
+          "original": "El amigo es sincero.",
+          "translation": "The friend is sincere."
+        },
+        {
+          "original": "El profesor es sincero.",
+          "translation": "The teacher is sincere."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ridículo",
+      "translation": "ridiculous (adj)",
+      "sentences": [
+        {
+          "original": "El programa es ridículo.",
+          "translation": "The program is ridiculous."
+        },
+        {
+          "original": "El actor es ridículo.",
+          "translation": "The actor is ridiculous."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "plástica",
+      "translation": "plastic (adj)",
+      "sentences": [
+        {
+          "original": "La flor es plástica.",
+          "translation": "The flower is plastic."
+        },
+        {
+          "original": "La base es plástica.",
+          "translation": "The base is plastic."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "atractiva",
+      "translation": "attractive (adj)",
+      "sentences": [
+        {
+          "original": "La lámpara es atractiva.",
+          "translation": "The lamp is attractive."
+        },
+        {
+          "original": "La muchacha es atractiva.",
+          "translation": "The girl is attractive."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "eléctrica",
+      "translation": "electric (adj)",
+      "sentences": [
+        {
+          "original": "La guitarra es eléctrica.",
+          "translation": "The guitar is electric."
+        },
+        {
+          "original": "La computadora es eléctrica.",
+          "translation": "The computer is electric."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tonto",
+      "translation": "silly / foolish (adj)",
+      "sentences": [
+        {
+          "original": "El programa es tonto.",
+          "translation": "The program is silly."
+        },
+        {
+          "original": "El muchacho es tonto.",
+          "translation": "The boy is silly."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el bolígrafo",
+      "translation": "pen (n, m)",
+      "sentences": [
+        {
+          "original": "El bolígrafo es necesario.",
+          "translation": "The pen is necessary."
+        },
+        {
+          "original": "El bolígrafo es moderno.",
+          "translation": "The pen is modern."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "emocionante",
+      "translation": "exciting (adj)",
+      "sentences": [
+        {
+          "original": "El español es emocionante!",
+          "translation": "Spanish is exciting!"
+        },
+        {
+          "original": "El programa es emocionante.",
+          "translation": "The program is exciting."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el chocolate",
+      "translation": "chocolate (n, m)",
+      "sentences": [
+        {
+          "original": "El chocolate es delicioso.",
+          "translation": "The chocolate is delicious."
+        },
+        {
+          "original": "El chocolate es excelente.",
+          "translation": "The chocolate is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el mosquito",
+      "translation": "mosquito (n, m)",
+      "sentences": [
+        {
+          "original": "El mosquito es horrible.",
+          "translation": "The mosquito is horrible."
+        },
+        {
+          "original": "El mosquito es terrible.",
+          "translation": "The mosquito is terrible."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el motor",
+      "translation": "motor (n, m)",
+      "sentences": [
+        {
+          "original": "El motor es moderno.",
+          "translation": "The motor is modern."
+        },
+        {
+          "original": "El motor es rápido.",
+          "translation": "The motor is fast."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la base",
+      "translation": "base (n, f)",
+      "sentences": [
+        {
+          "original": "La base es importante.",
+          "translation": "The base is important."
+        },
+        {
+          "original": "La base es artificial.",
+          "translation": "The base is artificial."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el honor",
+      "translation": "honor (n, m)",
+      "sentences": [
+        {
+          "original": "El honor es importante.",
+          "translation": "Honor is important."
+        },
+        {
+          "original": "El honor es necesario.",
+          "translation": "Honor is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la plaza",
+      "translation": "plaza (n, f)",
+      "sentences": [
+        {
+          "original": "La plaza es grande.",
+          "translation": "The plaza is big."
+        },
+        {
+          "original": "La plaza es romántica.",
+          "translation": "The plaza is romantic."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el plato",
+      "translation": "plate (n, m)",
+      "sentences": [
+        {
+          "original": "El plato es moderno.",
+          "translation": "The plate is modern."
+        },
+        {
+          "original": "El plato es excelente.",
+          "translation": "The plate is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el vocabulario",
+      "translation": "vocabulary (n, m)",
+      "sentences": [
+        {
+          "original": "El vocabulario es necesario.",
+          "translation": "The vocabulary is necessary."
+        },
+        {
+          "original": "El vocabulario es fácil.",
+          "translation": "The vocabulary is easy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la ambulancia",
+      "translation": "ambulance (n, f)",
+      "sentences": [
+        {
+          "original": "La ambulancia es rápida.",
+          "translation": "The ambulance is fast."
+        },
+        {
+          "original": "Voy al hospital en la ambulancia.",
+          "translation": "I am going to the hospital in the ambulance."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la aspirina",
+      "translation": "aspirin (n, f)",
+      "sentences": [
+        {
+          "original": "La aspirina es necesaria.",
+          "translation": "The aspirin is necessary."
+        },
+        {
+          "original": "La aspirina es excelente.",
+          "translation": "The aspirin is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la frase",
+      "translation": "phrase (n, f)",
+      "sentences": [
+        {
+          "original": "La frase es importante.",
+          "translation": "The phrase is important."
+        },
+        {
+          "original": "La frase es excelente.",
+          "translation": "The phrase is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la gasolina",
+      "translation": "gasoline (n, f)",
+      "sentences": [
+        {
+          "original": "La gasolina es necesaria.",
+          "translation": "Gasoline is necessary."
+        },
+        {
+          "original": "La gasolina es importante.",
+          "translation": "Gasoline is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la medicina",
+      "translation": "medicine (n, f)",
+      "sentences": [
+        {
+          "original": "La medicina es necesaria.",
+          "translation": "Medicine is necessary."
+        },
+        {
+          "original": "La medicina es importante.",
+          "translation": "Medicine is important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la opinión",
+      "translation": "opinion (n, f)",
+      "sentences": [
+        {
+          "original": "La opinión es importante.",
+          "translation": "Opinion is important."
+        },
+        {
+          "original": "La opinión es necesaria.",
+          "translation": "Opinion is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la región",
+      "translation": "region (n, f)",
+      "sentences": [
+        {
+          "original": "La región es grande.",
+          "translation": "The region is big."
+        },
+        {
+          "original": "La región es tropical.",
+          "translation": "The region is tropical."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el menú",
+      "translation": "menu (n, m)",
+      "sentences": [
+        {
+          "original": "El menú es excelente.",
+          "translation": "The menu is excellent."
+        },
+        {
+          "original": "El menú es necesario.",
+          "translation": "The menu is necessary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el estéreo",
+      "translation": "stereo (n, m)",
+      "sentences": [
+        {
+          "original": "El estéreo es magnífico.",
+          "translation": "The stereo is magnificent."
+        },
+        {
+          "original": "El estéreo es moderno.",
+          "translation": "The stereo is modern."
+        }
+      ]
+    }
+  ]
+}

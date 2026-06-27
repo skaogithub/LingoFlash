@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "title": "Conversación: En la calle",
+    "language": "es",
+    "description": "Sequential dialogue between a young man and a police officer.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "Una conversación en la calle",
+      "translation": "A conversation on the street",
+      "sentences": [
+        {
+          "original": "Joven: Disculpe usted, señor policía. ¿Sabe dónde está el cine?",
+          "translation": "Young Man: Excuse me, officer. Do you know where the cinema is?",
+          "chunks": [
+            {
+              "text": "Disculpe usted,",
+              "meaning": "Excuse me,"
+            },
+            {
+              "text": "señor policía.",
+              "meaning": "officer."
+            },
+            {
+              "text": "¿Sabe dónde está",
+              "meaning": "Do you know where is"
+            },
+            {
+              "text": "el cine?",
+              "meaning": "the cinema?"
+            }
+          ]
+        },
+        {
+          "original": "Policía: Hay muchos cines aquí. ¿No sabe usted cómo se llama el cine?",
+          "translation": "Officer: There are many cinemas here. Don't you know what the cinema is called?",
+          "chunks": [
+            {
+              "text": "Hay muchos cines aquí.",
+              "meaning": "There are many cinemas here."
+            },
+            {
+              "text": "¿No sabe usted",
+              "meaning": "Don't you know"
+            },
+            {
+              "text": "cómo se llama el cine?",
+              "meaning": "what the cinema is called?"
+            }
+          ]
+        },
+        {
+          "original": "Joven: Creo que se llama Teatro Capri.",
+          "translation": "Young Man: I think it is called Capri Theater.",
+          "chunks": [
+            {
+              "text": "Creo que",
+              "meaning": "I think that"
+            },
+            {
+              "text": "se llama Teatro Capri.",
+              "meaning": "it is called Capri Theater."
+            }
+          ]
+        },
+        {
+          "original": "Policía: ¡Ah!, sí. Está en la calle Juárez, cerca del parque.",
+          "translation": "Officer: Oh!, yes. It is on Juarez Street, near the park.",
+          "chunks": [
+            {
+              "text": "Está en la calle Juárez,",
+              "meaning": "It is on Juarez Street,"
+            },
+            {
+              "text": "cerca del parque.",
+              "meaning": "near the park."
+            }
+          ]
+        },
+        {
+          "original": "Joven: ¿Está lejos de aquí?",
+          "translation": "Young Man: Is it far from here?"
+        },
+        {
+          "original": "Policía: No. Está a cinco minutos de aquí, en esa dirección.",
+          "translation": "Officer: No. It is five minutes from here, in that direction.",
+          "chunks": [
+            {
+              "text": "Está a cinco minutos de aquí,",
+              "meaning": "It is five minutes from here,"
+            },
+            {
+              "text": "en esa dirección.",
+              "meaning": "in that direction."
+            }
+          ]
+        },
+        {
+          "original": "Joven: Muchísimas gracias, señor policía.",
+          "translation": "Young Man: Thank you very much, officer.",
+          "chunks": [
+            {
+              "text": "Muchísimas gracias,",
+              "meaning": "Thank you very much,"
+            },
+            {
+              "text": "señor policía.",
+              "meaning": "officer."
+            }
+          ]
+        },
+        {
+          "original": "Policía: De nada, joven, para servirle.",
+          "translation": "Officer: You're welcome, young man, at your service.",
+          "chunks": [
+            {
+              "text": "De nada, joven,",
+              "meaning": "You're welcome, young man,"
+            },
+            {
+              "text": "para servirle.",
+              "meaning": "at your service."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "disculpe usted",
+      "translation": "excuse me",
+      "sentences": [
+        {
+          "original": "Disculpe usted, ¿dónde está la biblioteca?",
+          "translation": "Excuse me, where is the library?"
+        },
+        {
+          "original": "Disculpe usted, ¿tiene la hora?",
+          "translation": "Excuse me, do you have the time?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cerca de",
+      "translation": "near",
+      "sentences": [
+        {
+          "original": "Mi casa está cerca de la escuela.",
+          "translation": "My house is near the school."
+        },
+        {
+          "original": "El hotel está cerca del restaurante.",
+          "translation": "The hotel is near the restaurant."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "lejos de",
+      "translation": "far from",
+      "sentences": [
+        {
+          "original": "El museo está lejos de aquí.",
+          "translation": "The museum is far from here."
+        },
+        {
+          "original": "Vivimos lejos de la ciudad.",
+          "translation": "We live far from the city."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "muchísimas gracias",
+      "translation": "thank you very much",
+      "sentences": [
+        {
+          "original": "Muchísimas gracias por el regalo.",
+          "translation": "Thank you very much for the gift."
+        },
+        {
+          "original": "Muchísimas gracias por su ayuda hoy.",
+          "translation": "Thank you very much for your help today."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el joven",
+      "translation": "young man",
+      "sentences": [
+        {
+          "original": "El joven estudia medicina.",
+          "translation": "The young man studies medicine."
+        },
+        {
+          "original": "Aquel joven es mi primo.",
+          "translation": "That young man is my cousin."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "para servirle",
+      "translation": "at your service",
+      "sentences": [
+        {
+          "original": "Es un placer, para servirle.",
+          "translation": "It is a pleasure, at your service."
+        },
+        {
+          "original": "Aquí tiene su café, para servirle.",
+          "translation": "Here is your coffee, at your service."
+        }
+      ]
+    }
+  ]
+}

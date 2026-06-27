@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Spanish Fruits",
+    "language": "es",
+    "description": "Common fruits in Spanish with usage examples.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "la manzana",
+      "translation": "the apple",
+      "sentences": [
+        {
+          "original": "Como una manzana roja cada día.",
+          "translation": "I eat a red apple every day."
+        },
+        {
+          "original": "La manzana es una fruta muy dulce.",
+          "translation": "The apple is a very sweet fruit."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el plátano",
+      "translation": "the banana",
+      "sentences": [
+        {
+          "original": "El plátano es de color amarillo.",
+          "translation": "The banana is yellow in color."
+        },
+        {
+          "original": "Me gusta comer un plátano después de correr.",
+          "translation": "I like to eat a banana after running."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la naranja",
+      "translation": "the orange",
+      "sentences": [
+        {
+          "original": "Bebo un vaso de zumo de naranja.",
+          "translation": "I drink a glass of orange juice."
+        },
+        {
+          "original": "La naranja tiene mucha vitamina C.",
+          "translation": "The orange has a lot of vitamin C."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la fresa",
+      "translation": "the strawberry",
+      "sentences": [
+        {
+          "original": "La fresa es roja y pequeña.",
+          "translation": "The strawberry is red and small."
+        },
+        {
+          "original": "Preparo un postre con fresas y nata.",
+          "translation": "I prepare a dessert with strawberries and cream."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la uva",
+      "translation": "the grape",
+      "sentences": [
+        {
+          "original": "Comemos doce uvas en Nochevieja.",
+          "translation": "We eat twelve grapes on New Year's Eve."
+        },
+        {
+          "original": "La uva verde es mi favorita.",
+          "translation": "The green grape is my favorite."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la piña",
+      "translation": "the pineapple",
+      "sentences": [
+        {
+          "original": "La piña es una fruta tropical.",
+          "translation": "The pineapple is a tropical fruit."
+        },
+        {
+          "original": "Cortamos la piña en rodajas.",
+          "translation": "We cut the pineapple into slices."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el limón",
+      "translation": "the lemon",
+      "sentences": [
+        {
+          "original": "El limón tiene un sabor muy ácido.",
+          "translation": "The lemon has a very sour taste."
+        },
+        {
+          "original": "Pongo un poco de limón en mi té.",
+          "translation": "I put a little bit of lemon in my tea."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la sandía",
+      "translation": "the watermelon",
+      "sentences": [
+        {
+          "original": "La sandía es perfecta para el verano.",
+          "translation": "The watermelon is perfect for summer."
+        },
+        {
+          "original": "Esta sandía es muy grande y pesada.",
+          "translation": "This watermelon is very big and heavy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la pera",
+      "translation": "the pear",
+      "sentences": [
+        {
+          "original": "La pera está madura y jugosa.",
+          "translation": "The pear is ripe and juicy."
+        },
+        {
+          "original": "Compré una pera en el mercado.",
+          "translation": "I bought a pear at the market."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el mango",
+      "translation": "the mango",
+      "sentences": [
+        {
+          "original": "El mango es muy dulce y sabroso.",
+          "translation": "The mango is very sweet and tasty."
+        },
+        {
+          "original": "Me encanta el helado de mango.",
+          "translation": "I love mango ice cream."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "title": "Conversación y Vocabulario: ¿Dónde viven ustedes?",
+    "language": "es",
+    "description": "A classroom conversation about where the students live and their family, plus vocabulary from page 207.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "¿Dónde viven ustedes?",
+      "translation": "Where do you live?",
+      "sentences": [
+        {
+          "original": "Profesora: ¿Dónde viven ustedes?",
+          "translation": "Teacher: Where do you live?",
+          "chunks": [
+            {
+              "text": "¿Dónde viven",
+              "meaning": "Where do live"
+            },
+            {
+              "text": "ustedes?",
+              "meaning": "you all?"
+            }
+          ]
+        },
+        {
+          "original": "Alumno: Vivimos en la calle Bolívar.",
+          "translation": "Student: We live on Bolivar Street.",
+          "chunks": [
+            {
+              "text": "Vivimos en",
+              "meaning": "We live on"
+            },
+            {
+              "text": "la calle Bolívar.",
+              "meaning": "Bolivar Street."
+            }
+          ]
+        },
+        {
+          "original": "Profesora: ¿Qué trabajo hace su papá?",
+          "translation": "Teacher: What work does your father do?",
+          "chunks": [
+            {
+              "text": "¿Qué trabajo hace",
+              "meaning": "What work does"
+            },
+            {
+              "text": "su papá?",
+              "meaning": "your father do?"
+            }
+          ]
+        },
+        {
+          "original": "Alumna: Nuestro papá trabaja en una oficina.",
+          "translation": "Student: Our father works in an office.",
+          "chunks": [
+            {
+              "text": "Nuestro papá trabaja",
+              "meaning": "Our father works"
+            },
+            {
+              "text": "en una oficina.",
+              "meaning": "in an office."
+            }
+          ]
+        },
+        {
+          "original": "Profesora: ¿Hay otras personas en la familia?",
+          "translation": "Teacher: Are there other people in the family?",
+          "chunks": [
+            {
+              "text": "¿Hay otras personas",
+              "meaning": "Are there other people"
+            },
+            {
+              "text": "en la familia?",
+              "meaning": "in the family?"
+            }
+          ]
+        },
+        {
+          "original": "Alumno: Sí, nuestros abuelos viven con nosotros.",
+          "translation": "Student: Yes, our grandparents live with us.",
+          "chunks": [
+            {
+              "text": "Sí, nuestros abuelos",
+              "meaning": "Yes, our grandparents"
+            },
+            {
+              "text": "viven con nosotros.",
+              "meaning": "live with us."
+            }
+          ]
+        },
+        {
+          "original": "Profesora: ¿Viven ustedes en un apartamento?",
+          "translation": "Teacher: Do you live in an apartment?",
+          "chunks": [
+            {
+              "text": "¿Viven ustedes",
+              "meaning": "Do you live"
+            },
+            {
+              "text": "en un apartamento?",
+              "meaning": "in an apartment?"
+            }
+          ]
+        },
+        {
+          "original": "Alumno: ¡Oh, no! Para nuestra familia necesitamos una casa grande.",
+          "translation": "Student: Oh, no! For our family we need a big house.",
+          "chunks": [
+            {
+              "text": "¡Oh, no!",
+              "meaning": "Oh, no!"
+            },
+            {
+              "text": "Para nuestra familia",
+              "meaning": "For our family"
+            },
+            {
+              "text": "necesitamos una casa grande.",
+              "meaning": "we need a big house."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la calle",
+      "translation": "street",
+      "sentences": [
+        {
+          "original": "La calle es muy bonita y tranquila.",
+          "translation": "The street is very pretty and quiet."
+        },
+        {
+          "original": "Esta es la calle principal de la ciudad.",
+          "translation": "This is the main street of the city."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "su",
+      "translation": "your (formal)",
+      "sentences": [
+        {
+          "original": "Señor López, ¿es este su carro?",
+          "translation": "Mr. Lopez, is this your car?"
+        },
+        {
+          "original": "Usted es profesor y su clase es excelente.",
+          "translation": "You are a teacher and your class is excellent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "para",
+      "translation": "for",
+      "sentences": [
+        {
+          "original": "El libro de español es para el alumno nuevo.",
+          "translation": "The Spanish book is for the new student."
+        },
+        {
+          "original": "Este regalo es para mi abuela.",
+          "translation": "This gift is for my grandmother."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "nuestro(a)",
+      "translation": "our",
+      "sentences": [
+        {
+          "original": "Nuestro apartamento es pequeño pero cómodo.",
+          "translation": "Our apartment is small but comfortable."
+        },
+        {
+          "original": "Ella es nuestra tía de México.",
+          "translation": "She is our aunt from Mexico."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "title": "Lección 8: Vocabulario Completo",
+    "language": "es",
+    "description": "Complete vocabulary list and social phrases from Chapter 8.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "bajo",
+      "translation": "short (adj)",
+      "sentences": [
+        {
+          "original": "El muchacho es bajo.",
+          "translation": "The boy is short.",
+          "chunks": [
+            {
+              "text": "El muchacho",
+              "meaning": "The boy"
+            },
+            {
+              "text": "es bajo.",
+              "meaning": "is short."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "bonito(a)",
+      "translation": "beautiful, pretty (adj)",
+      "sentences": [
+        {
+          "original": "La casa es muy bonita.",
+          "translation": "The house is very beautiful.",
+          "chunks": [
+            {
+              "text": "La casa",
+              "meaning": "The house"
+            },
+            {
+              "text": "es muy bonita.",
+              "meaning": "is very beautiful."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "corto(a)",
+      "translation": "short (adj)",
+      "sentences": [
+        {
+          "original": "Ella tiene el pelo corto.",
+          "translation": "She has short hair.",
+          "chunks": [
+            {
+              "text": "Ella tiene",
+              "meaning": "She has"
+            },
+            {
+              "text": "el pelo corto.",
+              "meaning": "short hair."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "difícil",
+      "translation": "difficult (adj)",
+      "sentences": [
+        {
+          "original": "La lección es difícil.",
+          "translation": "The lesson is difficult.",
+          "chunks": [
+            {
+              "text": "La lección",
+              "meaning": "The lesson"
+            },
+            {
+              "text": "es difícil.",
+              "meaning": "is difficult."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tonto(a)",
+      "translation": "silly, fool (adj)",
+      "sentences": [
+        {
+          "original": "No seas tonto.",
+          "translation": "Don't be silly.",
+          "chunks": [
+            {
+              "text": "No seas",
+              "meaning": "Don't be"
+            },
+            {
+              "text": "tonto.",
+              "meaning": "silly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "fácil",
+      "translation": "easy (adj)",
+      "sentences": [
+        {
+          "original": "El examen es fácil.",
+          "translation": "The exam is easy.",
+          "chunks": [
+            {
+              "text": "El examen",
+              "meaning": "The exam"
+            },
+            {
+              "text": "es fácil.",
+              "meaning": "is easy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "feo(a)",
+      "translation": "ugly (adj)",
+      "sentences": [
+        {
+          "original": "El dibujo es feo.",
+          "translation": "The drawing is ugly.",
+          "chunks": [
+            {
+              "text": "El dibujo",
+              "meaning": "The drawing"
+            },
+            {
+              "text": "es feo.",
+              "meaning": "is ugly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "flaco(a)",
+      "translation": "skinny, slim (adj)",
+      "sentences": [
+        {
+          "original": "El perro es flaco.",
+          "translation": "The dog is skinny.",
+          "chunks": [
+            {
+              "text": "El perro",
+              "meaning": "The dog"
+            },
+            {
+              "text": "es flaco.",
+              "meaning": "is skinny."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "fuerte",
+      "translation": "strong (adj)",
+      "sentences": [
+        {
+          "original": "El hombre es fuerte.",
+          "translation": "The man is strong.",
+          "chunks": [
+            {
+              "text": "El hombre",
+              "meaning": "The man"
+            },
+            {
+              "text": "es fuerte.",
+              "meaning": "is strong."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "inteligente",
+      "translation": "intelligent (adj)",
+      "sentences": [
+        {
+          "original": "Lobo es muy inteligente.",
+          "translation": "Lobo is very intelligent.",
+          "chunks": [
+            {
+              "text": "Lobo es",
+              "meaning": "Lobo is"
+            },
+            {
+              "text": "muy inteligente.",
+              "meaning": "very intelligent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-phrase",
+      "text": "Disculpe",
+      "translation": "Excuse me (phrase)",
+      "sentences": [
+        {
+          "original": "Disculpe, ¿dónde está el parque?",
+          "translation": "Excuse me, where is the park?",
+          "chunks": [
+            {
+              "text": "Disculpe,",
+              "meaning": "Excuse me,"
+            },
+            {
+              "text": "¿dónde está",
+              "meaning": "where is"
+            },
+            {
+              "text": "el parque?",
+              "meaning": "the park?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-phrase",
+      "text": "Muchísimas gracias",
+      "translation": "Thank you very much (phrase)",
+      "sentences": [
+        {
+          "original": "Muchísimas gracias por su ayuda.",
+          "translation": "Thank you very much for your help.",
+          "chunks": [
+            {
+              "text": "Muchísimas gracias",
+              "meaning": "Thank you very much"
+            },
+            {
+              "text": "por su ayuda.",
+              "meaning": "for your help."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-phrase",
+      "text": "Para servirle",
+      "translation": "At your service (phrase)",
+      "sentences": [
+        {
+          "original": "Gracias. —Para servirle.",
+          "translation": "Thank you. —At your service.",
+          "chunks": [
+            {
+              "text": "Gracias.",
+              "meaning": "Thank you."
+            },
+            {
+              "text": "—Para servirle.",
+              "meaning": "—At your service."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

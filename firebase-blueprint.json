@@ -1,0 +1,51 @@
+{
+  "entities": {
+    "Flashcard": {
+      "title": "Flashcard",
+      "description": "A single flashcard with front, back, and examples.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "front": { "type": "string" },
+        "back": { "type": "string" },
+        "type": { "type": "string", "enum": ["simple", "vocabulary"] },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": { "type": "string" },
+              "translation": { "type": "string" }
+            }
+          }
+        },
+        "isStarred": { "type": "boolean" },
+        "mastery": { "type": "string", "enum": ["learning", "mastered", "unseen"] }
+      },
+      "required": ["id", "front", "back"]
+    },
+    "Deck": {
+      "title": "Deck",
+      "description": "A collection of flashcards.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "cards": {
+          "type": "array",
+          "items": { "$ref": "Flashcard" }
+        },
+        "language": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "name", "cards"]
+    }
+  },
+  "firestore": {
+    "users/{userId}/decks/{deckId}": {
+      "schema": "Deck",
+      "description": "User-specific flashcard decks."
+    }
+  }
+}

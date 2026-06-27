@@ -1,0 +1,550 @@
+{
+  "metadata": {
+    "title": "Chapter 4: -ar Verbs Conjugation",
+    "language": "es",
+    "description": "Conjugation examples for -ar verbs.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "bailar",
+      "translation": "to dance",
+      "sentences": [
+        {
+          "original": "yo bailo",
+          "translation": "I dance, I am dancing"
+        },
+        {
+          "original": "tú bailas",
+          "translation": "You dance, you are dancing (familiar, singular)"
+        },
+        {
+          "original": "él baila",
+          "translation": "He dances, he is dancing"
+        },
+        {
+          "original": "nosotros bailamos",
+          "translation": "We dance, we are dancing"
+        },
+        {
+          "original": "ellos bailan",
+          "translation": "They dance, they are dancing (masculine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "buscar",
+      "translation": "to look for",
+      "sentences": [
+        {
+          "original": "yo busco",
+          "translation": "I look for, I am looking for"
+        },
+        {
+          "original": "tú buscas",
+          "translation": "You look for, you are looking for (familiar, singular)"
+        },
+        {
+          "original": "ella busca",
+          "translation": "She looks for, she is looking for"
+        },
+        {
+          "original": "nosotras buscamos",
+          "translation": "We look for, we are looking for (feminine)"
+        },
+        {
+          "original": "ellas buscan",
+          "translation": "They look for, they are looking for (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "caminar",
+      "translation": "to walk",
+      "sentences": [
+        {
+          "original": "yo camino",
+          "translation": "I walk, I am walking"
+        },
+        {
+          "original": "tú caminas",
+          "translation": "You walk, you are walking (familiar, singular)"
+        },
+        {
+          "original": "usted camina",
+          "translation": "You walk, you are walking (formal, singular)"
+        },
+        {
+          "original": "nosotros caminamos",
+          "translation": "We walk, we are walking"
+        },
+        {
+          "original": "ustedes caminan",
+          "translation": "You walk, you are walking (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cantar",
+      "translation": "to sing",
+      "sentences": [
+        {
+          "original": "yo canto",
+          "translation": "I sing, I am singing"
+        },
+        {
+          "original": "tú cantas",
+          "translation": "You sing, you are singing (familiar, singular)"
+        },
+        {
+          "original": "él canta",
+          "translation": "He sings, he is singing"
+        },
+        {
+          "original": "nosotros cantamos",
+          "translation": "We sing, we are singing"
+        },
+        {
+          "original": "ellos cantan",
+          "translation": "They sing, they are singing (masculine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "comprar",
+      "translation": "to buy",
+      "sentences": [
+        {
+          "original": "yo compro",
+          "translation": "I buy, I am buying"
+        },
+        {
+          "original": "tú compras",
+          "translation": "You buy, you are buying (familiar, singular)"
+        },
+        {
+          "original": "ella compra",
+          "translation": "She buys, she is buying"
+        },
+        {
+          "original": "nosotras compramos",
+          "translation": "We buy, we are buying (feminine)"
+        },
+        {
+          "original": "ellas compran",
+          "translation": "They buy, they are buying (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "contestar",
+      "translation": "to answer",
+      "sentences": [
+        {
+          "original": "yo contesto",
+          "translation": "I answer, I am answering"
+        },
+        {
+          "original": "tú contestas",
+          "translation": "You answer, you are answering (familiar, singular)"
+        },
+        {
+          "original": "usted contesta",
+          "translation": "You answer, you are answering (formal, singular)"
+        },
+        {
+          "original": "nosotros contestamos",
+          "translation": "We answer, we are answering"
+        },
+        {
+          "original": "ustedes contestan",
+          "translation": "You answer, you are answering (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "desear",
+      "translation": "to want",
+      "sentences": [
+        {
+          "original": "yo deseo",
+          "translation": "I want, I am wanting"
+        },
+        {
+          "original": "tú deseas",
+          "translation": "You want, you are wanting (familiar, singular)"
+        },
+        {
+          "original": "él desea",
+          "translation": "He wants, he is wanting"
+        },
+        {
+          "original": "nosotros deseamos",
+          "translation": "We want, we are wanting"
+        },
+        {
+          "original": "ellos desean",
+          "translation": "They want, they are wanting (masculine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "entrar",
+      "translation": "to enter, to get in",
+      "sentences": [
+        {
+          "original": "yo entro",
+          "translation": "I enter, I am entering"
+        },
+        {
+          "original": "tú entras",
+          "translation": "You enter, you are entering (familiar, singular)"
+        },
+        {
+          "original": "ella entra",
+          "translation": "She enters, she is entering"
+        },
+        {
+          "original": "nosotras entramos",
+          "translation": "We enter, we are entering (feminine)"
+        },
+        {
+          "original": "ellas entran",
+          "translation": "They enter, they are entering (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "escuchar",
+      "translation": "to listen",
+      "sentences": [
+        {
+          "original": "yo escucho",
+          "translation": "I listen, I am listening"
+        },
+        {
+          "original": "tú escuchas",
+          "translation": "You listen, you are listening (familiar, singular)"
+        },
+        {
+          "original": "usted escucha",
+          "translation": "You listen, you are listening (formal, singular)"
+        },
+        {
+          "original": "nosotros escuchamos",
+          "translation": "We listen, we are listening"
+        },
+        {
+          "original": "ustedes escuchan",
+          "translation": "You listen, you are listening (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "estudiar",
+      "translation": "to study",
+      "sentences": [
+        {
+          "original": "yo estudio",
+          "translation": "I study, I am studying"
+        },
+        {
+          "original": "tú estudias",
+          "translation": "You study, you are studying (familiar, singular)"
+        },
+        {
+          "original": "él estudia",
+          "translation": "He studies, he is studying"
+        },
+        {
+          "original": "nosotros estudiamos",
+          "translation": "We study, we are studying"
+        },
+        {
+          "original": "ellos estudian",
+          "translation": "They study, they are studying (masculine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hablar",
+      "translation": "to speak",
+      "sentences": [
+        {
+          "original": "yo hablo",
+          "translation": "I speak, I am speaking"
+        },
+        {
+          "original": "tú hablas",
+          "translation": "You speak, you are speaking (familiar, singular)"
+        },
+        {
+          "original": "ella habla",
+          "translation": "She speaks, she is speaking"
+        },
+        {
+          "original": "nosotras hablamos",
+          "translation": "We speak, we are speaking (feminine)"
+        },
+        {
+          "original": "ellas hablan",
+          "translation": "They speak, they are speaking (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "llegar",
+      "translation": "to arrive",
+      "sentences": [
+        {
+          "original": "yo llego",
+          "translation": "I arrive, I am arriving"
+        },
+        {
+          "original": "tú llegas",
+          "translation": "You arrive, you are arriving (familiar, singular)"
+        },
+        {
+          "original": "usted llega",
+          "translation": "You arrive, you are arriving (formal, singular)"
+        },
+        {
+          "original": "nosotros llegamos",
+          "translation": "We arrive, we are arriving"
+        },
+        {
+          "original": "ustedes llegan",
+          "translation": "You arrive, you are arriving (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "mirar",
+      "translation": "to look",
+      "sentences": [
+        {
+          "original": "yo miro",
+          "translation": "I look, I am looking"
+        },
+        {
+          "original": "tú miras",
+          "translation": "You look, you are looking (familiar, singular)"
+        },
+        {
+          "original": "él mira",
+          "translation": "He looks, he is looking"
+        },
+        {
+          "original": "nosotros miramos",
+          "translation": "We look, we are looking"
+        },
+        {
+          "original": "ellos miran",
+          "translation": "They look, they are looking (masculine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "practicar",
+      "translation": "to practice",
+      "sentences": [
+        {
+          "original": "yo practico",
+          "translation": "I practice, I am practicing"
+        },
+        {
+          "original": "tú practicas",
+          "translation": "You practice, you are practicing (familiar, singular)"
+        },
+        {
+          "original": "ella practica",
+          "translation": "She practices, she is practicing"
+        },
+        {
+          "original": "nosotras practicamos",
+          "translation": "We practice, we are practicing (feminine)"
+        },
+        {
+          "original": "ellas practican",
+          "translation": "They practice, they are practicing (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "preguntar",
+      "translation": "to ask",
+      "sentences": [
+        {
+          "original": "yo pregunto",
+          "translation": "I ask, I am asking"
+        },
+        {
+          "original": "tú preguntas",
+          "translation": "You ask, you are asking (familiar, singular)"
+        },
+        {
+          "original": "usted pregunta",
+          "translation": "You ask, you are asking (formal, singular)"
+        },
+        {
+          "original": "nosotros preguntamos",
+          "translation": "We ask, we are asking"
+        },
+        {
+          "original": "ustedes preguntan",
+          "translation": "You ask, you are asking (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "preparar",
+      "translation": "to prepare",
+      "sentences": [
+        {
+          "original": "yo preparo",
+          "translation": "I prepare, I am preparing"
+        },
+        {
+          "original": "tú preparas",
+          "translation": "You prepare, you are preparing (familiar, singular)"
+        },
+        {
+          "original": "él prepara",
+          "translation": "He prepares, he is preparing"
+        },
+        {
+          "original": "nosotros preparamos",
+          "translation": "We prepare, we are preparing"
+        },
+        {
+          "original": "ellos preparan",
+          "translation": "They prepare, they are preparing (masculine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tomar",
+      "translation": "to take",
+      "sentences": [
+        {
+          "original": "yo tomo",
+          "translation": "I take, I am taking"
+        },
+        {
+          "original": "tú tomas",
+          "translation": "You take, you are taking (familiar, singular)"
+        },
+        {
+          "original": "ella toma",
+          "translation": "She takes, she is taking"
+        },
+        {
+          "original": "nosotras tomamos",
+          "translation": "We take, we are taking (feminine)"
+        },
+        {
+          "original": "ellas toman",
+          "translation": "They take, they are taking (feminine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "trabajar",
+      "translation": "to work",
+      "sentences": [
+        {
+          "original": "yo trabajo",
+          "translation": "I work, I am working"
+        },
+        {
+          "original": "tú trabajas",
+          "translation": "You work, you are working (familiar, singular)"
+        },
+        {
+          "original": "usted trabaja",
+          "translation": "You work, you are working (formal, singular)"
+        },
+        {
+          "original": "nosotros trabajamos",
+          "translation": "We work, we are working"
+        },
+        {
+          "original": "ustedes trabajan",
+          "translation": "You work, you are working (plural)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "usar",
+      "translation": "to use",
+      "sentences": [
+        {
+          "original": "yo uso",
+          "translation": "I use, I am using"
+        },
+        {
+          "original": "tú usas",
+          "translation": "You use, you are using (familiar, singular)"
+        },
+        {
+          "original": "él usa",
+          "translation": "He uses, he is using"
+        },
+        {
+          "original": "nosotros usamos",
+          "translation": "We use, we are using"
+        },
+        {
+          "original": "ellos usan",
+          "translation": "They use, they are using (masculine)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "visitar",
+      "translation": "to visit",
+      "sentences": [
+        {
+          "original": "yo visito",
+          "translation": "I visit, I am visiting"
+        },
+        {
+          "original": "tú visitas",
+          "translation": "You visit, you are visiting (familiar, singular)"
+        },
+        {
+          "original": "ella visita",
+          "translation": "She visits, she is visiting"
+        },
+        {
+          "original": "nosotras visitamos",
+          "translation": "We visit, we are visiting (feminine)"
+        },
+        {
+          "original": "ellas visitan",
+          "translation": "They visit, they are visiting (feminine)"
+        }
+      ]
+    }
+  ]
+}

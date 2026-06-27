@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "title": "Chinese 4-Letter Idioms",
+    "language": "zh",
+    "description": "Commonly used 4-letter idioms (Chengyu) in Chinese",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "一心一意 (yī xīn yī yì)",
+      "translation": "Wholeheartedly / devotedly",
+      "sentences": [
+        {
+          "original": "他一心一意地学习。",
+          "translation": "He studies wholeheartedly."
+        },
+        {
+          "original": "我们要一心一意工作。",
+          "translation": "We should work with all our hearts."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "人山人海 (rén shān rén hǎi)",
+      "translation": "Huge crowds of people",
+      "sentences": [
+        {
+          "original": "广场上人山人海。",
+          "translation": "The square is packed with people."
+        },
+        {
+          "original": "这里的周末总是人山人海。",
+          "translation": "It is always crowded here on weekends.",
+          "chunks": [
+            {
+              "text": "这里的周末",
+              "meaning": "Here weekends"
+            },
+            {
+              "text": "总是人山人海。",
+              "meaning": "always huge crowds."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "乱七八糟 (luàn qī bā zāo)",
+      "translation": "A complete mess",
+      "sentences": [
+        {
+          "original": "他的房间乱七八糟。",
+          "translation": "His room is a total mess."
+        },
+        {
+          "original": "别把桌子弄得乱七八糟。",
+          "translation": "Don't make a mess of the table.",
+          "chunks": [
+            {
+              "text": "别把桌子",
+              "meaning": "Don't take the table"
+            },
+            {
+              "text": "弄得乱七八糟。",
+              "meaning": "make it a mess."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "莫名其妙 (mò míng qí miào)",
+      "translation": "Inexplicable / Baffling",
+      "sentences": [
+        {
+          "original": "他突然生气，真是莫名其妙。",
+          "translation": "He suddenly got angry; it was truly baffling.",
+          "chunks": [
+            {
+              "text": "他突然生气，",
+              "meaning": "He suddenly got angry,"
+            },
+            {
+              "text": "真是莫名其妙。",
+              "meaning": "really baffling."
+            }
+          ]
+        },
+        {
+          "original": "这是一个莫名其妙的问题。",
+          "translation": "This is a baffling question.",
+          "chunks": [
+            {
+              "text": "这是一个",
+              "meaning": "This is a"
+            },
+            {
+              "text": "莫名其妙的问题。",
+              "meaning": "baffling question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "半途而废 (bàn tú ér fèi)",
+      "translation": "To give up halfway",
+      "sentences": [
+        {
+          "original": "学习汉语不能半途而废。",
+          "translation": "You can't give up halfway when learning Chinese.",
+          "chunks": [
+            {
+              "text": "学习汉语",
+              "meaning": "Learning Chinese"
+            },
+            {
+              "text": "不能半途而废。",
+              "meaning": "cannot quit halfway."
+            }
+          ]
+        },
+        {
+          "original": "我们已经开始，就不能半途而废。",
+          "translation": "We have already started, so we can't quit halfway.",
+          "chunks": [
+            {
+              "text": "我们已经开始，",
+              "meaning": "We already started,"
+            },
+            {
+              "text": "就不能半途而废。",
+              "meaning": "then cannot quit halfway."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "自由自在 (zì yóu zì zài)",
+      "translation": "Free and easy / Carefree",
+      "sentences": [
+        {
+          "original": "小鸟在天上自由自在地飞。",
+          "translation": "Birds fly freely in the sky.",
+          "chunks": [
+            {
+              "text": "小鸟在天上",
+              "meaning": "Little birds in the sky"
+            },
+            {
+              "text": "自由自在地飞。",
+              "meaning": "freely fly."
+            }
+          ]
+        },
+        {
+          "original": "我喜欢自由自在的生活。",
+          "translation": "I like a carefree life.",
+          "chunks": [
+            {
+              "text": "我喜欢",
+              "meaning": "I like"
+            },
+            {
+              "text": "自由自在的生活。",
+              "meaning": "carefree life."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "津津有味 (jīn jīn yǒu wèi)",
+      "translation": "With great relish / With gusto",
+      "sentences": [
+        {
+          "original": "他看书看得津津有味。",
+          "translation": "He is reading the book with great relish.",
+          "chunks": [
+            {
+              "text": "他看书看得",
+              "meaning": "He reads book (with state of)"
+            },
+            {
+              "text": "津津有味。",
+              "meaning": "great relish."
+            }
+          ]
+        },
+        {
+          "original": "孩子们津津有味地吃着蛋糕。",
+          "translation": "The children are eating the cake with gusto.",
+          "chunks": [
+            {
+              "text": "孩子们",
+              "meaning": "The children"
+            },
+            {
+              "text": "津津有味地吃着蛋糕。",
+              "meaning": "with gusto are eating cake."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "各种各样 (gè zhǒng gè yàng)",
+      "translation": "All kinds of / A variety of",
+      "sentences": [
+        {
+          "original": "超市里有各种各样的水果。",
+          "translation": "There are all kinds of fruits in the supermarket.",
+          "chunks": [
+            {
+              "text": "超市里有",
+              "meaning": "In the supermarket there are"
+            },
+            {
+              "text": "各种各样的水果。",
+              "meaning": "all kinds of fruits."
+            }
+          ]
+        },
+        {
+          "original": "我喜欢各种各样的运动。",
+          "translation": "I like a variety of sports.",
+          "chunks": [
+            {
+              "text": "我喜欢",
+              "meaning": "I like"
+            },
+            {
+              "text": "各种各样的运动。",
+              "meaning": "all kinds of sports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "马到成功 (mǎ dào chéng gōng)",
+      "translation": "To achieve immediate success",
+      "sentences": [
+        {
+          "original": "祝你考试马到成功。",
+          "translation": "I wish you immediate success in your exam.",
+          "chunks": [
+            {
+              "text": "祝你考试",
+              "meaning": "Wish you exam"
+            },
+            {
+              "text": "马到成功。",
+              "meaning": "immediate success."
+            }
+          ]
+        },
+        {
+          "original": "祝你们的项目马到成功。",
+          "translation": "Wishing your project immediate success.",
+          "chunks": [
+            {
+              "text": "祝你们的项目",
+              "meaning": "Wish your (plural) project"
+            },
+            {
+              "text": "马到成功。",
+              "meaning": "immediate success."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "九牛一毛 (jiǔ niú yī máo)",
+      "translation": "A drop in the bucket / A tiny speck",
+      "sentences": [
+        {
+          "original": "这点钱对他来说是九牛一毛。",
+          "translation": "This small amount of money is a drop in the bucket for him.",
+          "chunks": [
+            {
+              "text": "这点钱",
+              "meaning": "This little money"
+            },
+            {
+              "text": "对他来说是九牛一毛。",
+              "meaning": "for him is a drop in the bucket."
+            }
+          ]
+        },
+        {
+          "original": "这一分钱只是九牛一毛。",
+          "translation": "This penny is just a tiny speck."
+        }
+      ]
+    }
+  ]
+}

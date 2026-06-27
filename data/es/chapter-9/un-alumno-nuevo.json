@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "title": "Lección: Un alumno nuevo",
+    "language": "es",
+    "description": "A conversation between Professor López and a new student named Juan.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "Un alumno nuevo (A New Student)",
+      "translation": "A New Student",
+      "sentences": [
+        {
+          "original": "El Profesor López: Ah, un alumno nuevo. Buenos días, joven. ¿Cómo se llama?",
+          "translation": "Professor López: Ah, a new student. Good morning, young man. What is your name?",
+          "chunks": [
+            {
+              "text": "Ah, un alumno nuevo.",
+              "meaning": "Ah, a new student."
+            },
+            {
+              "text": "Buenos días, joven.",
+              "meaning": "Good morning, young man."
+            },
+            {
+              "text": "¿Cómo se llama?",
+              "meaning": "What is your name?"
+            }
+          ]
+        },
+        {
+          "original": "Juan: Me llamo Juan Alemán y soy de México.",
+          "translation": "Juan: My name is Juan Alemán and I am from Mexico.",
+          "chunks": [
+            {
+              "text": "Me llamo Juan Alemán",
+              "meaning": "My name is Juan Alemán"
+            },
+            {
+              "text": "y soy de México.",
+              "meaning": "and I am from Mexico."
+            }
+          ]
+        },
+        {
+          "original": "El Profesor López: Bienvenido. Yo soy el profesor López. ¿Hablas inglés, Juan?",
+          "translation": "Professor López: Welcome. I am Professor López. Do you speak English, Juan?",
+          "chunks": [
+            {
+              "text": "Bienvenido.",
+              "meaning": "Welcome."
+            },
+            {
+              "text": "Yo soy el profesor López.",
+              "meaning": "I am Professor López."
+            },
+            {
+              "text": "¿Hablas inglés, Juan?",
+              "meaning": "Do you speak English, Juan?"
+            }
+          ]
+        },
+        {
+          "original": "Juan: No mucho. En casa solamente hablamos español.",
+          "translation": "Juan: Not much. At home we only speak Spanish.",
+          "chunks": [
+            {
+              "text": "No mucho.",
+              "meaning": "Not much."
+            },
+            {
+              "text": "En casa solamente",
+              "meaning": "At home only"
+            },
+            {
+              "text": "hablamos español.",
+              "meaning": "we speak Spanish."
+            }
+          ]
+        },
+        {
+          "original": "El Profesor López: ¿Tu familia está aquí también?",
+          "translation": "Professor López: Is your family here too?",
+          "chunks": [
+            {
+              "text": "¿Tu familia está",
+              "meaning": "Is your family"
+            },
+            {
+              "text": "aquí también?",
+              "meaning": "here too?"
+            }
+          ]
+        },
+        {
+          "original": "Juan: No todos. Mis hermanos están en Veracruz.",
+          "translation": "Juan: Not all. My brothers are in Veracruz.",
+          "chunks": [
+            {
+              "text": "No todos.",
+              "meaning": "Not all."
+            },
+            {
+              "text": "Mis hermanos están",
+              "meaning": "My brothers are"
+            },
+            {
+              "text": "en Veracruz.",
+              "meaning": "in Veracruz."
+            }
+          ]
+        },
+        {
+          "original": "El Profesor López: ¿Dónde trabaja tu padre?",
+          "translation": "Professor López: Where does your father work?",
+          "chunks": [
+            {
+              "text": "¿Dónde trabaja",
+              "meaning": "Where works"
+            },
+            {
+              "text": "tu padre?",
+              "meaning": "your father?"
+            }
+          ]
+        },
+        {
+          "original": "Juan: Mi padre es mecánico y trabaja en una estación de servicio.",
+          "translation": "Juan: My father is a mechanic and works at a service station.",
+          "chunks": [
+            {
+              "text": "Mi padre es mecánico",
+              "meaning": "My father is a mechanic"
+            },
+            {
+              "text": "y trabaja en",
+              "meaning": "and works at"
+            },
+            {
+              "text": "una estación de servicio.",
+              "meaning": "a service station."
+            }
+          ]
+        },
+        {
+          "original": "El Profesor López: ¿Y tu mamá?",
+          "translation": "Professor López: And your mom?",
+          "chunks": [
+            {
+              "text": "¿Y tu mamá?",
+              "meaning": "And your mom?"
+            }
+          ]
+        },
+        {
+          "original": "Juan: Mi mamá es enfermera y trabaja en un hospital.",
+          "translation": "Juan: My mom is a nurse and works in a hospital.",
+          "chunks": [
+            {
+              "text": "Mi mamá es enfermera",
+              "meaning": "My mom is a nurse"
+            },
+            {
+              "text": "y trabaja en un hospital.",
+              "meaning": "and works in a hospital."
+            }
+          ]
+        },
+        {
+          "original": "El Profesor López: Muy bien, Juan. Los alumnos de la clase son muy buenos y simpáticos. Ellos saben que tú eres nuevo y que necesitas amigos.",
+          "translation": "Professor López: Very well, Juan. The students in the class are very good and nice. They know that you are new and that you need friends.",
+          "chunks": [
+            {
+              "text": "Muy bien, Juan.",
+              "meaning": "Very well, Juan."
+            },
+            {
+              "text": "Los alumnos de la clase",
+              "meaning": "The students of the class"
+            },
+            {
+              "text": "son muy buenos y simpáticos.",
+              "meaning": "are very good and nice."
+            },
+            {
+              "text": "Ellos saben que tú eres nuevo",
+              "meaning": "They know that you are new"
+            },
+            {
+              "text": "y que necesitas amigos.",
+              "meaning": "and that you need friends."
+            }
+          ]
+        },
+        {
+          "original": "Juan: ¿Amigos? (Yo) no necesito amigos. Todos mis primos de Veracruz están aquí en la clase.",
+          "translation": "Juan: Friends? I don't need friends. All my cousins from Veracruz are here in the class.",
+          "chunks": [
+            {
+              "text": "¿Amigos?",
+              "meaning": "Friends?"
+            },
+            {
+              "text": "No necesito amigos.",
+              "meaning": "I don't need friends."
+            },
+            {
+              "text": "Todos mis primos de Veracruz",
+              "meaning": "All my cousins from Veracruz"
+            },
+            {
+              "text": "están aquí en la clase.",
+              "meaning": "are here in the class."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "solamente",
+      "translation": "only",
+      "sentences": [
+        {
+          "original": "En casa solamente hablamos español.",
+          "translation": "At home we only speak Spanish."
+        },
+        {
+          "original": "Tengo solamente un hermano.",
+          "translation": "I only have one brother."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "bueno / buena",
+      "translation": "good",
+      "sentences": [
+        {
+          "original": "Los alumnos son muy buenos.",
+          "translation": "The students are very good."
+        },
+        {
+          "original": "Es una buena idea.",
+          "translation": "It is a good idea."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "simpático / simpática",
+      "translation": "nice / friendly",
+      "sentences": [
+        {
+          "original": "Ellos son simpáticos.",
+          "translation": "They are nice."
+        },
+        {
+          "original": "La profesora es muy simpática.",
+          "translation": "The teacher is very nice."
+        }
+      ]
+    }
+  ]
+}

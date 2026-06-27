@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Space Vocabulary",
+    "language": "es",
+    "description": "Spanish words and phrases related to space and astronomy.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "el espacio",
+      "translation": "space",
+      "sentences": [
+        {
+          "original": "El espacio es inmenso.",
+          "translation": "Space is immense."
+        },
+        {
+          "original": "Explorar el espacio es difícil.",
+          "translation": "Exploring space is difficult."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la estrella",
+      "translation": "star",
+      "sentences": [
+        {
+          "original": "Mira esa estrella brillante.",
+          "translation": "Look at that bright star."
+        },
+        {
+          "original": "Hay millones de estrellas.",
+          "translation": "There are millions of stars."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el planeta",
+      "translation": "planet",
+      "sentences": [
+        {
+          "original": "Júpiter es un planeta gigante.",
+          "translation": "Jupiter is a giant planet."
+        },
+        {
+          "original": "Cada planeta es diferente.",
+          "translation": "Every planet is different."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la luna",
+      "translation": "moon",
+      "sentences": [
+        {
+          "original": "La luna es blanca.",
+          "translation": "The moon is white."
+        },
+        {
+          "original": "No hay aire en la luna.",
+          "translation": "There is no air on the moon."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el sol",
+      "translation": "sun",
+      "sentences": [
+        {
+          "original": "El sol es muy caliente.",
+          "translation": "The sun is very hot."
+        },
+        {
+          "original": "El sol sale por el este.",
+          "translation": "The sun rises in the east."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la tierra",
+      "translation": "earth",
+      "sentences": [
+        {
+          "original": "La Tierra tiene mucha agua.",
+          "translation": "Earth has a lot of water."
+        },
+        {
+          "original": "Cuidamos la Tierra.",
+          "translation": "We take care of the Earth."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el astronauta",
+      "translation": "astronaut",
+      "sentences": [
+        {
+          "original": "El astronauta camina despacio.",
+          "translation": "The astronaut walks slowly."
+        },
+        {
+          "original": "Ser astronauta es un sueño.",
+          "translation": "Being an astronaut is a dream."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el cohete",
+      "translation": "rocket",
+      "sentences": [
+        {
+          "original": "El cohete va a la Luna.",
+          "translation": "The rocket goes to the Moon."
+        },
+        {
+          "original": "Construyeron un cohete.",
+          "translation": "They built a rocket."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el telescopio",
+      "translation": "telescope",
+      "sentences": [
+        {
+          "original": "Compré un telescopio nuevo.",
+          "translation": "I bought a new telescope."
+        },
+        {
+          "original": "El telescopio muestra las estrellas.",
+          "translation": "The telescope shows the stars."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la galaxia",
+      "translation": "galaxy",
+      "sentences": [
+        {
+          "original": "Vivimos en una galaxia espiral.",
+          "translation": "We live in a spiral galaxy."
+        },
+        {
+          "original": "La galaxia es hermosa.",
+          "translation": "The galaxy is beautiful."
+        }
+      ]
+    }
+  ]
+}

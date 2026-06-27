@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "title": "Conversación: Una nueva alumna",
+    "language": "es",
+    "description": "Introduction of a new student in class.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "La llegada de Juanita",
+      "translation": "Juanita's arrival",
+      "sentences": [
+        {
+          "original": "Profesor: ¡Ah, una nueva alumna! ¿Cómo te llamas?",
+          "translation": "Teacher: Oh, a new student! What is your name?",
+          "chunks": [
+            {
+              "text": "¡Ah, una nueva alumna!",
+              "meaning": "Oh, a new student!"
+            },
+            {
+              "text": "¿Cómo te llamas?",
+              "meaning": "What is your name?"
+            }
+          ]
+        },
+        {
+          "original": "Juanita: Me llamo Juanita.",
+          "translation": "Juanita: My name is Juanita."
+        },
+        {
+          "original": "Profesor: Bienvenida, Juanita. ¿De qué nacionalidad eres?",
+          "translation": "Teacher: Welcome, Juanita. What is your nationality?",
+          "chunks": [
+            {
+              "text": "Bienvenida, Juanita.",
+              "meaning": "Welcome, Juanita."
+            },
+            {
+              "text": "¿De qué nacionalidad eres?",
+              "meaning": "What is your nationality?"
+            }
+          ]
+        },
+        {
+          "original": "Juanita: Soy colombiana, de Bogotá.",
+          "translation": "Juanita: I am Colombian, from Bogotá.",
+          "chunks": [
+            {
+              "text": "Soy colombiana,",
+              "meaning": "I am Colombian,"
+            },
+            {
+              "text": "de Bogotá.",
+              "meaning": "from Bogotá."
+            }
+          ]
+        },
+        {
+          "original": "Profesor: Muy bien. ¿Hablas inglés?",
+          "translation": "Teacher: Very well. Do you speak English?"
+        },
+        {
+          "original": "Juanita: Sólo un poco. Hablamos español en casa.",
+          "translation": "Juanita: Only a little. We speak Spanish at home.",
+          "chunks": [
+            {
+              "text": "Sólo un poco.",
+              "meaning": "Only a little."
+            },
+            {
+              "text": "Hablamos español en casa.",
+              "meaning": "We speak Spanish at home."
+            }
+          ]
+        },
+        {
+          "original": "Profesor: No importa. En mi clase todo el mundo habla español.",
+          "translation": "Teacher: It doesn't matter. In my class everyone speaks Spanish.",
+          "chunks": [
+            {
+              "text": "No importa.",
+              "meaning": "It doesn't matter."
+            },
+            {
+              "text": "En mi clase todo el mundo",
+              "meaning": "In my class everyone"
+            },
+            {
+              "text": "habla español.",
+              "meaning": "speaks Spanish."
+            }
+          ]
+        },
+        {
+          "original": "Juanita: ¡Estupendo! Pero quiero aprender inglés pronto.",
+          "translation": "Juanita: Great! But I want to learn English soon.",
+          "chunks": [
+            {
+              "text": "¡Estupendo!",
+              "meaning": "Great!"
+            },
+            {
+              "text": "Pero quiero aprender",
+              "meaning": "But I want to learn"
+            },
+            {
+              "text": "inglés pronto.",
+              "meaning": "English soon."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

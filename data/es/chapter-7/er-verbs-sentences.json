@@ -1,0 +1,854 @@
+{
+  "metadata": {
+    "title": "Chapter 7: -er Verbs Conjugation",
+    "language": "es",
+    "description": "Conjugation examples for -er verbs.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "aprender",
+      "translation": "to learn",
+      "sentences": [
+        {
+          "original": "Yo aprendo español en la escuela cada día.",
+          "translation": "I learn Spanish at school every day.",
+          "chunks": [
+            {
+              "text": "Yo aprendo español",
+              "meaning": "I learn Spanish"
+            },
+            {
+              "text": "en la escuela cada día.",
+              "meaning": "at school every day."
+            }
+          ]
+        },
+        {
+          "original": "Tú aprendes a cocinar comida mexicana muy bien.",
+          "translation": "You learn to cook Mexican food very well (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú aprendes a cocinar",
+              "meaning": "You learn to cook"
+            },
+            {
+              "text": "comida mexicana muy bien.",
+              "meaning": "Mexican food very well."
+            }
+          ]
+        },
+        {
+          "original": "Ella aprende las lecciones rápidamente.",
+          "translation": "She learns the lessons quickly."
+        },
+        {
+          "original": "Nosotros aprendemos mucho con este libro.",
+          "translation": "We learn a lot with this book.",
+          "chunks": [
+            {
+              "text": "Nosotros aprendemos mucho",
+              "meaning": "We learn a lot"
+            },
+            {
+              "text": "con este libro.",
+              "meaning": "with this book."
+            }
+          ]
+        },
+        {
+          "original": "Ellos aprenden a tocar la guitarra.",
+          "translation": "They learn to play the guitar.",
+          "chunks": [
+            {
+              "text": "Ellos aprenden",
+              "meaning": "They learn"
+            },
+            {
+              "text": "a tocar la guitarra.",
+              "meaning": "to play the guitar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "beber",
+      "translation": "to drink",
+      "sentences": [
+        {
+          "original": "Yo bebo mucha agua después de correr.",
+          "translation": "I drink a lot of water after running.",
+          "chunks": [
+            {
+              "text": "Yo bebo mucha agua",
+              "meaning": "I drink a lot of water"
+            },
+            {
+              "text": "después de correr.",
+              "meaning": "after running."
+            }
+          ]
+        },
+        {
+          "original": "Tú bebes café caliente todas las mañanas.",
+          "translation": "You drink hot coffee every morning (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú bebes café caliente",
+              "meaning": "You drink hot coffee"
+            },
+            {
+              "text": "todas las mañanas.",
+              "meaning": "every morning."
+            }
+          ]
+        },
+        {
+          "original": "Él bebe jugo de naranja en el desayuno.",
+          "translation": "He drinks orange juice at breakfast.",
+          "chunks": [
+            {
+              "text": "Él bebe jugo de naranja",
+              "meaning": "He drinks orange juice"
+            },
+            {
+              "text": "en el desayuno.",
+              "meaning": "at breakfast."
+            }
+          ]
+        },
+        {
+          "original": "Nosotras bebemos té de limón cuando hace frío.",
+          "translation": "We drink lemon tea when it is cold (feminine).",
+          "chunks": [
+            {
+              "text": "Nosotras bebemos té de limón",
+              "meaning": "We drink lemon tea"
+            },
+            {
+              "text": "cuando hace frío.",
+              "meaning": "when it is cold."
+            }
+          ]
+        },
+        {
+          "original": "Ellas beben leche fría antes de dormir.",
+          "translation": "They drink cold milk before sleeping (feminine).",
+          "chunks": [
+            {
+              "text": "Ellas beben leche fría",
+              "meaning": "They drink cold milk"
+            },
+            {
+              "text": "antes de dormir.",
+              "meaning": "before sleeping."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "comer",
+      "translation": "to eat",
+      "sentences": [
+        {
+          "original": "Yo como arroz con pollo para el almuerzo.",
+          "translation": "I eat chicken with rice for lunch.",
+          "chunks": [
+            {
+              "text": "Yo como arroz con pollo",
+              "meaning": "I eat chicken with rice"
+            },
+            {
+              "text": "para el almuerzo.",
+              "meaning": "for lunch."
+            }
+          ]
+        },
+        {
+          "original": "Tú comes una manzana roja y dulce.",
+          "translation": "You eat a sweet red apple (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú comes",
+              "meaning": "You eat"
+            },
+            {
+              "text": "una manzana roja y dulce.",
+              "meaning": "a sweet red apple."
+            }
+          ]
+        },
+        {
+          "original": "Usted come en el restaurante de la esquina.",
+          "translation": "You eat at the corner restaurant (formal, singular).",
+          "chunks": [
+            {
+              "text": "Usted come en el restaurante",
+              "meaning": "You eat at the restaurant"
+            },
+            {
+              "text": "de la esquina.",
+              "meaning": "on the corner."
+            }
+          ]
+        },
+        {
+          "original": "Nosotros comemos pizza los viernes por la noche.",
+          "translation": "We eat pizza on Friday nights.",
+          "chunks": [
+            {
+              "text": "Nosotros comemos pizza",
+              "meaning": "We eat pizza"
+            },
+            {
+              "text": "los viernes por la noche.",
+              "meaning": "on Friday nights."
+            }
+          ]
+        },
+        {
+          "original": "Ustedes comen ensalada fresca hoy.",
+          "translation": "You all eat fresh salad today."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "comprender",
+      "translation": "to understand",
+      "sentences": [
+        {
+          "original": "Yo comprendo la lección de gramática hoy.",
+          "translation": "I understand the grammar lesson today.",
+          "chunks": [
+            {
+              "text": "Yo comprendo",
+              "meaning": "I understand"
+            },
+            {
+              "text": "la lección de gramática hoy.",
+              "meaning": "the grammar lesson today."
+            }
+          ]
+        },
+        {
+          "original": "Tú comprendes lo que dice el profesor.",
+          "translation": "You understand what the teacher says (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú comprendes",
+              "meaning": "You understand"
+            },
+            {
+              "text": "lo que dice el profesor.",
+              "meaning": "what the teacher says."
+            }
+          ]
+        },
+        {
+          "original": "Él comprende la situación perfectamente.",
+          "translation": "He understands the situation perfectly."
+        },
+        {
+          "original": "Nosotros comprendemos las instrucciones del libro.",
+          "translation": "We understand the instructions in the book.",
+          "chunks": [
+            {
+              "text": "Nosotros comprendemos",
+              "meaning": "We understand"
+            },
+            {
+              "text": "las instrucciones del libro.",
+              "meaning": "the instructions in the book."
+            }
+          ]
+        },
+        {
+          "original": "Ellos comprenden el problema difícil de matemáticas.",
+          "translation": "They understand the difficult math problem.",
+          "chunks": [
+            {
+              "text": "Ellos comprenden",
+              "meaning": "They understand"
+            },
+            {
+              "text": "el problema difícil de matemáticas.",
+              "meaning": "the difficult math problem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "correr",
+      "translation": "to run",
+      "sentences": [
+        {
+          "original": "Yo corro en el parque por la mañana.",
+          "translation": "I run in the park in the morning.",
+          "chunks": [
+            {
+              "text": "Yo corro en el parque",
+              "meaning": "I run in the park"
+            },
+            {
+              "text": "por la mañana.",
+              "meaning": "in the morning."
+            }
+          ]
+        },
+        {
+          "original": "Tú corres muy rápido en la competencia.",
+          "translation": "You run very fast in the competition (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú corres muy rápido",
+              "meaning": "You run very fast"
+            },
+            {
+              "text": "en la competencia.",
+              "meaning": "in the competition."
+            }
+          ]
+        },
+        {
+          "original": "Ella corre con su perro todos los días.",
+          "translation": "She runs with her dog every day.",
+          "chunks": [
+            {
+              "text": "Ella corre con su perro",
+              "meaning": "She runs with her dog"
+            },
+            {
+              "text": "todos los días.",
+              "meaning": "every day."
+            }
+          ]
+        },
+        {
+          "original": "Nosotros corremos diez kilómetros hoy.",
+          "translation": "We run ten kilometers today."
+        },
+        {
+          "original": "Ellas corren en la playa durante el verano.",
+          "translation": "They run on the beach during the summer (feminine).",
+          "chunks": [
+            {
+              "text": "Ellas corren en la playa",
+              "meaning": "They run on the beach"
+            },
+            {
+              "text": "durante el verano.",
+              "meaning": "during the summer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "creer",
+      "translation": "to believe",
+      "sentences": [
+        {
+          "original": "Yo creo que la paella es deliciosa.",
+          "translation": "I believe that the paella is delicious.",
+          "chunks": [
+            {
+              "text": "Yo creo que",
+              "meaning": "I believe that"
+            },
+            {
+              "text": "la paella es deliciosa.",
+              "meaning": "the paella is delicious."
+            }
+          ]
+        },
+        {
+          "original": "Tú crees que el examen es fácil.",
+          "translation": "You believe that the exam is easy (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú crees que",
+              "meaning": "You believe that"
+            },
+            {
+              "text": "el examen es fácil.",
+              "meaning": "the exam is easy."
+            }
+          ]
+        },
+        {
+          "original": "Él cree en las noticias de la televisión.",
+          "translation": "He believes the news on television.",
+          "chunks": [
+            {
+              "text": "Él cree en las noticias",
+              "meaning": "He believes in the news"
+            },
+            {
+              "text": "de la televisión.",
+              "meaning": "on the television."
+            }
+          ]
+        },
+        {
+          "original": "Nosotros creemos que estudiar es importante.",
+          "translation": "We believe that studying is important.",
+          "chunks": [
+            {
+              "text": "Nosotros creemos que",
+              "meaning": "We believe that"
+            },
+            {
+              "text": "estudiar es importante.",
+              "meaning": "studying is important."
+            }
+          ]
+        },
+        {
+          "original": "Ellos creen que mañana va a llover.",
+          "translation": "They believe that it is going to rain tomorrow.",
+          "chunks": [
+            {
+              "text": "Ellos creen que",
+              "meaning": "They believe that"
+            },
+            {
+              "text": "mañana va a llover.",
+              "meaning": "it is going to rain tomorrow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "leer",
+      "translation": "to read",
+      "sentences": [
+        {
+          "original": "Yo leo un libro de aventuras interesante.",
+          "translation": "I read an interesting adventure book.",
+          "chunks": [
+            {
+              "text": "Yo leo un libro",
+              "meaning": "I read a book"
+            },
+            {
+              "text": "de aventuras interesante.",
+              "meaning": "of interesting adventures."
+            }
+          ]
+        },
+        {
+          "original": "Tú lees el periódico por la tarde.",
+          "translation": "You read the newspaper in the afternoon (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú lees el periódico",
+              "meaning": "You read the newspaper"
+            },
+            {
+              "text": "por la tarde.",
+              "meaning": "in the afternoon."
+            }
+          ]
+        },
+        {
+          "original": "Usted lee una revista de cocina nueva.",
+          "translation": "You read a new cooking magazine (formal, singular).",
+          "chunks": [
+            {
+              "text": "Usted lee",
+              "meaning": "You read"
+            },
+            {
+              "text": "una revista de cocina nueva.",
+              "meaning": "a new cooking magazine."
+            }
+          ]
+        },
+        {
+          "original": "Nosotras leemos poemas en la clase de literatura.",
+          "translation": "We read poems in literature class (feminine).",
+          "chunks": [
+            {
+              "text": "Nosotras leemos poemas",
+              "meaning": "We read poems"
+            },
+            {
+              "text": "en la clase de literatura.",
+              "meaning": "in literature class."
+            }
+          ]
+        },
+        {
+          "original": "Ustedes leen las noticias en internet.",
+          "translation": "You all read the news on the internet.",
+          "chunks": [
+            {
+              "text": "Ustedes leen las noticias",
+              "meaning": "You all read the news"
+            },
+            {
+              "text": "en internet.",
+              "meaning": "on the internet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "querer",
+      "translation": "to want",
+      "sentences": [
+        {
+          "original": "Yo quiero comer paella para la cena.",
+          "translation": "I want to eat paella for dinner (irregular: e->ie).",
+          "chunks": [
+            {
+              "text": "Yo quiero comer paella",
+              "meaning": "I want to eat paella"
+            },
+            {
+              "text": "para la cena.",
+              "meaning": "for dinner."
+            }
+          ]
+        },
+        {
+          "original": "Tú quieres aprender más vocabulario español.",
+          "translation": "You want to learn more Spanish vocabulary (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú quieres aprender",
+              "meaning": "You want to learn"
+            },
+            {
+              "text": "más vocabulario español.",
+              "meaning": "more Spanish vocabulary."
+            }
+          ]
+        },
+        {
+          "original": "Él quiere vender su carro viejo ahora.",
+          "translation": "He wants to sell his old car now.",
+          "chunks": [
+            {
+              "text": "Él quiere vender",
+              "meaning": "He wants to sell"
+            },
+            {
+              "text": "su carro viejo ahora.",
+              "meaning": "his old car now."
+            }
+          ]
+        },
+        {
+          "original": "Nosotros queremos beber agua fría.",
+          "translation": "We want to drink cold water."
+        },
+        {
+          "original": "Ellos quieren ver una película bonita.",
+          "translation": "They want to see a beautiful movie.",
+          "chunks": [
+            {
+              "text": "Ellos quieren ver",
+              "meaning": "They want to see"
+            },
+            {
+              "text": "una película bonita.",
+              "meaning": "a beautiful movie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "responder",
+      "translation": "to answer",
+      "sentences": [
+        {
+          "original": "Yo respondo a todas las preguntas de la clase.",
+          "translation": "I answer all the questions in class.",
+          "chunks": [
+            {
+              "text": "Yo respondo a todas",
+              "meaning": "I answer all"
+            },
+            {
+              "text": "las preguntas de la clase.",
+              "meaning": "the questions in the class."
+            }
+          ]
+        },
+        {
+          "original": "Tú respondes muy bien en el examen.",
+          "translation": "You answer very well on the exam (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú respondes muy bien",
+              "meaning": "You answer very well"
+            },
+            {
+              "text": "en the examen.",
+              "meaning": "on the exam."
+            }
+          ]
+        },
+        {
+          "original": "Ella responde el teléfono rápidamente.",
+          "translation": "She answers the phone quickly."
+        },
+        {
+          "original": "Nosotros respondemos a los mensajes ahora.",
+          "translation": "We answer the messages now.",
+          "chunks": [
+            {
+              "text": "Nosotros respondemos",
+              "meaning": "We answer"
+            },
+            {
+              "text": "a los mensajes ahora.",
+              "meaning": "the messages now."
+            }
+          ]
+        },
+        {
+          "original": "Ellas responden con la verdad siempre.",
+          "translation": "They always answer with the truth (feminine).",
+          "chunks": [
+            {
+              "text": "Ellas responden",
+              "meaning": "They answer"
+            },
+            {
+              "text": "con la verdad siempre.",
+              "meaning": "with the truth always."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "saber",
+      "translation": "to know",
+      "sentences": [
+        {
+          "original": "Yo sé preparar una receta especial.",
+          "translation": "I know how to prepare a special recipe (irregular yo form).",
+          "chunks": [
+            {
+              "text": "Yo sé preparar",
+              "meaning": "I know how to prepare"
+            },
+            {
+              "text": "una receta especial.",
+              "meaning": "a special recipe."
+            }
+          ]
+        },
+        {
+          "original": "Tú sabes hablar español muy bien.",
+          "translation": "You know how to speak Spanish very well (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú sabes hablar español",
+              "meaning": "You know how to speak Spanish"
+            },
+            {
+              "text": "muy bien.",
+              "meaning": "very well."
+            }
+          ]
+        },
+        {
+          "original": "Él sabe dónde está la escuela de arte.",
+          "translation": "He knows where the art school is.",
+          "chunks": [
+            {
+              "text": "Él sabe dónde está",
+              "meaning": "He knows where is"
+            },
+            {
+              "text": "la escuela de arte.",
+              "meaning": "the art school."
+            }
+          ]
+        },
+        {
+          "original": "Nosotros sabemos los nombres de los estudiantes.",
+          "translation": "We know the students' names.",
+          "chunks": [
+            {
+              "text": "Nosotros sabemos",
+              "meaning": "We know"
+            },
+            {
+              "text": "los nombres de los estudiantes.",
+              "meaning": "the names of the students."
+            }
+          ]
+        },
+        {
+          "original": "Ellos saben la respuesta correcta.",
+          "translation": "They know the correct answer."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "vender",
+      "translation": "to sell",
+      "sentences": [
+        {
+          "original": "Yo vendo mi bicicleta usada por poco dinero.",
+          "translation": "I sell my used bicycle for little money.",
+          "chunks": [
+            {
+              "text": "Yo vendo mi bicicleta",
+              "meaning": "I sell my bicycle"
+            },
+            {
+              "text": "usada por poco dinero.",
+              "meaning": "used for little money."
+            }
+          ]
+        },
+        {
+          "original": "Tú vendes frutas frescas en el mercado local.",
+          "translation": "You sell fresh fruits at the local market (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú vendes frutas frescas",
+              "meaning": "You sell fresh fruits"
+            },
+            {
+              "text": "en el mercado local.",
+              "meaning": "at the local market."
+            }
+          ]
+        },
+        {
+          "original": "Usted vende libros en la tienda del centro.",
+          "translation": "You sell books at the downtown store (formal, singular).",
+          "chunks": [
+            {
+              "text": "Usted vende libros",
+              "meaning": "You sell books"
+            },
+            {
+              "text": "en la tienda del centro.",
+              "meaning": "at the downtown store."
+            }
+          ]
+        },
+        {
+          "original": "Nosotros vendemos nuestra casa este mes.",
+          "translation": "We sell our house this month.",
+          "chunks": [
+            {
+              "text": "Nosotros vendemos",
+              "meaning": "We sell"
+            },
+            {
+              "text": "nuestra casa este mes.",
+              "meaning": "our house this month."
+            }
+          ]
+        },
+        {
+          "original": "Ustedes venden ropa bonita y barata.",
+          "translation": "You all sell beautiful and cheap clothes.",
+          "chunks": [
+            {
+              "text": "Ustedes venden",
+              "meaning": "You all sell"
+            },
+            {
+              "text": "ropa bonita y barata.",
+              "meaning": "beautiful and cheap clothes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ver",
+      "translation": "to see",
+      "sentences": [
+        {
+          "original": "Yo veo la televisión por la noche.",
+          "translation": "I see (watch) television at night (irregular yo form).",
+          "chunks": [
+            {
+              "text": "Yo veo la televisión",
+              "meaning": "I watch the television"
+            },
+            {
+              "text": "por la noche.",
+              "meaning": "at night."
+            }
+          ]
+        },
+        {
+          "original": "Tú ves a tus amigos en el parque.",
+          "translation": "You see your friends in the park (familiar, singular).",
+          "chunks": [
+            {
+              "text": "Tú ves a tus amigos",
+              "meaning": "You see your friends"
+            },
+            {
+              "text": "en el parque.",
+              "meaning": "in the park."
+            }
+          ]
+        },
+        {
+          "original": "Ella ve una película en el cine.",
+          "translation": "She sees a movie at the theater.",
+          "chunks": [
+            {
+              "text": "Ella ve una película",
+              "meaning": "She sees a movie"
+            },
+            {
+              "text": "en el cine.",
+              "meaning": "in the cinema."
+            }
+          ]
+        },
+        {
+          "original": "Nosotros vemos el sol cada mañana.",
+          "translation": "We see the sun every morning."
+        },
+        {
+          "original": "Ellos ven los cuadros en el museo.",
+          "translation": "They see the paintings in the museum.",
+          "chunks": [
+            {
+              "text": "Ellos ven los cuadros",
+              "meaning": "They see the paintings"
+            },
+            {
+              "text": "en el museo.",
+              "meaning": "in the museum."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

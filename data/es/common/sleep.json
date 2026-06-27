@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Sueno-Sleep",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "AI-generated deck about Sueno in Spanish"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Dormir",
+      "translation": "To sleep",
+      "sentences": [
+        {
+          "original": "Necesito dormir ocho horas.",
+          "translation": "I need to sleep eight hours."
+        },
+        {
+          "original": "Ella duerme mucho los domingos.",
+          "translation": "She sleeps a lot on Sundays."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Tener sueño",
+      "translation": "To be sleepy",
+      "sentences": [
+        {
+          "original": "Tengo mucho sueño ahora.",
+          "translation": "I am very sleepy now."
+        },
+        {
+          "original": "¿Tienes sueño después de comer?",
+          "translation": "Are you sleepy after eating?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La cama",
+      "translation": "The bed",
+      "sentences": [
+        {
+          "original": "Mi cama es muy cómoda.",
+          "translation": "My bed is very comfortable."
+        },
+        {
+          "original": "Voy a la cama temprano.",
+          "translation": "I go to bed early."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La almohada",
+      "translation": "The pillow",
+      "sentences": [
+        {
+          "original": "Uso una almohada suave.",
+          "translation": "I use a soft pillow."
+        },
+        {
+          "original": "¿Dónde está mi almohada?",
+          "translation": "Where is my pillow?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Soñar",
+      "translation": "To dream",
+      "sentences": [
+        {
+          "original": "Me gusta soñar con el mar.",
+          "translation": "I like to dream about the sea."
+        },
+        {
+          "original": "Anoche soñé con mi familia.",
+          "translation": "Last night I dreamed about my family."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "El sueño",
+      "translation": "The dream",
+      "sentences": [
+        {
+          "original": "Tuve un sueño muy extraño.",
+          "translation": "I had a very strange dream."
+        },
+        {
+          "original": "El sueño es importante para la salud.",
+          "translation": "Sleep is important for health."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Despertarse",
+      "translation": "To wake up",
+      "sentences": [
+        {
+          "original": "Me despierto a las siete.",
+          "translation": "I wake up at seven."
+        },
+        {
+          "original": "¿A qué hora te despiertas tú?",
+          "translation": "What time do you wake up?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Acostarse",
+      "translation": "To go to bed",
+      "sentences": [
+        {
+          "original": "Me acuesto a las diez.",
+          "translation": "I go to bed at ten."
+        },
+        {
+          "original": "Debes acostarte pronto.",
+          "translation": "You should go to bed soon."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Descansar",
+      "translation": "To rest",
+      "sentences": [
+        {
+          "original": "Quiero descansar un poco.",
+          "translation": "I want to rest a little."
+        },
+        {
+          "original": "Es bueno descansar el fin de semana.",
+          "translation": "It is good to rest on the weekend."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La manta",
+      "translation": "The blanket",
+      "sentences": [
+        {
+          "original": "La manta es de color azul.",
+          "translation": "The blanket is blue."
+        },
+        {
+          "original": "Necesito otra manta porque hace frío.",
+          "translation": "I need another blanket because it is cold."
+        }
+      ]
+    }
+  ]
+}

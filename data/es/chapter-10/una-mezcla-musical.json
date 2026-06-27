@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "title": "Cápsula cultural: Una mezcla musical",
+    "language": "es",
+    "description": "A cultural reading about the diverse origins and influences of Latin American music styles.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "Una mezcla musical",
+      "translation": "A musical mix",
+      "sentences": [
+        {
+          "original": "A muchos americanos nos gusta la música latina. ¿Pero qué es la música latina exactamente?",
+          "translation": "Many Americans like Latin music. But what exactly is Latin music?",
+          "chunks": [
+            {
+              "text": "A muchos americanos",
+              "meaning": "To many Americans"
+            },
+            {
+              "text": "nos gusta la música latina.",
+              "meaning": "we like Latin music."
+            },
+            {
+              "text": "¿Pero qué es",
+              "meaning": "But what is"
+            },
+            {
+              "text": "la música latina exactamente?",
+              "meaning": "Latin music exactly?"
+            }
+          ]
+        },
+        {
+          "original": "Cada país del mundo hispano tiene distintos estilos y tradiciones musicales.",
+          "translation": "Each country of the Hispanic world has different musical styles and traditions.",
+          "chunks": [
+            {
+              "text": "Cada país",
+              "meaning": "Each country"
+            },
+            {
+              "text": "del mundo hispano",
+              "meaning": "of the Hispanic world"
+            },
+            {
+              "text": "tiene distintos estilos",
+              "meaning": "has different styles"
+            },
+            {
+              "text": "y tradiciones musicales.",
+              "meaning": "and musical traditions."
+            }
+          ]
+        },
+        {
+          "original": "Hay mucha variedad a causa de la combinación de la música indígena con música que trajeron los españoles.",
+          "translation": "There is a lot of variety because of the combination of indigenous music with music that the Spaniards brought.",
+          "chunks": [
+            {
+              "text": "Hay mucha variedad",
+              "meaning": "There is a lot of variety"
+            },
+            {
+              "text": "a causa de la combinación",
+              "meaning": "because of the combination"
+            },
+            {
+              "text": "de la música indígena",
+              "meaning": "of indigenous music"
+            },
+            {
+              "text": "con música que trajeron",
+              "meaning": "with music that brought"
+            },
+            {
+              "text": "los españoles.",
+              "meaning": "the Spaniards."
+            }
+          ]
+        },
+        {
+          "original": "Por ejemplo, en las islas del caribe (Cuba, Puerto Rico, la República Dominicana) y en países con una costa caribeña (como Colombia, Venezuela, y algunos países de la América Central), hay una gran influencia musical africana.",
+          "translation": "For example, in the Caribbean islands (Cuba, Puerto Rico, the Dominican Republic) and in countries with a Caribbean coast (like Colombia, Venezuela, and some Central American countries), there is a great African musical influence.",
+          "chunks": [
+            {
+              "text": "Por ejemplo, en las islas del caribe",
+              "meaning": "For example, in the Caribbean islands"
+            },
+            {
+              "text": "y en países con una costa caribeña",
+              "meaning": "and in countries with a Caribbean coast"
+            },
+            {
+              "text": "hay una gran influencia",
+              "meaning": "there is a great influence"
+            },
+            {
+              "text": "musical africana.",
+              "meaning": "African musical."
+            }
+          ]
+        },
+        {
+          "original": "Aquí se encuentran ritmos como merengue, rumba, y salsa, entre otros.",
+          "translation": "Here, rhythms like merengue, rumba, and salsa are found, among others.",
+          "chunks": [
+            {
+              "text": "Aquí se encuentran ritmos",
+              "meaning": "Here rhythms are found"
+            },
+            {
+              "text": "como merengue, rumba, y salsa,",
+              "meaning": "like merengue, rumba, and salsa,"
+            },
+            {
+              "text": "entre otros.",
+              "meaning": "among others."
+            }
+          ]
+        },
+        {
+          "original": "En estos ritmos se escuchan instrumentos como congas, bongos, y maracas.",
+          "translation": "In these rhythms, instruments like congas, bongos, and maracas are heard.",
+          "chunks": [
+            {
+              "text": "En estos ritmos se escuchan",
+              "meaning": "In these rhythms are heard"
+            },
+            {
+              "text": "instrumentos como congas,",
+              "meaning": "instruments like congas,"
+            },
+            {
+              "text": "bongos, y maracas.",
+              "meaning": "bongos, and maracas."
+            }
+          ]
+        },
+        {
+          "original": "En Colombia y Venezuela, la cumbia y la punta reflejan la música de estas culturas.",
+          "translation": "In Colombia and Venezuela, cumbia and punta reflect the music of these cultures.",
+          "chunks": [
+            {
+              "text": "En Colombia y Venezuela,",
+              "meaning": "In Colombia and Venezuela,"
+            },
+            {
+              "text": "la cumbia y la punta reflejan",
+              "meaning": "cumbia and punta reflect"
+            },
+            {
+              "text": "la música de estas culturas.",
+              "meaning": "the music of these cultures."
+            }
+          ]
+        },
+        {
+          "original": "En México, la música está basada en instrumentos de cuerda como la guitarra, que también está presente en estilos tradicionales españoles como el flamenco.",
+          "translation": "In Mexico, music is based on string instruments like the guitar, which is also present in traditional Spanish styles like flamenco.",
+          "chunks": [
+            {
+              "text": "En México, la música está basada",
+              "meaning": "In Mexico, music is based"
+            },
+            {
+              "text": "en instrumentos de cuerda",
+              "meaning": "on string instruments"
+            },
+            {
+              "text": "como la guitarra,",
+              "meaning": "like the guitar,"
+            },
+            {
+              "text": "que también está presente",
+              "meaning": "which is also present"
+            },
+            {
+              "text": "en estilos tradicionales españoles",
+              "meaning": "in traditional Spanish styles"
+            }
+          ]
+        },
+        {
+          "original": "La guitarra se puede escuchar mucho en la música mariachi.",
+          "translation": "The guitar can be heard a lot in mariachi music.",
+          "chunks": [
+            {
+              "text": "La guitarra se puede escuchar",
+              "meaning": "The guitar can be heard"
+            },
+            {
+              "text": "mucho en la música mariachi.",
+              "meaning": "a lot in mariachi music."
+            }
+          ]
+        },
+        {
+          "original": "En Argentina, el tango tiene una influencia musical italiana y francesa.",
+          "translation": "In Argentina, tango has an Italian and French musical influence.",
+          "chunks": [
+            {
+              "text": "En Argentina, el tango tiene",
+              "meaning": "In Argentina, tango has"
+            },
+            {
+              "text": "una influencia musical",
+              "meaning": "a musical influence"
+            },
+            {
+              "text": "italiana y francesa.",
+              "meaning": "Italian and French."
+            }
+          ]
+        },
+        {
+          "original": "Como pueden ver, no hay una «música latina» sola. Las tradiciones musicales de los países hispanohablantes son tan variadas como sus habitantes.",
+          "translation": "As you can see, there is no single 'Latin music'. The musical traditions of Spanish-speaking countries are as varied as their inhabitants.",
+          "chunks": [
+            {
+              "text": "Como pueden ver,",
+              "meaning": "As you can see,"
+            },
+            {
+              "text": "no hay una «música latina» sola.",
+              "meaning": "there is no single 'Latin music'."
+            },
+            {
+              "text": "Las tradiciones musicales",
+              "meaning": "The musical traditions"
+            },
+            {
+              "text": "de los países hispanohablantes",
+              "meaning": "of Spanish-speaking countries"
+            },
+            {
+              "text": "son tan variadas",
+              "meaning": "are as varied"
+            },
+            {
+              "text": "como sus habitantes.",
+              "meaning": "as their inhabitants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la variedad",
+      "translation": "variety",
+      "sentences": [
+        {
+          "original": "La variedad de ritmos es increíble en el caribe.",
+          "translation": "The variety of rhythms is incredible in the Caribbean."
+        },
+        {
+          "original": "Estos instrumentos son de una gran variedad.",
+          "translation": "These instruments are of a great variety."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "indígena",
+      "translation": "indigenous",
+      "sentences": [
+        {
+          "original": "La tradición musical es de origen indígena.",
+          "translation": "The musical tradition is of indigenous origin."
+        },
+        {
+          "original": "Ellos son personas de la cultura indígena local.",
+          "translation": "They are people from the local indigenous culture."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "los ritmos",
+      "translation": "rhythms",
+      "sentences": [
+        {
+          "original": "La salsa y el merengue son ritmos muy alegres.",
+          "translation": "Salsa and merengue are very happy rhythms."
+        },
+        {
+          "original": "Los ritmos africanos son una parte importante de la mezcla.",
+          "translation": "African rhythms are an important part of the mix."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "los instrumentos de cuerda",
+      "translation": "string instruments",
+      "sentences": [
+        {
+          "original": "La guitarra es uno de los instrumentos de cuerda más populares.",
+          "translation": "The guitar is one of the most popular string instruments."
+        },
+        {
+          "original": "Es difícil tocar estos instrumentos de cuerda.",
+          "translation": "It is difficult to play these string instruments."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "variadas / variados",
+      "translation": "varied",
+      "sentences": [
+        {
+          "original": "Los estilos de música son muy variados aquí.",
+          "translation": "The styles of music are very varied here."
+        },
+        {
+          "original": "Las costumbres de la región son variadas.",
+          "translation": "The customs of the region are varied."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "los habitantes",
+      "translation": "inhabitants",
+      "sentences": [
+        {
+          "original": "Los habitantes de la isla son muy simpáticos.",
+          "translation": "The inhabitants of the island are very nice."
+        },
+        {
+          "original": "Nosotros somos habitantes de un mundo muy grande.",
+          "translation": "We are inhabitants of a very large world."
+        }
+      ]
+    }
+  ]
+}

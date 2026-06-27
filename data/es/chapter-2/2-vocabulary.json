@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "title": "Chapter 2 Vocabulary",
+    "language": "es",
+    "description": "Family and titles vocabulary from Chapter 2.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "la abuela",
+      "translation": "grandmother (n, f)",
+      "sentences": [
+        {
+          "original": "La abuela es romántica.",
+          "translation": "The grandmother is romantic."
+        },
+        {
+          "original": "Las abuelas son sociables.",
+          "translation": "The grandmothers are sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el abuelo",
+      "translation": "grandfather (n, m)",
+      "sentences": [
+        {
+          "original": "El abuelo is importante.",
+          "translation": "The grandfather is important."
+        },
+        {
+          "original": "Los abuelos son sinceros.",
+          "translation": "The grandfathers are sincere."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la familia",
+      "translation": "family (n, f)",
+      "sentences": [
+        {
+          "original": "La familia es grande.",
+          "translation": "The family is big."
+        },
+        {
+          "original": "Las familias son importantes.",
+          "translation": "The families are important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el hermano",
+      "translation": "brother (n, m)",
+      "sentences": [
+        {
+          "original": "El hermano es inteligente.",
+          "translation": "The brother is intelligent."
+        },
+        {
+          "original": "Los hermanos son populares.",
+          "translation": "The brothers are popular."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el hijo",
+      "translation": "son/child (n, m)",
+      "sentences": [
+        {
+          "original": "El hijo es estudioso.",
+          "translation": "The son is studious."
+        },
+        {
+          "original": "Los hijos son sociables.",
+          "translation": "The sons are sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la madre",
+      "translation": "mother (n, f)",
+      "sentences": [
+        {
+          "original": "La madre es sentimental.",
+          "translation": "The mother is sentimental."
+        },
+        {
+          "original": "Las madres son importantes.",
+          "translation": "The mothers are important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la mamá",
+      "translation": "mom (n, f)",
+      "sentences": [
+        {
+          "original": "La mamá es adorable.",
+          "translation": "The mom is adorable."
+        },
+        {
+          "original": "Las mamás son sociables.",
+          "translation": "The moms are sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el padre",
+      "translation": "father (n, m)",
+      "sentences": [
+        {
+          "original": "El padre es serio.",
+          "translation": "The father is serious."
+        },
+        {
+          "original": "Los padres son inteligentes.",
+          "translation": "The fathers are intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el papá",
+      "translation": "dad (n, m)",
+      "sentences": [
+        {
+          "original": "El papá es romántico.",
+          "translation": "The dad is romantic."
+        },
+        {
+          "original": "Los papás son importantes.",
+          "translation": "The dads are important."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el primo",
+      "translation": "cousin (n, m)",
+      "sentences": [
+        {
+          "original": "El primo es popular.",
+          "translation": "The cousin is popular."
+        },
+        {
+          "original": "Los primos son sinceros.",
+          "translation": "The cousins are sincere."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el tío",
+      "translation": "uncle (n, m)",
+      "sentences": [
+        {
+          "original": "El tío es importante.",
+          "translation": "The uncle is important."
+        },
+        {
+          "original": "Los tíos son inteligentes.",
+          "translation": "The uncles are intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el señor",
+      "translation": "sir/gentleman (n, m)",
+      "sentences": [
+        {
+          "original": "El señor es el médico.",
+          "translation": "The gentleman is the doctor."
+        },
+        {
+          "original": "Los señores son inteligentes.",
+          "translation": "The gentlemen are intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la señora",
+      "translation": "ma'am/lady (n, f)",
+      "sentences": [
+        {
+          "original": "La señora es la profesora.",
+          "translation": "The lady is the teacher."
+        },
+        {
+          "original": "Las señoras son sociables.",
+          "translation": "The ladies are sociable."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la señorita",
+      "translation": "miss/young lady (n, f)",
+      "sentences": [
+        {
+          "original": "La señorita es popular.",
+          "translation": "The young lady is popular."
+        },
+        {
+          "original": "Las señoritas son inteligentes.",
+          "translation": "The young ladies are intelligent."
+        }
+      ]
+    }
+  ]
+}

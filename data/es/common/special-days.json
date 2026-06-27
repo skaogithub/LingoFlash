@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "title": "special days",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "AI-generated deck about special days in the year in Spanish"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "la Navidad",
+      "translation": "Christmas",
+      "sentences": [
+        {
+          "original": "Me encanta la Navidad.",
+          "translation": "I love Christmas."
+        },
+        {
+          "original": "Celebramos la Navidad en familia.",
+          "translation": "We celebrate Christmas as a family."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el Año Nuevo",
+      "translation": "New Year",
+      "sentences": [
+        {
+          "original": "¡Feliz Año Nuevo a todos!",
+          "translation": "Happy New Year to everyone!"
+        },
+        {
+          "original": "Hacemos una fiesta para el Año Nuevo.",
+          "translation": "We have a party for the New Year."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el cumpleaños",
+      "translation": "the birthday",
+      "sentences": [
+        {
+          "original": "Hoy es mi cumpleaños.",
+          "translation": "Today is my birthday."
+        },
+        {
+          "original": "¿Cuándo es tu cumpleaños?",
+          "translation": "When is your birthday?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el Día de los Reyes Magos",
+      "translation": "Three Kings Day",
+      "sentences": [
+        {
+          "original": "Los niños reciben regalos el Día de los Reyes Magos.",
+          "translation": "Children receive gifts on Three Kings Day.",
+          "chunks": [
+            {
+              "text": "Los niños reciben regalos",
+              "meaning": "the children receive gifts"
+            },
+            {
+              "text": "el Día de los Reyes Magos.",
+              "meaning": "on Three Kings Day."
+            }
+          ]
+        },
+        {
+          "original": "Comemos roscón en el Día de los Reyes Magos.",
+          "translation": "We eat king cake on Three Kings Day.",
+          "chunks": [
+            {
+              "text": "Comemos roscón",
+              "meaning": "we eat king cake"
+            },
+            {
+              "text": "en el Día de los Reyes Magos.",
+              "meaning": "on Three Kings Day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el Día de la Madre",
+      "translation": "Mother's Day",
+      "sentences": [
+        {
+          "original": "Compré flores para el Día de la Madre.",
+          "translation": "I bought flowers for Mother's Day.",
+          "chunks": [
+            {
+              "text": "Compré flores",
+              "meaning": "I bought flowers"
+            },
+            {
+              "text": "para el Día de la Madre.",
+              "meaning": "for Mother's Day."
+            }
+          ]
+        },
+        {
+          "original": "El Día de la Madre es en mayo.",
+          "translation": "Mother's Day is in May.",
+          "chunks": [
+            {
+              "text": "El Día de la Madre",
+              "meaning": "Mother's Day"
+            },
+            {
+              "text": "es en mayo.",
+              "meaning": "is in May."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el Día del Padre",
+      "translation": "Father's Day",
+      "sentences": [
+        {
+          "original": "Le di un regalo a mi papá por el Día del Padre.",
+          "translation": "I gave my dad a gift for Father's Day.",
+          "chunks": [
+            {
+              "text": "Le di un regalo a mi papá",
+              "meaning": "I gave a gift to my dad"
+            },
+            {
+              "text": "por el Día del Padre.",
+              "meaning": "for Father's Day."
+            }
+          ]
+        },
+        {
+          "original": "Celebramos el Día del Padre con una cena.",
+          "translation": "We celebrate Father's Day with a dinner.",
+          "chunks": [
+            {
+              "text": "Celebramos el Día del Padre",
+              "meaning": "we celebrate Father's Day"
+            },
+            {
+              "text": "con una cena.",
+              "meaning": "with a dinner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el Día de San Valentín",
+      "translation": "Valentine's Day",
+      "sentences": [
+        {
+          "original": "El Día de San Valentín es el catorce de febrero.",
+          "translation": "Valentine's Day is February 14th.",
+          "chunks": [
+            {
+              "text": "El Día de San Valentín",
+              "meaning": "Valentine's Day"
+            },
+            {
+              "text": "es el catorce de febrero.",
+              "meaning": "is the fourteenth of February."
+            }
+          ]
+        },
+        {
+          "original": "Salimos a cenar por el Día de San Valentín.",
+          "translation": "We go out to dinner for Valentine's Day.",
+          "chunks": [
+            {
+              "text": "Salimos a cenar",
+              "meaning": "we go out to dine"
+            },
+            {
+              "text": "por el Día de San Valentín.",
+              "meaning": "for Valentine's Day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la Semana Santa",
+      "translation": "Holy Week / Easter",
+      "sentences": [
+        {
+          "original": "No hay clases durante la Semana Santa.",
+          "translation": "There are no classes during Holy Week.",
+          "chunks": [
+            {
+              "text": "No hay clases",
+              "meaning": "there are no classes"
+            },
+            {
+              "text": "durante la Semana Santa.",
+              "meaning": "during Holy Week."
+            }
+          ]
+        },
+        {
+          "original": "Mucha gente viaja en Semana Santa.",
+          "translation": "Many people travel during Holy Week.",
+          "chunks": [
+            {
+              "text": "Mucha gente viaja",
+              "meaning": "many people travel"
+            },
+            {
+              "text": "en Semana Santa.",
+              "meaning": "in Holy Week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la Nochebuena",
+      "translation": "Christmas Eve",
+      "sentences": [
+        {
+          "original": "Cenamos mucho en Nochebuena.",
+          "translation": "We eat a lot on Christmas Eve."
+        },
+        {
+          "original": "La Nochebuena es el veinticuatro de diciembre.",
+          "translation": "Christmas Eve is December 24th.",
+          "chunks": [
+            {
+              "text": "La Nochebuena es",
+              "meaning": "Christmas Eve is"
+            },
+            {
+              "text": "el veinticuatro de diciembre.",
+              "meaning": "the twenty-fourth of December."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la Nochevieja",
+      "translation": "New Year's Eve",
+      "sentences": [
+        {
+          "original": "Comemos doce uvas en Nochevieja.",
+          "translation": "We eat twelve grapes on New Year's Eve.",
+          "chunks": [
+            {
+              "text": "Comemos doce uvas",
+              "meaning": "we eat twelve grapes"
+            },
+            {
+              "text": "en Nochevieja.",
+              "meaning": "on New Year's Eve."
+            }
+          ]
+        },
+        {
+          "original": "La Nochevieja es la última noche del año.",
+          "translation": "New Year's Eve is the last night of the year.",
+          "chunks": [
+            {
+              "text": "La Nochevieja es",
+              "meaning": "New Year's Eve is"
+            },
+            {
+              "text": "la última noche del año.",
+              "meaning": "the last night of the year."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

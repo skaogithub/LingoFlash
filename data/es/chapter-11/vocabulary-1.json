@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Vocabulario: Expresiones y Verbos Fundamentales",
+    "language": "es",
+    "description": "Vocabulary and conversational phrases extracted exclusively from page 1000020511.jpg.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "entrada(s)",
+      "translation": "ticket(s)",
+      "sentences": [
+        {
+          "original": "Yo tengo dos entradas para el concierto de rock.",
+          "translation": "I have two tickets for the rock concert."
+        },
+        {
+          "original": "¿Tienes entradas para el partido de béisbol?",
+          "translation": "Do you have tickets for the baseball game?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "fatal",
+      "translation": "horrible, bad",
+      "sentences": [
+        {
+          "original": "El clima de hoy está fatal y muy frío.",
+          "translation": "Today's weather is horrible and very cold."
+        },
+        {
+          "original": "Yo tengo un dolor de cabeza fatal esta noche.",
+          "translation": "I have a horrible headache tonight."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "noche",
+      "translation": "night",
+      "sentences": [
+        {
+          "original": "La noche está muy tranquila en la ciudad.",
+          "translation": "The night is very quiet in the city."
+        },
+        {
+          "original": "Ellos estudian español juntos por la noche.",
+          "translation": "They study Spanish together at night."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "estar",
+      "translation": "to be (temporary or location)",
+      "sentences": [
+        {
+          "original": "El hospital está cerca de la escuela pública.",
+          "translation": "The hospital is near the public school."
+        },
+        {
+          "original": "Nosotros estamos cansados después de caminar tanto.",
+          "translation": "We are tired after walking so much."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ser",
+      "translation": "to be (permanent characteristic)",
+      "sentences": [
+        {
+          "original": "El nuevo profesor de biología es muy inteligente.",
+          "translation": "The new biology professor is very intelligent."
+        },
+        {
+          "original": "Nuestra casa familiar es grande y de color blanco.",
+          "translation": "Our family house is large and white."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Creo que no.",
+      "translation": "I don't think so.",
+      "sentences": [
+        {
+          "original": "¿Está abierta la biblioteca hoy? Creo que no.",
+          "translation": "Is the library open today? I don't think so."
+        },
+        {
+          "original": "Gabriela dice: «Creo que no» cuando Tomás pregunta.",
+          "translation": "Gabriela says, 'I don't think so' when Tomás asks."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Yo estoy bien.",
+      "translation": "I'm O.K.",
+      "sentences": [
+        {
+          "original": "Hola amigo, no te preocupes, yo estoy bien.",
+          "translation": "Hello friend, don't worry, I'm O.K."
+        },
+        {
+          "original": "Yo estoy bien en mi nuevo apartamento de la ciudad.",
+          "translation": "I'm O.K. in my new city apartment."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Estoy libre.",
+      "translation": "I'm off, free.",
+      "sentences": [
+        {
+          "original": "Yo estoy libre el sábado para ir al concierto.",
+          "translation": "I am free on Saturday to go to the concert."
+        },
+        {
+          "original": "Hoy no tengo clases en la universidad, estoy libre.",
+          "translation": "Today I don't have classes at the university, I'm off."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Yo estoy triste.",
+      "translation": "I'm sad.",
+      "sentences": [
+        {
+          "original": "Yo estoy triste porque mi mejor amigo vive lejos.",
+          "translation": "I'm sad because my best friend lives far away."
+        },
+        {
+          "original": "Cuando el día está gris, a veces yo estoy triste.",
+          "translation": "When the day is gray, sometimes I'm sad."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "title": "time of the day",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "Tell time in Spanish."
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "a la una",
+      "translation": "at one o'clock (exp)",
+      "sentences": [
+        {
+          "original": "La clase de español es a la una.",
+          "translation": "The Spanish class is at one o'clock.",
+          "chunks": [
+            {
+              "text": "La clase de español",
+              "meaning": "The Spanish class"
+            },
+            {
+              "text": "es a la una.",
+              "meaning": "is at one o'clock."
+            }
+          ]
+        },
+        {
+          "original": "Yo llego a la biblioteca a la una.",
+          "translation": "I arrive at the library at one o'clock.",
+          "chunks": [
+            {
+              "text": "Yo llego a la biblioteca",
+              "meaning": "I arrive at the library"
+            },
+            {
+              "text": "a la una.",
+              "meaning": "at one o'clock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "a las dos",
+      "translation": "at two o'clock (exp)",
+      "sentences": [
+        {
+          "original": "Caminamos al parque a las dos.",
+          "translation": "We walk to the park at two o'clock."
+        },
+        {
+          "original": "La fiesta empieza a las dos.",
+          "translation": "The party starts at two o'clock."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Qué hora es?",
+      "translation": "What time is it? (exp)",
+      "sentences": [
+        {
+          "original": "Perdón, ¿qué hora es?",
+          "translation": "Excuse me, what time is it?"
+        },
+        {
+          "original": "No sé qué hora es.",
+          "translation": "I don't know what time it is."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las dos",
+      "translation": "It's two o'clock (exp)",
+      "sentences": [
+        {
+          "original": "Son las dos en punto.",
+          "translation": "It is two o'clock sharp."
+        },
+        {
+          "original": "Ya son las dos de la tarde.",
+          "translation": "It is already two in the afternoon.",
+          "chunks": [
+            {
+              "text": "Ya son las dos",
+              "meaning": "It is already two"
+            },
+            {
+              "text": "de la tarde.",
+              "meaning": "in the afternoon."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las dos menos cinco",
+      "translation": "It's five to two (exp)",
+      "sentences": [
+        {
+          "original": "Miro el reloj y son las dos menos cinco.",
+          "translation": "I look at the watch and it is five to two.",
+          "chunks": [
+            {
+              "text": "Miro el reloj",
+              "meaning": "I look at the watch"
+            },
+            {
+              "text": "y son las dos menos cinco.",
+              "meaning": "and it is five to two."
+            }
+          ]
+        },
+        {
+          "original": "Llegamos a la tienda y son las dos menos cinco.",
+          "translation": "We arrive at the shop and it is five to two.",
+          "chunks": [
+            {
+              "text": "Llegamos a la tienda",
+              "meaning": "We arrive at the shop"
+            },
+            {
+              "text": "y son las dos menos cinco.",
+              "meaning": "and it is five to two."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las dos y cuarto",
+      "translation": "It's a quarter after two (exp)",
+      "sentences": [
+        {
+          "original": "La clase termina a las dos y cuarto.",
+          "translation": "The class ends at a quarter after two.",
+          "chunks": [
+            {
+              "text": "La clase termina",
+              "meaning": "The class ends"
+            },
+            {
+              "text": "a las dos y cuarto.",
+              "meaning": "at a quarter after two."
+            }
+          ]
+        },
+        {
+          "original": "Son las dos y cuarto de la tarde.",
+          "translation": "It is a quarter after two in the afternoon.",
+          "chunks": [
+            {
+              "text": "Son las dos y cuarto",
+              "meaning": "It is a quarter after two"
+            },
+            {
+              "text": "de la tarde.",
+              "meaning": "in the afternoon."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las dos menos cuarto",
+      "translation": "It's a quarter to two (exp)",
+      "sentences": [
+        {
+          "original": "Deseo entrar a las dos menos cuarto.",
+          "translation": "I want to enter at a quarter to two.",
+          "chunks": [
+            {
+              "text": "Deseo entrar",
+              "meaning": "I want to enter"
+            },
+            {
+              "text": "a las dos menos cuarto.",
+              "meaning": "at a quarter to two."
+            }
+          ]
+        },
+        {
+          "original": "Son las dos menos cuarto ahora.",
+          "translation": "It is a quarter to two now."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las dos y media",
+      "translation": "It's half past two (exp)",
+      "sentences": [
+        {
+          "original": "Estudiamos hasta las dos y media.",
+          "translation": "We study until half past two.",
+          "chunks": [
+            {
+              "text": "Estudiamos hasta",
+              "meaning": "We study until"
+            },
+            {
+              "text": "las dos y media.",
+              "meaning": "half past two."
+            }
+          ]
+        },
+        {
+          "original": "Son las dos y media en el reloj.",
+          "translation": "It is half past two on the clock.",
+          "chunks": [
+            {
+              "text": "Son las dos y media",
+              "meaning": "It is half past two"
+            },
+            {
+              "text": "en el reloj.",
+              "meaning": "on the clock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las dos de la mañana",
+      "translation": "It's two o'clock in the morning (exp)",
+      "sentences": [
+        {
+          "original": "El aeropuerto abre a las dos de la mañana.",
+          "translation": "The airport opens at two o'clock in the morning.",
+          "chunks": [
+            {
+              "text": "El aeropuerto abre",
+              "meaning": "The airport opens"
+            },
+            {
+              "text": "a las dos de la mañana.",
+              "meaning": "at two o'clock in the morning."
+            }
+          ]
+        },
+        {
+          "original": "Son las dos de la mañana y yo estudio.",
+          "translation": "It is two o'clock in the morning and I am studying.",
+          "chunks": [
+            {
+              "text": "Son las dos de la mañana",
+              "meaning": "It is two o'clock in the morning"
+            },
+            {
+              "text": "y yo estudio.",
+              "meaning": "and I am studying."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las dos de la tarde",
+      "translation": "It's two o'clock in the afternoon (exp)",
+      "sentences": [
+        {
+          "original": "La comida es a las dos de la tarde.",
+          "translation": "Lunch is at two o'clock in the afternoon.",
+          "chunks": [
+            {
+              "text": "La comida es",
+              "meaning": "The lunch is"
+            },
+            {
+              "text": "a las dos de la tarde.",
+              "meaning": "at two o'clock in the afternoon."
+            }
+          ]
+        },
+        {
+          "original": "Son las dos de la tarde hoy.",
+          "translation": "It is two o'clock in the afternoon today.",
+          "chunks": [
+            {
+              "text": "Son las dos de la tarde",
+              "meaning": "It is two in the afternoon"
+            },
+            {
+              "text": "hoy.",
+              "meaning": "today."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Son las diez de la noche",
+      "translation": "It's ten o'clock in the evening (exp)",
+      "sentences": [
+        {
+          "original": "La tienda cierra a las diez de la noche.",
+          "translation": "The shop closes at ten o'clock in the evening.",
+          "chunks": [
+            {
+              "text": "La tienda cierra",
+              "meaning": "The shop closes"
+            },
+            {
+              "text": "a las diez de la noche.",
+              "meaning": "at ten o'clock in the evening."
+            }
+          ]
+        },
+        {
+          "original": "Son las diez de la noche ahora.",
+          "translation": "It is ten o'clock in the evening now."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ahora",
+      "translation": "now (adv)",
+      "sentences": [
+        {
+          "original": "Yo deseo comer ahora.",
+          "translation": "I want to eat now."
+        },
+        {
+          "original": "Nosotros trabajamos ahora.",
+          "translation": "We are working now."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hoy",
+      "translation": "today (adv)",
+      "sentences": [
+        {
+          "original": "Hoy es el cinco de enero.",
+          "translation": "Today is January fifth.",
+          "chunks": [
+            {
+              "text": "Hoy es",
+              "meaning": "Today is"
+            },
+            {
+              "text": "el cinco de enero.",
+              "meaning": "the fifth of January."
+            }
+          ]
+        },
+        {
+          "original": "No hay examen hoy.",
+          "translation": "There is no exam today."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la mañana",
+      "translation": "morning (n, f)",
+      "sentences": [
+        {
+          "original": "La mañana es muy tranquila.",
+          "translation": "The morning is very quiet."
+        },
+        {
+          "original": "Las mañanas son bonitas.",
+          "translation": "Mornings are pretty."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "mañana",
+      "translation": "tomorrow (adv)",
+      "sentences": [
+        {
+          "original": "Mañana es martes.",
+          "translation": "Tomorrow is Tuesday."
+        },
+        {
+          "original": "Visitamos a los amigos mañana.",
+          "translation": "We are visiting friends tomorrow."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el reloj",
+      "translation": "watch / clock (n, m)",
+      "sentences": [
+        {
+          "original": "El reloj es de oro.",
+          "translation": "The watch is made of gold."
+        },
+        {
+          "original": "Los relojes están en la mesa.",
+          "translation": "The watches are on the table."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la tarde",
+      "translation": "afternoon (n, f)",
+      "sentences": [
+        {
+          "original": "Estudio español por la tarde.",
+          "translation": "I study Spanish in the afternoon."
+        },
+        {
+          "original": "Las tardes son largas.",
+          "translation": "Afternoons are long."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tarde",
+      "translation": "late (adv)",
+      "sentences": [
+        {
+          "original": "El muchacho llega tarde.",
+          "translation": "The boy arrives late."
+        },
+        {
+          "original": "Es muy tarde para entrar.",
+          "translation": "It is very late to enter."
+        }
+      ]
+    }
+  ]
+}

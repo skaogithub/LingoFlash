@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "title": "Cápsula cultural: La estrella brillante del Caribe",
+    "language": "es",
+    "description": "Historical and cultural reading about Puerto Rico, its naming history, landmarks, and geography.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "La «estrella brillante» del Caribe",
+      "translation": "The 'bright star' of the Caribbean",
+      "sentences": [
+        {
+          "original": "Algunos la llaman «La Isla del Encanto».",
+          "translation": "Some call it 'The Island of Enchantment'.",
+          "chunks": [
+            {
+              "text": "Algunos la llaman",
+              "meaning": "Some call it"
+            },
+            {
+              "text": "«La Isla del Encanto».",
+              "meaning": "'The Island of Enchantment'."
+            }
+          ]
+        },
+        {
+          "original": "Los taínos (los nativos que vivían en la isla antes de la llegada de Cristóbal Colón en 1493) la llamaban «Borinquen».",
+          "translation": "The Taínos (the natives who lived on the island before the arrival of Christopher Columbus in 1493) called it 'Borinquen'.",
+          "chunks": [
+            {
+              "text": "Los taínos",
+              "meaning": "The Taínos"
+            },
+            {
+              "text": "(los nativos que vivían en la isla",
+              "meaning": "(the natives who lived on the island"
+            },
+            {
+              "text": "antes de la llegada",
+              "meaning": "before the arrival"
+            },
+            {
+              "text": "de Cristóbal Colón en 1493)",
+              "meaning": "of Christopher Columbus in 1493)"
+            },
+            {
+              "text": "la llamaban «Borinquen».",
+              "meaning": "called it 'Borinquen'."
+            }
+          ]
+        },
+        {
+          "original": "Pero cuando hicieron el mapa oficial, cometieron un error y cambiaron los dos nombres, llamando el puerto San Juan y la isla Puerto Rico.",
+          "translation": "But when they made the official map, they made a mistake and switched the two names, calling the port San Juan and the island Puerto Rico.",
+          "chunks": [
+            {
+              "text": "Pero cuando hicieron",
+              "meaning": "But when they made"
+            },
+            {
+              "text": "el mapa oficial,",
+              "meaning": "the official map,"
+            },
+            {
+              "text": "cometieron un error",
+              "meaning": "they made a mistake"
+            },
+            {
+              "text": "y cambiaron los dos nombres,",
+              "meaning": "and switched the two names,"
+            },
+            {
+              "text": "llamando el puerto San Juan",
+              "meaning": "calling the port San Juan"
+            },
+            {
+              "text": "y la isla Puerto Rico.",
+              "meaning": "and the island Puerto Rico."
+            }
+          ]
+        },
+        {
+          "original": "Por eso se llama así hasta hoy día.",
+          "translation": "That is why it is called that to this day.",
+          "chunks": [
+            {
+              "text": "Por eso",
+              "meaning": "Because of that / That is why"
+            },
+            {
+              "text": "se llama así",
+              "meaning": "it is called that"
+            },
+            {
+              "text": "hasta hoy día.",
+              "meaning": "to this day."
+            }
+          ]
+        },
+        {
+          "original": "La capital fue fundada en 1521. Es la capital más vieja bajo la bandera americana.",
+          "translation": "The capital was founded in 1521. It is the oldest capital under the American flag.",
+          "chunks": [
+            {
+              "text": "La capital fue fundada en 1521.",
+              "meaning": "The capital was founded in 1521."
+            },
+            {
+              "text": "Es la capital más vieja",
+              "meaning": "It is the oldest capital"
+            },
+            {
+              "text": "bajo la bandera americana.",
+              "meaning": "under the American flag."
+            }
+          ]
+        },
+        {
+          "original": "Millones de turistas visitan a Puerto Rico todos los años.",
+          "translation": "Millions of tourists visit Puerto Rico every year.",
+          "chunks": [
+            {
+              "text": "Millones de turistas",
+              "meaning": "Millions of tourists"
+            },
+            {
+              "text": "visitan a Puerto Rico",
+              "meaning": "visit Puerto Rico"
+            },
+            {
+              "text": "todos los años.",
+              "meaning": "every year."
+            }
+          ]
+        },
+        {
+          "original": "Puedes visitar las calles antiguas del Viejo San Juan o pasar por la fortaleza «El Morro», donde los conquistadores españoles lucharon contra piratas como Sir Francis Drake.",
+          "translation": "You can visit the ancient streets of Old San Juan or pass by the fortress 'El Morro', where the Spanish conquistadors fought against pirates like Sir Francis Drake.",
+          "chunks": [
+            {
+              "text": "Puedes visitar las calles antiguas",
+              "meaning": "You can visit the ancient streets"
+            },
+            {
+              "text": "del Viejo San Juan",
+              "meaning": "of Old San Juan"
+            },
+            {
+              "text": "o pasar por la fortaleza «El Morro»,",
+              "meaning": "or pass by the fortress 'El Morro',"
+            },
+            {
+              "text": "donde los conquistadores españoles lucharon",
+              "meaning": "where the Spanish conquistadors fought"
+            },
+            {
+              "text": "contra piratas",
+              "meaning": "against pirates"
+            },
+            {
+              "text": "como Sir Francis Drake.",
+              "meaning": "like Sir Francis Drake."
+            }
+          ]
+        },
+        {
+          "original": "Hoy día, San Juan es una ciudad moderna con rascacielos, hoteles y mucho que hacer.",
+          "translation": "Today, San Juan is a modern city with skyscrapers, hotels, and a lot to do.",
+          "chunks": [
+            {
+              "text": "Hoy día, San Juan es",
+              "meaning": "Today, San Juan is"
+            },
+            {
+              "text": "una ciudad moderna",
+              "meaning": "a modern city"
+            },
+            {
+              "text": "con rascacielos, hoteles",
+              "meaning": "with skyscrapers, hotels"
+            },
+            {
+              "text": "y mucho que hacer.",
+              "meaning": "and a lot to do."
+            }
+          ]
+        },
+        {
+          "original": "Cerca de San Juan está la famosa Playa de Luquillo con su arena blanca y sus palmeras.",
+          "translation": "Near San Juan is the famous Luquillo Beach with its white sand and its palm trees.",
+          "chunks": [
+            {
+              "text": "Cerca de San Juan está",
+              "meaning": "Near San Juan is"
+            },
+            {
+              "text": "la famosa Playa de Luquillo",
+              "meaning": "the famous Luquillo Beach"
+            },
+            {
+              "text": "con su arena blanca",
+              "meaning": "with its white sand"
+            },
+            {
+              "text": "y sus palmeras.",
+              "meaning": "and its palm trees."
+            }
+          ]
+        },
+        {
+          "original": "También puedes explorar el Yunque, un bosque tropical de más de 28.000 acres o el Parque de las Cavernas del Río Camuy, que tiene uno de los ríos subterráneos más largos del mundo.",
+          "translation": "You can also explore El Yunque, a tropical rainforest of more than 28,000 acres, or the Camuy River Cave Park, which has one of the longest underground rivers in the world.",
+          "chunks": [
+            {
+              "text": "También puedes explorar el Yunque,",
+              "meaning": "You can also explore El Yunque,"
+            },
+            {
+              "text": "un bosque tropical",
+              "meaning": "a tropical rainforest"
+            },
+            {
+              "text": "de más de 28.000 acres",
+              "meaning": "of more than 28,000 acres"
+            },
+            {
+              "text": "o el Parque de las Cavernas del Río Camuy,",
+              "meaning": "or the Camuy River Cave Park,"
+            },
+            {
+              "text": "que tiene uno de los ríos subterráneos",
+              "meaning": "which has one of the underground rivers"
+            },
+            {
+              "text": "más largos del mundo.",
+              "meaning": "longest in the world."
+            }
+          ]
+        },
+        {
+          "original": "Con todo esto y más, ¡Puerto Rico es un paraíso tropical!",
+          "translation": "With all this and more, Puerto Rico is a tropical paradise!",
+          "chunks": [
+            {
+              "text": "Con todo esto y más,",
+              "meaning": "With all this and more,"
+            },
+            {
+              "text": "¡Puerto Rico es",
+              "meaning": "Puerto Rico is"
+            },
+            {
+              "text": "un paraíso tropical!",
+              "meaning": "a tropical paradise!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la isla del encanto",
+      "translation": "the island of enchantment",
+      "sentences": [
+        {
+          "original": "Puerto Rico es conocida mundialmente como la isla del encanto.",
+          "translation": "Puerto Rico is known worldwide as the island of enchantment."
+        },
+        {
+          "original": "Ese lugar es hermoso y merece ser la isla del encanto.",
+          "translation": "That place is beautiful and deserves to be the island of enchantment."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el puerto",
+      "translation": "the port",
+      "sentences": [
+        {
+          "original": "El puerto de San Juan es muy grande y activo.",
+          "translation": "The port of San Juan is very large and active."
+        },
+        {
+          "original": "Muchos barcos grandes están en el puerto esta mañana.",
+          "translation": "Many large ships are in the port this morning."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cometieron un error",
+      "translation": "they made a mistake",
+      "sentences": [
+        {
+          "original": "Los cartógrafos antiguos cometieron un error con el mapa.",
+          "translation": "The ancient cartographers made a mistake with the map."
+        },
+        {
+          "original": "Ellos son estudiantes atentos pero cometieron un error en la tarea.",
+          "translation": "They are attentive students but they made a mistake on the homework."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "fue fundada",
+      "translation": "was founded",
+      "sentences": [
+        {
+          "original": "La pintoresca ciudad de San Juan fue fundada en 1521.",
+          "translation": "The picturesque city of San Juan was founded in 1521."
+        },
+        {
+          "original": "Esta universidad histórica fue fundada hace muchos años.",
+          "translation": "This historical university was founded many years ago."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la fortaleza",
+      "translation": "the fortress",
+      "sentences": [
+        {
+          "original": "La fortaleza de El Morro es una estructura impresionante.",
+          "translation": "The fortress of El Morro is an impressive structure."
+        },
+        {
+          "original": "Ese edificio antiguo es una fortaleza de piedra gris.",
+          "translation": "That old building is a fortress of gray stone."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "lucharon",
+      "translation": "they fought",
+      "sentences": [
+        {
+          "original": "Los soldados españoles lucharon con valentía contra los piratas.",
+          "translation": "The Spanish soldiers fought bravely against the pirates."
+        },
+        {
+          "original": "Los habitantes del pueblo lucharon por su libertad.",
+          "translation": "The inhabitants of the town fought for their freedom."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "rascacielos",
+      "translation": "skyscrapers",
+      "sentences": [
+        {
+          "original": "La zona moderna de San Juan tiene rascacielos muy altos.",
+          "translation": "The modern area of San Juan has very tall skyscrapers."
+        },
+        {
+          "original": "Los rascacielos son característicos de las ciudades grandes.",
+          "translation": "Skyscrapers are characteristic of large cities."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "bosque tropical",
+      "translation": "tropical rainforest",
+      "sentences": [
+        {
+          "original": "El Yunque es un bosque tropical con mucha vegetación exótica.",
+          "translation": "El Yunque is a tropical rainforest with lots of exotic vegetation."
+        },
+        {
+          "original": "Es fascinante caminar por un bosque tropical tan verde.",
+          "translation": "It is fascinating to walk through such a green tropical rainforest."
+        }
+      ]
+    }
+  ]
+}

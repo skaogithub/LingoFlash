@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "title": "Lectura: Mi Vida en Cuernavaca",
+    "language": "es",
+    "description": "A personal introduction and description of family life in Mexico.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "La vida de Juan José",
+      "translation": "The life of Juan José",
+      "sentences": [
+        {
+          "original": "Mi nombre es Juan José Montero Sánchez.",
+          "translation": "My name is Juan José Montero Sánchez.",
+          "chunks": [
+            {
+              "text": "Mi nombre es",
+              "meaning": "My name is"
+            },
+            {
+              "text": "Juan José Montero Sánchez.",
+              "meaning": "Juan José Montero Sánchez."
+            }
+          ]
+        },
+        {
+          "original": "Soy profesor de español. Trabajo en la universidad.",
+          "translation": "I am a Spanish professor. I work at the university.",
+          "chunks": [
+            {
+              "text": "Soy profesor de español.",
+              "meaning": "I am a Spanish professor."
+            },
+            {
+              "text": "Trabajo en la universidad.",
+              "meaning": "I work at the university."
+            }
+          ]
+        },
+        {
+          "original": "Nací el 11 de mayo del año 1985. Tengo 38 años.",
+          "translation": "I was born on May 11, 1985. I am 38 years old.",
+          "chunks": [
+            {
+              "text": "Nací el 11 de mayo",
+              "meaning": "I was born on May 11"
+            },
+            {
+              "text": "del año 1985.",
+              "meaning": "of the year 1985."
+            },
+            {
+              "text": "Tengo 38 años.",
+              "meaning": "I am 38 years old."
+            }
+          ]
+        },
+        {
+          "original": "Nací en la Ciudad de México. Soy mexicano.",
+          "translation": "I was born in Mexico City. I am Mexican.",
+          "chunks": [
+            {
+              "text": "Nací en la Ciudad de México.",
+              "meaning": "I was born in Mexico City."
+            },
+            {
+              "text": "Soy mexicano.",
+              "meaning": "I am Mexican."
+            }
+          ]
+        },
+        {
+          "original": "Vivo en la Calle de los árboles, número 24, en la Colonia Chapultepec, Ciudad de Cuernavaca, en el condado de Morelos.",
+          "translation": "I live on trees street, number 24, in the Chapultepec neighborhood, Cuernavaca City, in the county of Morelos.",
+          "chunks": [
+            {
+              "text": "Vivo en la Calle de los árboles,",
+              "meaning": "I live on trees street,"
+            },
+            {
+              "text": "número 24,",
+              "meaning": "number 24,"
+            },
+            {
+              "text": "en la Colonia Chapultepec,",
+              "meaning": "in the Chapultepec neighborhood,"
+            },
+            {
+              "text": "Ciudad de Cuernavaca,",
+              "meaning": "Cuernavaca City,"
+            },
+            {
+              "text": "en el condado de Morelos.",
+              "meaning": "in the county of Morelos."
+            }
+          ]
+        },
+        {
+          "original": "Estoy casado. Mi esposa se llama María Dolores García Benítez.",
+          "translation": "I am married. My wife's name is María Dolores García Benítez.",
+          "chunks": [
+            {
+              "text": "Estoy casado.",
+              "meaning": "I am married."
+            },
+            {
+              "text": "Mi esposa se llama",
+              "meaning": "My wife is named"
+            },
+            {
+              "text": "María Dolores García Benítez.",
+              "meaning": "María Dolores García Benítez."
+            }
+          ]
+        },
+        {
+          "original": "Ella es médica, es pediatra.",
+          "translation": "She is a doctor, she is a pediatrician.",
+          "chunks": [
+            {
+              "text": "Ella es médica,",
+              "meaning": "She is a doctor,"
+            },
+            {
+              "text": "es pediatra.",
+              "meaning": "is a pediatrician."
+            }
+          ]
+        },
+        {
+          "original": "Vivimos en una casa de 4 dormitorios. Tenemos 3 hijos, dos hijos y una hija.",
+          "translation": "We live in a 4-bedroom house. We have 3 children, two sons and one daughter.",
+          "chunks": [
+            {
+              "text": "Vivimos en una casa",
+              "meaning": "We live in a house"
+            },
+            {
+              "text": "de 4 dormitorios.",
+              "meaning": "of 4 bedrooms."
+            },
+            {
+              "text": "Tenemos 3 hijos,",
+              "meaning": "We have 3 children,"
+            },
+            {
+              "text": "dos hijos y una hija.",
+              "meaning": "two sons and one daughter."
+            }
+          ]
+        },
+        {
+          "original": "Tenemos un perro grande que se llama Tito. Es muy gracioso.",
+          "translation": "We have a big dog named Tito. He is very funny.",
+          "chunks": [
+            {
+              "text": "Tenemos un perro grande",
+              "meaning": "We have a big dog"
+            },
+            {
+              "text": "que se llama Tito.",
+              "meaning": "that is named Tito."
+            },
+            {
+              "text": "Es muy gracioso.",
+              "meaning": "He is very funny."
+            }
+          ]
+        },
+        {
+          "original": "Tenemos dos carros y 5 bicicletas en el garaje.",
+          "translation": "We have two cars and 5 bicycles in the garage.",
+          "chunks": [
+            {
+              "text": "Tenemos dos carros",
+              "meaning": "We have two cars"
+            },
+            {
+              "text": "y 5 bicicletas",
+              "meaning": "and 5 bicycles"
+            },
+            {
+              "text": "en el garaje.",
+              "meaning": "in the garage."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

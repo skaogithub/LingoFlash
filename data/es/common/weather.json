@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Spanish Weather",
+    "language": "es",
+    "description": "Common weather expressions and phrases in Spanish.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Hace sol",
+      "translation": "It is sunny",
+      "sentences": [
+        {
+          "original": "Hoy hace sol en la playa.",
+          "translation": "Today it is sunny at the beach."
+        },
+        {
+          "original": "Me gusta cuando hace sol.",
+          "translation": "I like it when it is sunny."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Hace frío",
+      "translation": "It is cold",
+      "sentences": [
+        {
+          "original": "En invierno hace mucho frío.",
+          "translation": "In winter it is very cold."
+        },
+        {
+          "original": "Cierra la ventana porque hace frío.",
+          "translation": "Close the window because it is cold."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Hace calor",
+      "translation": "It is hot",
+      "sentences": [
+        {
+          "original": "En verano siempre hace calor.",
+          "translation": "In summer it is always hot."
+        },
+        {
+          "original": "Tengo sed porque hace calor.",
+          "translation": "I am thirsty because it is hot."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Llueve",
+      "translation": "It is raining",
+      "sentences": [
+        {
+          "original": "Hoy llueve mucho.",
+          "translation": "Today it is raining a lot."
+        },
+        {
+          "original": "Cuando llueve, uso un paraguas.",
+          "translation": "When it rains, I use an umbrella."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Nieva",
+      "translation": "It is snowing",
+      "sentences": [
+        {
+          "original": "Nieva mucho en las montañas.",
+          "translation": "It snows a lot in the mountains."
+        },
+        {
+          "original": "Mira por la ventana, ¡nieva!",
+          "translation": "Look out the window, it is snowing!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Está nublado",
+      "translation": "It is cloudy",
+      "sentences": [
+        {
+          "original": "El cielo está nublado hoy.",
+          "translation": "The sky is cloudy today."
+        },
+        {
+          "original": "Está nublado y parece que va a llover.",
+          "translation": "It is cloudy and it looks like it is going to rain."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Hace viento",
+      "translation": "It is windy",
+      "sentences": [
+        {
+          "original": "Hace mucho viento en la costa.",
+          "translation": "It is very windy on the coast."
+        },
+        {
+          "original": "No podemos jugar tenis porque hace viento.",
+          "translation": "We cannot play tennis because it is windy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Qué tiempo hace?",
+      "translation": "How is the weather?",
+      "sentences": [
+        {
+          "original": "¿Qué tiempo hace en Madrid?",
+          "translation": "How is the weather in Madrid?"
+        },
+        {
+          "original": "Dime qué tiempo hace afuera.",
+          "translation": "Tell me how the weather is outside."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Hace buen tiempo",
+      "translation": "The weather is good",
+      "sentences": [
+        {
+          "original": "Vamos al parque porque hace buen tiempo.",
+          "translation": "Let's go to the park because the weather is good."
+        },
+        {
+          "original": "Hace buen tiempo para caminar.",
+          "translation": "The weather is good for walking."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Hace mal tiempo",
+      "translation": "The weather is bad",
+      "sentences": [
+        {
+          "original": "No quiero salir porque hace mal tiempo.",
+          "translation": "I don't want to go out because the weather is bad."
+        },
+        {
+          "original": "Hace mal tiempo este fin de semana.",
+          "translation": "The weather is bad this weekend."
+        }
+      ]
+    }
+  ]
+}

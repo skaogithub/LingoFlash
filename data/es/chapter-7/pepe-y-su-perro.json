@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "title": "pepe-y-su-perro",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "Flashcard deck for Spanish is fun - 1 chapter 7"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "Pepe y su perro",
+      "translation": "Pepe and his dog",
+      "sentences": [
+        {
+          "original": "Pepe, un muchacho de doce años, tiene un perro que se llama Lobo.",
+          "translation": "Pepe, a twelve-year-old boy, has a dog named Lobo.",
+          "chunks": [
+            {
+              "text": "Pepe, un muchacho de doce años,",
+              "meaning": "Pepe, a twelve-year-old boy,"
+            },
+            {
+              "text": "tiene un perro que se llama Lobo.",
+              "meaning": "has a dog named Lobo."
+            }
+          ]
+        },
+        {
+          "original": "Lobo es un perro muy inteligente, y aprende rápidamente.",
+          "translation": "Lobo is a very intelligent dog, and he learns quickly.",
+          "chunks": [
+            {
+              "text": "Lobo es un perro muy inteligente,",
+              "meaning": "Lobo is a very intelligent dog,"
+            },
+            {
+              "text": "y aprende rápidamente.",
+              "meaning": "and he learns quickly."
+            }
+          ]
+        },
+        {
+          "original": "Pepe ayuda a sus padres.",
+          "translation": "Pepe helps his parents."
+        },
+        {
+          "original": "Trabaja en un supermercado todos los días.",
+          "translation": "He works in a supermarket every day.",
+          "chunks": [
+            {
+              "text": "Trabaja en un supermercado",
+              "meaning": "He works in a supermarket"
+            },
+            {
+              "text": "todos los días.",
+              "meaning": "every day."
+            }
+          ]
+        },
+        {
+          "original": "Lobo quiere correr en el parque y espera a Pepe en casa.",
+          "translation": "Lobo wants to run in the park and waits for Pepe at home.",
+          "chunks": [
+            {
+              "text": "Lobo quiere correr en el parque",
+              "meaning": "Lobo wants to run in the park"
+            },
+            {
+              "text": "y espera a Pepe en casa.",
+              "meaning": "and waits for Pepe at home."
+            }
+          ]
+        },
+        {
+          "original": "Cuando ve al muchacho, quiere salir a la calle.",
+          "translation": "When he sees the boy, he wants to go out to the street.",
+          "chunks": [
+            {
+              "text": "Cuando ve al muchacho,",
+              "meaning": "When he sees the boy,"
+            },
+            {
+              "text": "quiere salir a la calle.",
+              "meaning": "he wants to go out to the street."
+            }
+          ]
+        },
+        {
+          "original": "—¡Lobo, corre al parque!",
+          "translation": "—'Lobo, run to the park!'"
+        },
+        {
+          "original": "El perro comprende y responde:",
+          "translation": "The dog understands and responds:"
+        },
+        {
+          "original": "—¡Guau, guau!",
+          "translation": "—'Woof, woof!'"
+        },
+        {
+          "original": "A las seis de la tarde, Pepe y Lobo entran en la casa.",
+          "translation": "At six in the evening, Pepe and Lobo enter the house.",
+          "chunks": [
+            {
+              "text": "A las seis de la tarde,",
+              "meaning": "At six in the evening,"
+            },
+            {
+              "text": "Pepe y Lobo entran en la casa.",
+              "meaning": "Pepe and Lobo enter the house."
+            }
+          ]
+        },
+        {
+          "original": "Lobo tiene hambre; quiere comer.",
+          "translation": "Lobo is hungry; he wants to eat."
+        },
+        {
+          "original": "Pepe saca una lata de comida para perro pero Lobo no está interesado.",
+          "translation": "Pepe takes out a can of dog food but Lobo is not interested.",
+          "chunks": [
+            {
+              "text": "Pepe saca una lata",
+              "meaning": "Pepe takes out a can"
+            },
+            {
+              "text": "de comida para perro",
+              "meaning": "of dog food"
+            },
+            {
+              "text": "pero Lobo no está interesado.",
+              "meaning": "but Lobo is not interested."
+            }
+          ]
+        },
+        {
+          "original": "Pepe saca un pedazo de pollo y una hamburguesa pero el animal no quiere comer estas cosas tampoco.",
+          "translation": "Pepe takes out a piece of chicken and a hamburger but the animal doesn't want to eat these things either.",
+          "chunks": [
+            {
+              "text": "Pepe saca un pedazo de pollo",
+              "meaning": "Pepe takes out a piece of chicken"
+            },
+            {
+              "text": "y una hamburguesa",
+              "meaning": "and a hamburger"
+            },
+            {
+              "text": "pero el animal no quiere comer estas cosas tampoco.",
+              "meaning": "but the animal doesn't want to eat these things either."
+            }
+          ]
+        },
+        {
+          "original": "Pepe come pizza y el perrro quiere un pedazo también.",
+          "translation": "Pepe eats pizza and the dog wants a piece too.",
+          "chunks": [
+            {
+              "text": "Pepe come pizza",
+              "meaning": "Pepe eats pizza"
+            },
+            {
+              "text": "y el perro quiere un pedazo también.",
+              "meaning": "and the dog wants a piece too."
+            }
+          ]
+        },
+        {
+          "original": "(¿Un perro que come pizza? ¿Es posible?)",
+          "translation": "(A dog that eats pizza? Is it possible?)",
+          "chunks": [
+            {
+              "text": "¿Un perro que come pizza?",
+              "meaning": "A dog that eats pizza?"
+            },
+            {
+              "text": "¿Es posible?",
+              "meaning": "Is it possible?"
+            }
+          ]
+        },
+        {
+          "original": "Finalmente Lobo come pizza y está contento.",
+          "translation": "Finally Lobo eats pizza and is happy.",
+          "chunks": [
+            {
+              "text": "Finalmente Lobo come pizza",
+              "meaning": "Finally Lobo eats pizza"
+            },
+            {
+              "text": "y está contento.",
+              "meaning": "and is happy."
+            }
+          ]
+        },
+        {
+          "original": "Luego, cuando Pepe prepara la tarea para la escuela, Lobo comprende que el muchacho necesita estudiar y espera con paciencia.",
+          "translation": "Later, when Pepe prepares the homework for school, Lobo understands that the boy needs to study and waits with patience.",
+          "chunks": [
+            {
+              "text": "Luego, cuando Pepe prepara la tarea",
+              "meaning": "Later, when Pepe prepares the homework"
+            },
+            {
+              "text": "para la escuela,",
+              "meaning": "for the school,"
+            },
+            {
+              "text": "Lobo comprende que el muchacho necesita estudiar",
+              "meaning": "Lobo understands that the boy needs to study"
+            },
+            {
+              "text": "y espera con paciencia.",
+              "meaning": "and waits with patience."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1550 @@
+{
+  "metadata": {
+    "title": "Chapter 4: -ar Verbs Sentences",
+    "language": "es",
+    "description": "Example sentences using -ar verbs.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "bailar",
+      "translation": "to dance",
+      "sentences": [
+        {
+          "original": "Yo bailo con mis amigos en la fiesta de la escuela.",
+          "translation": "I dance with my friends at the school party.",
+          "chunks": [
+            {
+              "text": "Yo bailo con mis amigos",
+              "meaning": "I dance with my friends"
+            },
+            {
+              "text": "en la fiesta de la escuela.",
+              "meaning": "at the school party."
+            }
+          ]
+        },
+        {
+          "original": "Tú bailas muy bien la salsa en el club.",
+          "translation": "You dance salsa very well at the club.",
+          "chunks": [
+            {
+              "text": "Tú bailas muy bien la salsa",
+              "meaning": "You dance salsa very well"
+            },
+            {
+              "text": "en el club.",
+              "meaning": "at the club."
+            }
+          ]
+        },
+        {
+          "original": "Él baila en el centro de la pista con mucha energía.",
+          "translation": "He dances in the center of the floor with much energy.",
+          "chunks": [
+            {
+              "text": "Él baila en el centro de la pista",
+              "meaning": "He dances in the center of the floor"
+            },
+            {
+              "text": "con mucha energía.",
+              "meaning": "with much energy."
+            }
+          ]
+        },
+        {
+          "original": "Julie y yo bailamos toda la noche durante la celebración.",
+          "translation": "Julie and I dance all night during the celebration.",
+          "chunks": [
+            {
+              "text": "Julie y yo bailamos",
+              "meaning": "Julie and I dance"
+            },
+            {
+              "text": "toda la noche durante la celebración.",
+              "meaning": "all night during the celebration."
+            }
+          ]
+        },
+        {
+          "original": "David y Joseph bailan en la clase de arte moderno hoy.",
+          "translation": "David and Joseph dance in the modern art class today.",
+          "chunks": [
+            {
+              "text": "David y Joseph bailan",
+              "meaning": "David and Joseph dance"
+            },
+            {
+              "text": "en la clase de arte moderno hoy.",
+              "meaning": "in the modern art class today."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "buscar",
+      "translation": "to look for",
+      "sentences": [
+        {
+          "original": "Yo busco mi cuaderno de español en mi mochila.",
+          "translation": "I am looking for my Spanish notebook in my backpack.",
+          "chunks": [
+            {
+              "text": "Yo busco mi cuaderno de español",
+              "meaning": "I am looking for my Spanish notebook"
+            },
+            {
+              "text": "en mi mochila.",
+              "meaning": "in my backpack."
+            }
+          ]
+        },
+        {
+          "original": "Tú buscas el mapa en la pared de la clase.",
+          "translation": "You are looking for the map on the classroom wall.",
+          "chunks": [
+            {
+              "text": "Tú buscas el mapa",
+              "meaning": "You are looking for the map"
+            },
+            {
+              "text": "en la pared de la clase.",
+              "meaning": "on the classroom wall."
+            }
+          ]
+        },
+        {
+          "original": "Ella busca un lápiz azul para escribir la nota.",
+          "translation": "She is looking for a blue pencil to write the note.",
+          "chunks": [
+            {
+              "text": "Ella busca un lápiz azul",
+              "meaning": "She is looking for a blue pencil"
+            },
+            {
+              "text": "para escribir la nota.",
+              "meaning": "to write the note."
+            }
+          ]
+        },
+        {
+          "original": "Elena y yo buscamos la oficina del profesor Rodríguez ahora.",
+          "translation": "Elena and I are looking for Professor Rodriguez's office now.",
+          "chunks": [
+            {
+              "text": "Elena y yo buscamos",
+              "meaning": "Elena and I are looking for"
+            },
+            {
+              "text": "la oficina del profesor Rodríguez ahora.",
+              "meaning": "Professor Rodriguez's office now."
+            }
+          ]
+        },
+        {
+          "original": "Los muchachos buscan información sobre la leyenda de El Dorado.",
+          "translation": "The boys are looking for information about the legend of El Dorado.",
+          "chunks": [
+            {
+              "text": "Los muchachos buscan información",
+              "meaning": "The boys are looking for information"
+            },
+            {
+              "text": "sobre la leyenda de El Dorado.",
+              "meaning": "about the legend of El Dorado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "caminar",
+      "translation": "to walk",
+      "sentences": [
+        {
+          "original": "Yo camino a la escuela todos los días por la mañana.",
+          "translation": "I walk to school every day in the morning.",
+          "chunks": [
+            {
+              "text": "Yo camino a la escuela",
+              "meaning": "I walk to school"
+            },
+            {
+              "text": "todos los días por la mañana.",
+              "meaning": "every day in the morning."
+            }
+          ]
+        },
+        {
+          "original": "Tú caminas por el parque con tu perro favorito.",
+          "translation": "You walk through the park with your favorite dog.",
+          "chunks": [
+            {
+              "text": "Tú caminas por el parque",
+              "meaning": "You walk through the park"
+            },
+            {
+              "text": "con tu perro favorito.",
+              "meaning": "with your favorite dog."
+            }
+          ]
+        },
+        {
+          "original": "Usted camina lentamente por el pasillo del edificio.",
+          "translation": "You walk slowly through the building hallway (formal).",
+          "chunks": [
+            {
+              "text": "Usted camina lentamente",
+              "meaning": "You walk slowly"
+            },
+            {
+              "text": "por el pasillo del edificio.",
+              "meaning": "through the building hallway."
+            }
+          ]
+        },
+        {
+          "original": "Pedro y yo caminamos a la tienda de videojuegos para comprar algo.",
+          "translation": "Pedro and I walk to the video game store to buy something.",
+          "chunks": [
+            {
+              "text": "Pedro y yo caminamos",
+              "meaning": "Pedro and I walk"
+            },
+            {
+              "text": "a la tienda de videojuegos para comprar algo.",
+              "meaning": "to the video game store to buy something."
+            }
+          ]
+        },
+        {
+          "original": "Tú y Carlos caminan rápidamente para llegar a tiempo a la clase.",
+          "translation": "You and Carlos walk quickly to arrive to class on time.",
+          "chunks": [
+            {
+              "text": "Tú y Carlos caminan rápidamente",
+              "meaning": "You and Carlos walk quickly"
+            },
+            {
+              "text": "para llegar a tiempo a la clase.",
+              "meaning": "to arrive to class on time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cantar",
+      "translation": "to sing",
+      "sentences": [
+        {
+          "original": "Yo canto una canción muy bonita en el coro.",
+          "translation": "I sing a very pretty song in the choir.",
+          "chunks": [
+            {
+              "text": "Yo canto una canción",
+              "meaning": "I sing a song"
+            },
+            {
+              "text": "muy bonita en el coro.",
+              "meaning": "very pretty in the choir."
+            }
+          ]
+        },
+        {
+          "original": "Tú cantas en la clase de música todos los viernes.",
+          "translation": "You sing in music class every Friday.",
+          "chunks": [
+            {
+              "text": "Tú cantas en la clase de música",
+              "meaning": "You sing in music class"
+            },
+            {
+              "text": "todos los viernes.",
+              "meaning": "every Friday."
+            }
+          ]
+        },
+        {
+          "original": "Él canta muy alto durante la fiesta de cumpleaños.",
+          "translation": "He sings very loudly during the birthday party.",
+          "chunks": [
+            {
+              "text": "Él canta muy alto",
+              "meaning": "He sings very loudly"
+            },
+            {
+              "text": "durante la fiesta de cumpleaños.",
+              "meaning": "during the birthday party."
+            }
+          ]
+        },
+        {
+          "original": "Carmen y yo cantamos la canción del alfabeto en español.",
+          "translation": "Carmen and I sing the alphabet song in Spanish.",
+          "chunks": [
+            {
+              "text": "Carmen y yo cantamos",
+              "meaning": "Carmen and I sing"
+            },
+            {
+              "text": "la canción del alfabeto en español.",
+              "meaning": "the alphabet song in Spanish."
+            }
+          ]
+        },
+        {
+          "original": "Marta y Sofía cantan en el festival de la escuela este año.",
+          "translation": "Marta and Sofia sing at the school festival this year.",
+          "chunks": [
+            {
+              "text": "Marta y Sofía cantan",
+              "meaning": "Marta and Sofia sing"
+            },
+            {
+              "text": "en el festival de la escuela este año.",
+              "meaning": "at the school festival this year."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "comprar",
+      "translation": "to buy",
+      "sentences": [
+        {
+          "original": "Yo compro una torta de chocolate para el postre.",
+          "translation": "I buy a chocolate cake for dessert.",
+          "chunks": [
+            {
+              "text": "Yo compro una torta de chocolate",
+              "meaning": "I buy a chocolate cake"
+            },
+            {
+              "text": "para el postre.",
+              "meaning": "for dessert."
+            }
+          ]
+        },
+        {
+          "original": "Tú compras muchos dulces deliciosos en la tienda.",
+          "translation": "You buy many delicious candies at the shop.",
+          "chunks": [
+            {
+              "text": "Tú compras muchos dulces deliciosos",
+              "meaning": "You buy many delicious candies"
+            },
+            {
+              "text": "en la tienda.",
+              "meaning": "at the shop."
+            }
+          ]
+        },
+        {
+          "original": "Ella compra un bolígrafo nuevo en la librería pequeña.",
+          "translation": "She buys a new pen at the small bookstore.",
+          "chunks": [
+            {
+              "text": "Ella compra un bolígrafo nuevo",
+              "meaning": "She buys a new pen"
+            },
+            {
+              "text": "en la librería pequeña.",
+              "meaning": "at the small bookstore."
+            }
+          ]
+        },
+        {
+          "original": "Julie y yo compramos las esmeraldas para la ofrenda del rey.",
+          "translation": "Julie and I buy the emeralds for the king's offering.",
+          "chunks": [
+            {
+              "text": "Julie y yo compramos las esmeraldas",
+              "meaning": "Julie and I buy the emeralds"
+            },
+            {
+              "text": "para la ofrenda del rey.",
+              "meaning": "for the king's offering."
+            }
+          ]
+        },
+        {
+          "original": "David y Joseph compran un mapa de Colombia en la oficina de turismo.",
+          "translation": "David and Joseph buy a map of Colombia at the tourism office.",
+          "chunks": [
+            {
+              "text": "David y Joseph compran un mapa de Colombia",
+              "meaning": "David and Joseph buy a map of Colombia"
+            },
+            {
+              "text": "en la oficina de turismo.",
+              "meaning": "at the tourism office."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "contestar",
+      "translation": "to answer",
+      "sentences": [
+        {
+          "original": "Yo contesto las preguntas difíciles del examen de aritmética.",
+          "translation": "I answer the difficult questions on the arithmetic exam.",
+          "chunks": [
+            {
+              "text": "Yo contesto las preguntas difíciles",
+              "meaning": "I answer the difficult questions"
+            },
+            {
+              "text": "del examen de aritmética.",
+              "meaning": "of the arithmetic exam."
+            }
+          ]
+        },
+        {
+          "original": "Tú contestas el teléfono en la oficina de la escuela.",
+          "translation": "You answer the phone in the school office.",
+          "chunks": [
+            {
+              "text": "Tú contestas el teléfono",
+              "meaning": "You answer the phone"
+            },
+            {
+              "text": "en la oficina de la escuela.",
+              "meaning": "in the school office."
+            }
+          ]
+        },
+        {
+          "original": "Usted contesta al profesor con mucha cortesía y respeto.",
+          "translation": "You answer the professor with much courtesy and respect (formal).",
+          "chunks": [
+            {
+              "text": "Usted contesta al profesor",
+              "meaning": "You answer the professor"
+            },
+            {
+              "text": "con mucha cortesía y respeto.",
+              "meaning": "with much courtesy and respect."
+            }
+          ]
+        },
+        {
+          "original": "Elena y yo contestamos todas las dudas de la clase de historia.",
+          "translation": "Elena and I answer all the doubts of the history class.",
+          "chunks": [
+            {
+              "text": "Elena y yo contestamos",
+              "meaning": "Elena and I answer"
+            },
+            {
+              "text": "todas las dudas de la clase de historia.",
+              "meaning": "all the doubts of the history class."
+            }
+          ]
+        },
+        {
+          "original": "Las estudiantes contestan correctamente los problemas en la pizarra.",
+          "translation": "The students answer the problems correctly on the blackboard.",
+          "chunks": [
+            {
+              "text": "Las estudiantes contestan correctamente",
+              "meaning": "The students answer correctly"
+            },
+            {
+              "text": "los problemas en la pizarra.",
+              "meaning": "the problems on the blackboard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "desear",
+      "translation": "to want",
+      "sentences": [
+        {
+          "original": "Yo deseo estudiar español en la universidad el próximo año.",
+          "translation": "I want to study Spanish at the university next year.",
+          "chunks": [
+            {
+              "text": "Yo deseo estudiar español",
+              "meaning": "I want to study Spanish"
+            },
+            {
+              "text": "en la universidad el próximo año.",
+              "meaning": "at the university next year."
+            }
+          ]
+        },
+        {
+          "original": "Tú deseas comprar un videojuego nuevo ahora mismo.",
+          "translation": "You want to buy a new video game right now.",
+          "chunks": [
+            {
+              "text": "Tú deseas comprar",
+              "meaning": "You want to buy"
+            },
+            {
+              "text": "un videojuego nuevo ahora mismo.",
+              "meaning": "a new video game right now."
+            }
+          ]
+        },
+        {
+          "original": "Él desea visitar el lago legendario de El Dorado.",
+          "translation": "He wants to visit the legendary lake of El Dorado.",
+          "chunks": [
+            {
+              "text": "Él desea visitar",
+              "meaning": "He wants to visit"
+            },
+            {
+              "text": "el lago legendario de El Dorado.",
+              "meaning": "the legendary lake of El Dorado."
+            }
+          ]
+        },
+        {
+          "original": "Pedro y yo deseamos un postre delicioso después de la cena.",
+          "translation": "Pedro and I want a delicious dessert after dinner.",
+          "chunks": [
+            {
+              "text": "Pedro y yo deseamos",
+              "meaning": "Pedro and I want"
+            },
+            {
+              "text": "un postre delicioso después de la cena.",
+              "meaning": "a delicious dessert after dinner."
+            }
+          ]
+        },
+        {
+          "original": "Usted y el profesor desean hablar con el dependiente de la tienda.",
+          "translation": "You and the professor want to speak with the clerk at the store.",
+          "chunks": [
+            {
+              "text": "Usted y el profesor desean hablar",
+              "meaning": "You and the professor want to speak"
+            },
+            {
+              "text": "con el dependiente de la tienda.",
+              "meaning": "with the store clerk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "entrar",
+      "translation": "to enter, to get in",
+      "sentences": [
+        {
+          "original": "Yo entro en la sala de clases a las ocho en punto.",
+          "translation": "I enter the classroom at eight o'clock sharp.",
+          "chunks": [
+            {
+              "text": "Yo entro en la sala de clases",
+              "meaning": "I enter the classroom"
+            },
+            {
+              "text": "a las ocho en punto.",
+              "meaning": "at eight o'clock sharp."
+            }
+          ]
+        },
+        {
+          "original": "Tú entras por la puerta principal de la escuela secundaria.",
+          "translation": "You enter through the high school's main door.",
+          "chunks": [
+            {
+              "text": "Tú entras por la puerta principal",
+              "meaning": "You enter through the main door"
+            },
+            {
+              "text": "de la escuela secundaria.",
+              "meaning": "of the high school."
+            }
+          ]
+        },
+        {
+          "original": "Ella entra en el edificio moderno con su mochila roja.",
+          "translation": "She enters the modern building with her red backpack.",
+          "chunks": [
+            {
+              "text": "Ella entra en el edificio moderno",
+              "meaning": "She enters the modern building"
+            },
+            {
+              "text": "con su mochila roja.",
+              "meaning": "with her red backpack."
+            }
+          ]
+        },
+        {
+          "original": "Carmen y yo entramos en la biblioteca para estudiar en silencio.",
+          "translation": "Carmen and I enter the library to study in silence.",
+          "chunks": [
+            {
+              "text": "Carmen y yo entramos en la biblioteca",
+              "meaning": "Carmen and I enter the library"
+            },
+            {
+              "text": "para estudiar en silencio.",
+              "meaning": "to study in silence."
+            }
+          ]
+        },
+        {
+          "original": "Tú y Joseph entran en el jardín para mirar las flores amarillas.",
+          "translation": "You and Joseph enter the garden to look at the yellow flowers.",
+          "chunks": [
+            {
+              "text": "Tú y Joseph entran en el jardín",
+              "meaning": "You and Joseph enter the garden"
+            },
+            {
+              "text": "para mirar las flores amarillas.",
+              "meaning": "to look at the yellow flowers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "escuchar",
+      "translation": "to listen",
+      "sentences": [
+        {
+          "original": "Yo escucho la música popular en mi habitación pequeña.",
+          "translation": "I listen to popular music in my small room.",
+          "chunks": [
+            {
+              "text": "Yo escucho la música popular",
+              "meaning": "I listen to popular music"
+            },
+            {
+              "text": "en mi habitación pequeña.",
+              "meaning": "in my small room."
+            }
+          ]
+        },
+        {
+          "original": "Tú escuchas al profesor con atención durante la lección.",
+          "translation": "You listen to the professor attentively during the lesson.",
+          "chunks": [
+            {
+              "text": "Tú escuchas al profesor con atención",
+              "meaning": "You listen to the professor with attention"
+            },
+            {
+              "text": "durante la lección.",
+              "meaning": "during the lesson."
+            }
+          ]
+        },
+        {
+          "original": "Usted escucha las noticias importantes en la radio local.",
+          "translation": "You listen to the important news on the local radio (formal).",
+          "chunks": [
+            {
+              "text": "Usted escucha las noticias importantes",
+              "meaning": "You listen to the important news"
+            },
+            {
+              "text": "en la radio local.",
+              "meaning": "on the local radio."
+            }
+          ]
+        },
+        {
+          "original": "Julie y yo escuchamos las canciones tradicionales de la clase.",
+          "translation": "Julie and I listen to the traditional songs of the class.",
+          "chunks": [
+            {
+              "text": "Julie y yo escuchamos",
+              "meaning": "Julie and I listen to"
+            },
+            {
+              "text": "las canciones tradicionales de la clase.",
+              "meaning": "the traditional songs of the class."
+            }
+          ]
+        },
+        {
+          "original": "David y Joseph escuchan los ruidos extraños en la calle.",
+          "translation": "David and Joseph listen to the strange noises on the street.",
+          "chunks": [
+            {
+              "text": "David y Joseph escuchan",
+              "meaning": "David and Joseph listen to"
+            },
+            {
+              "text": "los ruidos extraños en la calle.",
+              "meaning": "the strange noises on the street."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "estudiar",
+      "translation": "to study",
+      "sentences": [
+        {
+          "original": "Yo estudio mucho para el examen de español de mañana.",
+          "translation": "I study a lot for tomorrow's Spanish exam.",
+          "chunks": [
+            {
+              "text": "Yo estudio mucho para el examen",
+              "meaning": "I study a lot for the exam"
+            },
+            {
+              "text": "de español de mañana.",
+              "meaning": "of Spanish from tomorrow."
+            }
+          ]
+        },
+        {
+          "original": "Tú estudias la gramática difícil en el libro de texto.",
+          "translation": "You study the difficult grammar in the textbook.",
+          "chunks": [
+            {
+              "text": "Tú estudias la gramática difícil",
+              "meaning": "You study the difficult grammar"
+            },
+            {
+              "text": "en el libro de texto.",
+              "meaning": "in the textbook."
+            }
+          ]
+        },
+        {
+          "original": "Él estudia en la mesa grande del comedor de su casa.",
+          "translation": "He studies at the big dining table at his house.",
+          "chunks": [
+            {
+              "text": "Él estudia en la mesa grande",
+              "meaning": "He studies at the big table"
+            },
+            {
+              "text": "del comedor de su casa.",
+              "meaning": "of the dining room of his house."
+            }
+          ]
+        },
+        {
+          "original": "Elena y yo estudiamos juntos en la casa de mi amigo Pablo.",
+          "translation": "Elena and I study together at my friend Pablo's house.",
+          "chunks": [
+            {
+              "text": "Elena y yo estudiamos juntos",
+              "meaning": "Elena and I study together"
+            },
+            {
+              "text": "en la casa de mi amigo Pablo.",
+              "meaning": "at my friend Pablo's house."
+            }
+          ]
+        },
+        {
+          "original": "Los muchachos estudian la historia interesante de los antiguos dioses.",
+          "translation": "The boys study the interesting history of the ancient gods.",
+          "chunks": [
+            {
+              "text": "Los muchachos estudian",
+              "meaning": "The boys study"
+            },
+            {
+              "text": "la historia interesante de los antiguos dioses.",
+              "meaning": "the interesting history of the ancient gods."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hablar",
+      "translation": "to speak",
+      "sentences": [
+        {
+          "original": "Yo hablo español con mis abuelos los fines de semana.",
+          "translation": "I speak Spanish with my grandparents on the weekends.",
+          "chunks": [
+            {
+              "text": "Yo hablo español",
+              "meaning": "I speak Spanish"
+            },
+            {
+              "text": "con mis abuelos los fines de semana.",
+              "meaning": "with my grandparents on the weekends."
+            }
+          ]
+        },
+        {
+          "original": "Tú hablas por teléfono con tu mejor amiga María.",
+          "translation": "You speak on the phone with your best friend Maria.",
+          "chunks": [
+            {
+              "text": "Tú hablas por teléfono",
+              "meaning": "You speak on the phone"
+            },
+            {
+              "text": "con tu mejor amiga María.",
+              "meaning": "with your best friend Maria."
+            }
+          ]
+        },
+        {
+          "original": "Ella habla muy bien tres idiomas diferentes en el trabajo.",
+          "translation": "She speaks three different languages very well at work.",
+          "chunks": [
+            {
+              "text": "Ella habla muy bien",
+              "meaning": "She speaks very well"
+            },
+            {
+              "text": "tres idiomas diferentes en el trabajo.",
+              "meaning": "three different languages at work."
+            }
+          ]
+        },
+        {
+          "original": "Julie y yo hablamos sobre la tarea difícil de hoy.",
+          "translation": "Julie and I speak about today's difficult homework.",
+          "chunks": [
+            {
+              "text": "Julie y yo hablamos",
+              "meaning": "Julie and I speak"
+            },
+            {
+              "text": "sobre la tarea difícil de hoy.",
+              "meaning": "about today's difficult homework."
+            }
+          ]
+        },
+        {
+          "original": "Tú y Carlos hablan con el profesor después de la clase.",
+          "translation": "You and Carlos speak with the professor after class.",
+          "chunks": [
+            {
+              "text": "Tú y Carlos hablan",
+              "meaning": "You and Carlos speak"
+            },
+            {
+              "text": "con el profesor después de la clase.",
+              "meaning": "with the professor after class."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "llegar",
+      "translation": "to arrive",
+      "sentences": [
+        {
+          "original": "Yo llego tarde a la clase de aritmética hoy.",
+          "translation": "I arrive late to arithmetic class today.",
+          "chunks": [
+            {
+              "text": "Yo llego tarde",
+              "meaning": "I arrive late"
+            },
+            {
+              "text": "a la clase de aritmética hoy.",
+              "meaning": "to arithmetic class today."
+            }
+          ]
+        },
+        {
+          "original": "Tú llegas temprano para practicar el piano en la escuela.",
+          "translation": "You arrive early to practice the piano at school.",
+          "chunks": [
+            {
+              "text": "Tú llegas temprano",
+              "meaning": "You arrive early"
+            },
+            {
+              "text": "para practicar el piano en la escuela.",
+              "meaning": "to practice the piano in the school."
+            }
+          ]
+        },
+        {
+          "original": "Usted llega a la oficina a las nueve de la mañana.",
+          "translation": "You arrive at the office at nine in the morning (formal).",
+          "chunks": [
+            {
+              "text": "Usted llega a la oficina",
+              "meaning": "You arrive at the office"
+            },
+            {
+              "text": "a las nueve de la mañana.",
+              "meaning": "at nine in the morning."
+            }
+          ]
+        },
+        {
+          "original": "Pedro y yo llegamos a la tienda de videojuegos ahora mismo.",
+          "translation": "Pedro and I arrive at the video game store right now.",
+          "chunks": [
+            {
+              "text": "Pedro y yo llegamos",
+              "meaning": "Pedro and I arrive"
+            },
+            {
+              "text": "a la tienda de videojuegos ahora mismo.",
+              "meaning": "at the video game store right now."
+            }
+          ]
+        },
+        {
+          "original": "David y Joseph llegan a la fiesta con muchos regalos bonitos.",
+          "translation": "David and Joseph arrive at the party with many pretty gifts.",
+          "chunks": [
+            {
+              "text": "David y Joseph llegan a la fiesta",
+              "meaning": "David and Joseph arrive at the party"
+            },
+            {
+              "text": "con muchos regalos bonitos.",
+              "meaning": "with many pretty gifts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "mirar",
+      "translation": "to look",
+      "sentences": [
+        {
+          "original": "Yo miro el reloj en la pared de la sala de estar.",
+          "translation": "I look at the clock on the living room wall.",
+          "chunks": [
+            {
+              "text": "Yo miro el reloj",
+              "meaning": "I look at the clock"
+            },
+            {
+              "text": "en la pared de la sala de estar.",
+              "meaning": "on the wall of the living room."
+            }
+          ]
+        },
+        {
+          "original": "Tú miras las fotos de las vacaciones en Colombia.",
+          "translation": "You look at the vacation photos in Colombia.",
+          "chunks": [
+            {
+              "text": "Tú miras las fotos",
+              "meaning": "You look at the photos"
+            },
+            {
+              "text": "de las vacaciones en Colombia.",
+              "meaning": "of the vacation in Colombia."
+            }
+          ]
+        },
+        {
+          "original": "Él mira por la ventana de la clase de geografía.",
+          "translation": "He looks through the geography class window.",
+          "chunks": [
+            {
+              "text": "Él mira por la ventana",
+              "meaning": "He looks through the window"
+            },
+            {
+              "text": "de la clase de geografía.",
+              "meaning": "of the geography class."
+            }
+          ]
+        },
+        {
+          "original": "Carmen y yo miramos la pizarra verde con mucha atención.",
+          "translation": "Carmen and I look at the green blackboard with much attention.",
+          "chunks": [
+            {
+              "text": "Carmen y yo miramos la pizarra verde",
+              "meaning": "Carmen and I look at the green blackboard"
+            },
+            {
+              "text": "con mucha atención.",
+              "meaning": "with much attention."
+            }
+          ]
+        },
+        {
+          "original": "Marta y Sofía miran el mapa para buscar la ciudad de Bogotá.",
+          "translation": "Marta and Sofia look at the map to look for the city of Bogota.",
+          "chunks": [
+            {
+              "text": "Marta y Sofía miran el mapa",
+              "meaning": "Marta and Sofia look at the map"
+            },
+            {
+              "text": "para buscar la ciudad de Bogotá.",
+              "meaning": "to look for the city of Bogota."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "practicar",
+      "translation": "to practice",
+      "sentences": [
+        {
+          "original": "Yo practico el vocabulario nuevo de la unidad uno.",
+          "translation": "I practice the new vocabulary from unit one.",
+          "chunks": [
+            {
+              "text": "Yo practico el vocabulario nuevo",
+              "meaning": "I practice the new vocabulary"
+            },
+            {
+              "text": "de la unidad uno.",
+              "meaning": "of unit one."
+            }
+          ]
+        },
+        {
+          "original": "Tú practicas el fútbol en el campo de la escuela.",
+          "translation": "You practice soccer on the school field.",
+          "chunks": [
+            {
+              "text": "Tú practicas el fútbol",
+              "meaning": "You practice soccer"
+            },
+            {
+              "text": "en el campo de la escuela.",
+              "meaning": "on the school field."
+            }
+          ]
+        },
+        {
+          "original": "Ella practica la pronunciación correcta de la letra g.",
+          "translation": "She practices the correct pronunciation of the letter g.",
+          "chunks": [
+            {
+              "text": "Ella practica la pronunciación correcta",
+              "meaning": "She practices the correct pronunciation"
+            },
+            {
+              "text": "de la letra g.",
+              "meaning": "of the letter g."
+            }
+          ]
+        },
+        {
+          "original": "Julie y yo practicamos los verbos regulares en el laboratorio.",
+          "translation": "Julie and I practice the regular verbs in the lab.",
+          "chunks": [
+            {
+              "text": "Julie y yo practicamos los verbos regulares",
+              "meaning": "Julie and I practice the regular verbs"
+            },
+            {
+              "text": "en el laboratorio.",
+              "meaning": "in the lab."
+            }
+          ]
+        },
+        {
+          "original": "Tú y Joseph practican los números del uno al treinta ahora.",
+          "translation": "You and Joseph practice the numbers from one to thirty now.",
+          "chunks": [
+            {
+              "text": "Tú y Joseph practican los números",
+              "meaning": "You and Joseph practice the numbers"
+            },
+            {
+              "text": "del uno al treinta ahora.",
+              "meaning": "from one to thirty now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "preguntar",
+      "translation": "to ask",
+      "sentences": [
+        {
+          "original": "Yo pregunto la hora al dependiente de la tienda.",
+          "translation": "I ask the store clerk the time.",
+          "chunks": [
+            {
+              "text": "Yo pregunto la hora",
+              "meaning": "I ask the time"
+            },
+            {
+              "text": "al dependiente de la tienda.",
+              "meaning": "to the store clerk."
+            }
+          ]
+        },
+        {
+          "original": "Tú preguntas sobre la leyenda antigua de El Dorado.",
+          "translation": "You ask about the ancient legend of El Dorado.",
+          "chunks": [
+            {
+              "text": "Tú preguntas sobre la leyenda antigua",
+              "meaning": "You ask about the ancient legend"
+            },
+            {
+              "text": "de El Dorado.",
+              "meaning": "of El Dorado."
+            }
+          ]
+        },
+        {
+          "original": "Usted pregunta el precio de los cuadernos de dibujo.",
+          "translation": "You ask the price of the drawing notebooks (formal).",
+          "chunks": [
+            {
+              "text": "Usted pregunta el precio",
+              "meaning": "You ask the price"
+            },
+            {
+              "text": "de los cuadernos de dibujo.",
+              "meaning": "of the drawing notebooks."
+            }
+          ]
+        },
+        {
+          "original": "Elena y yo preguntamos dónde está la biblioteca municipal.",
+          "translation": "Elena and I ask where the municipal library is.",
+          "chunks": [
+            {
+              "text": "Elena y yo preguntamos",
+              "meaning": "Elena and I ask"
+            },
+            {
+              "text": "dónde está la biblioteca municipal.",
+              "meaning": "where is the municipal library."
+            }
+          ]
+        },
+        {
+          "original": "Las estudiantes preguntan al profesor sobre el próximo examen.",
+          "translation": "The students ask the professor about the next exam.",
+          "chunks": [
+            {
+              "text": "Las estudiantes preguntan al profesor",
+              "meaning": "The students ask the professor"
+            },
+            {
+              "text": "sobre el próximo examen.",
+              "meaning": "about the next exam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "preparar",
+      "translation": "to prepare",
+      "sentences": [
+        {
+          "original": "Yo preparo una ensalada deliciosa para el almuerzo de hoy.",
+          "translation": "I prepare a delicious salad for today's lunch.",
+          "chunks": [
+            {
+              "text": "Yo preparo",
+              "meaning": "I prepare"
+            },
+            {
+              "text": "una ensalada deliciosa para el almuerzo de hoy.",
+              "meaning": "a delicious salad for today's lunch."
+            }
+          ]
+        },
+        {
+          "original": "Tú preparas la mochila para ir a la escuela secundaria.",
+          "translation": "You prepare the backpack to go to high school.",
+          "chunks": [
+            {
+              "text": "Tú preparas la mochila",
+              "meaning": "You prepare the backpack"
+            },
+            {
+              "text": "para ir a la escuela secundaria.",
+              "meaning": "to go to high school."
+            }
+          ]
+        },
+        {
+          "original": "Él prepara la lección de mañana para los alumnos aplicados.",
+          "translation": "He prepares tomorrow's lesson for the diligent students.",
+          "chunks": [
+            {
+              "text": "Él prepara la lección de mañana",
+              "meaning": "He prepares tomorrow's lesson"
+            },
+            {
+              "text": "para los alumnos aplicados.",
+              "meaning": "for the diligent students."
+            }
+          ]
+        },
+        {
+          "original": "Carmen y yo preparamos la fiesta de cumpleaños sorpresa de Ana.",
+          "translation": "Carmen and I prepare Ana's surprise birthday party.",
+          "chunks": [
+            {
+              "text": "Carmen y yo preparamos",
+              "meaning": "Carmen and I prepare"
+            },
+            {
+              "text": "la fiesta de cumpleaños sorpresa de Ana.",
+              "meaning": "Ana's surprise birthday party."
+            }
+          ]
+        },
+        {
+          "original": "Tú y Carlos preparan los materiales necesarios para el proyecto.",
+          "translation": "You and Carlos prepare the necessary materials for the project.",
+          "chunks": [
+            {
+              "text": "Tú y Carlos preparan",
+              "meaning": "You and Carlos prepare"
+            },
+            {
+              "text": "los materiales necesarios para el proyecto.",
+              "meaning": "the necessary materials for the project."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tomar",
+      "translation": "to take",
+      "sentences": [
+        {
+          "original": "Yo tomo una limonada muy fría en el jardín soleado.",
+          "translation": "I drink (take) a very cold lemonade in the sunny garden.",
+          "chunks": [
+            {
+              "text": "Yo tomo una limonada muy fría",
+              "meaning": "I drink a very cold lemonade"
+            },
+            {
+              "text": "en el jardín soleado.",
+              "meaning": "in the sunny garden."
+            }
+          ]
+        },
+        {
+          "original": "Tú tomas el autobús escolar para ir a tu casa.",
+          "translation": "You take the school bus to go to your house.",
+          "chunks": [
+            {
+              "text": "Tú tomas el autobús escolar",
+              "meaning": "You take the school bus"
+            },
+            {
+              "text": "para ir a tu casa.",
+              "meaning": "to go to your house."
+            }
+          ]
+        },
+        {
+          "original": "Ella toma el diccionario grande de la mesa del escritorio.",
+          "translation": "She takes the big dictionary from the desk table.",
+          "chunks": [
+            {
+              "text": "Ella toma el diccionario grande",
+              "meaning": "She takes the big dictionary"
+            },
+            {
+              "text": "de la mesa del escritorio.",
+              "meaning": "from the desk table."
+            }
+          ]
+        },
+        {
+          "original": "Julie y yo tomamos notas importantes durante la clase.",
+          "translation": "Julie and I take important notes during the class.",
+          "chunks": [
+            {
+              "text": "Julie y yo tomamos",
+              "meaning": "Julie and I take"
+            },
+            {
+              "text": "notas importantes durante la clase.",
+              "meaning": "important notes during the class."
+            }
+          ]
+        },
+        {
+          "original": "David y Joseph toman muchas fotos bonitas durante el viaje.",
+          "translation": "David and Joseph take many pretty photos during the trip.",
+          "chunks": [
+            {
+              "text": "David y Joseph toman",
+              "meaning": "David and Joseph take"
+            },
+            {
+              "text": "muchas fotos bonitas durante el viaje.",
+              "meaning": "many pretty photos during the trip."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "trabajar",
+      "translation": "to work",
+      "sentences": [
+        {
+          "original": "Yo trabajo en la librería los fines de semana por la tarde.",
+          "translation": "I work at the bookstore on weekend afternoons.",
+          "chunks": [
+            {
+              "text": "Yo trabajo en la librería",
+              "meaning": "I work at the bookstore"
+            },
+            {
+              "text": "los fines de semana por la tarde.",
+              "meaning": "on weekend afternoons."
+            }
+          ]
+        },
+        {
+          "original": "Tú trabajas mucho en el proyecto de historia de Colombia.",
+          "translation": "You work a lot on the history of Colombia project.",
+          "chunks": [
+            {
+              "text": "Tú trabajas mucho",
+              "meaning": "You work a lot"
+            },
+            {
+              "text": "en el proyecto de historia de Colombia.",
+              "meaning": "on the history of Colombia project."
+            }
+          ]
+        },
+        {
+          "original": "Usted trabaja como dependiente eficiente en la tienda.",
+          "translation": "You work as an efficient clerk in the store (formal).",
+          "chunks": [
+            {
+              "text": "Usted trabaja como",
+              "meaning": "You work as"
+            },
+            {
+              "text": "dependiente eficiente en la tienda.",
+              "meaning": "efficient clerk in the store."
+            }
+          ]
+        },
+        {
+          "original": "Pedro y yo trabajamos juntos para limpiar el parque.",
+          "translation": "Pedro and I work together to clean the park.",
+          "chunks": [
+            {
+              "text": "Pedro y yo trabajamos juntos",
+              "meaning": "Pedro and I work together"
+            },
+            {
+              "text": "para limpiar el parque.",
+              "meaning": "to clean the park."
+            }
+          ]
+        },
+        {
+          "original": "Marta y Sofía trabajan diligentemente en la office.",
+          "translation": "Marta and Sofia work diligently in the office.",
+          "chunks": [
+            {
+              "text": "Marta y Sofía trabajan",
+              "meaning": "Marta and Sofia work"
+            },
+            {
+              "text": "diligentemente en la oficina.",
+              "meaning": "diligently in the office."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "usar",
+      "translation": "to use",
+      "sentences": [
+        {
+          "original": "Yo uso el bolígrafo azul para escribir la carta larga.",
+          "translation": "I use the blue pen to write the long letter.",
+          "chunks": [
+            {
+              "text": "Yo uso el bolígrafo azul",
+              "meaning": "I use the blue pen"
+            },
+            {
+              "text": "para escribir la carta larga.",
+              "meaning": "to write the long letter."
+            }
+          ]
+        },
+        {
+          "original": "Tú usas la regla para dibujar las líneas rectas.",
+          "translation": "You use the ruler to draw straight lines.",
+          "chunks": [
+            {
+              "text": "Tú usas la regla",
+              "meaning": "You use the ruler"
+            },
+            {
+              "text": "para dibujar las líneas rectas.",
+              "meaning": "to draw straight lines."
+            }
+          ]
+        },
+        {
+          "original": "Él usa el mapa detallado para encontrar el camino correcto.",
+          "translation": "He uses the detailed map to find the correct way.",
+          "chunks": [
+            {
+              "text": "Él usa el mapa detallado",
+              "meaning": "He uses the detailed map"
+            },
+            {
+              "text": "para encontrar el camino correcto.",
+              "meaning": "to find the correct way."
+            }
+          ]
+        },
+        {
+          "original": "Julie y yo usamos el diccionario para buscar palabras.",
+          "translation": "Julie and I use the dictionary to look for words.",
+          "chunks": [
+            {
+              "text": "Julie y yo usamos el diccionario",
+              "meaning": "Julie and I use the dictionary"
+            },
+            {
+              "text": "para buscar palabras.",
+              "meaning": "to look for words."
+            }
+          ]
+        },
+        {
+          "original": "Usted y Joseph usan la pizarra para explicar el problema.",
+          "translation": "You and Joseph use the blackboard to explain the problem.",
+          "chunks": [
+            {
+              "text": "Usted y Joseph usan la pizarra",
+              "meaning": "You and Joseph use the blackboard"
+            },
+            {
+              "text": "para explicar el problema.",
+              "meaning": "to explain the problem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "visitar",
+      "translation": "to visit",
+      "sentences": [
+        {
+          "original": "Yo visito a mis primos en Bogotá este verano caluroso.",
+          "translation": "I visit my cousins in Bogota this hot summer.",
+          "chunks": [
+            {
+              "text": "Yo visito a mis primos en Bogotá",
+              "meaning": "I visit my cousins in Bogota"
+            },
+            {
+              "text": "este verano caluroso.",
+              "meaning": "this hot summer."
+            }
+          ]
+        },
+        {
+          "original": "Tú visitas el museo de arte moderno el próximo sábado.",
+          "translation": "You visit the modern art museum next Saturday.",
+          "chunks": [
+            {
+              "text": "Tú visitas el museo de arte moderno",
+              "meaning": "You visit the modern art museum"
+            },
+            {
+              "text": "el próximo sábado.",
+              "meaning": "next Saturday."
+            }
+          ]
+        },
+        {
+          "original": "Ella visita la ciudad de San José con su familia.",
+          "translation": "She visits the city of San Jose with her family.",
+          "chunks": [
+            {
+              "text": "Ella visita la ciudad de San José",
+              "meaning": "She visits the city of San Jose"
+            },
+            {
+              "text": "con su familia.",
+              "meaning": "with her family."
+            }
+          ]
+        },
+        {
+          "original": "Elena y yo visitamos la tienda de videojuegos nueva hoy mismo.",
+          "translation": "Elena and I visit the new video game store today.",
+          "chunks": [
+            {
+              "text": "Elena y yo visitamos la tienda",
+              "meaning": "Elena and I visit the store"
+            },
+            {
+              "text": "de videojuegos nueva hoy mismo.",
+              "meaning": "new video game today."
+            }
+          ]
+        },
+        {
+          "original": "Los muchachos visitan a la profesora favorita en su oficina.",
+          "translation": "The boys visit the favorite professor in her office.",
+          "chunks": [
+            {
+              "text": "Los muchachos visitan a la profesora favorita",
+              "meaning": "The boys visit the favorite professor"
+            },
+            {
+              "text": "en su oficina.",
+              "meaning": "in her office."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

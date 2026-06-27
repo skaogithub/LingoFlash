@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Spanish Spices",
+    "language": "es",
+    "description": "Common spices and herbs in Spanish with examples.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "La pimienta",
+      "translation": "Pepper",
+      "sentences": [
+        {
+          "original": "Me gusta la pimienta negra.",
+          "translation": "I like black pepper."
+        },
+        {
+          "original": "Añade pimienta al gusto.",
+          "translation": "Add pepper to taste."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La canela",
+      "translation": "Cinnamon",
+      "sentences": [
+        {
+          "original": "La canela huele muy bien.",
+          "translation": "Cinnamon smells very good."
+        },
+        {
+          "original": "Pongo canela en mi avena.",
+          "translation": "I put cinnamon in my oatmeal."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "El orégano",
+      "translation": "Oregano",
+      "sentences": [
+        {
+          "original": "El orégano es perfecto para la pasta.",
+          "translation": "Oregano is perfect for pasta."
+        },
+        {
+          "original": "¿Tienes orégano seco?",
+          "translation": "Do you have dried oregano? ocean."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "El comino",
+      "translation": "Cumin",
+      "sentences": [
+        {
+          "original": "El comino es fuerte y sabroso.",
+          "translation": "Cumin is strong and tasty."
+        },
+        {
+          "original": "Añade una pizca de comino.",
+          "translation": "Add a pinch of cumin."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "El pimentón",
+      "translation": "Paprika",
+      "sentences": [
+        {
+          "original": "El pimentón da color al plato.",
+          "translation": "Paprika gives color to the dish."
+        },
+        {
+          "original": "Compré pimentón ahumado.",
+          "translation": "I bought smoked paprika."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "El jengibre",
+      "translation": "Ginger",
+      "sentences": [
+        {
+          "original": "Uso jengibre para las galletas.",
+          "translation": "I use ginger for the cookies."
+        },
+        {
+          "original": "El jengibre es un poco picante.",
+          "translation": "Ginger is a bit spicy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La cúrcuma",
+      "translation": "Turmeric",
+      "sentences": [
+        {
+          "original": "La cúrcuma es de color amarillo.",
+          "translation": "Turmeric is yellow in color."
+        },
+        {
+          "original": "La cúrcuma es muy saludable.",
+          "translation": "Turmeric is very healthy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "El clavo de olor",
+      "translation": "Clove",
+      "sentences": [
+        {
+          "original": "El clavo de olor es muy aromático.",
+          "translation": "Clove is very aromatic."
+        },
+        {
+          "original": "Usa un clavo de olor para la sopa.",
+          "translation": "Use a clove for the soup."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "La nuez moscada",
+      "translation": "Nutmeg",
+      "sentences": [
+        {
+          "original": "La nuez moscada es buena en la salsa.",
+          "translation": "Nutmeg is good in the sauce."
+        },
+        {
+          "original": "Ralla un poco de nuez moscada.",
+          "translation": "Grate a little nutmeg."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "El azafrán",
+      "translation": "Saffron",
+      "sentences": [
+        {
+          "original": "El azafrán es muy caro.",
+          "translation": "Saffron is very expensive."
+        },
+        {
+          "original": "El azafrán es esencial para la paella.",
+          "translation": "Saffron is essential for paella."
+        }
+      ]
+    }
+  ]
+}

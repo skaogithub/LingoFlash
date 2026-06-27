@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Spanish Colors",
+    "language": "es",
+    "description": "Basic colors in Spanish with example sentences.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "rojo",
+      "translation": "red",
+      "sentences": [
+        {
+          "original": "El coche es rojo.",
+          "translation": "The car is red."
+        },
+        {
+          "original": "Me gusta el color rojo.",
+          "translation": "I like the color red."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "azul",
+      "translation": "blue",
+      "sentences": [
+        {
+          "original": "El cielo es azul.",
+          "translation": "The sky is blue."
+        },
+        {
+          "original": "Tengo una camisa azul.",
+          "translation": "I have a blue shirt."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "amarillo",
+      "translation": "yellow",
+      "sentences": [
+        {
+          "original": "El sol es amarillo.",
+          "translation": "The sun is yellow."
+        },
+        {
+          "original": "Ella tiene un vestido amarillo.",
+          "translation": "She has a yellow dress."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "verde",
+      "translation": "green",
+      "sentences": [
+        {
+          "original": "La hierba es verde.",
+          "translation": "The grass is green."
+        },
+        {
+          "original": "Quiero una manzana verde.",
+          "translation": "I want a green apple."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "blanco",
+      "translation": "white",
+      "sentences": [
+        {
+          "original": "La nieve es blanca.",
+          "translation": "The snow is white."
+        },
+        {
+          "original": "El papel es blanco.",
+          "translation": "The paper is white."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "negro",
+      "translation": "black",
+      "sentences": [
+        {
+          "original": "El gato es negro.",
+          "translation": "The cat is black."
+        },
+        {
+          "original": "Tengo zapatos negros.",
+          "translation": "I have black shoes."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "naranja",
+      "translation": "orange",
+      "sentences": [
+        {
+          "original": "La fruta es naranja.",
+          "translation": "The fruit is orange."
+        },
+        {
+          "original": "Su mochila es naranja.",
+          "translation": "His backpack is orange."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "rosa",
+      "translation": "pink",
+      "sentences": [
+        {
+          "original": "La flor es rosa.",
+          "translation": "The flower is pink."
+        },
+        {
+          "original": "El cerdo es rosa.",
+          "translation": "The pig is pink."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "gris",
+      "translation": "gray",
+      "sentences": [
+        {
+          "original": "El elefante es gris.",
+          "translation": "The elephant is gray."
+        },
+        {
+          "original": "El cielo está gris hoy.",
+          "translation": "The sky is gray today."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "morado",
+      "translation": "purple",
+      "sentences": [
+        {
+          "original": "Las uvas son moradas.",
+          "translation": "The grapes are purple."
+        },
+        {
+          "original": "Mi color favorito es el morado.",
+          "translation": "My favorite color is purple."
+        }
+      ]
+    }
+  ]
+}

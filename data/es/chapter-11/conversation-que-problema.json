@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "title": "Lectura: ¡Qué problema!",
+    "language": "es",
+    "description": "A conversation between Ana and Gabriela in the school cafeteria about Tomás, a rock concert, and a change of plans.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "¡Qué problema!",
+      "translation": "What a problem!",
+      "sentences": [
+        {
+          "original": "Ana y su amiga Gabriela están hablando en la cafetería de la escuela.",
+          "translation": "Ana and her friend Gabriela are talking in the school cafeteria.",
+          "chunks": [
+            {
+              "text": "Ana y su amiga Gabriela",
+              "meaning": "Ana and her friend Gabriela"
+            },
+            {
+              "text": "están hablando",
+              "meaning": "are talking"
+            },
+            {
+              "text": "en la cafetería de la escuela.",
+              "meaning": "in the school cafeteria."
+            }
+          ]
+        },
+        {
+          "original": "ANA: Hola Gabriela ¿qué pasa? ¿Tienes un problema?",
+          "translation": "ANA: Hi Gabriela, what's up? Do you have a problem?",
+          "chunks": [
+            {
+              "text": "Hola Gabriela ¿qué pasa?",
+              "meaning": "Hi Gabriela, what's up?"
+            },
+            {
+              "text": "¿Tienes un problema?",
+              "meaning": "Do you have a problem?"
+            }
+          ]
+        },
+        {
+          "original": "GABRIELA: Sí. Mi problema se llama Tomás. Él llama a mi casa constantemente.",
+          "translation": "GABRIELA: Yes. My problem's name is Tomás. He calls my house constantly.",
+          "chunks": [
+            {
+              "text": "Sí. Mi problema",
+              "meaning": "Yes. My problem"
+            },
+            {
+              "text": "se llama Tomás.",
+              "meaning": "is named Tomás."
+            },
+            {
+              "text": "Él llama a mi casa",
+              "meaning": "He calls my house"
+            },
+            {
+              "text": "constantemente.",
+              "meaning": "constantly."
+            }
+          ]
+        },
+        {
+          "original": "ANA: ¿Qué quiere?",
+          "translation": "ANA: What does he want?"
+        },
+        {
+          "original": "GABRIELA: Quiere salir conmigo.",
+          "translation": "GABRIELA: He wants to go out with me.",
+          "chunks": [
+            {
+              "text": "Quiere salir",
+              "meaning": "He wants to go out"
+            },
+            {
+              "text": "conmigo.",
+              "meaning": "with me."
+            }
+          ]
+        },
+        {
+          "original": "ANA: No comprendo. Tomás es un muchacho simpático y es muy guapo.",
+          "translation": "ANA: I don't understand. Tomás is a nice boy and he is very handsome.",
+          "chunks": [
+            {
+              "text": "No comprendo.",
+              "meaning": "I don't understand."
+            },
+            {
+              "text": "Tomás es un muchacho simpático",
+              "meaning": "Tomás is a nice boy"
+            },
+            {
+              "text": "y es muy guapo.",
+              "meaning": "and he is very handsome."
+            }
+          ]
+        },
+        {
+          "original": "GABRIELA: Tomás no es interesante. Está siempre hablando de béisbol. ¡Es un fanático!",
+          "translation": "GABRIELA: Tomás is not interesting. He is always talking about baseball. He is a fanatic!",
+          "chunks": [
+            {
+              "text": "Tomás no es interesante.",
+              "meaning": "Tomás is not interesting."
+            },
+            {
+              "text": "Está siempre hablando",
+              "meaning": "He is always talking"
+            },
+            {
+              "text": "de béisbol.",
+              "meaning": "about baseball."
+            },
+            {
+              "text": "¡Es un fanático!",
+              "meaning": "He is a fanatic!"
+            }
+          ]
+        },
+        {
+          "original": "En ese momento llega Tomás.",
+          "translation": "At that moment Tomás arrives.",
+          "chunks": [
+            {
+              "text": "En ese momento",
+              "meaning": "At that moment"
+            },
+            {
+              "text": "llega Tomás.",
+              "meaning": "Tomás arrives."
+            }
+          ]
+        },
+        {
+          "original": "TOMÁS: ¡Hola chicas! ¿Cómo están? Gabriela, ¿estás libre el sábado?",
+          "translation": "TOMÁS: Hi girls! How are you? Gabriela, are you free on Saturday?",
+          "chunks": [
+            {
+              "text": "¡Hola chicas! ¿Cómo están?",
+              "meaning": "Hi girls! How are you?"
+            },
+            {
+              "text": "Gabriela, ¿estás libre",
+              "meaning": "Gabriela, are you free"
+            },
+            {
+              "text": "el sábado?",
+              "meaning": "on Saturday?"
+            }
+          ]
+        },
+        {
+          "original": "GABRIELA: No. Creo que no.",
+          "translation": "GABRIELA: No. I think not."
+        },
+        {
+          "original": "TOMÁS: ¡Qué lástima!",
+          "translation": "TOMÁS: What a pity!"
+        },
+        {
+          "original": "GABRIELA: ¿Por qué? ¿Tienes entradas para el béisbol?",
+          "translation": "GABRIELA: Why? Do you have tickets for baseball?",
+          "chunks": [
+            {
+              "text": "¿Por qué?",
+              "meaning": "Why?"
+            },
+            {
+              "text": "¿Tienes entradas",
+              "meaning": "Do you have tickets"
+            },
+            {
+              "text": "para el béisbol?",
+              "meaning": "for baseball?"
+            }
+          ]
+        },
+        {
+          "original": "TOMÁS: ¡Oh, no! Tengo dos entradas para el concierto de rock en el parque.",
+          "translation": "TOMÁS: Oh, no! I have two tickets for the rock concert in the park.",
+          "chunks": [
+            {
+              "text": "¡Oh, no! Tengo dos entradas",
+              "meaning": "Oh, no! I have two tickets"
+            },
+            {
+              "text": "para el concierto de rock",
+              "meaning": "for the rock concert"
+            },
+            {
+              "text": "en el parque.",
+              "meaning": "in the park."
+            }
+          ]
+        },
+        {
+          "original": "GABRIELA: ¿El concierto de rock? ¡Oh, Tomás, eres muy amable! Sí, estoy libre el sábado. ¡Vamos!",
+          "translation": "GABRIELA: The rock concert? Oh, Tomás, you are very kind! Yes, I am free on Saturday. Let's go!",
+          "chunks": [
+            {
+              "text": "¿El concierto de rock?",
+              "meaning": "The rock concert?"
+            },
+            {
+              "text": "¡Oh, Tomás, eres muy amable!",
+              "meaning": "Oh, Tomás, you are very kind!"
+            },
+            {
+              "text": "Sí, estoy libre el sábado.",
+              "meaning": "Yes, I am free on Saturday."
+            },
+            {
+              "text": "¡Vamos!",
+              "meaning": "Let's go!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "salir conmigo",
+      "translation": "to go out with me",
+      "sentences": [
+        {
+          "original": "Él está contento porque quiere salir conmigo.",
+          "translation": "He is happy because he wants to go out with me."
+        },
+        {
+          "original": "¿Tú estás libre para salir conmigo el sábado?",
+          "translation": "Are you free to go out with me on Saturday?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "guapo",
+      "translation": "handsome",
+      "sentences": [
+        {
+          "original": "El nuevo estudiante de México es muy guapo.",
+          "translation": "The new student from Mexico is very handsome."
+        },
+        {
+          "original": "Tomás es alto, moreno y guapo.",
+          "translation": "Tomás is tall, dark-haired, and handsome."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "libre",
+      "translation": "free / available",
+      "sentences": [
+        {
+          "original": "La mesa de la cafetería está libre ahora.",
+          "translation": "The table in the cafeteria is free right now."
+        },
+        {
+          "original": "Gabriela no está libre para el partido de béisbol.",
+          "translation": "Gabriela is not available for the baseball game."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¡Qué lástima!",
+      "translation": "What a pity! / What a shame!",
+      "sentences": [
+        {
+          "original": "No estás libre el sábado, ¡qué lástima!",
+          "translation": "You aren't free on Saturday, what a pity!"
+        },
+        {
+          "original": "La tienda está cerrada hoy, ¡qué lástima!",
+          "translation": "The store is closed today, what a shame!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "las entradas",
+      "translation": "tickets (for an event)",
+      "sentences": [
+        {
+          "original": "Las entradas para el concierto de rock son caras.",
+          "translation": "The tickets for the rock concert are expensive."
+        },
+        {
+          "original": "Ellos tienen dos entradas de cortesía.",
+          "translation": "They have two complimentary tickets."
+        }
+      ]
+    }
+  ]
+}

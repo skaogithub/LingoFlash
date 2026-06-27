@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Birthday Vocabulary",
+    "language": "es",
+    "description": "Spanish words and phrases related to birthdays and celebrations.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "el cumpleaños",
+      "translation": "the birthday",
+      "sentences": [
+        {
+          "original": "Hoy es mi cumpleaños.",
+          "translation": "Today is my birthday."
+        },
+        {
+          "original": "¿Cuándo es tu cumpleaños?",
+          "translation": "When is your birthday?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el pastel",
+      "translation": "the cake",
+      "sentences": [
+        {
+          "original": "El pastel de chocolate es delicioso.",
+          "translation": "The chocolate cake is delicious."
+        },
+        {
+          "original": "Necesitamos comprar un pastel.",
+          "translation": "We need to buy a cake."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el regalo",
+      "translation": "the gift",
+      "sentences": [
+        {
+          "original": "Tengo un regalo para ti.",
+          "translation": "I have a gift for you."
+        },
+        {
+          "original": "¿Te gusta tu regalo?",
+          "translation": "Do you like your gift?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la fiesta",
+      "translation": "the party",
+      "sentences": [
+        {
+          "original": "La fiesta es el sábado.",
+          "translation": "The party is on Saturday."
+        },
+        {
+          "original": "Vamos a una fiesta de cumpleaños.",
+          "translation": "We are going to a birthday party."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "las velas",
+      "translation": "the candles",
+      "sentences": [
+        {
+          "original": "Sopla las velas del pastel.",
+          "translation": "Blow out the candles on the cake."
+        },
+        {
+          "original": "Hay diez velas en la tarta.",
+          "translation": "There are ten candles on the cake."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la invitación",
+      "translation": "the invitation",
+      "sentences": [
+        {
+          "original": "Recibí tu invitación por correo.",
+          "translation": "I received your invitation by mail."
+        },
+        {
+          "original": "¿Quién envió la invitación?",
+          "translation": "Who sent the invitation?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "celebrar",
+      "translation": "to celebrate",
+      "sentences": [
+        {
+          "original": "Queremos celebrar con amigos.",
+          "translation": "We want to celebrate with friends."
+        },
+        {
+          "original": "Ella celebra su cumpleaños en un restaurante.",
+          "translation": "She celebrates her birthday in a restaurant."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "los invitados",
+      "translation": "the guests",
+      "sentences": [
+        {
+          "original": "Llegan los primeros invitados.",
+          "translation": "The first guests are arriving."
+        },
+        {
+          "original": "Hay muchos invitados en la sala.",
+          "translation": "There are many guests in the room."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¡Feliz cumpleaños!",
+      "translation": "Happy Birthday!",
+      "sentences": [
+        {
+          "original": "¡Feliz cumpleaños, que cumplas muchos más!",
+          "translation": "Happy birthday, may you have many more!"
+        },
+        {
+          "original": "Todos gritaron ¡Feliz cumpleaños!",
+          "translation": "Everyone shouted Happy Birthday!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la sorpresa",
+      "translation": "the surprise",
+      "sentences": [
+        {
+          "original": "Es una fiesta sorpresa.",
+          "translation": "It is a surprise party."
+        },
+        {
+          "original": "¡Qué gran sorpresa!",
+          "translation": "What a great surprise!"
+        }
+      ]
+    }
+  ]
+}

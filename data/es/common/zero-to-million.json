@@ -1,0 +1,760 @@
+{
+  "metadata": {
+    "title": "0 to millones",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "Numbers in Spanish."
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "cero",
+      "translation": "0",
+      "sentences": [
+        {
+          "original": "La temperatura es de 0 grados hoy.",
+          "translation": "The temperature is 0 degrees today."
+        },
+        {
+          "original": "10 - 10 = 0.",
+          "translation": "10 - 10 = 0."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "uno",
+      "translation": "1",
+      "sentences": [
+        {
+          "original": "Tengo 1 dólar.",
+          "translation": "I have 1 dollar."
+        },
+        {
+          "original": "1 + 1 = 2.",
+          "translation": "1 + 1 = 2."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dos",
+      "translation": "2",
+      "sentences": [
+        {
+          "original": "Hoy es el 2 de febrero.",
+          "translation": "Today is the 2nd of February."
+        },
+        {
+          "original": "2 * 5 = 10.",
+          "translation": "2 times 5 = 10."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tres",
+      "translation": "3",
+      "sentences": [
+        {
+          "original": "Tengo 3 dólares en mi cartera.",
+          "translation": "I have 3 dollars in my wallet."
+        },
+        {
+          "original": "9 / 3 = 3.",
+          "translation": "9 divided by 3 = 3."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cuatro",
+      "translation": "4",
+      "sentences": [
+        {
+          "original": "El examen es el 4 de abril.",
+          "translation": "The exam is on April 4th."
+        },
+        {
+          "original": "2 + 2 = 4.",
+          "translation": "2 + 2 = 4."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cinco",
+      "translation": "5",
+      "sentences": [
+        {
+          "original": "Esto cuesta $5,50.",
+          "translation": "This costs $5.50."
+        },
+        {
+          "original": "10 - 5 = 5.",
+          "translation": "10 - 5 = 5."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "seis",
+      "translation": "6",
+      "sentences": [
+        {
+          "original": "Mi cumpleaños es el 6 de junio.",
+          "translation": "My birthday is on June 6th."
+        },
+        {
+          "original": "3 + 3 = 6.",
+          "translation": "3 + 3 = 6."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "siete",
+      "translation": "7",
+      "sentences": [
+        {
+          "original": "El precio bajó a 7 euros.",
+          "translation": "The price dropped to 7 euros."
+        },
+        {
+          "original": "14 / 2 = 7.",
+          "translation": "14 divided by 2 = 7."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ocho",
+      "translation": "8",
+      "sentences": [
+        {
+          "original": "La cita es el 8 de agosto.",
+          "translation": "The appointment is on August 8th."
+        },
+        {
+          "original": "4 * 2 = 8.",
+          "translation": "4 times 2 = 8."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "nueve",
+      "translation": "9",
+      "sentences": [
+        {
+          "original": "Pagué 9 dólares por el almuerzo.",
+          "translation": "I paid 9 dollars for lunch."
+        },
+        {
+          "original": "3 * 3 = 9.",
+          "translation": "3 times 3 = 9."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "diez",
+      "translation": "10",
+      "sentences": [
+        {
+          "original": "Hoy es el 10 de octubre.",
+          "translation": "Today is October 10th."
+        },
+        {
+          "original": "5 + 5 = 10.",
+          "translation": "5 + 5 = 10."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "once",
+      "translation": "11",
+      "sentences": [
+        {
+          "original": "Cuesta 11,75.",
+          "translation": "It costs 11.75."
+        },
+        {
+          "original": "10 + 1 = 11.",
+          "translation": "10 + 1 = 11."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "doce",
+      "translation": "12",
+      "sentences": [
+        {
+          "original": "Mañana es el 12 de diciembre.",
+          "translation": "Tomorrow is December 12th."
+        },
+        {
+          "original": "6 * 2 = 12.",
+          "translation": "6 times 2 = 12."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "trece",
+      "translation": "13",
+      "sentences": [
+        {
+          "original": "Tengo 13 euros ahorrados.",
+          "translation": "I have 13 euros saved."
+        },
+        {
+          "original": "10 + 3 = 13.",
+          "translation": "10 + 3 = 13."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "catorce",
+      "translation": "14",
+      "sentences": [
+        {
+          "original": "Es el 14 de febrero.",
+          "translation": "It's February 14th."
+        },
+        {
+          "original": "7 + 7 = 14.",
+          "translation": "7 + 7 = 14."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "quince",
+      "translation": "15",
+      "sentences": [
+        {
+          "original": "El café cuesta 15 pesos.",
+          "translation": "The coffee costs 15 pesos."
+        },
+        {
+          "original": "10 + 5 = 15.",
+          "translation": "10 + 5 = 15."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dieciséis",
+      "translation": "16",
+      "sentences": [
+        {
+          "original": "Hoy es el 16 de marzo.",
+          "translation": "Today is March 16th."
+        },
+        {
+          "original": "8 + 8 = 16.",
+          "translation": "8 + 8 = 16."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "diecisiete",
+      "translation": "17",
+      "sentences": [
+        {
+          "original": "Pagué 17 dólares por la entrada.",
+          "translation": "I paid 17 dollars for the ticket."
+        },
+        {
+          "original": "10 + 7 = 17.",
+          "translation": "10 + 7 = 17."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dieciocho",
+      "translation": "18",
+      "sentences": [
+        {
+          "original": "El evento es el 18 de mayo.",
+          "translation": "The event is on May 18th."
+        },
+        {
+          "original": "9 * 2 = 18.",
+          "translation": "9 times 2 = 18."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "diecinueve",
+      "translation": "19",
+      "sentences": [
+        {
+          "original": "Cuesta 19,99.",
+          "translation": "It costs 19.99."
+        },
+        {
+          "original": "10 + 9 = 19.",
+          "translation": "10 + 9 = 19."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veinte",
+      "translation": "20",
+      "sentences": [
+        {
+          "original": "Tengo 20 dólares exactos.",
+          "translation": "I have exactly 20 dollars."
+        },
+        {
+          "original": "10 + 10 = 20.",
+          "translation": "10 + 10 = 20."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "veintiuno",
+      "translation": "21",
+      "sentences": [
+        {
+          "original": "Hoy es el 21 de septiembre.",
+          "translation": "Today is September 21st."
+        },
+        {
+          "original": "20 + 1 = 21.",
+          "translation": "20 + 1 = 21."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "treinta",
+      "translation": "30",
+      "sentences": [
+        {
+          "original": "Este libro cuesta 30 euros.",
+          "translation": "This book costs 30 euros."
+        },
+        {
+          "original": "15 + 15 = 30.",
+          "translation": "15 + 15 = 30."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cuarenta",
+      "translation": "40",
+      "sentences": [
+        {
+          "original": "La cuenta es de 40 dólares.",
+          "translation": "The bill is 40 dollars."
+        },
+        {
+          "original": "10 * 4 = 40.",
+          "translation": "10 times 4 = 40."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cincuenta",
+      "translation": "50",
+      "sentences": [
+        {
+          "original": "El descuento es de 50 pesos.",
+          "translation": "The discount is 50 pesos."
+        },
+        {
+          "original": "25 + 25 = 50.",
+          "translation": "25 + 25 = 50."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "sesenta",
+      "translation": "60",
+      "sentences": [
+        {
+          "original": "Faltan 60 días para el viaje.",
+          "translation": "There are 60 days left for the trip."
+        },
+        {
+          "original": "30 + 30 = 60.",
+          "translation": "30 + 30 = 60."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "setenta",
+      "translation": "70",
+      "sentences": [
+        {
+          "original": "Pagué 70 dólares por los zapatos.",
+          "translation": "I paid 70 dollars for the shoes."
+        },
+        {
+          "original": "70 - 10 = 60.",
+          "translation": "70 - 10 = 60."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ochenta",
+      "translation": "80",
+      "sentences": [
+        {
+          "original": "El televisor cuesta 80.000 pesos.",
+          "translation": "The TV costs 80,000 pesos."
+        },
+        {
+          "original": "40 * 2 = 80.",
+          "translation": "40 times 2 = 80."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "noventa",
+      "translation": "90",
+      "sentences": [
+        {
+          "original": "La entrada cuesta 90 pesos.",
+          "translation": "The ticket costs 90 pesos."
+        },
+        {
+          "original": "100 - 10 = 90.",
+          "translation": "100 - 10 = 90."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cien",
+      "translation": "100",
+      "sentences": [
+        {
+          "original": "Tengo un billete de 100 dólares.",
+          "translation": "I have a 100-dollar bill."
+        },
+        {
+          "original": "50 + 50 = 100.",
+          "translation": "50 + 50 = 100."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ciento uno",
+      "translation": "101",
+      "sentences": [
+        {
+          "original": "El hotel tiene 101 habitaciones.",
+          "translation": "The hotel has 101 rooms."
+        },
+        {
+          "original": "100 + 1 = 101.",
+          "translation": "100 + 1 = 101."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "doscientos",
+      "translation": "200",
+      "sentences": [
+        {
+          "original": "El alquiler es de 200 euros.",
+          "translation": "The rent is 200 euros."
+        },
+        {
+          "original": "100 * 2 = 200.",
+          "translation": "100 times 2 = 200."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "doscientos dos",
+      "translation": "202",
+      "sentences": [
+        {
+          "original": "Vivo en el apartamento 202.",
+          "translation": "I live in apartment 202."
+        },
+        {
+          "original": "200 + 2 = 202.",
+          "translation": "200 + 2 = 202."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "trescientos",
+      "translation": "300",
+      "sentences": [
+        {
+          "original": "El vuelo cuesta 300 dólares.",
+          "translation": "The flight costs 300 dollars."
+        },
+        {
+          "original": "100 * 3 = 300.",
+          "translation": "100 times 3 = 300."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "trescientos tres",
+      "translation": "303",
+      "sentences": [
+        {
+          "original": "La página es la 303.",
+          "translation": "The page is 303."
+        },
+        {
+          "original": "300 + 3 = 303.",
+          "translation": "300 + 3 = 303."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cuatrocientos",
+      "translation": "400",
+      "sentences": [
+        {
+          "original": "El curso cuesta 400 euros.",
+          "translation": "The course costs 400 euros."
+        },
+        {
+          "original": "200 + 200 = 400.",
+          "translation": "200 + 200 = 400."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cuatrocientos cincuenta",
+      "translation": "450",
+      "sentences": [
+        {
+          "original": "Pagué 450 por el sofá.",
+          "translation": "I paid 450 for the sofa."
+        },
+        {
+          "original": "900 / 2 = 450.",
+          "translation": "900 divided by 2 = 450."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "quinientos",
+      "translation": "500",
+      "sentences": [
+        {
+          "original": "Tengo 500 pesos en la mano.",
+          "translation": "I have 500 pesos in my hand."
+        },
+        {
+          "original": "1.000 / 2 = 500.",
+          "translation": "1,000 divided by 2 = 500."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "seiscientos",
+      "translation": "600",
+      "sentences": [
+        {
+          "original": "La reparación cuesta 600 dólares.",
+          "translation": "The repair costs 600 dollars."
+        },
+        {
+          "original": "300 * 2 = 600.",
+          "translation": "300 times 2 = 600."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "setecientos",
+      "translation": "700",
+      "sentences": [
+        {
+          "original": "El teléfono cuesta 700 euros.",
+          "translation": "The phone costs 700 euros."
+        },
+        {
+          "original": "1.000 - 300 = 700.",
+          "translation": "1,000 - 300 = 700."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ochocientos",
+      "translation": "800",
+      "sentences": [
+        {
+          "original": "El televisor vale 800 dólares.",
+          "translation": "The TV is worth 800 dollars."
+        },
+        {
+          "original": "400 * 2 = 800.",
+          "translation": "400 times 2 = 800."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "novecientos",
+      "translation": "900",
+      "sentences": [
+        {
+          "original": "El alquiler subió a 900 euros.",
+          "translation": "The rent went up to 900 euros."
+        },
+        {
+          "original": "300 * 3 = 900.",
+          "translation": "300 times 3 = 900."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "mil",
+      "translation": "1.000",
+      "sentences": [
+        {
+          "original": "Nací en el año 1.000.",
+          "translation": "I was born in the year 1,000."
+        },
+        {
+          "original": "500 + 500 = 1.000.",
+          "translation": "500 + 500 = 1,000."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "mil cien",
+      "translation": "1.100",
+      "sentences": [
+        {
+          "original": "Pagué 1.100 por la computadora.",
+          "translation": "I paid 1,100 for the computer."
+        },
+        {
+          "original": "1.000 + 100 = 1.100.",
+          "translation": "1,000 + 100 = 1,100."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cuatro mil",
+      "translation": "4.000",
+      "sentences": [
+        {
+          "original": "La ciudad tiene 4.000 habitantes.",
+          "translation": "The city has 4,000 inhabitants."
+        },
+        {
+          "original": "1.000 * 4 = 4.000.",
+          "translation": "1,000 times 4 = 4,000."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cuatro mil doscientos cinco",
+      "translation": "4.205",
+      "sentences": [
+        {
+          "original": "El premio fue de 4.205 pesos.",
+          "translation": "The prize was 4,205 pesos."
+        },
+        {
+          "original": "4.000 + 205 = 4.205.",
+          "translation": "4,000 + 205 = 4,205."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "un millón",
+      "translation": "1.000.000",
+      "sentences": [
+        {
+          "original": "Ganó 1.000.000 de dólares en la lotería.",
+          "translation": "He won 1,000,000 dollars in the lottery."
+        },
+        {
+          "original": "500.000 + 500.000 = 1.000.000.",
+          "translation": "500,000 + 500,000 = 1,000,000."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "siete millones",
+      "translation": "7.000.000",
+      "sentences": [
+        {
+          "original": "Hay 7.000.000 de personas en la ciudad.",
+          "translation": "There are 7,000,000 people in the city."
+        },
+        {
+          "original": "1.000.000 * 7 = 7.000.000.",
+          "translation": "1,000,000 times 7 = 7,000,000."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dos mil veintiséis",
+      "translation": "2026",
+      "sentences": [
+        {
+          "original": "El próximo mundial será en 2026.",
+          "translation": "The next World Cup will be in 2026."
+        },
+        {
+          "original": "2.025 + 1 = 2026.",
+          "translation": "2,025 + 1 = 2,026."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "mil novecientos veintisiete",
+      "translation": "1927",
+      "sentences": [
+        {
+          "original": "Esta película es del año 1927.",
+          "translation": "This movie is from the year 1927."
+        },
+        {
+          "original": "1.900 + 27 = 1927.",
+          "translation": "1,900 + 27 = 1,927."
+        }
+      ]
+    }
+  ]
+}

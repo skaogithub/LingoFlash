@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "days of week",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "Days of the week and related time vocabulary in Spanish."
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "el lunes",
+      "translation": "Monday",
+      "sentences": [
+        {
+          "original": "El lunes tengo clase de español.",
+          "translation": "On Monday I have Spanish class."
+        },
+        {
+          "original": "No me gusta el lunes.",
+          "translation": "I do not like Monday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el martes",
+      "translation": "Tuesday",
+      "sentences": [
+        {
+          "original": "El martes voy al gimnasio.",
+          "translation": "On Tuesday I go to the gym."
+        },
+        {
+          "original": "¿Qué haces el martes?",
+          "translation": "What are you doing on Tuesday?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el miércoles",
+      "translation": "Wednesday",
+      "sentences": [
+        {
+          "original": "Hoy es miércoles.",
+          "translation": "Today is Wednesday."
+        },
+        {
+          "original": "Trabajo todos los miércoles.",
+          "translation": "I work every Wednesday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el jueves",
+      "translation": "Thursday",
+      "sentences": [
+        {
+          "original": "El jueves es mi cumpleaños.",
+          "translation": "Thursday is my birthday."
+        },
+        {
+          "original": "Nos vemos el jueves.",
+          "translation": "See you on Thursday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el viernes",
+      "translation": "Friday",
+      "sentences": [
+        {
+          "original": "¡Por fin es viernes!",
+          "translation": "Finally it is Friday!"
+        },
+        {
+          "original": "Salgo con amigos el viernes.",
+          "translation": "I go out with friends on Friday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el sábado",
+      "translation": "Saturday",
+      "sentences": [
+        {
+          "original": "El sábado voy a la playa.",
+          "translation": "On Saturday I go to the beach."
+        },
+        {
+          "original": "No trabajo el sábado.",
+          "translation": "I do not work on Saturday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el domingo",
+      "translation": "Sunday",
+      "sentences": [
+        {
+          "original": "El domingo descanso en casa.",
+          "translation": "On Sunday I rest at home."
+        },
+        {
+          "original": "El domingo visito a mi abuela.",
+          "translation": "On Sunday I visit my grandmother."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el día",
+      "translation": "the day",
+      "sentences": [
+        {
+          "original": "¿Qué día es hoy?",
+          "translation": "What day is today?"
+        },
+        {
+          "original": "Es un día muy bonito.",
+          "translation": "It is a very beautiful day."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la semana",
+      "translation": "the week",
+      "sentences": [
+        {
+          "original": "La semana tiene siete días.",
+          "translation": "The week has seven days."
+        },
+        {
+          "original": "Tengo mucho trabajo esta semana.",
+          "translation": "I have a lot of work this week."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "el fin de semana",
+      "translation": "the weekend",
+      "sentences": [
+        {
+          "original": "¿Qué planes tienes para el fin de semana?",
+          "translation": "What plans do you have for the weekend?"
+        },
+        {
+          "original": "Me encanta el fin de semana.",
+          "translation": "I love the weekend."
+        },
+        {
+          "original": "¡Que tengas un buen fin de semana!",
+          "translation": "Have a nice weekend!"
+        },
+        {
+          "original": "¡Que tenga un buen fin de semana!",
+          "translation": "Have a nice weekend! (formal, used for a boss or someone you don't know well)"
+        },
+        {
+          "original": "¡Buen fin de semana! or simply ¡Buen finde!",
+          "translation": "Have a nice weekend! (common, casual)"
+        },
+        {
+          "original": "¡Que tengan un buen fin de semana!",
+          "translation": "You all have a nice weekend! (to a group of people)"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Qué día es hoy?",
+      "translation": "What day is today?",
+      "sentences": [
+        {
+          "original": "Hoy es lunes.",
+          "translation": "Today is Monday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Qué día es mañana?",
+      "translation": "What day is tomorrow?",
+      "sentences": [
+        {
+          "original": "Mañana es martes.",
+          "translation": "Tomorrow is Tuesday."
+        },
+        {
+          "original": "Pasado mañana es miércoles.",
+          "translation": "The day after tomorrow is Wednesday."
+        },
+        {
+          "original": "En 3 días es jueves.",
+          "translation": "In three days it is Thursday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Qué día fue ayer?",
+      "translation": "What day was yesterday?",
+      "sentences": [
+        {
+          "original": "Ayer fue domingo.",
+          "translation": "Yesterday was Sunday."
+        },
+        {
+          "original": "Anteayer fue sábado.",
+          "translation": "The day before yesterday was Saturday."
+        },
+        {
+          "original": "Hace 3 días fue viernes.",
+          "translation": "Three days ago was Friday."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "title": "Japanese Greetings",
+    "language": "ja",
+    "description": "Common Japanese greetings and daily expressions",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "おはようございます",
+      "translation": "Good morning",
+      "sentences": [
+        {
+          "original": "先生、おはようございます。",
+          "translation": "Good morning, teacher.",
+          "chunks": [
+            {
+              "text": "先生、",
+              "meaning": "Teacher,"
+            },
+            {
+              "text": "おはようございます。",
+              "meaning": "Good morning (polite)."
+            }
+          ]
+        },
+        {
+          "original": "おはよう。",
+          "translation": "Good morning (casual)."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "こんにちは",
+      "translation": "Hello / Good afternoon",
+      "sentences": [
+        {
+          "original": "皆さん、こんにちは。",
+          "translation": "Hello, everyone.",
+          "chunks": [
+            {
+              "text": "皆さん、",
+              "meaning": "Everyone,"
+            },
+            {
+              "text": "こんにちは。",
+              "meaning": "Hello / Good afternoon."
+            }
+          ]
+        },
+        {
+          "original": "こんにちは、お元気ですか？",
+          "translation": "Hello, how are you?",
+          "chunks": [
+            {
+              "text": "こんにちは、",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "お元気ですか？",
+              "meaning": "are you healthy?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "こんばんは",
+      "translation": "Good evening",
+      "sentences": [
+        {
+          "original": "こんばんは、いい夜ですね。",
+          "translation": "Good evening, it's a nice night.",
+          "chunks": [
+            {
+              "text": "こんばんは、",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "いい夜ですね。",
+              "meaning": "it is a nice night, isn't it?"
+            }
+          ]
+        },
+        {
+          "original": "田中さん、こんばんは。",
+          "translation": "Good evening, Mr. Tanaka.",
+          "chunks": [
+            {
+              "text": "田中さん、",
+              "meaning": "Mr. Tanaka,"
+            },
+            {
+              "text": "こんばんは。",
+              "meaning": "Good evening."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "おやすみなさい",
+      "translation": "Good night",
+      "sentences": [
+        {
+          "original": "もう寝ます。おやすみなさい。",
+          "translation": "I'm going to sleep now. Good night.",
+          "chunks": [
+            {
+              "text": "もう寝ます。",
+              "meaning": "I am already sleeping / going to sleep."
+            },
+            {
+              "text": "おやすみなさい。",
+              "meaning": "Good night."
+            }
+          ]
+        },
+        {
+          "original": "おやすみ。",
+          "translation": "Good night (casual)."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "さようなら",
+      "translation": "Goodbye",
+      "sentences": [
+        {
+          "original": "先生、さようなら。",
+          "translation": "Goodbye, teacher."
+        },
+        {
+          "original": "また明日、さようなら。",
+          "translation": "See you tomorrow, goodbye.",
+          "chunks": [
+            {
+              "text": "また明日、",
+              "meaning": "Again tomorrow,"
+            },
+            {
+              "text": "さようなら。",
+              "meaning": "goodbye."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ありがとうございます",
+      "translation": "Thank you",
+      "sentences": [
+        {
+          "original": "手伝ってくれて、ありがとうございます。",
+          "translation": "Thank you for helping me.",
+          "chunks": [
+            {
+              "text": "手伝ってくれて、",
+              "meaning": "For helping me,"
+            },
+            {
+              "text": "ありがとうございます。",
+              "meaning": "thank you very much."
+            }
+          ]
+        },
+        {
+          "original": "本当にありがとうございます。",
+          "translation": "Thank you very much.",
+          "chunks": [
+            {
+              "text": "本当に",
+              "meaning": "Really"
+            },
+            {
+              "text": "ありがとうございます。",
+              "meaning": "thank you very much."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "すみません",
+      "translation": "Excuse me / I'm sorry",
+      "sentences": [
+        {
+          "original": "すみません、トイレはどこですか？",
+          "translation": "Excuse me, where is the toilet?",
+          "chunks": [
+            {
+              "text": "すみません、",
+              "meaning": "Excuse me,"
+            },
+            {
+              "text": "トイレはどこですか？",
+              "meaning": "where is the toilet?"
+            }
+          ]
+        },
+        {
+          "original": "遅れてすみません。",
+          "translation": "I'm sorry for being late.",
+          "chunks": [
+            {
+              "text": "遅れて",
+              "meaning": "Being late"
+            },
+            {
+              "text": "すみません。",
+              "meaning": "I am sorry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "はじめまして",
+      "translation": "Nice to meet you",
+      "sentences": [
+        {
+          "original": "はじめまして、田中です。",
+          "translation": "Nice to meet you, I am Tanaka.",
+          "chunks": [
+            {
+              "text": "はじめまして、",
+              "meaning": "Nice to meet you,"
+            },
+            {
+              "text": "田中です。",
+              "meaning": "I am Tanaka."
+            }
+          ]
+        },
+        {
+          "original": "はじめまして、よろしくお願いします。",
+          "translation": "Nice to meet you, please treat me well.",
+          "chunks": [
+            {
+              "text": "はじめまして、",
+              "meaning": "Nice to meet you,"
+            },
+            {
+              "text": "よろしくお願いします。",
+              "meaning": "please take care of me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "いってきます",
+      "translation": "I'm leaving / I'll go and come back",
+      "sentences": [
+        {
+          "original": "学校へいってきます。",
+          "translation": "I'm off to school.",
+          "chunks": [
+            {
+              "text": "学校へ",
+              "meaning": "To school"
+            },
+            {
+              "text": "いってきます。",
+              "meaning": "I go and will return."
+            }
+          ]
+        },
+        {
+          "original": "仕事にいってきます。",
+          "translation": "I'm leaving for work.",
+          "chunks": [
+            {
+              "text": "仕事に",
+              "meaning": "To work"
+            },
+            {
+              "text": "いってきます。",
+              "meaning": "I go and will return."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ただいま",
+      "translation": "I'm home / I'm back",
+      "sentences": [
+        {
+          "original": "ただいま、お母さん。",
+          "translation": "I'm home, Mom."
+        },
+        {
+          "original": "ただいま戻りました。",
+          "translation": "I have returned just now.",
+          "chunks": [
+            {
+              "text": "ただいま",
+              "meaning": "Just now"
+            },
+            {
+              "text": "戻りました。",
+              "meaning": "returned."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

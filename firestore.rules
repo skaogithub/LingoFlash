@@ -1,0 +1,74 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: users/{userId}/decks/{deckId}
+    // Document ID: deckId (string)
+    // Fields:
+    //   - id: string (required)
+    //   - name: string (required, 1-100 chars)
+    //   - cards: list (required, max 500 items)
+    //     - Each card: object (front, back, type, examples, isStarred, mastery)
+    //   - createdAt: timestamp (required)
+    //   - updatedAt: timestamp (required)
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    function isValidDeck(data) {
+      return hasRequiredFields(['id', 'name', 'cards', 'createdAt', 'updatedAt']) &&
+             hasOnlyAllowedFields(['id', 'name', 'cards', 'quizQuestions', 'language', 'createdAt', 'updatedAt']) &&
+             data.id is string &&
+             data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+             data.cards is list && data.cards.size() <= 500 &&
+             (!('quizQuestions' in data) || (data.quizQuestions is list && data.quizQuestions.size() <= 100)) &&
+             (!('language' in data) || data.language is string) &&
+             data.createdAt is timestamp &&
+             data.updatedAt is timestamp;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /test/connection {
+      allow read: if true;
+    }
+
+    match /users/{userId} {
+      // Users can only access their own data
+      allow read: if isOwner(userId);
+      
+      match /decks/{deckId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+    
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

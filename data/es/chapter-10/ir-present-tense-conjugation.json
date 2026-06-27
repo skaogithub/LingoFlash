@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "title": "Vocabulario: Verbos en -ir y Frases de Acción (V2)",
+    "language": "es",
+    "description": "Vocabulary and action phrases focusing on regular -ir verbs with three distinct present tense conjugations.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "abrir",
+      "translation": "to open",
+      "sentences": [
+        {
+          "original": "Yo abro la tienda porque soy el secretario.",
+          "translation": "I open the store because I am the secretary."
+        },
+        {
+          "original": "¿Tú abres la puerta para la profesora?",
+          "translation": "Do you open the door for the teacher?"
+        },
+        {
+          "original": "El camarero abre las ventanas porque hace calor.",
+          "translation": "The waiter opens the windows because it is hot."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cubrir",
+      "translation": "to cover",
+      "sentences": [
+        {
+          "original": "Yo cubro la pintura antigua porque es muy valiosa.",
+          "translation": "I cover the ancient painting because it is very valuable."
+        },
+        {
+          "original": "Tú cubres tus ojos durante el juego cómico.",
+          "translation": "You cover your eyes during the funny game."
+        },
+        {
+          "original": "Las enfermeras cubren al paciente en el hospital.",
+          "translation": "The nurses cover the patient in the hospital."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "describir",
+      "translation": "to describe",
+      "sentences": [
+        {
+          "original": "Yo describo la Ciudad de México porque soy de allí.",
+          "translation": "I describe Mexico City because I am from there."
+        },
+        {
+          "original": "Tú describes al perro grande que se llama Tito.",
+          "translation": "You describe the big dog named Tito."
+        },
+        {
+          "original": "Nosotros describimos la pintura en la clase de arte.",
+          "translation": "We describe the painting in art class."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dividir",
+      "translation": "to divide, to split",
+      "sentences": [
+        {
+          "original": "Yo divido el pastel grande para los niños alegres.",
+          "translation": "I divide the big cake for the happy children."
+        },
+        {
+          "original": "Ella divide el trabajo en la oficina de manera inteligente.",
+          "translation": "She divides the work in the office in an intelligent way."
+        },
+        {
+          "original": "Nosotros dividimos la cuenta del restaurante italiano.",
+          "translation": "We split the bill at the Italian restaurant."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "escribir",
+      "translation": "to write",
+      "sentences": [
+        {
+          "original": "Yo escribo una composición difícil para la escuela.",
+          "translation": "I write a difficult composition for school."
+        },
+        {
+          "original": "¿Tú escribes una carta larga para tu hermano menor?",
+          "translation": "Do you write a long letter for your younger brother?"
+        },
+        {
+          "original": "Los profesores escriben los exámenes en la universidad.",
+          "translation": "The professors write the exams at the university."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "recibir",
+      "translation": "to receive",
+      "sentences": [
+        {
+          "original": "Yo recibo una carta del joven mexicano.",
+          "translation": "I receive a letter from the young Mexican man."
+        },
+        {
+          "original": "Tú recibes muchos regalos porque hoy es tu cumpleaños.",
+          "translation": "You receive many gifts because today is your birthday."
+        },
+        {
+          "original": "Nosotros recibimos a los nuevos alumnos con alegría.",
+          "translation": "We receive the new students with joy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "subir / subir a",
+      "translation": "to go up / to get on",
+      "sentences": [
+        {
+          "original": "Yo subo al autobús azul en la mañana.",
+          "translation": "I get on the blue bus in the morning."
+        },
+        {
+          "original": "Tú subes las escaleras porque eres joven y fuerte.",
+          "translation": "You go up the stairs because you are young and strong."
+        },
+        {
+          "original": "El cartero sube a su carro para distribuir el correo.",
+          "translation": "The mail carrier gets in his car to deliver the mail."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "vivir (en)",
+      "translation": "to live (in)",
+      "sentences": [
+        {
+          "original": "Yo vivo en una casa bonita en California.",
+          "translation": "I live in a beautiful house in California."
+        },
+        {
+          "original": "¿Tú vives cerca del Bosque de Chapultepec?",
+          "translation": "Do you live near the Chapultepec Forest?"
+        },
+        {
+          "original": "Mis primos de Veracruz viven en una ciudad grande.",
+          "translation": "My cousins from Veracruz live in a big city."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la comida",
+      "translation": "food",
+      "sentences": [
+        {
+          "original": "La comida mexicana es muy buena.",
+          "translation": "Mexican food is very good."
+        },
+        {
+          "original": "El almuerzo es la comida principal del día.",
+          "translation": "Lunch is the main food of the day."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la tienda",
+      "translation": "store",
+      "sentences": [
+        {
+          "original": "La tienda de ropa es bonita y muy grande.",
+          "translation": "The clothing store is pretty and very big."
+        },
+        {
+          "original": "Esa tienda es de mi familia.",
+          "translation": "That store belongs to my family."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "subir al autobús",
+      "translation": "to get on the bus",
+      "sentences": [
+        {
+          "original": "El muchacho es rápido al subir al autobús.",
+          "translation": "The boy is fast when getting on the bus."
+        },
+        {
+          "original": "Es peligroso subir al autobús si está en movimiento.",
+          "translation": "It is dangerous to get on the bus if it is in motion."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "vivir en una casa",
+      "translation": "to live in a house",
+      "sentences": [
+        {
+          "original": "Mi sueño es vivir en una casa cerca del parque.",
+          "translation": "My dream is to live in a house near the park."
+        },
+        {
+          "original": "Ellos son felices de vivir en una casa pequeña.",
+          "translation": "They are happy to live in a small house."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "abrir la puerta",
+      "translation": "to open the door",
+      "sentences": [
+        {
+          "original": "El camarero es muy atento al abrir la puerta.",
+          "translation": "The waiter is very attentive when opening the door."
+        },
+        {
+          "original": "Es una buena costumbre abrir la puerta para otros.",
+          "translation": "It is a good habit to open the door for others."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "cubrir los ojos",
+      "translation": "to cover the eyes",
+      "sentences": [
+        {
+          "original": "El juego es divertido cuando es necesario cubrir los ojos.",
+          "translation": "The game is fun when it is necessary to cover the eyes."
+        },
+        {
+          "original": "La acción es cubrir los ojos para dar una sorpresa.",
+          "translation": "The action is to cover the eyes to give a surprise."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "describir la pintura",
+      "translation": "to describe the painting",
+      "sentences": [
+        {
+          "original": "El examen de arte es describir la pintura famosa.",
+          "translation": "The art exam is to describe the famous painting."
+        },
+        {
+          "original": "Es interesante describir la pintura de este artista.",
+          "translation": "It is interesting to describe the painting of this artist."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "dividir el pastel",
+      "translation": "to divide/cut the cake",
+      "sentences": [
+        {
+          "original": "La mamá es la persona encargada de dividir el pastel.",
+          "translation": "The mom is the person in charge of dividing the cake."
+        },
+        {
+          "original": "Es difícil dividir el pastel en partes iguales.",
+          "translation": "It is difficult to divide the cake into equal parts."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "escribir una composición",
+      "translation": "to write a composition",
+      "sentences": [
+        {
+          "original": "La tarea de español es escribir una composición sobre la familia.",
+          "translation": "The Spanish homework is to write a composition about the family."
+        },
+        {
+          "original": "Es un gran ejercicio escribir una composición cada semana.",
+          "translation": "It is a great exercise to write a composition every week."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "recibir una carta",
+      "translation": "to receive a letter",
+      "sentences": [
+        {
+          "original": "Es una gran alegría recibir una carta de un amigo.",
+          "translation": "It is a great joy to receive a letter from a friend."
+        },
+        {
+          "original": "Mi abuelo es feliz al recibir una carta tradicional.",
+          "translation": "My grandfather is happy when receiving a traditional letter."
+        }
+      ]
+    }
+  ]
+}

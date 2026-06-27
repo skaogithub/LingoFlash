@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Spanish Sports",
+    "language": "es",
+    "description": "Common sports and athletic activities in Spanish.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "el fútbol",
+      "translation": "soccer / football",
+      "sentences": [
+        {
+          "original": "Me gusta jugar al fútbol con mis amigos.",
+          "translation": "I like to play soccer with my friends."
+        },
+        {
+          "original": "El fútbol es el deporte más popular.",
+          "translation": "Soccer is the most popular sport."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el baloncesto",
+      "translation": "basketball",
+      "sentences": [
+        {
+          "original": "Él juega al baloncesto en la escuela.",
+          "translation": "He plays basketball at school."
+        },
+        {
+          "original": "El baloncesto requiere mucha energía.",
+          "translation": "Basketball requires a lot of energy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el tenis",
+      "translation": "tennis",
+      "sentences": [
+        {
+          "original": "Necesito una raqueta nueva para jugar al tenis.",
+          "translation": "I need a new racket to play tennis."
+        },
+        {
+          "original": "Ella practica tenis todos los sábados.",
+          "translation": "She practices tennis every Saturday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la natación",
+      "translation": "swimming",
+      "sentences": [
+        {
+          "original": "La natación es un ejercicio muy completo.",
+          "translation": "Swimming is a very complete exercise."
+        },
+        {
+          "original": "Voy a la piscina para practicar natación.",
+          "translation": "I go to the pool to practice swimming."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el béisbol",
+      "translation": "baseball",
+      "sentences": [
+        {
+          "original": "El béisbol es muy famoso en el Caribe.",
+          "translation": "Baseball is very famous in the Caribbean."
+        },
+        {
+          "original": "Vimos un partido de béisbol anoche.",
+          "translation": "We watched a baseball game last night."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el voleibol",
+      "translation": "volleyball",
+      "sentences": [
+        {
+          "original": "Jugamos voleibol en la playa.",
+          "translation": "We play volleyball at the beach."
+        },
+        {
+          "original": "El voleibol es un deporte de equipo.",
+          "translation": "Volleyball is a team sport."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "correr",
+      "translation": "running",
+      "sentences": [
+        {
+          "original": "Me gusta correr por el parque.",
+          "translation": "I like running in the park."
+        },
+        {
+          "original": "Correr es bueno para el corazón.",
+          "translation": "Running is good for the heart."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el ciclismo",
+      "translation": "cycling",
+      "sentences": [
+        {
+          "original": "El ciclismo es popular en las montañas.",
+          "translation": "Cycling is popular in the mountains."
+        },
+        {
+          "original": "Él practica ciclismo todos los fines de semana.",
+          "translation": "He practices cycling every weekend."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el golf",
+      "translation": "golf",
+      "sentences": [
+        {
+          "original": "El golf es un deporte muy tranquilo.",
+          "translation": "Golf is a very quiet sport."
+        },
+        {
+          "original": "Mi abuelo juega al golf los domingos.",
+          "translation": "My grandfather plays golf on Sundays."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el boxeo",
+      "translation": "boxing",
+      "sentences": [
+        {
+          "original": "El boxeo requiere mucha fuerza.",
+          "translation": "Boxing requires a lot of strength."
+        },
+        {
+          "original": "No me gusta ver el boxeo en la televisión.",
+          "translation": "I don't like watching boxing on television."
+        }
+      ]
+    }
+  ]
+}

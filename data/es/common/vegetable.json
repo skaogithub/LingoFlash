@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Spanish Vegetables",
+    "language": "es",
+    "description": "Common vegetables in Spanish with usage examples.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "la zanahoria",
+      "translation": "carrot",
+      "sentences": [
+        {
+          "original": "Me gusta comer zanahoria cruda.",
+          "translation": "I like to eat raw carrot."
+        },
+        {
+          "original": "La zanahoria es buena para la vista.",
+          "translation": "Carrots are good for eyesight."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la papa",
+      "translation": "potato",
+      "sentences": [
+        {
+          "original": "Quiero papas fritas con mi hamburguesa.",
+          "translation": "I want french fries with my hamburger."
+        },
+        {
+          "original": "La papa es un ingrediente básico.",
+          "translation": "The potato is a basic ingredient."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el tomate",
+      "translation": "tomato",
+      "sentences": [
+        {
+          "original": "El tomate está muy rojo.",
+          "translation": "The tomato is very red."
+        },
+        {
+          "original": "Hago una ensalada con tomate y lechuga.",
+          "translation": "I make a salad with tomato and lettuce."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la cebolla",
+      "translation": "onion",
+      "sentences": [
+        {
+          "original": "Lloro cuando corto la cebolla.",
+          "translation": "I cry when I cut the onion."
+        },
+        {
+          "original": "La cebolla le da sabor a la sopa.",
+          "translation": "The onion gives flavor to the soup."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la lechuga",
+      "translation": "lettuce",
+      "sentences": [
+        {
+          "original": "Lava bien la lechuga antes de comer.",
+          "translation": "Wash the lettuce well before eating."
+        },
+        {
+          "original": "Esta lechuga está muy fresca.",
+          "translation": "This lettuce is very fresh."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el brócoli",
+      "translation": "broccoli",
+      "sentences": [
+        {
+          "original": "El brócoli parece un árbol pequeño.",
+          "translation": "Broccoli looks like a small tree."
+        },
+        {
+          "original": "Cocinamos el brócoli al vapor.",
+          "translation": "We cook the broccoli by steaming it."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el pepino",
+      "translation": "cucumber",
+      "sentences": [
+        {
+          "original": "El pepino es muy refrescante en verano.",
+          "translation": "Cucumber is very refreshing in summer."
+        },
+        {
+          "original": "Corto el pepino en rodajas.",
+          "translation": "I cut the cucumber into slices."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el ajo",
+      "translation": "garlic",
+      "sentences": [
+        {
+          "original": "El ajo huele muy fuerte.",
+          "translation": "Garlic smells very strong."
+        },
+        {
+          "original": "Necesito un diente de ajo para la receta.",
+          "translation": "I need a clove of garlic for the recipe."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la espinaca",
+      "translation": "spinach",
+      "sentences": [
+        {
+          "original": "La espinaca tiene mucho hierro.",
+          "translation": "Spinach has a lot of iron."
+        },
+        {
+          "original": "Prefiero la espinaca cocida.",
+          "translation": "I prefer cooked spinach."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el pimiento",
+      "translation": "pepper",
+      "sentences": [
+        {
+          "original": "El pimiento verde no es picante.",
+          "translation": "The green pepper is not spicy."
+        },
+        {
+          "original": "Compré pimientos de tres colores.",
+          "translation": "I bought peppers of three colors."
+        }
+      ]
+    }
+  ]
+}

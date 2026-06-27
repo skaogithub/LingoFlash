@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "title": "French Greetings",
+    "language": "fr",
+    "description": "Essential French greetings and common expressions",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Bonjour",
+      "translation": "Hello / Good morning",
+      "sentences": [
+        {
+          "original": "Bonjour, comment allez-vous ?",
+          "translation": "Hello, how are you?",
+          "chunks": [
+            {
+              "text": "Bonjour,",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "comment allez-vous ?",
+              "meaning": "how are you? (formal)"
+            }
+          ]
+        },
+        {
+          "original": "Bonjour tout le monde !",
+          "translation": "Good morning everyone!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Salut",
+      "translation": "Hi / Bye (informal)",
+      "sentences": [
+        {
+          "original": "Salut, ça va ?",
+          "translation": "Hi, how's it going?"
+        },
+        {
+          "original": "Salut, à demain !",
+          "translation": "Bye, see you tomorrow!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Bonsoir",
+      "translation": "Good evening",
+      "sentences": [
+        {
+          "original": "Bonsoir, bienvenue chez nous.",
+          "translation": "Good evening, welcome to our home.",
+          "chunks": [
+            {
+              "text": "Bonsoir,",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "bienvenue chez nous.",
+              "meaning": "welcome to our place."
+            }
+          ]
+        },
+        {
+          "original": "Bonsoir, vous désirez une table ?",
+          "translation": "Good evening, would you like a table?",
+          "chunks": [
+            {
+              "text": "Bonsoir,",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "vous désirez une table ?",
+              "meaning": "do you want a table?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Comment ça va ?",
+      "translation": "How is it going?",
+      "sentences": [
+        {
+          "original": "Salut Thomas, comment ça va ?",
+          "translation": "Hi Thomas, how is it going?",
+          "chunks": [
+            {
+              "text": "Salut Thomas,",
+              "meaning": "Hi Thomas,"
+            },
+            {
+              "text": "comment ça va ?",
+              "meaning": "how is it going?"
+            }
+          ]
+        },
+        {
+          "original": "Ça fait longtemps, comment ça va ?",
+          "translation": "It's been a long time, how is it going?",
+          "chunks": [
+            {
+              "text": "Ça fait longtemps,",
+              "meaning": "It has been a long time,"
+            },
+            {
+              "text": "comment ça va ?",
+              "meaning": "how is it going?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Ça va bien",
+      "translation": "I'm doing well / Things are going well",
+      "sentences": [
+        {
+          "original": "Ça va bien, merci !",
+          "translation": "I'm doing well, thank you!"
+        },
+        {
+          "original": "Je suis content car ça va bien aujourd'hui.",
+          "translation": "I'm happy because things are going well today.",
+          "chunks": [
+            {
+              "text": "Je suis content",
+              "meaning": "I am happy"
+            },
+            {
+              "text": "car ça va bien aujourd'hui.",
+              "meaning": "because things are going well today."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Enchanté(e)",
+      "translation": "Nice to meet you",
+      "sentences": [
+        {
+          "original": "Je m'appelle Marie, enchantée.",
+          "translation": "My name is Marie, nice to meet you.",
+          "chunks": [
+            {
+              "text": "Je m'appelle Marie,",
+              "meaning": "My name is Marie,"
+            },
+            {
+              "text": "enchantée.",
+              "meaning": "nice to meet you."
+            }
+          ]
+        },
+        {
+          "original": "Enchanté de faire votre connaissance.",
+          "translation": "Nice to meet you (formal).",
+          "chunks": [
+            {
+              "text": "Enchanté",
+              "meaning": "Pleased"
+            },
+            {
+              "text": "de faire votre connaissance.",
+              "meaning": "to make your acquaintance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Au revoir",
+      "translation": "Goodbye",
+      "sentences": [
+        {
+          "original": "Au revoir et bonne journée !",
+          "translation": "Goodbye and have a nice day!",
+          "chunks": [
+            {
+              "text": "Au revoir",
+              "meaning": "Goodbye"
+            },
+            {
+              "text": "et bonne journée !",
+              "meaning": "and have a good day!"
+            }
+          ]
+        },
+        {
+          "original": "Il est tard, au revoir.",
+          "translation": "It's late, goodbye.",
+          "chunks": [
+            {
+              "text": "Il est tard,",
+              "meaning": "It is late,"
+            },
+            {
+              "text": "au revoir.",
+              "meaning": "goodbye."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "À bientôt",
+      "translation": "See you soon",
+      "sentences": [
+        {
+          "original": "Merci pour le café, à bientôt !",
+          "translation": "Thanks for the coffee, see you soon!",
+          "chunks": [
+            {
+              "text": "Merci pour le café,",
+              "meaning": "Thanks for the coffee,"
+            },
+            {
+              "text": "à bientôt !",
+              "meaning": "see you soon!"
+            }
+          ]
+        },
+        {
+          "original": "À bientôt, j'espère.",
+          "translation": "See you soon, I hope."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Merci",
+      "translation": "Thank you",
+      "sentences": [
+        {
+          "original": "Merci beaucoup pour votre aide.",
+          "translation": "Thank you very much for your help.",
+          "chunks": [
+            {
+              "text": "Merci beaucoup",
+              "meaning": "Thank you very much"
+            },
+            {
+              "text": "pour votre aide.",
+              "meaning": "for your help."
+            }
+          ]
+        },
+        {
+          "original": "Non merci, je n'ai plus faim.",
+          "translation": "No thank you, I'm no longer hungry.",
+          "chunks": [
+            {
+              "text": "Non merci,",
+              "meaning": "No thank you,"
+            },
+            {
+              "text": "je n'ai más faim.",
+              "meaning": "I'm no longer hungry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "S'il vous plaît",
+      "translation": "Please (formal)",
+      "sentences": [
+        {
+          "original": "Un café, s'il vous plaît.",
+          "translation": "A coffee, please."
+        },
+        {
+          "original": "Répétez más doucement, s'il vous plaît.",
+          "translation": "Repeat more slowly, please.",
+          "chunks": [
+            {
+              "text": "Répétez plus doucement,",
+              "meaning": "Repeat more slowly,"
+            },
+            {
+              "text": "s'il vous plaît.",
+              "meaning": "please."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

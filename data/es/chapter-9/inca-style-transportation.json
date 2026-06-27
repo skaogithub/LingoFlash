@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "Cápsula cultural: Tránsito rápido al estilo inca",
+    "language": "es",
+    "description": "Refined sequential dialogue with complete chunking.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "Tránsito rápido al estilo inca",
+      "translation": "Rapid transit Inca style",
+      "sentences": [
+        {
+          "original": "Antes de la llegada de los españoles, los incas establecieron el imperio más grande del Nuevo Mundo con más de 6.000.000 de personas.",
+          "translation": "Before the arrival of the Spaniards, the Incas established the largest empire in the New World with more than 6,000,000 people.",
+          "chunks": [
+            {
+              "text": "Antes de la llegada",
+              "meaning": "Before the arrival"
+            },
+            {
+              "text": "de los españoles,",
+              "meaning": "of the Spaniards,"
+            },
+            {
+              "text": "los incas establecieron",
+              "meaning": "the Incas established"
+            },
+            {
+              "text": "el imperio más grande",
+              "meaning": "the largest empire"
+            },
+            {
+              "text": "del Nuevo Mundo",
+              "meaning": "of the New World"
+            },
+            {
+              "text": "con más de 6.000.000 de personas.",
+              "meaning": "with more than 6,000,000 people."
+            }
+          ]
+        },
+        {
+          "original": "Su imperio se extendió desde el norte de Ecuador hasta el centro de Chile - una distancia de casi 5.000 millas.",
+          "translation": "Their empire extended from northern Ecuador to central Chile - a distance of almost 5,000 miles.",
+          "chunks": [
+            {
+              "text": "Su imperio se extendió",
+              "meaning": "Their empire extended"
+            },
+            {
+              "text": "desde el norte de Ecuador",
+              "meaning": "from the north of Ecuador"
+            },
+            {
+              "text": "hasta el centro de Chile",
+              "meaning": "to the center of Chile"
+            },
+            {
+              "text": "una distancia de casi 5.000 millas.",
+              "meaning": "a distance of almost 5,000 miles."
+            }
+          ]
+        },
+        {
+          "original": "Los incas eran muy buenos ingenieros y arquitectos.",
+          "translation": "The Incas were very good engineers and architects.",
+          "chunks": [
+            {
+              "text": "Los incas eran",
+              "meaning": "The Incas were"
+            },
+            {
+              "text": "muy buenos ingenieros",
+              "meaning": "very good engineers"
+            },
+            {
+              "text": "y arquitectos.",
+              "meaning": "and architects."
+            }
+          ]
+        },
+        {
+          "original": "Sin el uso de la rueda o animales fuertes como los caballos, construyeron edificios monumentales, puentes, acueductos, y carreteras.",
+          "translation": "Without the use of the wheel or strong animals like horses, they built monumental buildings, bridges, aqueducts, and highways.",
+          "chunks": [
+            {
+              "text": "Sin el uso de la rueda",
+              "meaning": "Without the use of the wheel"
+            },
+            {
+              "text": "o animales fuertes",
+              "meaning": "or strong animals"
+            },
+            {
+              "text": "como los caballos,",
+              "meaning": "like the horses,"
+            },
+            {
+              "text": "construyeron edificios monumentales,",
+              "meaning": "they built monumental buildings,"
+            },
+            {
+              "text": "puentes, acueductos, y carreteras.",
+              "meaning": "bridges, aqueducts, and highways."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

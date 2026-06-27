@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Spanish Pets",
+    "language": "es",
+    "description": "Common pets and domestic animals in Spanish.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "el perro",
+      "translation": "the dog",
+      "sentences": [
+        {
+          "original": "Mi perro es muy leal.",
+          "translation": "My dog is very loyal."
+        },
+        {
+          "original": "Saco a pasear al perro cada mañana.",
+          "translation": "I take the dog for a walk every morning."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el gato",
+      "translation": "the cat",
+      "sentences": [
+        {
+          "original": "El gato duerme en el sofá.",
+          "translation": "The cat sleeps on the sofa."
+        },
+        {
+          "original": "Tengo un gato negro.",
+          "translation": "I have a black cat."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el hámster",
+      "translation": "the hamster",
+      "sentences": [
+        {
+          "original": "El hámster corre en su rueda.",
+          "translation": "The hamster runs in its wheel."
+        },
+        {
+          "original": "Mi hámster es muy pequeño.",
+          "translation": "My hamster is very small."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el pájaro",
+      "translation": "the bird",
+      "sentences": [
+        {
+          "original": "El pájaro canta en la ventana.",
+          "translation": "The bird sings at the window."
+        },
+        {
+          "original": "Tenemos un pájaro azul.",
+          "translation": "We have a blue bird."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el pez",
+      "translation": "the fish",
+      "sentences": [
+        {
+          "original": "El pez nada en la pecera.",
+          "translation": "The fish swims in the fish tank."
+        },
+        {
+          "original": "Tengo un pez de colores.",
+          "translation": "I have a goldfish."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el conejo",
+      "translation": "the rabbit",
+      "sentences": [
+        {
+          "original": "El conejo come zanahorias.",
+          "translation": "The rabbit eats carrots."
+        },
+        {
+          "original": "Mi conejo tiene orejas largas.",
+          "translation": "My rabbit has long ears."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la tortuga",
+      "translation": "the turtle",
+      "sentences": [
+        {
+          "original": "La tortuga camina despacio.",
+          "translation": "The turtle walks slowly."
+        },
+        {
+          "original": "Mi tortuga vive muchos años.",
+          "translation": "My turtle lives many years."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la cobaya",
+      "translation": "the guinea pig",
+      "sentences": [
+        {
+          "original": "La cobaya es muy tranquila.",
+          "translation": "The guinea pig is very calm."
+        },
+        {
+          "original": "Le doy heno a mi cobaya.",
+          "translation": "I give hay to my guinea pig."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el ratón",
+      "translation": "the mouse",
+      "sentences": [
+        {
+          "original": "El ratón es una mascota divertida.",
+          "translation": "The mouse is a fun pet."
+        },
+        {
+          "original": "Mi ratón come queso.",
+          "translation": "My mouse eats cheese."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el loro",
+      "translation": "the parrot",
+      "sentences": [
+        {
+          "original": "El loro puede hablar.",
+          "translation": "The parrot can talk."
+        },
+        {
+          "original": "Mi loro es muy ruidoso.",
+          "translation": "My parrot is very noisy."
+        }
+      ]
+    }
+  ]
+}

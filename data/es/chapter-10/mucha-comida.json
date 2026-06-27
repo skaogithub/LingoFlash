@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "title": "Lectura: Mucha comida",
+    "language": "es",
+    "description": "A conversation between friends about Pepe's family, their house, and why they always have so much food.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "Mucha comida",
+      "translation": "A lot of food",
+      "sentences": [
+        {
+          "original": "MARÍA: La familia de Pepe vive muy bien. Yo sé que ganan mucho dinero.",
+          "translation": "MARÍA: Pepe's family lives very well. I know that they earn a lot of money.",
+          "chunks": [
+            {
+              "text": "La familia de Pepe",
+              "meaning": "Pepe's family"
+            },
+            {
+              "text": "vive muy bien.",
+              "meaning": "lives very well."
+            },
+            {
+              "text": "Yo sé que ganan",
+              "meaning": "I know that they earn"
+            },
+            {
+              "text": "mucho dinero.",
+              "meaning": "a lot of money."
+            }
+          ]
+        },
+        {
+          "original": "ROBERTO: Sí, ellos viven en una casa magnífica con un jardín muy grande.",
+          "translation": "ROBERTO: Yes, they live in a magnificent house with a very large garden.",
+          "chunks": [
+            {
+              "text": "Sí, ellos viven",
+              "meaning": "Yes, they live"
+            },
+            {
+              "text": "en una casa magnífica",
+              "meaning": "in a magnificent house"
+            },
+            {
+              "text": "con un jardín muy grande.",
+              "meaning": "with a very large garden."
+            }
+          ]
+        },
+        {
+          "original": "El perro de Pepe siempre corre por el jardín.",
+          "translation": "Pepe's dog always runs through the garden.",
+          "chunks": [
+            {
+              "text": "El perro de Pepe",
+              "meaning": "Pepe's dog"
+            },
+            {
+              "text": "siempre corre",
+              "meaning": "always runs"
+            },
+            {
+              "text": "por el jardín.",
+              "meaning": "through the garden."
+            }
+          ]
+        },
+        {
+          "original": "CARLOS: Y ellos compran un automóvil nuevo cada año.",
+          "translation": "CARLOS: And they buy a new car every year.",
+          "chunks": [
+            {
+              "text": "Y ellos compran",
+              "meaning": "And they buy"
+            },
+            {
+              "text": "un automóvil nuevo",
+              "meaning": "a new car"
+            },
+            {
+              "text": "cada año.",
+              "meaning": "every year."
+            }
+          ]
+        },
+        {
+          "original": "ANA: Las dos hermanas de Pepe —Carmen y Rosa— son muy elegantes.",
+          "translation": "ANA: Pepe's two sisters —Carmen and Rosa— are very elegant.",
+          "chunks": [
+            {
+              "text": "Las dos hermanas de Pepe",
+              "meaning": "Pepe's two sisters"
+            },
+            {
+              "text": "—Carmen y Rosa—",
+              "meaning": "—Carmen and Rosa—"
+            },
+            {
+              "text": "son muy elegantes.",
+              "meaning": "are very elegant."
+            }
+          ]
+        },
+        {
+          "original": "Carmen es enfermera y trabaja en un hospital.",
+          "translation": "Carmen is a nurse and works in a hospital.",
+          "chunks": [
+            {
+              "text": "Carmen es enfermera",
+              "meaning": "Carmen is a nurse"
+            },
+            {
+              "text": "y trabaja en un hospital.",
+              "meaning": "and works in a hospital."
+            }
+          ]
+        },
+        {
+          "original": "Rosa es secretaria y también estudia en la universidad.",
+          "translation": "Rosa is a secretary and also studies at the university.",
+          "chunks": [
+            {
+              "text": "Rosa es secretaria",
+              "meaning": "Rosa is a secretary"
+            },
+            {
+              "text": "y también estudia",
+              "meaning": "and also studies"
+            },
+            {
+              "text": "en la universidad.",
+              "meaning": "at the university."
+            }
+          ]
+        },
+        {
+          "original": "ANTONIO: Ellos siempre reciben muy bien a los amigos.",
+          "translation": "ANTONIO: They always welcome friends very well.",
+          "chunks": [
+            {
+              "text": "Ellos siempre reciben",
+              "meaning": "They always welcome"
+            },
+            {
+              "text": "muy bien a los amigos.",
+              "meaning": "friends very well."
+            }
+          ]
+        },
+        {
+          "original": "Cuando yo visito a la familia, la madre de Pepe cubre la mesa con un mantel y pregunta: ¿Qué deseas comer, Antonio?",
+          "translation": "When I visit the family, Pepe's mother covers the table with a tablecloth and asks: What do you wish to eat, Antonio?",
+          "chunks": [
+            {
+              "text": "Cuando yo visito a la familia,",
+              "meaning": "When I visit the family,"
+            },
+            {
+              "text": "la madre de Pepe cubre la mesa",
+              "meaning": "Pepe's mother covers the table"
+            },
+            {
+              "text": "con un mantel y pregunta:",
+              "meaning": "with a tablecloth and asks:"
+            },
+            {
+              "text": "¿Qué deseas comer, Antonio?",
+              "meaning": "What do you wish to eat, Antonio?"
+            }
+          ]
+        },
+        {
+          "original": "Cuando yo contesto, ella trae la comida a la mesa.",
+          "translation": "When I answer, she brings the food to the table.",
+          "chunks": [
+            {
+              "text": "Cuando yo contesto,",
+              "meaning": "When I answer,"
+            },
+            {
+              "text": "ella trae la comida",
+              "meaning": "she brings the food"
+            },
+            {
+              "text": "a la mesa.",
+              "meaning": "to the table."
+            }
+          ]
+        },
+        {
+          "original": "Ellos siempre comen y beben bien.",
+          "translation": "They always eat and drink well.",
+          "chunks": [
+            {
+              "text": "Ellos siempre comen",
+              "meaning": "They always eat"
+            },
+            {
+              "text": "y beben bien.",
+              "meaning": "and drink well."
+            }
+          ]
+        },
+        {
+          "original": "MARÍA: ¿Dónde trabajan los padres de Pepe? ¿Qué crees?",
+          "translation": "MARÍA: Where do Pepe's parents work? What do you think?",
+          "chunks": [
+            {
+              "text": "¿Dónde trabajan los padres de Pepe?",
+              "meaning": "Where do Pepe's parents work?"
+            },
+            {
+              "text": "¿Qué crees?",
+              "meaning": "What do you think?"
+            }
+          ]
+        },
+        {
+          "original": "(Entra Pepe.)",
+          "translation": "(Pepe enters.)"
+        },
+        {
+          "original": "ROBERTO: Pepe, ¿dónde trabajan tus padres?",
+          "translation": "ROBERTO: Pepe, where do your parents work?",
+          "chunks": [
+            {
+              "text": "Pepe, ¿dónde trabajan",
+              "meaning": "Pepe, where do work"
+            },
+            {
+              "text": "tus padres?",
+              "meaning": "your parents?"
+            }
+          ]
+        },
+        {
+          "original": "PEPE: Mis padres tienen un supermercado. ¿Ahora comprenden ustedes por qué siempre tenemos mucha comida en mi casa?",
+          "translation": "PEPE: My parents own a supermarket. Now do you all understand why we always have a lot of food at my house?",
+          "chunks": [
+            {
+              "text": "Mis padres tienen un supermercado.",
+              "meaning": "My parents own a supermarket."
+            },
+            {
+              "text": "¿Ahora comprenden ustedes",
+              "meaning": "Now do you all understand"
+            },
+            {
+              "text": "por qué siempre tenemos",
+              "meaning": "why we always have"
+            },
+            {
+              "text": "mucha comida en mi casa?",
+              "meaning": "a lot of food at my house?"
+            }
+          ]
+        },
+        {
+          "original": "TODOS: Sí, comprendemos perfectamente.",
+          "translation": "EVERYONE: Yes, we understand perfectly.",
+          "chunks": [
+            {
+              "text": "Sí, comprendemos",
+              "meaning": "Yes, we understand"
+            },
+            {
+              "text": "perfectamente.",
+              "meaning": "perfectly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "ganar",
+      "translation": "to earn / to win",
+      "sentences": [
+        {
+          "original": "Ellos ganan mucho dinero en su trabajo.",
+          "translation": "They earn a lot of money at their job."
+        },
+        {
+          "original": "Es importante ganar la confianza de los amigos.",
+          "translation": "It is important to win the trust of friends."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "recibir a",
+      "translation": "to welcome / to receive",
+      "sentences": [
+        {
+          "original": "A ellos les gusta recibir a los invitados en la puerta.",
+          "translation": "They like to welcome guests at the door."
+        },
+        {
+          "original": "Es una tradición recibir a los amigos con alegría.",
+          "translation": "It is a tradition to welcome friends with joy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la comida",
+      "translation": "food",
+      "sentences": [
+        {
+          "original": "La comida en este restaurante es deliciosa.",
+          "translation": "The food in this restaurant is delicious."
+        },
+        {
+          "original": "Siempre hay mucha comida en la mesa.",
+          "translation": "There is always a lot of food on the table."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tienen",
+      "translation": "they have",
+      "sentences": [
+        {
+          "original": "Mis padres tienen un negocio familiar.",
+          "translation": "Our parents have a family business."
+        },
+        {
+          "original": "Ellos tienen una casa muy bonita.",
+          "translation": "They have a very pretty house."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "perfectamente",
+      "translation": "perfectly",
+      "sentences": [
+        {
+          "original": "Ahora nosotros comprendemos la lección perfectamente.",
+          "translation": "Now we understand the lesson perfectly."
+        },
+        {
+          "original": "El plan funciona perfectamente.",
+          "translation": "The plan works perfectly."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "title": "Italian Greetings",
+    "language": "it",
+    "description": "Common Italian greetings and social expressions",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Ciao",
+      "translation": "Hello / Goodbye",
+      "sentences": [
+        {
+          "original": "Ciao, come ti chiami?",
+          "translation": "Hello, what is your name?",
+          "chunks": [
+            {
+              "text": "Ciao,",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "come ti chiami?",
+              "meaning": "how are you called?"
+            }
+          ]
+        },
+        {
+          "original": "Ciao, vado a casa ora.",
+          "translation": "Goodbye, I am going home now.",
+          "chunks": [
+            {
+              "text": "Ciao,",
+              "meaning": "Goodbye,"
+            },
+            {
+              "text": "vado a casa ora.",
+              "meaning": "I am going home now."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Buongiorno",
+      "translation": "Good morning / Good day",
+      "sentences": [
+        {
+          "original": "Buongiorno, vorrei un caffè.",
+          "translation": "Good morning, I would like a coffee.",
+          "chunks": [
+            {
+              "text": "Buongiorno,",
+              "meaning": "Good morning,"
+            },
+            {
+              "text": "vorrei un caffè.",
+              "meaning": "I would like a coffee."
+            }
+          ]
+        },
+        {
+          "original": "Buongiorno a todos!",
+          "translation": "Good morning everyone!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Buonasera",
+      "translation": "Good evening",
+      "sentences": [
+        {
+          "original": "Buonasera, il tavolo è pronto.",
+          "translation": "Good evening, the table is ready.",
+          "chunks": [
+            {
+              "text": "Buonasera,",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "il tavolo è pronto.",
+              "meaning": "the table is ready."
+            }
+          ]
+        },
+        {
+          "original": "Buonasera, come sta ?",
+          "translation": "Good evening, how are you?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Buonanotte",
+      "translation": "Good night",
+      "sentences": [
+        {
+          "original": "Buonanotte, a domani.",
+          "translation": "Good night, see you tomorrow."
+        },
+        {
+          "original": "Vado a letto, buonanotte.",
+          "translation": "I'm going to bed, good night.",
+          "chunks": [
+            {
+              "text": "Vado a letto,",
+              "meaning": "I am going to bed,"
+            },
+            {
+              "text": "buonanotte.",
+              "meaning": "good night."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Come stai?",
+      "translation": "How are you? (informal)",
+      "sentences": [
+        {
+          "original": "Ciao Marco, come stai ?",
+          "translation": "Hi Marco, how are you?"
+        },
+        {
+          "original": "Bene grazie, e tu come stai ?",
+          "translation": "Fine thanks, and how are you?",
+          "chunks": [
+            {
+              "text": "Bene grazie,",
+              "meaning": "Fine thanks,"
+            },
+            {
+              "text": "e tu come stai ?",
+              "meaning": "and you how are you?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Piacere",
+      "translation": "Pleased to meet you",
+      "sentences": [
+        {
+          "original": "Piacere di conoscerti.",
+          "translation": "Pleased to meet you.",
+          "chunks": [
+            {
+              "text": "Piacere",
+              "meaning": "Pleased"
+            },
+            {
+              "text": "di conoscerti.",
+              "meaning": "of knowing you."
+            }
+          ]
+        },
+        {
+          "original": "Piacere, io sono Anna.",
+          "translation": "Nice to meet you, I am Anna."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Arrivederci",
+      "translation": "Goodbye",
+      "sentences": [
+        {
+          "original": "Grazie e arrivederci.",
+          "translation": "Thank you and goodbye."
+        },
+        {
+          "original": "Arrivederci, alla prossima settimana.",
+          "translation": "Goodbye, until next week.",
+          "chunks": [
+            {
+              "text": "Arrivederci,",
+              "meaning": "Goodbye,"
+            },
+            {
+              "text": "alla prossima settimana.",
+              "meaning": "to the next week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Salve",
+      "translation": "Hello / Hi (formal/neutral)",
+      "sentences": [
+        {
+          "original": "Salve, disturbo ?",
+          "translation": "Hello, am I disturbing you?"
+        },
+        {
+          "original": "Salve, posso entrare ?",
+          "translation": "Hello, may I come in?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "A presto",
+      "translation": "See you soon",
+      "sentences": [
+        {
+          "original": "Grazie della cena, a presto!",
+          "translation": "Thanks for the dinner, see you soon!",
+          "chunks": [
+            {
+              "text": "Grazie della cena,",
+              "meaning": "Thanks for the dinner,"
+            },
+            {
+              "text": "a presto!",
+              "meaning": "see you soon!"
+            }
+          ]
+        },
+        {
+          "original": "Devo andare, a presto.",
+          "translation": "I have to go, see you soon."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Come va?",
+      "translation": "How's it going?",
+      "sentences": [
+        {
+          "original": "Ehi, come va oggi ?",
+          "translation": "Hey, how is it going today?"
+        },
+        {
+          "original": "Come va il lavoro ?",
+          "translation": "How is work going?"
+        }
+      ]
+    }
+  ]
+}

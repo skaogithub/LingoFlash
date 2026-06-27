@@ -1,0 +1,620 @@
+{
+  "metadata": {
+    "title": "Chapter 3 Vocabulary",
+    "language": "es",
+    "description": "School and classroom vocabulary from Chapter 3.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "la alumna",
+      "translation": "student (n, f)",
+      "sentences": [
+        {
+          "original": "Ella es alumna.",
+          "translation": "She is a student."
+        },
+        {
+          "original": "Las alumnas son estudiosas.",
+          "translation": "The students are studious."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el alumno",
+      "translation": "student (n, m)",
+      "sentences": [
+        {
+          "original": "Él es alumno.",
+          "translation": "He is a student."
+        },
+        {
+          "original": "Los alumnos son inteligentes.",
+          "translation": "The students are intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el bolígrafo",
+      "translation": "pen (n, m)",
+      "sentences": [
+        {
+          "original": "El bolígrafo es azul.",
+          "translation": "The pen is blue."
+        },
+        {
+          "original": "Tengo muchos bolígrafos.",
+          "translation": "I have many pens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el cuaderno",
+      "translation": "notebook (n, m)",
+      "sentences": [
+        {
+          "original": "El cuaderno está en el escritorio.",
+          "translation": "The notebook is on the desk.",
+          "chunks": [
+            {
+              "text": "El cuaderno está",
+              "meaning": "The notebook is"
+            },
+            {
+              "text": "en el escritorio.",
+              "meaning": "on the desk."
+            }
+          ]
+        },
+        {
+          "original": "Los cuadernos son para la clase.",
+          "translation": "The notebooks are for the class.",
+          "chunks": [
+            {
+              "text": "Los cuadernos",
+              "meaning": "The notebooks"
+            },
+            {
+              "text": "son para la clase.",
+              "meaning": "are for the class."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el diccionario",
+      "translation": "dictionary (n, m)",
+      "sentences": [
+        {
+          "original": "El diccionario es grande.",
+          "translation": "The dictionary is big."
+        },
+        {
+          "original": "Hay diccionarios en la biblioteca.",
+          "translation": "There are dictionaries in the library."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el escritorio",
+      "translation": "desk (n, m)",
+      "sentences": [
+        {
+          "original": "El escritorio es de madera.",
+          "translation": "The desk is made of wood."
+        },
+        {
+          "original": "Los escritorios están en la sala.",
+          "translation": "The desks are in the room.",
+          "chunks": [
+            {
+              "text": "Los escritorios están",
+              "meaning": "The desks are"
+            },
+            {
+              "text": "en la sala.",
+              "meaning": "in the room."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la estudiante",
+      "translation": "student (n, f)",
+      "sentences": [
+        {
+          "original": "María es estudiante.",
+          "translation": "Maria is a student."
+        },
+        {
+          "original": "Ella es una estudiante excelente.",
+          "translation": "She is an excellent student."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el estudiante",
+      "translation": "student (n, m)",
+      "sentences": [
+        {
+          "original": "Juan es estudiante.",
+          "translation": "Juan is a student."
+        },
+        {
+          "original": "Él es un estudiante estupendo.",
+          "translation": "He is a great student."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el lápiz",
+      "translation": "pencil (n, m)",
+      "sentences": [
+        {
+          "original": "El lápiz es amarillo.",
+          "translation": "The pencil is yellow."
+        },
+        {
+          "original": "Los lápices están en la mochila.",
+          "translation": "The pencils are in the backpack.",
+          "chunks": [
+            {
+              "text": "Los lápices están",
+              "meaning": "The pencils are"
+            },
+            {
+              "text": "en la mochila.",
+              "meaning": "in the backpack."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la maestra",
+      "translation": "teacher (n, f)",
+      "sentences": [
+        {
+          "original": "Ella es maestra.",
+          "translation": "She is a teacher."
+        },
+        {
+          "original": "Las maestras son simpáticas.",
+          "translation": "The teachers are nice."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el maestro",
+      "translation": "teacher (n, m)",
+      "sentences": [
+        {
+          "original": "Él es maestro.",
+          "translation": "He is a teacher."
+        },
+        {
+          "original": "Los maestros son inteligentes.",
+          "translation": "The teachers are intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el mapa",
+      "translation": "map (n, m)",
+      "sentences": [
+        {
+          "original": "El mapa está en la pared.",
+          "translation": "The map is on the wall."
+        },
+        {
+          "original": "Hay muchos mapas en la clase.",
+          "translation": "There are many maps in the class.",
+          "chunks": [
+            {
+              "text": "Hay muchos mapas",
+              "meaning": "There are many maps"
+            },
+            {
+              "text": "en la clase.",
+              "meaning": "in the class."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la mochila",
+      "translation": "backpack (n, f)",
+      "sentences": [
+        {
+          "original": "La mochila es roja.",
+          "translation": "The backpack is red."
+        },
+        {
+          "original": "Tengo dos mochilas.",
+          "translation": "I have two backpacks."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la nota",
+      "translation": "grade (n, f)",
+      "sentences": [
+        {
+          "original": "La nota es excelente.",
+          "translation": "The grade is excellent."
+        },
+        {
+          "original": "Él tiene buenas notas.",
+          "translation": "He has good grades."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el papel",
+      "translation": "paper (n, m)",
+      "sentences": [
+        {
+          "original": "El papel es blanco.",
+          "translation": "The paper is white."
+        },
+        {
+          "original": "Hay muchos papeles aquí.",
+          "translation": "There are many papers here."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la pared",
+      "translation": "wall (n, f)",
+      "sentences": [
+        {
+          "original": "La pared es blanca.",
+          "translation": "The wall is white."
+        },
+        {
+          "original": "Hay un reloj en la pared.",
+          "translation": "There is a clock on the wall.",
+          "chunks": [
+            {
+              "text": "Hay un reloj",
+              "meaning": "There is a clock"
+            },
+            {
+              "text": "en la pared.",
+              "meaning": "on the wall."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la pizarra",
+      "translation": "blackboard (n, f)",
+      "sentences": [
+        {
+          "original": "La pizarra es verde.",
+          "translation": "The blackboard is green."
+        },
+        {
+          "original": "Las pizarras son grandes.",
+          "translation": "The blackboards are big."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la pluma",
+      "translation": "pen (n, f)",
+      "sentences": [
+        {
+          "original": "La pluma es negra.",
+          "translation": "The pen is black."
+        },
+        {
+          "original": "Tengo muchas plumas.",
+          "translation": "I have many pens."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la profesora",
+      "translation": "teacher (n, f)",
+      "sentences": [
+        {
+          "original": "Ella es profesora.",
+          "translation": "She is a teacher."
+        },
+        {
+          "original": "Ella es una profesora ideal.",
+          "translation": "She is an ideal teacher."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el profesor",
+      "translation": "teacher (n, m)",
+      "sentences": [
+        {
+          "original": "Él es profesor.",
+          "translation": "He is a teacher."
+        },
+        {
+          "original": "Él es un profesor popular.",
+          "translation": "He is a popular teacher."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la puerta",
+      "translation": "door (n, f)",
+      "sentences": [
+        {
+          "original": "La puerta está abierta.",
+          "translation": "The door is open."
+        },
+        {
+          "original": "Las puertas son de madera.",
+          "translation": "The doors are made of wood."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la regla",
+      "translation": "ruler (n, f)",
+      "sentences": [
+        {
+          "original": "La regla es de plástico.",
+          "translation": "The ruler is made of plastic."
+        },
+        {
+          "original": "Tengo dos reglas.",
+          "translation": "I have two rulers."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la silla",
+      "translation": "chair (n, f)",
+      "sentences": [
+        {
+          "original": "La silla es cómoda.",
+          "translation": "The chair is comfortable."
+        },
+        {
+          "original": "Hay muchas sillas en la clase.",
+          "translation": "There are many chairs in the class.",
+          "chunks": [
+            {
+              "text": "Hay muchas sillas",
+              "meaning": "There are many chairs"
+            },
+            {
+              "text": "en la clase.",
+              "meaning": "in the class."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el reloj",
+      "translation": "clock (n, m)",
+      "sentences": [
+        {
+          "original": "El reloj es moderno.",
+          "translation": "The clock is modern."
+        },
+        {
+          "original": "Los relojes están en la pared.",
+          "translation": "The clocks are on the wall.",
+          "chunks": [
+            {
+              "text": "Los relojes están",
+              "meaning": "The clocks are"
+            },
+            {
+              "text": "en la pared.",
+              "meaning": "on the wall."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "la ventana",
+      "translation": "window (n, f)",
+      "sentences": [
+        {
+          "original": "La ventana es grande.",
+          "translation": "The window is big."
+        },
+        {
+          "original": "Las ventanas están abiertas.",
+          "translation": "The windows are open."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "hay",
+      "translation": "there is/there are (v)",
+      "sentences": [
+        {
+          "original": "Hay un mapa en la pared.",
+          "translation": "There is a map on the wall.",
+          "chunks": [
+            {
+              "text": "Hay un mapa",
+              "meaning": "There is a map"
+            },
+            {
+              "text": "en la pared.",
+              "meaning": "on the wall."
+            }
+          ]
+        },
+        {
+          "original": "Hay muchos estudiantes aquí.",
+          "translation": "There are many students here."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "tiene",
+      "translation": "has (v)",
+      "sentences": [
+        {
+          "original": "Él tiene un bolígrafo.",
+          "translation": "He has a pen."
+        },
+        {
+          "original": "Ella tiene una mochila roja.",
+          "translation": "She has a red backpack."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "fácil",
+      "translation": "easy (adj)",
+      "sentences": [
+        {
+          "original": "La lección es fácil.",
+          "translation": "The lesson is easy."
+        },
+        {
+          "original": "El examen es muy fácil.",
+          "translation": "The exam is very easy."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "muchos(as)",
+      "translation": "many (adj)",
+      "sentences": [
+        {
+          "original": "Hay muchos libros.",
+          "translation": "There are many books."
+        },
+        {
+          "original": "Tengo muchas carpetas.",
+          "translation": "I have many folders."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "otro(a)",
+      "translation": "other (adj)",
+      "sentences": [
+        {
+          "original": "Quiero otro lápiz.",
+          "translation": "I want another pencil."
+        },
+        {
+          "original": "Ella tiene otra mochila.",
+          "translation": "She has another backpack."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¡Buena suerte!",
+      "translation": "Good luck! (exp)",
+      "sentences": [
+        {
+          "original": "¡Buena suerte en el examen!",
+          "translation": "Good luck on the exam!"
+        },
+        {
+          "original": "Hasta mañana, ¡buena suerte!",
+          "translation": "See you tomorrow, good luck!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¡Claro!",
+      "translation": "Of course! (exp)",
+      "sentences": [
+        {
+          "original": "—¿Es difícil? —¡Claro!",
+          "translation": "—Is it difficult? —Of course!"
+        },
+        {
+          "original": "¡Claro que sí!",
+          "translation": "Of course!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "estupendo",
+      "translation": "great/fine (adj)",
+      "sentences": [
+        {
+          "original": "El profesor es estupendo.",
+          "translation": "The teacher is great."
+        },
+        {
+          "original": "Todo está estupendo.",
+          "translation": "Everything is fine."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No importa.",
+      "translation": "It doesn't matter. (exp)",
+      "sentences": [
+        {
+          "original": "No importa, gracias.",
+          "translation": "It doesn't matter, thank you."
+        },
+        {
+          "original": "Si no tienes el lápiz, no importa.",
+          "translation": "If you don't have the pencil, it doesn't matter.",
+          "chunks": [
+            {
+              "text": "Si no tienes el lápiz,",
+              "meaning": "If you don't have the pencil,"
+            },
+            {
+              "text": "no importa.",
+              "meaning": "it doesn't matter."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

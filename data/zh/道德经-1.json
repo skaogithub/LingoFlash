@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "Filosofía: 道德经 (Dao De Jing) - Capítulo 1",
+    "language": "zh",
+    "description": "The foundational opening text of Laozi's Dao De Jing, exploring the nameless and the named.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "道德经 - 第一章",
+      "translation": "Dao De Jing - Chapter 1",
+      "sentences": [
+        {
+          "original": "道可道，非常道。名可名，非常名。",
+          "translation": "The Way that can be spoken of is not the eternal Way; The name that can be named is not the eternal name.",
+          "chunks": [
+            {
+              "text": "道可道，",
+              "meaning": "The Way that can be spoken of,"
+            },
+            {
+              "text": "非常道。",
+              "meaning": "is not the eternal/constant Way."
+            },
+            {
+              "text": "名可名，",
+              "meaning": "The name that can be named,"
+            },
+            {
+              "text": "非常名。",
+              "meaning": "is not the eternal/constant name."
+            }
+          ]
+        },
+        {
+          "original": "无名，天地之始。有名，万物之母。",
+          "translation": "The nameless is the origin of heaven and earth; The named is the mother of all things.",
+          "chunks": [
+            {
+              "text": "无名，",
+              "meaning": "Nameless / the nameless,"
+            },
+            {
+              "text": "天地之始。",
+              "meaning": "is the beginning of heaven and earth."
+            },
+            {
+              "text": "有名，",
+              "meaning": "Named / the named,"
+            },
+            {
+              "text": "万物之母。",
+              "meaning": "is the mother of the ten thousand things (all things)."
+            }
+          ]
+        },
+        {
+          "original": "故常无，欲以观其妙。常有，欲以观其徼。",
+          "translation": "Therefore, constantly without desire, one observes its wonders; Constantly with desire, one observes its manifestations.",
+          "chunks": [
+            {
+              "text": "故常无，",
+              "meaning": "Therefore constantly without desire,"
+            },
+            {
+              "text": "欲以观其妙。",
+              "meaning": "one wishes to observe its mystery/wonders."
+            },
+            {
+              "text": "常有，",
+              "meaning": "Constantly having desire,"
+            },
+            {
+              "text": "欲以观其徼。",
+              "meaning": "one wishes to observe its boundaries/manifestations."
+            }
+          ]
+        },
+        {
+          "original": "此两者同出而异名，同谓之玄。玄之又玄，众妙之门。",
+          "translation": "These two emerge from the same source but have different names; together they are called the ultimate mystery. Mystery of mysteries, the gateway to all wonders.",
+          "chunks": [
+            {
+              "text": "此两者同出",
+              "meaning": "These two emerge together"
+            },
+            {
+              "text": "而异名，",
+              "meaning": "but have different names,"
+            },
+            {
+              "text": "同谓之玄。",
+              "meaning": "both are called profound/mystery."
+            },
+            {
+              "text": "玄之又玄，",
+              "meaning": "Mystery upon mystery,"
+            },
+            {
+              "text": "众妙之门。",
+              "meaning": "the gate of all wonders."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "道 (dào)",
+      "translation": "Way / path / to speak",
+      "sentences": [
+        {
+          "original": "这是一条正道。 (Zhè shì yī tiáo zhèng dào.)",
+          "translation": "This is a correct path."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "常 (cháng)",
+      "translation": "eternal / constant / regular",
+      "sentences": [
+        {
+          "original": "日常生活需要规律。 (Rìcháng shēnghuó xūyào guīlǜ.)",
+          "translation": "Daily life requires routine."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "始 (shǐ)",
+      "translation": "beginning / origin / to start",
+      "sentences": [
+        {
+          "original": "千里之行，始于足下。 (Qiānlǐ zhī xíng, shǐ yú zú xià.)",
+          "translation": "A journey of a thousand miles begins with a single step."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "妙 (miào)",
+      "translation": "mystery / wonder / subtle beauty",
+      "sentences": [
+        {
+          "original": "这个办法太妙了。 (Zhège bànfǎ tài miào le.)",
+          "translation": "This solution is absolutely wonderful."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "玄 (xuán)",
+      "translation": "profound / mysterious / deep",
+      "sentences": [
+        {
+          "original": "这个道理非常玄奥。 (Zhège dàolǐ fēicháng xuán'ào.)",
+          "translation": "This truth is incredibly profound and mysterious."
+        }
+      ]
+    }
+  ]
+}

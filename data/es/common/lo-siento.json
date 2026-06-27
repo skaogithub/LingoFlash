@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "lo-siento",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "AI-generated deck about Lo siento in Spanish"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "Lo siento",
+      "translation": "I am sorry",
+      "sentences": [
+        {
+          "original": "Lo siento por llegar tarde.",
+          "translation": "I am sorry for arriving late."
+        },
+        {
+          "original": "Lo siento, no puedo ir.",
+          "translation": "I am sorry, I cannot go."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Perdón",
+      "translation": "Excuse me / Sorry",
+      "sentences": [
+        {
+          "original": "Perdón, ¿me dejas pasar?",
+          "translation": "Excuse me, can you let me through?"
+        },
+        {
+          "original": "¡Perdón! No te vi.",
+          "translation": "Sorry! I didn't see you."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Disculpe",
+      "translation": "Excuse me (formal)",
+      "sentences": [
+        {
+          "original": "Disculpe, señor, ¿qué hora es?",
+          "translation": "Excuse me, sir, what time is it?"
+        },
+        {
+          "original": "Disculpe la molestia.",
+          "translation": "Excuse the bother."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Disculpa",
+      "translation": "Excuse me (informal)",
+      "sentences": [
+        {
+          "original": "Disculpa, ¿tienes un bolígrafo?",
+          "translation": "Excuse me, do you have a pen?"
+        },
+        {
+          "original": "Disculpa, ¿esta es tu silla?",
+          "translation": "Excuse me, is this your chair?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Lo siento mucho",
+      "translation": "I am very sorry",
+      "sentences": [
+        {
+          "original": "Lo siento mucho por tu pérdida.",
+          "translation": "I am very sorry for your loss."
+        },
+        {
+          "original": "Lo siento mucho, olvidé tu cumpleaños.",
+          "translation": "I am very sorry, I forgot your birthday."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No pasa nada",
+      "translation": "It's okay / No problem",
+      "sentences": [
+        {
+          "original": "No pasa nada, no te preocupes.",
+          "translation": "It's okay, don't worry."
+        },
+        {
+          "original": "¿Te manché? ¡No pasa nada!",
+          "translation": "Did I stain you? It's okay!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Está bien",
+      "translation": "It is okay / It is fine",
+      "sentences": [
+        {
+          "original": "Está bien, podemos ir mañana.",
+          "translation": "It is okay, we can go tomorrow."
+        },
+        {
+          "original": "Está bien, no es culpa tuya.",
+          "translation": "It is fine, it is not your fault."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Mil disculpas",
+      "translation": "A thousand apologies",
+      "sentences": [
+        {
+          "original": "Mil disculpas por el retraso.",
+          "translation": "A thousand apologies for the delay."
+        },
+        {
+          "original": "Mil disculpas, se me cayó el vaso.",
+          "translation": "A thousand apologies, I dropped the glass."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Perdóname",
+      "translation": "Forgive me",
+      "sentences": [
+        {
+          "original": "Perdóname por lo que dije.",
+          "translation": "Forgive me for what I said."
+        },
+        {
+          "original": "Por favor, perdóname.",
+          "translation": "Please, forgive me."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No fue mi intención",
+      "translation": "It was not my intention",
+      "sentences": [
+        {
+          "original": "No fue mi intención romperlo.",
+          "translation": "It was not my intention to break it."
+        },
+        {
+          "original": "Perdón, no fue mi intención molestarte.",
+          "translation": "Sorry, it was not my intention to bother you."
+        }
+      ]
+    }
+  ]
+}

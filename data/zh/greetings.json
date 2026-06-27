@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "title": "Chinese Greetings",
+    "language": "zh",
+    "description": "Essential Mandarin Chinese greetings and phrases",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "你好 (Nǐ hǎo)",
+      "translation": "Hello",
+      "sentences": [
+        {
+          "original": "你好！",
+          "translation": "Hello!"
+        },
+        {
+          "original": "老师，你好。",
+          "translation": "Hello, teacher."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "您好 (Nín hǎo)",
+      "translation": "Hello (polite)",
+      "sentences": [
+        {
+          "original": "经理，您好。",
+          "translation": "Hello, manager."
+        },
+        {
+          "original": "您好，请问您贵姓？",
+          "translation": "Hello, may I ask your surname?",
+          "chunks": [
+            {
+              "text": "您好，",
+              "meaning": "Hello,"
+            },
+            {
+              "text": "请问您贵姓？",
+              "meaning": "may I ask your surname?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "早上好 (Zǎoshang hǎo)",
+      "translation": "Good morning",
+      "sentences": [
+        {
+          "original": "爸爸，早上好。",
+          "translation": "Good morning, Dad."
+        },
+        {
+          "original": "大家早上好！",
+          "translation": "Good morning, everyone!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "晚上好 (Wǎnshang hǎo)",
+      "translation": "Good evening",
+      "sentences": [
+        {
+          "original": "晚上好，很高兴见到你。",
+          "translation": "Good evening, nice to see you.",
+          "chunks": [
+            {
+              "text": "晚上好，",
+              "meaning": "Good evening,"
+            },
+            {
+              "text": "很高兴见到你。",
+              "meaning": "very happy to see you."
+            }
+          ]
+        },
+        {
+          "original": "王先生，晚上好。",
+          "translation": "Good evening, Mr. Wang."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "晚安 (Wǎn'ān)",
+      "translation": "Good night",
+      "sentences": [
+        {
+          "original": "我累了，晚安。",
+          "translation": "I'm tired, good night."
+        },
+        {
+          "original": "晚安，做个好梦。",
+          "translation": "Good night, have a sweet dream.",
+          "chunks": [
+            {
+              "text": "晚安，",
+              "meaning": "Good night,"
+            },
+            {
+              "text": "做个好梦。",
+              "meaning": "make a good dream."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "再见 (Zàijiàn)",
+      "translation": "Goodbye",
+      "sentences": [
+        {
+          "original": "再见，下周见。",
+          "translation": "Goodbye, see you next week.",
+          "chunks": [
+            {
+              "text": "再见，",
+              "meaning": "Goodbye,"
+            },
+            {
+              "text": "下周见。",
+              "meaning": "next week see."
+            }
+          ]
+        },
+        {
+          "original": "我们要走了，再见。",
+          "translation": "We are leaving, goodbye.",
+          "chunks": [
+            {
+              "text": "我们要走了，",
+              "meaning": "We are going to go,"
+            },
+            {
+              "text": "再见。",
+              "meaning": "goodbye."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "好久不见 (Hǎojiǔ bùjiàn)",
+      "translation": "Long time no see",
+      "sentences": [
+        {
+          "original": "好久不见，你变漂亮了。",
+          "translation": "Long time no see, you've become beautiful.",
+          "chunks": [
+            {
+              "text": "好久不见，",
+              "meaning": "Long time no see,"
+            },
+            {
+              "text": "你变漂亮了。",
+              "meaning": "you become pretty."
+            }
+          ]
+        },
+        {
+          "original": "老朋友，好久不见！",
+          "translation": "Old friend, long time no see!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "你好吗？ (Nǐ hǎo ma?)",
+      "translation": "How are you?",
+      "sentences": [
+        {
+          "original": "你好吗？我很好。",
+          "translation": "How are you? I am fine.",
+          "chunks": [
+            {
+              "text": "你好吗？",
+              "meaning": "Are you well ?"
+            },
+            {
+              "text": "我很好。",
+              "meaning": "I am very well."
+            }
+          ]
+        },
+        {
+          "original": "你最近好吗？",
+          "translation": "How are you lately?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "最近怎么样？ (Zuìjìn zěnmeyàng?)",
+      "translation": "How have you been lately?",
+      "sentences": [
+        {
+          "original": "最近怎么样？工作忙吗？",
+          "translation": "How have you been lately? Is work busy?",
+          "chunks": [
+            {
+              "text": "最近怎么样？",
+              "meaning": "Lately how ?"
+            },
+            {
+              "text": "工作忙吗？",
+              "meaning": "is work busy ?"
+            }
+          ]
+        },
+        {
+          "original": "你最近怎么样？还好吗？",
+          "translation": "How have you been lately? Are you okay?",
+          "chunks": [
+            {
+              "text": "你最近怎么样？",
+              "meaning": "You lately how ?"
+            },
+            {
+              "text": "还好吗？",
+              "meaning": "is it okay ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "明天见 (Míngtiān jiàn)",
+      "translation": "See you tomorrow",
+      "sentences": [
+        {
+          "original": "明天见，别迟到了。",
+          "translation": "See you tomorrow, don't be late.",
+          "chunks": [
+            {
+              "text": "明天见，",
+              "meaning": "Tomorrow see,"
+            },
+            {
+              "text": "别迟到了。",
+              "meaning": "don't be late."
+            }
+          ]
+        },
+        {
+          "original": "今天的课结束了，明天见。",
+          "translation": "Today's class is over, see you tomorrow.",
+          "chunks": [
+            {
+              "text": "今天的课结束了，",
+              "meaning": "Today's class ended,"
+            },
+            {
+              "text": "明天见。",
+              "meaning": "tomorrow see."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

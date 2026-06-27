@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "title": "professions vocabulary",
+    "language": "es",
+    "description": "Vocabulary list of professions and descriptive adjectives from page 187.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "el/la abogado(a)",
+      "translation": "lawyer",
+      "sentences": [
+        {
+          "original": "Mi tía es abogada.",
+          "translation": "My aunt is a lawyer."
+        },
+        {
+          "original": "Ellos son abogados muy inteligentes.",
+          "translation": "They are very intelligent lawyers."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la actor/actriz",
+      "translation": "actor/actress",
+      "sentences": [
+        {
+          "original": "Él es un actor famoso.",
+          "translation": "He is a famous actor."
+        },
+        {
+          "original": "La actriz es muy simpática.",
+          "translation": "The actress is very nice."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la artista",
+      "translation": "artist",
+      "sentences": [
+        {
+          "original": "Mi primo es artista.",
+          "translation": "My cousin is an artist."
+        },
+        {
+          "original": "Ustedes son artistas excelentes.",
+          "translation": "You all are excellent artists."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el bombero",
+      "translation": "fire fighter",
+      "sentences": [
+        {
+          "original": "El bombero es valiente.",
+          "translation": "The fire fighter is brave."
+        },
+        {
+          "original": "Mi padre es bombero en la ciudad.",
+          "translation": "My father is a fire fighter in the city."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la camarero(a)",
+      "translation": "waiter/waitress",
+      "sentences": [
+        {
+          "original": "El camarero es muy bueno.",
+          "translation": "The waiter is very good."
+        },
+        {
+          "original": "Ella es camarera en el restaurante.",
+          "translation": "She is a waitress at the restaurant."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la cartero(a)",
+      "translation": "mail carrier",
+      "sentences": [
+        {
+          "original": "El cartero es puntual.",
+          "translation": "The mail carrier is punctual."
+        },
+        {
+          "original": "Ellas son carteras simpáticas.",
+          "translation": "They are nice mail carriers."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la dentista",
+      "translation": "dentist",
+      "sentences": [
+        {
+          "original": "Mi madre es dentista.",
+          "translation": "My mother is a dentist."
+        },
+        {
+          "original": "El dentista es muy paciente.",
+          "translation": "The dentist is very patient."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la enfermero(a)",
+      "translation": "nurse",
+      "sentences": [
+        {
+          "original": "Juan es enfermero en el hospital.",
+          "translation": "Juan is a nurse in the hospital."
+        },
+        {
+          "original": "Las enfermeras son muy buenas.",
+          "translation": "The nurses are very good."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la médico(a)",
+      "translation": "physician",
+      "sentences": [
+        {
+          "original": "Usted es un médico importante.",
+          "translation": "You are an important physician."
+        },
+        {
+          "original": "Mi hermana es médica.",
+          "translation": "My sister is a physician."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la policía",
+      "translation": "police officer",
+      "sentences": [
+        {
+          "original": "Él es policía en México.",
+          "translation": "He is a police officer in Mexico."
+        },
+        {
+          "original": "Los policías son simpáticos.",
+          "translation": "The police officers are nice."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la profesor(a)",
+      "translation": "teacher",
+      "sentences": [
+        {
+          "original": "Yo soy profesor de español.",
+          "translation": "I am a Spanish teacher."
+        },
+        {
+          "original": "La profesora es inteligente.",
+          "translation": "The teacher is intelligent."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "el/la secretario(a)",
+      "translation": "secretary",
+      "sentences": [
+        {
+          "original": "Mi amigo es secretario.",
+          "translation": "My friend is a secretary."
+        },
+        {
+          "original": "Ella es una secretaria eficiente.",
+          "translation": "She is an efficient secretary."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "alegre",
+      "translation": "happy",
+      "sentences": [
+        {
+          "original": "El niño es alegre.",
+          "translation": "The boy is happy."
+        },
+        {
+          "original": "Nosotros somos personas alegres.",
+          "translation": "We are happy people."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "bueno(a)",
+      "translation": "good",
+      "sentences": [
+        {
+          "original": "El libro es muy bueno.",
+          "translation": "The book is very good."
+        },
+        {
+          "original": "Eres una buena amiga.",
+          "translation": "You are a good friend."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "simpático(a)",
+      "translation": "nice",
+      "sentences": [
+        {
+          "original": "El cartero es simpático.",
+          "translation": "The mail carrier is nice."
+        },
+        {
+          "original": "Las alumnas son simpáticas.",
+          "translation": "The students are nice."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "solamente",
+      "translation": "only",
+      "sentences": [
+        {
+          "original": "Somos solamente tres en la clase.",
+          "translation": "We are only three in the class."
+        },
+        {
+          "original": "Es solamente una idea.",
+          "translation": "It is only an idea."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "I-dont-know",
+    "language": "es",
+    "autoPlayMode": "front-back",
+    "description": "AI-generated deck about I don't know in Spanish"
+  },
+  "cards": [
+    {
+      "type": "vocabulary",
+      "text": "No lo sé",
+      "translation": "I don't know",
+      "sentences": [
+        {
+          "original": "Lo siento, no lo sé.",
+          "translation": "I'm sorry, I don't know."
+        },
+        {
+          "original": "No lo sé ahora.",
+          "translation": "I don't know now."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No sé",
+      "translation": "I don't know",
+      "sentences": [
+        {
+          "original": "No sé la respuesta.",
+          "translation": "I don't know the answer."
+        },
+        {
+          "original": "No sé dónde está el baño.",
+          "translation": "I don't know where the bathroom is."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No tengo idea",
+      "translation": "I have no idea",
+      "sentences": [
+        {
+          "original": "No tengo idea de qué hora es.",
+          "translation": "I have no idea what time it is."
+        },
+        {
+          "original": "No tengo idea de eso.",
+          "translation": "I have no idea about that."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Ni idea",
+      "translation": "No idea",
+      "sentences": [
+        {
+          "original": "¿Cuándo llega el tren? Ni idea.",
+          "translation": "When does the train arrive? No idea."
+        },
+        {
+          "original": "Ni idea de cómo usar esto.",
+          "translation": "No idea how to use this."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No estoy seguro",
+      "translation": "I am not sure",
+      "sentences": [
+        {
+          "original": "No estoy seguro de la fecha.",
+          "translation": "I am not sure about the date."
+        },
+        {
+          "original": "No estoy seguro todavía.",
+          "translation": "I am not sure yet."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "¿Quién sabe?",
+      "translation": "Who knows?",
+      "sentences": [
+        {
+          "original": "¿Qué pasará mañana? ¿Quién sabe?",
+          "translation": "What will happen tomorrow? Who knows?"
+        },
+        {
+          "original": "¿Quién sabe dónde viven?",
+          "translation": "Who knows where they live?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No sé nada",
+      "translation": "I don't know anything",
+      "sentences": [
+        {
+          "original": "No sé nada sobre el examen.",
+          "translation": "I don't know anything about the exam."
+        },
+        {
+          "original": "Ella dice que no sabe nada.",
+          "translation": "She says she doesn't know anything."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "Todavía no lo sé",
+      "translation": "I don't know yet",
+      "sentences": [
+        {
+          "original": "Todavía no lo sé con certeza.",
+          "translation": "I don't know for sure yet."
+        },
+        {
+          "original": "Te aviso, pero todavía no lo sé.",
+          "translation": "I'll let you know, but I don't know yet."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No sé qué decir",
+      "translation": "I don't know what to say",
+      "sentences": [
+        {
+          "original": "Es una sorpresa, no sé qué decir.",
+          "translation": "It's a surprise, I don't know what to say."
+        },
+        {
+          "original": "No sé qué decir ante tu pregunta.",
+          "translation": "I don't know what to say to your question."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "No lo sé exactamente",
+      "translation": "I don't know exactly",
+      "sentences": [
+        {
+          "original": "No lo sé exactamente, pero creo que sí.",
+          "translation": "I don't know exactly, but I think so."
+        },
+        {
+          "original": "No lo sé exactamente en este momento.",
+          "translation": "I don't know exactly at this moment."
+        }
+      ]
+    }
+  ]
+}

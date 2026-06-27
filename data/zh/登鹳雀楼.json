@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Poesía: 登鹳雀楼 (On the Stork Tower)",
+    "language": "zh",
+    "description": "A classic Tang Dynasty poem by Wang Zhihuan about gaining a higher perspective.",
+    "autoPlayMode": "front-back"
+  },
+  "cards": [
+    {
+      "type": "paragraph",
+      "text": "登鹳雀楼",
+      "translation": "Ascending the Stork Tower",
+      "sentences": [
+        {
+          "original": "白日依山尽，黄河入海流。",
+          "translation": "The white sun sets behind the mountains; The Yellow River flows into the sea.",
+          "chunks": [
+            {
+              "text": "白日",
+              "meaning": "The white sun"
+            },
+            {
+              "text": "依山尽，",
+              "meaning": "sets along the mountains,"
+            },
+            {
+              "text": "黄河",
+              "meaning": "the Yellow River"
+            },
+            {
+              "text": "入海流。",
+              "meaning": "flows into the sea."
+            }
+          ]
+        },
+        {
+          "original": "欲穷千里目，更上一层楼。",
+          "translation": "To see a thousand miles further, Ascend another story of the tower.",
+          "chunks": [
+            {
+              "text": "欲穷",
+              "meaning": "Desiring to exhaust / see to the end"
+            },
+            {
+              "text": "千里目，",
+              "meaning": "a thousand-mile view,"
+            },
+            {
+              "text": "更上",
+              "meaning": "go up further"
+            },
+            {
+              "text": "一层楼。",
+              "meaning": "one more level of the building."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "登 (dēng)",
+      "translation": "to ascend / to climb",
+      "sentences": [
+        {
+          "original": "登高望远。 (Dēng gāo wàng yuǎn.)",
+          "translation": "Ascend high to look far."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "依 (yī)",
+      "translation": "to lean against / to depend on",
+      "sentences": [
+        {
+          "original": "夕阳依山。 (Xīyáng yī shān.)",
+          "translation": "The setting sun leans against the mountain."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "欲 (yù)",
+      "translation": "to desire / to want to",
+      "sentences": [
+        {
+          "original": "欲速则不达。 (Yù sù zé bù dá.)",
+          "translation": "Haste makes waste (Desiring speed results in not arriving)."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "text": "更 (gèng)",
+      "translation": "furthermore / even more / again",
+      "sentences": [
+        {
+          "original": "更上一层。 (Gèng shàng yī céng.)",
+          "translation": "Go up one more level."
+        }
+      ]
+    }
+  ]
+}
