@@ -43,7 +43,7 @@ import {
   Layers
 } from 'lucide-react';
 import { GoogleGenAI, Modality, Type } from "@google/genai";
-import { Flashcard, AppState, QuizQuestion } from './types';
+import { Flashcard, AppState, QuizQuestion, UserPreferences } from './types';
 import { 
   auth, 
   db, 
@@ -122,7 +122,7 @@ function handleFirestoreError(error: unknown, operationType: OperationType, path
 }
 
 
-const languagesList = [
+  const languagesList = [
   { code: 'es', name: 'Spanish', flag: '🇪🇸' },
   { code: 'fr', name: 'French', flag: '🇫🇷' },
   { code: 'it', name: 'Italian', flag: '🇮🇹' },
@@ -132,6 +132,9 @@ const languagesList = [
   { code: 'zh', name: 'Chinese', flag: '🇨🇳' },
   { code: 'de', name: 'German', flag: '🇩🇪' },
 ];
+
+// Debounced save function to prevent excessive Firestore writes
+let saveTimeout: NodeJS.Timeout | null = null;
 
 const normalizeLanguageCode = (lang: string): string => {
   if (!lang) return 'es';
@@ -337,9 +340,19 @@ export default function App() {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setUser(user);
       setIsAuthReady(true);
+      if (user) {
+        loadUserPreferences();
+      }
     });
     return () => unsubscribe();
   }, []);
+
+  // Load preferences on app mount if user is already authenticated (handles browser reopen)
+  useEffect(() => {
+    if (isAuthReady && user) {
+      loadUserPreferences();
+    }
+  }, [isAuthReady]);
 
   // Show login modal automatically if not logged in
   useEffect(() => {
@@ -437,6 +450,13 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('lingoflash_language', deckLanguage);
   }, [deckLanguage]);
+
+  // Save user preferences to Firestore when settings change (only if logged in)
+  useEffect(() => {
+    if (user) {
+      saveUserPreferences();
+    }
+  }, [turtleModeSpeed, targetAudioRepeats, targetAudioPlaySpeed, autoPlayDelay, isLoopingDeck, autoPlayBreakDownMode, deckLanguage, currentIndex, currentDeckId, user]);
 
   useEffect(() => {
     // Pre-fetch voices
@@ -583,6 +603,10 @@ export default function App() {
   const loadDeckFromFirestore = async (deckId: string) => {
     if (!user) return;
     const path = `users/${user.uid}/decks/${deckId}`;
+    
+    // Reset to index 0 before loading to prevent carrying over from previous deck
+    setCurrentIndex(0);
+    
     try {
       const snapshot = await getDocFromServer(doc(db, path));
       if (snapshot.exists()) {
@@ -617,12 +641,97 @@ export default function App() {
 
         setCurrentDeckId(deckId);
         setState('study');
-        setCurrentIndex(0);
+        
+        // Restore card position from preferences if available
+        const prefsSnapshot = await getDocFromServer(doc(db, `users/${user.uid}/preferences/settings`));
+        if (prefsSnapshot.exists() && prefsSnapshot.data().deckProgress && prefsSnapshot.data().deckProgress[deckId] !== undefined) {
+          setCurrentIndex(prefsSnapshot.data().deckProgress[deckId]);
+        }
+        
         setIsFlipped(false);
-        setShowDecksModal(false);
       }
     } catch (error) {
       handleFirestoreError(error, OperationType.GET, path);
+    } finally {
+      setShowDecksModal(false);
+    }
+  };
+
+  const saveUserPreferences = async () => {
+    if (!user) {
+      console.log("saveUserPreferences: No user, skipping save");
+      return;
+    }
+    
+    // Clear any existing timeout
+    if (saveTimeout) {
+      clearTimeout(saveTimeout);
+    }
+    
+    // Debounce save to prevent excessive writes
+    saveTimeout = setTimeout(async () => {
+      const path = `users/${user.uid}/preferences/settings`;
+      console.log("saveUserPreferences: Saving to", path);
+      try {
+        // First, load existing preferences to preserve deck progress from other decks
+        const snapshot = await getDocFromServer(doc(db, path));
+        const existingDeckProgress = snapshot.exists() && snapshot.data().deckProgress 
+          ? snapshot.data().deckProgress 
+          : {};
+        
+        // Merge current deck progress with existing deck progress
+        const mergedDeckProgress = { ...existingDeckProgress };
+        if (currentDeckId) {
+          mergedDeckProgress[currentDeckId] = currentIndex;
+        }
+        
+        const preferences: UserPreferences = {
+          turtleModeSpeed,
+          targetAudioRepeats,
+          targetAudioPlaySpeed,
+          autoPlayDelay,
+          isLoopingDeck,
+          autoPlayBreakDownMode,
+          deckLanguage,
+          deckProgress: mergedDeckProgress,
+          updatedAt: new Date().toISOString()
+        };
+        
+        console.log("saveUserPreferences: Saving preferences", preferences);
+        await setDoc(doc(db, path), preferences, { merge: true });
+        console.log("User preferences saved to Firestore successfully");
+      } catch (error) {
+        console.error("Failed to save user preferences:", error);
+      }
+    }, 1000); // 1 second debounce
+  };
+
+  const loadUserPreferences = async () => {
+    if (!user) {
+      console.log("loadUserPreferences: No user, skipping load");
+      return;
+    }
+    const path = `users/${user.uid}/preferences/settings`;
+    console.log("loadUserPreferences: Loading from", path);
+    try {
+      const snapshot = await getDocFromServer(doc(db, path));
+      if (snapshot.exists()) {
+        const data = snapshot.data() as UserPreferences;
+        console.log("loadUserPreferences: Loaded preferences", data);
+        
+        // Apply global settings only (deck progress is handled in loadDeckFromFirestore)
+        if (data.turtleModeSpeed !== undefined) setTurtleModeSpeed(data.turtleModeSpeed);
+        if (data.targetAudioRepeats !== undefined) setTargetAudioRepeats(data.targetAudioRepeats);
+        if (data.targetAudioPlaySpeed) setTargetAudioPlaySpeed(data.targetAudioPlaySpeed);
+        if (data.autoPlayDelay !== undefined) setAutoPlayDelay(data.autoPlayDelay);
+        if (data.isLoopingDeck !== undefined) setIsLoopingDeck(data.isLoopingDeck);
+        if (data.autoPlayBreakDownMode) setAutoPlayBreakDownMode(data.autoPlayBreakDownMode);
+        if (data.deckLanguage) setDeckLanguage(data.deckLanguage);
+      } else {
+        console.log("loadUserPreferences: No preferences found in Firestore");
+      }
+    } catch (error) {
+      console.error("Failed to load user preferences:", error);
     }
   };
 

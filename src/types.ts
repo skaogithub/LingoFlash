@@ -37,3 +37,22 @@ export interface QuizQuestion {
   correctIndex: number;
   explanation: string;
 }
+
+export interface UserPreferences {
+  // Global audio settings
+  turtleModeSpeed: number;
+  targetAudioRepeats: number;
+  targetAudioPlaySpeed: 'normal' | 'slow' | 'alternate';
+  autoPlayDelay: number;
+  isLoopingDeck: boolean;
+  autoPlayBreakDownMode: 'side' | 'item';
+  
+  // Global language preference
+  deckLanguage: string;
+  
+  // Per-deck progress (deckId -> cardIndex)
+  deckProgress: Record<string, number>;
+  
+  // Timestamp
+  updatedAt: string;
+}
