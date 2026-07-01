@@ -612,6 +612,7 @@ export default function App() {
       if (snapshot.exists()) {
         const data = snapshot.data();
         setCards(data.cards || []);
+        setNewDeckName(data.name || "My Deck");
         if (data.quizQuestions) {
           setQuizQuestions(data.quizQuestions);
         } else {
