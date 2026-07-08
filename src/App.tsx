@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef, ChangeEvent, Component, ErrorInfo, ReactNode } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { 
-  ChevronLeft, 
-  ChevronRight, 
-  RotateCcw, 
-  Volume2, 
-  Plus, 
-  Trash2, 
-  BookOpen, 
-  Settings, 
+import {
+  ChevronLeft,
+  ChevronRight,
+  RotateCcw,
+  Volume2,
+  Plus,
+  Trash2,
+  BookOpen,
+  Settings,
   X,
   Play,
   Pause,
@@ -44,26 +44,26 @@ import {
 } from 'lucide-react';
 import { GoogleGenAI, Modality, Type } from "@google/genai";
 import { Flashcard, AppState, QuizQuestion, UserPreferences } from './types';
-import { 
-  auth, 
-  db, 
+import {
+  auth,
+  db,
   googleProvider,
-  signInWithPopup, 
-  signOut, 
+  signInWithPopup,
+  signOut,
   onAuthStateChanged,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile
 } from './firebase';
 import { User } from 'firebase/auth';
-import { 
-  collection, 
-  doc, 
-  setDoc, 
-  getDocs, 
-  onSnapshot, 
-  query, 
-  orderBy, 
+import {
+  collection,
+  doc,
+  setDoc,
+  getDocs,
+  onSnapshot,
+  query,
+  orderBy,
   Timestamp,
   getDocFromServer,
   deleteDoc
@@ -122,7 +122,7 @@ function handleFirestoreError(error: unknown, operationType: OperationType, path
 }
 
 
-  const languagesList = [
+const languagesList = [
   { code: 'es', name: 'Spanish', flag: '🇪🇸' },
   { code: 'fr', name: 'French', flag: '🇫🇷' },
   { code: 'it', name: 'Italian', flag: '🇮🇹' },
@@ -139,12 +139,12 @@ let saveTimeout: NodeJS.Timeout | null = null;
 const normalizeLanguageCode = (lang: string): string => {
   if (!lang) return 'es';
   const clean = lang.trim().toLowerCase();
-  
+
   // 1. Check if it's already a code in languagesList
   if (languagesList.some(l => l.code === clean)) {
     return clean;
   }
-  
+
   // 2. Check if it's a language name (e.g. "spanish" -> "es")
   const nameToCode: Record<string, string> = {
     spanish: 'es',
@@ -159,13 +159,13 @@ const normalizeLanguageCode = (lang: string): string => {
   if (nameToCode[clean]) {
     return nameToCode[clean];
   }
-  
+
   // 3. Check for BCP-47 codes (e.g. "es-es", "es-us" -> "es", "zh-cn" -> "zh")
   const prefix = clean.split('-')[0];
   if (languagesList.some(l => l.code === prefix)) {
     return prefix;
   }
-  
+
   return 'es'; // default fallback
 };
 
@@ -214,7 +214,7 @@ export default function App() {
   const [isGeneratingMagic, setIsGeneratingMagic] = useState(false);
   const [magicError, setMagicError] = useState<string | null>(null);
   const [showKeySetup, setShowKeySetup] = useState(false);
-  
+
   // Firebase State
   const [user, setUser] = useState<User | null>(null);
   const [isAuthReady, setIsAuthReady] = useState(false);
@@ -232,7 +232,7 @@ export default function App() {
   const [showLogoutConfirm, setShowLogoutConfirm] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [deckToDelete, setDeckToDelete] = useState<{ id: string, name: string } | null>(null);
-  
+
   const [showHistory, setShowHistory] = useState(false);
   const [showHelpModal, setShowHelpModal] = useState(false);
   const [copySuccess, setCopySuccess] = useState(false);
@@ -241,7 +241,7 @@ export default function App() {
   const [dynamicApiKey, setDynamicApiKey] = useState<string | null>(localStorage.getItem('manual_gemini_api_key'));
   const [isTestingConnection, setIsTestingConnection] = useState(false);
   const [testResult, setTestResult] = useState<{ success: boolean; message: string; debug?: string } | null>(null);
-  
+
   // Library State
   const [libraryFiles, setLibraryFiles] = useState<any[]>([]);
   const filteredLibrary = React.useMemo(() => {
@@ -253,7 +253,7 @@ export default function App() {
   }, [libraryFiles, deckLanguage]);
   const [showLibraryModal, setShowLibraryModal] = useState(false);
   const [isLoadingLibrary, setIsLoadingLibrary] = useState(false);
-  
+
   // Quiz State
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
   const [currentQuizIndex, setCurrentQuizIndex] = useState(0);
@@ -263,7 +263,7 @@ export default function App() {
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
-  
+
   // Auto-play State
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [autoPlayMode, setAutoPlayMode] = useState<'front-back' | 'back-front' | 'front-only' | 'back-only'>('front-back');
@@ -375,9 +375,9 @@ export default function App() {
           console.log("Firestore connection confirmed (Server responded with permission check).");
           return;
         }
-        
+
         console.error("Firestore connection test failed:", error);
-        if(error instanceof Error && error.message.includes('the client is offline')) {
+        if (error instanceof Error && error.message.includes('the client is offline')) {
           console.error("Please check your Firebase configuration. This usually means the Firestore API is not enabled or the database does not exist.");
         }
       }
@@ -461,11 +461,11 @@ export default function App() {
   useEffect(() => {
     // Pre-fetch voices
     window.speechSynthesis.getVoices();
-    
+
     const handleVoicesChanged = () => {
       window.speechSynthesis.getVoices();
     };
-    
+
     window.speechSynthesis.addEventListener('voiceschanged', handleVoicesChanged);
     return () => window.speechSynthesis.removeEventListener('voiceschanged', handleVoicesChanged);
   }, []);
@@ -552,7 +552,7 @@ export default function App() {
     setIsSaving(true);
     const deckId = (forceNew || !currentDeckId) ? Math.random().toString(36).substr(2, 9) : currentDeckId;
     const path = `users/${user.uid}/decks/${deckId}`;
-    
+
     // Recursive sanitization for Firestore
     const sanitize = (obj: any): any => {
       if (Array.isArray(obj)) {
@@ -586,7 +586,7 @@ export default function App() {
         createdAt: Timestamp.now(),
         updatedAt: Timestamp.now()
       }, { merge: true });
-      
+
       console.log("Save successful!");
       setCurrentDeckId(deckId);
       setFirestoreError(null);
@@ -603,10 +603,10 @@ export default function App() {
   const loadDeckFromFirestore = async (deckId: string) => {
     if (!user) return;
     const path = `users/${user.uid}/decks/${deckId}`;
-    
+
     // Reset to index 0 before loading to prevent carrying over from previous deck
     setCurrentIndex(0);
-    
+
     try {
       const snapshot = await getDocFromServer(doc(db, path));
       if (snapshot.exists()) {
@@ -618,7 +618,7 @@ export default function App() {
         } else {
           setQuizQuestions([]);
         }
-        
+
         // Update deck language from loaded deck, fallback to detecting from cards
         if (data.language) {
           setDeckLanguage(normalizeLanguageCode(data.language));
@@ -642,13 +642,13 @@ export default function App() {
 
         setCurrentDeckId(deckId);
         setState('study');
-        
+
         // Restore card position from preferences if available
         const prefsSnapshot = await getDocFromServer(doc(db, `users/${user.uid}/preferences/settings`));
         if (prefsSnapshot.exists() && prefsSnapshot.data().deckProgress && prefsSnapshot.data().deckProgress[deckId] !== undefined) {
           setCurrentIndex(prefsSnapshot.data().deckProgress[deckId]);
         }
-        
+
         setIsFlipped(false);
       }
     } catch (error) {
@@ -663,12 +663,12 @@ export default function App() {
       console.log("saveUserPreferences: No user, skipping save");
       return;
     }
-    
+
     // Clear any existing timeout
     if (saveTimeout) {
       clearTimeout(saveTimeout);
     }
-    
+
     // Debounce save to prevent excessive writes
     saveTimeout = setTimeout(async () => {
       const path = `users/${user.uid}/preferences/settings`;
@@ -676,16 +676,16 @@ export default function App() {
       try {
         // First, load existing preferences to preserve deck progress from other decks
         const snapshot = await getDocFromServer(doc(db, path));
-        const existingDeckProgress = snapshot.exists() && snapshot.data().deckProgress 
-          ? snapshot.data().deckProgress 
+        const existingDeckProgress = snapshot.exists() && snapshot.data().deckProgress
+          ? snapshot.data().deckProgress
           : {};
-        
+
         // Merge current deck progress with existing deck progress
         const mergedDeckProgress = { ...existingDeckProgress };
         if (currentDeckId) {
           mergedDeckProgress[currentDeckId] = currentIndex;
         }
-        
+
         const preferences: UserPreferences = {
           turtleModeSpeed,
           targetAudioRepeats,
@@ -697,7 +697,7 @@ export default function App() {
           deckProgress: mergedDeckProgress,
           updatedAt: new Date().toISOString()
         };
-        
+
         console.log("saveUserPreferences: Saving preferences", preferences);
         await setDoc(doc(db, path), preferences, { merge: true });
         console.log("User preferences saved to Firestore successfully");
@@ -719,7 +719,7 @@ export default function App() {
       if (snapshot.exists()) {
         const data = snapshot.data() as UserPreferences;
         console.log("loadUserPreferences: Loaded preferences", data);
-        
+
         // Apply global settings only (deck progress is handled in loadDeckFromFirestore)
         if (data.turtleModeSpeed !== undefined) setTurtleModeSpeed(data.turtleModeSpeed);
         if (data.targetAudioRepeats !== undefined) setTargetAudioRepeats(data.targetAudioRepeats);
@@ -745,7 +745,7 @@ export default function App() {
 
   const confirmDeleteDeck = async () => {
     if (!user || !deckToDelete) return;
-    
+
     const path = `users/${user.uid}/decks/${deckToDelete.id}`;
     try {
       await deleteDoc(doc(db, path));
@@ -782,12 +782,12 @@ export default function App() {
         const response = await fetch('/api/config');
         const data = await response.json();
         const serverKey = data.geminiApiKey;
-        
+
         // Only use server key if it's valid and we don't have a manual one,
         // or if the server key is actually a real key (not empty/None)
         const isServerKeyValid = serverKey && serverKey !== 'undefined' && serverKey !== 'null' && serverKey.trim() !== '';
         const manualKey = localStorage.getItem('manual_gemini_api_key');
-        
+
         if (isServerKeyValid) {
           setDynamicApiKey(serverKey);
           setIsApiKeyMissing(false);
@@ -816,13 +816,13 @@ export default function App() {
     try {
       // @ts-ignore
       bakedKey = process.env.USER_GEMINI_API_KEY || process.env.GEMINI_API_KEY || import.meta.env.VITE_GEMINI_API_KEY || '';
-    } catch (e) {}
+    } catch (e) { }
 
     // 2. Check for a manually entered key in LocalStorage (Override)
     const manualKey = dynamicApiKey || localStorage.getItem('manual_gemini_api_key') || '';
 
     const apiKey = (manualKey && manualKey.trim() !== '') ? manualKey : bakedKey;
-    
+
     if (!apiKey || apiKey === 'undefined' || apiKey === 'null' || apiKey.trim() === '') {
       // 3. Last resort: Try to fetch from the server config endpoint
       try {
@@ -832,7 +832,7 @@ export default function App() {
           setDynamicApiKey(data.geminiApiKey);
           return new GoogleGenAI({ apiKey: data.geminiApiKey });
         }
-      } catch (e) {}
+      } catch (e) { }
     }
 
     if (!apiKey || apiKey === 'undefined' || apiKey === 'null' || apiKey.trim() === '') {
@@ -849,13 +849,13 @@ export default function App() {
     try {
       return await ai.models.generateContent(params);
     } catch (error: any) {
-      const isRetryable = error?.status === 503 || 
-                          error?.status === 429 ||
-                          error?.message?.includes("503") || 
-                          error?.message?.includes("429") ||
-                          error?.message?.includes("high demand") ||
-                          error?.message?.includes("Resource has been exhausted");
-                          
+      const isRetryable = error?.status === 503 ||
+        error?.status === 429 ||
+        error?.message?.includes("503") ||
+        error?.message?.includes("429") ||
+        error?.message?.includes("high demand") ||
+        error?.message?.includes("Resource has been exhausted");
+
       if (isRetryable && retries > 0) {
         console.warn(`Gemini busy/rate-limited, retrying in ${delay}ms... (${retries} left)`);
         await new Promise(resolve => setTimeout(resolve, delay));
@@ -872,15 +872,15 @@ export default function App() {
       const ai = await getAiInstance();
       const apiKey = dynamicApiKey || process.env.GEMINI_API_KEY || '';
       const keyPrefix = apiKey ? `${apiKey.substring(0, 4)}...${apiKey.substring(apiKey.length - 4)}` : 'None';
-      
+
       const response = await callGeminiWithRetry(ai, {
-        model: "gemini-3-flash-preview",
+        model: "gemini-3.5-flash",
         contents: "Say 'OK'",
       });
-      
+
       if (response.text) {
-        setTestResult({ 
-          success: true, 
+        setTestResult({
+          success: true,
           message: "Connection Successful!",
           debug: `Key: ${keyPrefix} | Model: gemini-flash`
         });
@@ -892,10 +892,10 @@ export default function App() {
       const keyPrefix = apiKey ? `${apiKey.substring(0, 4)}...${apiKey.substring(apiKey.length - 4)}` : 'None';
       const isInvalid = error?.message?.includes("API key not valid") || error?.message?.includes("400");
       setIsApiKeyInvalid(isInvalid);
-      setTestResult({ 
-        success: false, 
-        message: isInvalid 
-          ? "API Key Invalid: The key was rejected by Google." 
+      setTestResult({
+        success: false,
+        message: isInvalid
+          ? "API Key Invalid: The key was rejected by Google."
           : `Error: ${error.message || "Unknown error"}`,
         debug: `Key: ${keyPrefix} | Error Code: ${error?.status || 'Unknown'}`
       });
@@ -935,7 +935,7 @@ export default function App() {
     try {
       const ai = await getAiInstance();
       const response = await callGeminiWithRetry(ai, {
-        model: "gemini-3-flash-preview",
+        model: "gemini-3.5-flash",
         contents: `Generate a 5-question multiple choice quiz based on these flashcards: ${JSON.stringify(cards)}. 
         Make the questions challenging and include context-based usage questions. 
         Return the result as a JSON array of objects.`,
@@ -948,8 +948,8 @@ export default function App() {
               properties: {
                 id: { type: Type.STRING },
                 question: { type: Type.STRING },
-                options: { 
-                  type: Type.ARRAY, 
+                options: {
+                  type: Type.ARRAY,
                   items: { type: Type.STRING },
                   description: "Exactly 4 options"
                 },
@@ -1001,7 +1001,7 @@ export default function App() {
 
   const copyShareLink = () => {
     let shareUrl = window.location.href;
-    
+
     // If we're in the dev environment, force the public preview URL
     if (shareUrl.includes('localhost') || shareUrl.includes('ais-dev')) {
       shareUrl = "https://ais-pre-4hsdgbmcm4borq4x37fze3-213894404377.us-east1.run.app";
@@ -1020,7 +1020,7 @@ export default function App() {
     try {
       const ai = await getAiInstance();
       const response = await callGeminiWithRetry(ai, {
-        model: "gemini-3-flash-preview",
+        model: "gemini-3.5-flash",
         contents: `Generate 10 beginner-level ${getDeckLanguageLabel()} flashcards about the topic: "${magicTopic}". 
         If the topic is a list of items, pick the 10 most essential ones.
         
@@ -1056,7 +1056,7 @@ export default function App() {
       setMagicTopic('');
     } catch (error: any) {
       console.error("Magic generation failed:", error);
-      
+
       const errorMsg = error?.message || "Unknown error";
       setMagicError(`Magic generation failed: ${errorMsg}. Please ensure an API key is selected in the AI Studio Settings menu (gear icon at the top right).`);
     } finally {
@@ -1066,7 +1066,7 @@ export default function App() {
 
   const downloadDeck = () => {
     if (cards.length === 0) return;
-    
+
     // Format cards back to the importable JSON structure
     const exportData = cards.map(card => {
       if (card.type === 'simple') {
@@ -1161,20 +1161,20 @@ export default function App() {
 
       setQuizQuestions([]); // Clear old quiz when loading new data
       setCurrentDeckId(null); // Reset deck ID for new imports/generations
-      
+
       const newCards: Flashcard[] = parsedArray.map((item) => {
         if (!item || typeof item !== 'object') return null;
         const keys = Object.keys(item);
-        
+
         // Handle standard front/back format (used by Magic Generate)
         if (item.front && item.back) {
           const rawUso = Array.isArray(item.uso) ? item.uso : [];
           const rawUsage = Array.isArray(item.usage) ? item.usage : [];
-          
+
           const examples = rawUso.map((text: any, i: number) => {
             if (typeof text === 'string') {
-              return { 
-                text, 
+              return {
+                text,
                 translation: typeof rawUsage[i] === 'string' ? rawUsage[i] : null
               };
             }
@@ -1228,8 +1228,8 @@ export default function App() {
           const rawUsage = Array.isArray(item.usage) ? item.usage : [];
           const examples = rawUso.map((text: any, i: number) => {
             if (typeof text === 'string') {
-              return { 
-                text, 
+              return {
+                text,
                 translation: typeof rawUsage[i] === 'string' ? rawUsage[i] : null
               };
             }
@@ -1251,20 +1251,20 @@ export default function App() {
         // Vocabulary format: { "SpanishWord": "EnglishDefinition", "uso": [...], "usage": [...] }
         const frontKey = keys.find(k => k !== 'uso' && k !== 'usage' && k !== 'front' && k !== 'back' && k !== 'text' && k !== 'translation' && k !== 'sentences' && k !== 'type' && k !== 'isStarred' && k !== 'mastery');
         if (!frontKey) return null;
-        
+
         const rawUso = Array.isArray(item.uso) ? item.uso : [];
         const rawUsage = Array.isArray(item.usage) ? item.usage : [];
-        
+
         const examples = rawUso.map((text: any, i: number) => {
           if (typeof text === 'string') {
-            return { 
-              text, 
+            return {
+              text,
               translation: typeof rawUsage[i] === 'string' ? rawUsage[i] : null
             };
           } else if (typeof text === 'object' && text !== null) {
             const esKey = Object.keys(text).find(k => k.toLowerCase() === 'es' || k.toLowerCase() === 'spanish' || k.toLowerCase() === 'original');
             const enKey = Object.keys(text).find(k => k.toLowerCase() === 'en' || k.toLowerCase() === 'english' || k.toLowerCase() === 'translation');
-            
+
             return {
               text: esKey ? text[esKey] : (Object.values(text)[0] as string),
               translation: enKey ? text[enKey] : (Object.values(text)[1] as string)
@@ -1380,9 +1380,9 @@ export default function App() {
     }
   };
 
-  const filteredCards = React.useMemo(() => 
+  const filteredCards = React.useMemo(() =>
     showStarredOnly ? cards.filter(c => c.isStarred) : cards,
-  [cards, showStarredOnly]);
+    [cards, showStarredOnly]);
 
   const chunkedCards = React.useMemo(() => {
     return filteredCards;
@@ -1429,19 +1429,19 @@ export default function App() {
 
   const detectLanguage = (text: string): string => {
     if (!text) return 'en-US';
-    
+
     // 1. Chinese (Han characters)
     const hasChinese = /[\u4e00-\u9fa5]/.test(text);
     const hasJapaneseKana = /[\u3040-\u309f\u30a0-\u30ff]/.test(text);
     if (hasChinese && !hasJapaneseKana) {
       return 'zh-CN';
     }
-    
+
     // 2. Japanese
     if (hasJapaneseKana) {
       return 'ja-JP';
     }
-    
+
     // 3. Korean
     if (/[\uac00-\ud7af\u1100-\u11ff]/.test(text)) {
       return 'ko-KR';
@@ -1452,13 +1452,13 @@ export default function App() {
     if (distinctiveEnglish.test(text)) {
       return 'en-US';
     }
-    
+
     // 4. Spanish
     const spanishChars = /[áéíóúñÁÉÍÓÚÑ¿¡]/;
     if (spanishChars.test(text)) return 'es-ES';
     const commonSpanish = /\b(el|la|los|las|un|una|y|o|en|de|que|es|son|esta|este|con|por|para|mi|tu|su|nosotros|vosotros|ellos|ellas)\b/i;
     if (commonSpanish.test(text)) return 'es-ES';
-    
+
     // 5. French
     const frenchChars = /[àâæçéèêëîïôœùûüÿÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸ]/;
     const commonFrench = /\b(le|la|les|un|une|des|et|ou|en|dans|que|est|sont|ce|cette|ces|avec|pour|par|sur|mais|pas|plus)\b/i;
@@ -1491,7 +1491,7 @@ export default function App() {
 
   const getCardLanguages = (card?: Flashcard) => {
     if (!card) return { frontLang: 'es-ES', backLang: 'en-US' };
-    
+
     // Determine front language
     let frontLang = 'es-ES';
     if (deckLanguage) {
@@ -1541,47 +1541,47 @@ export default function App() {
 
   const speak = async (text: string, lang: string = 'en-US', rate?: number): Promise<void> => {
     if (!text?.trim()) return Promise.resolve();
-    
+
     const finalLang = (lang && lang.trim()) ? lang : 'en-US';
-    
+
     return new Promise((resolve) => {
       // Stop any current audio
       if (currentSourceRef.current) {
-        try { currentSourceRef.current.stop(); } catch (e) {}
+        try { currentSourceRef.current.stop(); } catch (e) { }
         currentSourceRef.current = null;
       }
       window.speechSynthesis.cancel();
-      
+
       setIsSpeaking(true);
 
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = finalLang;
-      
+
       const voices = window.speechSynthesis.getVoices();
-      
+
       // Helper to find best voice
       const findVoice = () => {
         const voices = window.speechSynthesis.getVoices();
-        
+
         // Try exact match first
         let voice = voices.find(v => v.lang.toLowerCase() === finalLang.toLowerCase());
         if (voice) return voice;
 
         // Try matching language part (e.g. 'zh' from 'zh-CN')
         const prefix = finalLang.split('-')[0].toLowerCase();
-        
+
         // For specific languages, try preferred region first
         if (prefix === 'es') {
-          voice = voices.find(v => v.lang === 'es-ES' || v.lang === 'es-MX') || 
-                  voices.find(v => v.lang.toLowerCase().startsWith('es'));
+          voice = voices.find(v => v.lang === 'es-ES' || v.lang === 'es-MX') ||
+            voices.find(v => v.lang.toLowerCase().startsWith('es'));
           if (voice) return voice;
         } else if (prefix === 'zh') {
           voice = voices.find(v => v.lang === 'zh-CN' || v.lang === 'zh-HK' || v.lang === 'zh-TW') ||
-                  voices.find(v => v.lang.toLowerCase().startsWith('zh'));
+            voices.find(v => v.lang.toLowerCase().startsWith('zh'));
           if (voice) return voice;
         } else if (prefix === 'en') {
           voice = voices.find(v => v.lang === 'en-US' || v.lang === 'en-GB') ||
-                  voices.find(v => v.lang.toLowerCase().startsWith('en'));
+            voices.find(v => v.lang.toLowerCase().startsWith('en'));
           if (voice) return voice;
         }
 
@@ -1597,13 +1597,13 @@ export default function App() {
       if (voice) {
         utterance.voice = voice;
       }
-      
+
       // Determine voice play speed
       let voiceSpeed = rate;
       if (voiceSpeed === undefined) {
         const attempts = (speechAttemptsRef.current[text] || 0) + 1;
         speechAttemptsRef.current[text] = attempts;
-        
+
         if (attempts % 2 === 0) {
           // Even play count: play at turtle speed
           voiceSpeed = turtleModeSpeed;
@@ -1612,17 +1612,36 @@ export default function App() {
           voiceSpeed = 0.95;
         }
       }
-      
+
       utterance.rate = voiceSpeed;
       utterance.pitch = 1.0;
 
+      let cleared = false;
+      const timeoutId = setTimeout(() => {
+        if (!cleared) {
+          cleared = true;
+          console.warn("TTS safety timeout triggered after 7 seconds.");
+          setIsSpeaking(false);
+          resolve();
+        }
+      }, 7000);
+
       utterance.onend = () => {
-        setIsSpeaking(false);
-        resolve();
+        if (!cleared) {
+          cleared = true;
+          clearTimeout(timeoutId);
+          setIsSpeaking(false);
+          resolve();
+        }
       };
-      utterance.onerror = () => {
-        setIsSpeaking(false);
-        resolve();
+      utterance.onerror = (e) => {
+        if (!cleared) {
+          cleared = true;
+          clearTimeout(timeoutId);
+          console.warn("TTS playback error:", e);
+          setIsSpeaking(false);
+          resolve();
+        }
       };
 
       window.speechSynthesis.speak(utterance);
@@ -1631,14 +1650,14 @@ export default function App() {
 
   const startSentenceChunking = async (sentence: string, cardId: string) => {
     if (isChunking) return;
-    
+
     // Check if we already have chunks for this sentence on this card
     const card = cards.find(c => c.id === cardId);
     let matchedSentence = card?.sentences?.find(s => s.original === sentence);
     if (!matchedSentence && card?.examples) {
       matchedSentence = card.examples.find(ex => ex.text === sentence || ex.original === sentence);
     }
-    
+
     if (matchedSentence && matchedSentence.chunks && matchedSentence.chunks.length > 0) {
       setActiveSentence({
         sentence,
@@ -1650,7 +1669,7 @@ export default function App() {
       setCurrentBreakdownStep(1);
       return;
     }
-    
+
     setIsChunking(sentence);
     try {
       const ai = await getAiInstance();
@@ -1682,7 +1701,7 @@ export default function App() {
           }
         }
       });
-      
+
       const resData = JSON.parse(response.text);
       if (resData.chunks && Array.isArray(resData.chunks)) {
         // Update cards list
@@ -1703,15 +1722,15 @@ export default function App() {
           }
           return c;
         });
-        
+
         setCards(updatedCards);
-        
+
         // Save to Firebase Cloud Sync if logged in and a deck is active
         if (user && currentDeckId) {
           const deckName = userDecks.find(d => d.id === currentDeckId)?.name || newDeckName || "My Deck";
           saveToFirestore(deckName, updatedCards);
         }
-        
+
         setActiveSentence({
           sentence,
           chunks: resData.chunks,
@@ -1765,10 +1784,10 @@ export default function App() {
       const prefix = deckLanguage.toLowerCase();
       const deckVoice = voices.find(v => v.lang.toLowerCase().startsWith(prefix));
       const englishVoice = voices.find(v => v.lang.toLowerCase().startsWith('en'));
-      
+
       const details = `Voices found: ${voices.length}. ${getDeckLanguageLabel()}: ${deckVoice ? deckVoice.name : 'None'}. English: ${englishVoice ? englishVoice.name : 'None'}.`;
       setSpeechDiagnosticMsg(details);
-      
+
       await speak("Speech engine diagnostic test: active.", "en-US");
     } catch (e: any) {
       setSpeechDiagnosticMsg(`Diagnostics failed: ${e.message}`);
@@ -1784,7 +1803,7 @@ export default function App() {
 
   useEffect(() => {
     let active = true;
-    
+
     const runAutoPlay = async () => {
       if (!isAutoPlaying || !active) return;
 
@@ -1805,24 +1824,24 @@ export default function App() {
 
       const speakWithExamples = async (isFront: boolean, rIndex: number) => {
         if (!active || !isAutoPlaying) return;
-        
+
         const text = isFront ? card.front : card.back;
         const lang = isFront ? frontLang : backLang;
-        
+
         setIsFlipped(!isFront);
-        
+
         const currentRate = getRate(rIndex);
         await speak(text, lang, currentRate);
-        
+
         if (!active || !isAutoPlaying) return;
-        
+
         // Read sentences
         if (card.sentences && card.sentences.length > 0) {
           for (const s of card.sentences) {
             if (!active || !isAutoPlaying) return;
             await new Promise(r => setTimeout(r, 800));
             if (!active || !isAutoPlaying) return;
-            
+
             const sText = isFront ? (s.original || s.text || "") : (s.translation || s.meaning || s.original || s.text || "");
             const sLang = isFront ? frontLang : ((s.translation || s.meaning) ? backLang : detectLanguage(s.original || s.text || ""));
             if (sText) {
@@ -1837,7 +1856,7 @@ export default function App() {
             if (!active || !isAutoPlaying) return;
             await new Promise(r => setTimeout(r, 800));
             if (!active || !isAutoPlaying) return;
-            
+
             const exText = isFront ? (ex.text || ex.original || "") : (ex.translation || ex.meaning || ex.text || ex.original || "");
             const exLang = isFront ? frontLang : ((ex.translation || ex.meaning) ? backLang : detectLanguage(ex.text || ex.original || ""));
             if (exText) {
@@ -2019,7 +2038,7 @@ export default function App() {
         }
 
         if (!active || !isAutoPlaying) return;
-        
+
         // Wait before next card (using customizable delay)
         const timer = setTimeout(() => {
           if (active && isAutoPlaying) {
@@ -2059,7 +2078,7 @@ export default function App() {
             </div>
             <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-800">LingoFlash</h1>
           </div>
-          
+
           <div className="sm:hidden flex items-center gap-2">
             {user ? (
               <button onClick={() => setShowLogoutConfirm(true)} className="p-2 text-slate-400 hover:text-red-500 transition-colors" title="Logout">
@@ -2072,18 +2091,18 @@ export default function App() {
             )}
           </div>
         </div>
-        
+
         <div className="flex items-center gap-1 sm:gap-2 bg-white/50 p-1 sm:p-1.5 rounded-full border border-slate-100 shadow-sm backdrop-blur-sm max-w-full overflow-x-auto scrollbar-hide flex-nowrap">
           {user && (
             <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-              <button 
+              <button
                 onClick={() => setShowDecksModal(true)}
                 className="p-2 sm:p-2.5 hover:bg-white hover:shadow-sm rounded-full transition-all text-slate-500 hover:text-indigo-600"
                 title="My Saved Decks"
               >
                 <History className="w-5 h-5" />
               </button>
-              <button 
+              <button
                 onClick={() => {
                   setNewDeckName(userDecks.find(d => d.id === currentDeckId)?.name || "My Deck");
                   setFirestoreError(null);
@@ -2097,7 +2116,7 @@ export default function App() {
               </button>
             </div>
           )}
-          
+
           <div className="w-px h-6 bg-slate-200 mx-0.5 sm:mx-1 flex-shrink-0" />
 
           {/* Language Selector Button */}
@@ -2116,14 +2135,14 @@ export default function App() {
           <div className="w-px h-6 bg-slate-200 mx-0.5 sm:mx-1 flex-shrink-0" />
 
           <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-            <button 
+            <button
               onClick={() => setShowMagicModal(true)}
               className="p-2 sm:p-2.5 hover:bg-white hover:shadow-sm rounded-full transition-all text-indigo-600 hover:text-indigo-700"
               title="Magic Generate"
             >
               <Wand2 className="w-5 h-5" />
             </button>
-            <button 
+            <button
               onClick={downloadDeck}
               disabled={cards.length === 0}
               className="p-2 sm:p-2.5 hover:bg-white hover:shadow-sm rounded-full transition-all text-slate-500 hover:text-indigo-600 disabled:opacity-30"
@@ -2131,7 +2150,7 @@ export default function App() {
             >
               <Download className="w-5 h-5" />
             </button>
-            <button 
+            <button
               onClick={() => generateQuiz(false)}
               disabled={isGeneratingQuiz || cards.length < 4}
               className={`p-2 sm:p-2.5 rounded-full transition-all flex items-center gap-2 px-3 sm:px-4 ${isGeneratingQuiz ? 'bg-indigo-50 text-indigo-400' : 'hover:bg-white text-slate-500 hover:text-indigo-600'}`}
@@ -2143,7 +2162,7 @@ export default function App() {
           </div>
 
           {state === 'study' && cards.length > 0 && (
-            <button 
+            <button
               onClick={() => setViewMode(viewMode === 'flashcard' ? 'list' : 'flashcard')}
               className={`p-2 sm:p-2.5 rounded-full transition-all flex-shrink-0 ${viewMode === 'list' ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-100' : 'hover:bg-white text-slate-500 hover:text-indigo-600'}`}
               title={viewMode === 'flashcard' ? "Switch to List View" : "Switch to Flashcard View"}
@@ -2152,7 +2171,7 @@ export default function App() {
             </button>
           )}
 
-          <button 
+          <button
             onClick={copyShareLink}
             className={`p-2 sm:p-2.5 rounded-full transition-all flex items-center gap-2 px-3 ${copySuccess ? 'bg-green-50 text-green-600' : 'hover:bg-white text-slate-500 hover:text-indigo-600'}`}
             title="Copy Share Link"
@@ -2161,7 +2180,7 @@ export default function App() {
             {copySuccess && <span className="text-xs font-bold">Copied!</span>}
           </button>
 
-          <button 
+          <button
             onClick={() => setShowHelpModal(true)}
             className="p-2 sm:p-2.5 hover:bg-white hover:shadow-sm rounded-full transition-all text-slate-500 hover:text-indigo-600"
             title="Help & Installation"
@@ -2169,7 +2188,7 @@ export default function App() {
             <HelpCircle className="w-5 h-5" />
           </button>
 
-          <button 
+          <button
             onClick={() => setShowSettingsModal(true)}
             className={`p-2 sm:p-2.5 rounded-full transition-all ${isApiKeyMissing ? 'text-amber-500 hover:text-amber-600 animate-pulse' : 'text-slate-500 hover:text-indigo-600'}`}
             title="AI Settings"
@@ -2179,7 +2198,7 @@ export default function App() {
 
           <div className="w-px h-6 bg-slate-200 mx-0.5 sm:mx-1 flex-shrink-0" />
 
-          <button 
+          <button
             onClick={() => {
               if (state === 'import' && cards.length > 0) {
                 setState('study');
@@ -2196,21 +2215,21 @@ export default function App() {
           <div className="w-px h-6 bg-slate-200 mx-0.5 sm:mx-1 flex-shrink-0" />
 
           <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-            <button 
+            <button
               onClick={() => setShowStarredOnly(!showStarredOnly)}
               className={`p-2 sm:p-2.5 rounded-full transition-all ${showStarredOnly ? 'bg-amber-100 text-amber-600' : 'hover:bg-white text-slate-400'}`}
               title={showStarredOnly ? "Show All" : "Show Starred"}
             >
               <Star className={`w-5 h-5 ${showStarredOnly ? 'fill-current' : ''}`} />
             </button>
-            <button 
+            <button
               onClick={shuffleCards}
               className="p-2 sm:p-2.5 hover:bg-white hover:shadow-sm rounded-full transition-all text-slate-500 hover:text-indigo-600"
               title="Shuffle Deck"
             >
               <Shuffle className="w-5 h-5" />
             </button>
-            <button 
+            <button
               onClick={() => setShowConfirmClear(true)}
               className="p-2 sm:p-2.5 hover:bg-red-50 rounded-full transition-all text-slate-400 hover:text-red-500"
               title="Clear Current Deck"
@@ -2218,7 +2237,7 @@ export default function App() {
               <Trash2 className="w-5 h-5" />
             </button>
           </div>
-          
+
           <div className="w-px h-6 bg-slate-200 mx-1 hidden sm:block" />
 
           <div className="hidden sm:flex items-center gap-2">
@@ -2233,7 +2252,7 @@ export default function App() {
                 </button>
               </div>
             ) : (
-              <button 
+              <button
                 onClick={login}
                 className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-full text-sm font-bold shadow-lg shadow-indigo-100 hover:bg-indigo-700 transition-all"
               >
@@ -2247,7 +2266,7 @@ export default function App() {
 
       <main className="max-w-4xl mx-auto px-6 pb-20">
         {state === 'import' ? (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="max-w-2xl mx-auto"
@@ -2260,9 +2279,9 @@ export default function App() {
                 <h2 className="text-xl font-bold text-slate-800">Welcome to LingoFlash</h2>
               </div>
               <p className="text-slate-500 text-sm">How would you like to start your study session?</p>
-              
+
               {cards.length > 0 && (
-                <button 
+                <button
                   onClick={() => setState('study')}
                   className="mt-6 px-6 py-2 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-full text-sm font-bold transition-all flex items-center gap-2 mx-auto"
                 >
@@ -2274,7 +2293,7 @@ export default function App() {
 
             <div className="grid sm:grid-cols-2 gap-6">
               {/* Magic Generate Option */}
-              <button 
+              <button
                 onClick={() => setShowMagicModal(true)}
                 className="group p-6 bg-white rounded-[2rem] shadow-xl shadow-slate-200/50 border border-slate-100 hover:border-indigo-200 hover:shadow-indigo-100/50 transition-all text-left flex items-start gap-5"
               >
@@ -2289,7 +2308,7 @@ export default function App() {
 
               {/* Load from History Option */}
               {user ? (
-                <button 
+                <button
                   onClick={() => setShowDecksModal(true)}
                   className="group p-6 bg-white rounded-[2rem] shadow-xl shadow-slate-200/50 border border-slate-100 hover:border-amber-200 hover:shadow-amber-100/50 transition-all text-left flex items-start gap-5"
                 >
@@ -2302,7 +2321,7 @@ export default function App() {
                   </div>
                 </button>
               ) : (
-                <button 
+                <button
                   onClick={login}
                   className="group p-6 bg-slate-50/50 rounded-[2rem] border border-dashed border-slate-200 hover:border-indigo-300 hover:bg-indigo-50/30 transition-all text-left flex items-start gap-5 relative overflow-hidden"
                 >
@@ -2335,7 +2354,7 @@ export default function App() {
               </label>
 
               {/* Load from Library Option */}
-              <button 
+              <button
                 onClick={() => setShowLibraryModal(true)}
                 className="group p-6 bg-white rounded-[2rem] shadow-xl shadow-slate-200/50 border border-slate-100 hover:border-purple-200 hover:shadow-purple-100/50 transition-all text-left flex items-start gap-5"
               >
@@ -2351,7 +2370,7 @@ export default function App() {
             </div>
           </motion.div>
         ) : state === 'quiz' ? (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             className="bg-white rounded-3xl shadow-xl p-8 border border-slate-100 min-h-[500px] flex flex-col"
@@ -2370,7 +2389,7 @@ export default function App() {
                   <h2 className="text-2xl font-bold text-slate-800">Quiz Error</h2>
                   <p className="text-slate-500 mt-2 max-w-xs mx-auto">{quizError}</p>
                 </div>
-                <button 
+                <button
                   onClick={resetQuiz}
                   className="px-8 py-3 bg-indigo-600 text-white rounded-2xl font-bold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition-all active:scale-95"
                 >
@@ -2387,19 +2406,19 @@ export default function App() {
                   <p className="text-slate-500 mt-2">You scored <span className="font-bold text-indigo-600">{quizScore}</span> out of {quizQuestions.length}</p>
                 </div>
                 <div className="flex gap-4">
-                  <button 
+                  <button
                     onClick={() => generateQuiz(true)}
                     className="px-8 py-3 bg-indigo-600 text-white rounded-2xl font-bold shadow-lg shadow-indigo-200 hover:bg-indigo-700 transition-all active:scale-95"
                   >
                     New Quiz
                   </button>
-                  <button 
+                  <button
                     onClick={() => generateQuiz(false)}
                     className="px-8 py-3 bg-white border-2 border-indigo-600 text-indigo-600 rounded-2xl font-bold hover:bg-indigo-50 transition-all active:scale-95"
                   >
                     Try Again
                   </button>
-                  <button 
+                  <button
                     onClick={resetQuiz}
                     className="px-8 py-3 bg-slate-100 text-slate-600 rounded-2xl font-bold hover:bg-slate-200 transition-all active:scale-95"
                   >
@@ -2422,7 +2441,7 @@ export default function App() {
                   {quizQuestions[currentQuizIndex].options.map((option, i) => {
                     const isSelected = selectedOption === i;
                     const isCorrect = i === quizQuestions[currentQuizIndex].correctIndex;
-                    
+
                     let bgColor = "bg-slate-50 hover:bg-slate-100 border-slate-200";
                     if (showFeedback) {
                       if (isCorrect) bgColor = "bg-green-50 border-green-200 text-green-700";
@@ -2448,7 +2467,7 @@ export default function App() {
                 </div>
 
                 {showFeedback && (
-                  <motion.div 
+                  <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-auto"
@@ -2458,7 +2477,7 @@ export default function App() {
                         <span className="font-bold">Explanation:</span> {quizQuestions[currentQuizIndex].explanation}
                       </p>
                     </div>
-                    <button 
+                    <button
                       onClick={nextQuizQuestion}
                       className="w-full py-4 bg-slate-900 text-white rounded-2xl font-bold shadow-xl hover:bg-slate-800 transition-all active:scale-95 flex items-center justify-center gap-2"
                     >
@@ -2477,7 +2496,7 @@ export default function App() {
             </div>
             <h2 className="text-xl font-semibold text-slate-800 mb-2">No starred cards yet</h2>
             <p className="text-slate-500 mb-8 max-w-xs">Star cards that you find difficult to review them here separately.</p>
-            <button 
+            <button
               onClick={() => setShowStarredOnly(false)}
               className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl"
             >
@@ -2488,484 +2507,480 @@ export default function App() {
           <div className="flex flex-col items-center w-full">
             {viewMode === 'flashcard' ? (
               <div className="flex flex-col items-center w-full">
-            {/* Progress & Controls */}
-            <div className="w-full max-w-2xl mb-6">
-              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4 bg-white p-4 rounded-2xl border border-slate-100 shadow-sm">
-                
-                {/* Deck Information */}
-                <div className="flex items-center gap-2">
-                  <span className="text-xs font-bold text-slate-700 bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-xl">
-                    {newDeckName || "My Deck"} ({filteredCards.length} Cards)
-                  </span>
-                </div>
+                {/* Progress & Controls */}
+                <div className="w-full max-w-2xl mb-6">
+                  <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4 bg-white p-4 rounded-2xl border border-slate-100 shadow-sm">
 
-                {/* Autoplay Audio Controls */}
-                <div className="flex items-center gap-2 self-end sm:self-auto">
-                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest hidden xs:inline">Autoplay:</span>
-                  <div className="flex items-center gap-1.5 bg-slate-50 border border-slate-100 p-1 rounded-xl">
-                    {isAutoPlaying ? (
-                      <div className="flex items-center gap-2 pl-1.5">
-                        <div className="flex items-center gap-1">
-                          <div className="w-1.5 h-1.5 bg-indigo-500 rounded-full animate-pulse" />
-                          <span className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider">Playing</span>
-                        </div>
-                        <button 
-                          onClick={stopAutoPlay}
-                          className="p-1.5 bg-red-50 text-red-500 hover:bg-red-100 rounded-lg transition-all cursor-pointer"
-                          title="Stop Auto-play"
-                        >
-                          <Square className="w-3.5 h-3.5 fill-current" />
-                        </button>
-                      </div>
-                    ) : (
-                      <div className="flex items-center gap-1">
-                        <select 
-                          value={autoPlayMode}
-                          onChange={(e) => setAutoPlayMode(e.target.value as any)}
-                          className="text-[10px] font-bold text-slate-500 bg-transparent outline-none px-2 py-0.5 cursor-pointer hover:text-indigo-600 font-mono"
-                        >
-                          <option value="front-back">{getDeckLanguageLabel().toUpperCase()} → EN</option>
-                          <option value="back-front">EN → {getDeckLanguageLabel().toUpperCase()}</option>
-                          <option value="front-only">{getDeckLanguageLabel().toUpperCase()} Only</option>
-                          <option value="back-only">EN Only</option>
-                        </select>
-                        <button 
-                          onClick={startAutoPlay}
-                          className="p-1.5 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all cursor-pointer"
-                          title="Start Auto-play"
-                        >
-                          <PlayCircle className="w-4 h-4" />
-                        </button>
-                      </div>
-                    )}
-                    
-                    <button
-                      onClick={() => setShowSettingsModal(true)}
-                      className="p-1.5 rounded-lg transition-all cursor-pointer text-slate-400 hover:text-indigo-600 hover:bg-slate-100"
-                      title="Autoplay & Repeat Setup"
-                    >
-                      <Settings className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                </div>
+                    {/* Deck Information */}
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-bold text-slate-700 bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-xl">
+                        {newDeckName || "My Deck"} ({filteredCards.length} Cards)
+                      </span>
+                    </div>
 
-              </div>
-
-              {/* Progress Bar and Label */}
-              <div className="space-y-2">
-                <div className="flex justify-between items-center text-xs text-slate-500 font-medium">
-                  <span className="font-bold text-indigo-500 uppercase tracking-widest text-[10px]">
-                    {showStarredOnly ? 'Starred Review' : 'Progress'}
-                  </span>
-                  <span>
-                    Card {currentIndex + 1} of {chunkedCards.length}
-                  </span>
-                </div>
-                <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden border border-slate-200/40">
-                  <motion.div 
-                    initial={{ width: 0 }}
-                    animate={{ width: `${chunkedCards.length > 0 ? ((currentIndex + 1) / chunkedCards.length) * 100 : 0}%` }}
-                    className="h-full bg-indigo-500 rounded-full"
-                  />
-                </div>
-              </div>
-            </div>
-
-            {/* Card Container */}
-            <div className="relative w-full max-w-2xl flex items-center gap-4 px-4">
-              {/* Left Navigation */}
-              <button 
-                onClick={prevCard}
-                className="hidden md:flex p-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-400 hover:text-indigo-600 transition-all active:scale-95 flex-shrink-0"
-                title="Previous Card"
-              >
-                <ChevronLeft className="w-6 h-6" />
-              </button>
-
-              <div className="relative flex-1 h-[480px] sm:h-[450px] md:h-auto md:aspect-[4/3] perspective-1000">
-                <motion.div
-                  className="w-full h-full relative preserve-3d cursor-pointer"
-                  animate={{ rotateY: isFlipped ? 180 : 0 }}
-                  transition={{ type: "spring", stiffness: 260, damping: 20 }}
-                  onClick={() => setIsFlipped(!isFlipped)}
-                >
-                  {/* Front */}
-                  <div className={`absolute inset-0 backface-hidden bg-white rounded-[2.5rem] shadow-2xl shadow-slate-200/60 border border-slate-100 flex flex-col items-center justify-center p-6 sm:p-12 text-center ${isFlipped ? 'pointer-events-none select-none' : 'pointer-events-auto'}`}>
-                    <button 
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        toggleStar(currentCard.id);
-                      }}
-                      className="absolute top-6 right-6 sm:top-8 sm:right-8 p-2 hover:bg-slate-50 rounded-full transition-colors"
-                    >
-                      <Star className={`w-6 h-6 ${currentCard?.isStarred ? 'fill-amber-400 text-amber-400' : 'text-slate-300'}`} />
-                    </button>
-                    {currentCard?.type !== 'simple' && (
-                      <span className="absolute top-6 left-6 sm:top-8 sm:left-8 text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em]">{getDeckLanguageLabel()}</span>
-                    )}
-                    
-                    <div className="flex-1 flex flex-col items-center justify-center w-full">
-                      <div className="flex items-center gap-4 sm:gap-6 mb-2 max-w-full px-4 justify-center">
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            speak(currentCard?.front, getCardLanguages(currentCard).frontLang);
-                          }}
-                          disabled={isSpeaking}
-                          className={`p-2 rounded-full transition-all flex-shrink-0 ${isSpeaking ? 'text-slate-300' : 'text-indigo-600 hover:bg-indigo-50'}`}
-                        >
-                          <Volume2 className={`w-6 h-6 ${isSpeaking ? 'animate-pulse' : ''}`} />
-                        </button>
-                        <h3 className={`${currentCard?.type === 'simple' ? 'text-base sm:text-lg md:text-2xl' : 'text-xl sm:text-2xl md:text-3xl'} font-bold text-slate-800 leading-tight text-center break-words max-w-[70%]`}>
-                          {currentCard?.front}
-                        </h3>
-                         <a
-                          href={getTranslateUrl(currentCard?.front || '', getCardLanguages(currentCard).frontLang, getCardLanguages(currentCard).backLang)}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className="p-2 rounded-full text-indigo-400 hover:text-indigo-600 hover:bg-indigo-50 transition-all flex-shrink-0 ml-2 sm:ml-4"
-                          title="Google Translate"
-                        >
-                          <Languages className="w-5 h-5" />
-                        </a>
-                      </div>
- 
-                      {cardSentences && cardSentences.length > 0 && (
-                        <div 
-                          onClick={(e) => e.stopPropagation()} 
-                          className="mt-4 space-y-2 w-full max-h-48 overflow-y-auto pr-1 custom-card-scrollbar"
-                        >
-                          {cardSentences.map((s, i) => (
-                            <div key={i} className="flex items-center gap-2 justify-center group bg-slate-50/50 hover:bg-slate-50 p-2 rounded-xl transition-all border border-slate-100/50">
-                              <button 
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  speak(s.original, getCardLanguages(currentCard).frontLang);
-                                }}
-                                disabled={isSpeaking}
-                                className={`p-1.5 rounded-lg transition-all flex-shrink-0 ${isSpeaking ? 'text-slate-200' : 'text-slate-400 hover:text-indigo-600 hover:bg-indigo-50'}`}
-                                title="Listen"
-                              >
-                                <Play className="w-3.5 h-3.5 fill-current" />
-                              </button>
-                              
-                              <p className="text-slate-600 italic text-sm sm:text-base leading-relaxed flex-1 text-center font-medium">
-                                {s.original}
-                              </p>
- 
-                              <div className="flex items-center gap-1 transition-all">
-                                <button
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    startSentenceChunking(s.original, currentCard.id);
-                                  }}
-                                  className="p-1.5 rounded-lg text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 transition-all"
-                                  title="Analyze Sentence Structure"
-                                >
-                                  {isChunking === s.original ? (
-                                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                                  ) : (
-                                    <Sparkles className="w-3.5 h-3.5" />
-                                  )}
-                                </button>
-                                
-                                <button
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    window.open(getTranslateUrl(s.original, getCardLanguages(currentCard).frontLang, getCardLanguages(currentCard).backLang), "_blank");
-                                  }}
-                                  className="p-1.5 rounded-lg text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 transition-all"
-                                  title="Google Translate"
-                                >
-                                  <Languages className="w-3.5 h-3.5" />
-                                </button>
-                              </div>
+                    {/* Autoplay Audio Controls */}
+                    <div className="flex items-center gap-2 self-end sm:self-auto">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest hidden xs:inline">Autoplay:</span>
+                      <div className="flex items-center gap-1.5 bg-slate-50 border border-slate-100 p-1 rounded-xl">
+                        {isAutoPlaying ? (
+                          <div className="flex items-center gap-2 pl-1.5">
+                            <div className="flex items-center gap-1">
+                              <div className="w-1.5 h-1.5 bg-indigo-500 rounded-full animate-pulse" />
+                              <span className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider">Playing</span>
                             </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Footer Actions */}
-                    <div className="mt-auto pt-6 w-full flex flex-col items-center gap-4">
-                      <div className="flex gap-2 w-full">
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            updateMastery(currentCard.id, 'learning');
-                          }}
-                          className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${
-                            currentCard?.mastery === 'learning' 
-                            ? 'bg-amber-50 border-amber-200 text-amber-700' 
-                            : 'bg-white border-slate-100 text-slate-400 hover:border-amber-200 hover:text-amber-600'
-                          }`}
-                        >
-                          <Circle className="w-2.5 h-2.5 sm:w-3 h-3" />
-                          Learning
-                        </button>
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            updateMastery(currentCard.id, 'mastered');
-                          }}
-                          className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${
-                            currentCard?.mastery === 'mastered' 
-                            ? 'bg-emerald-50 border-emerald-200 text-emerald-700' 
-                            : 'bg-white border-slate-100 text-slate-400 hover:border-emerald-200 hover:text-emerald-600'
-                          }`}
-                        >
-                          <CheckCircle2 className="w-2.5 h-2.5 sm:w-3 h-3" />
-                          Mastered
-                        </button>
-                      </div>
-                      <p className="text-slate-300 text-[10px] font-bold uppercase tracking-widest">Tap to flip</p>
-                    </div>
-                  </div>
-
-                  {/* Back */}
-                  <div 
-                    className={`absolute inset-0 backface-hidden bg-indigo-600 rounded-[2.5rem] shadow-2xl shadow-indigo-200 border border-indigo-500 flex flex-col items-center justify-center p-6 sm:p-12 text-center rotate-y-180 ${!isFlipped ? 'pointer-events-none select-none' : 'pointer-events-auto'}`}
-                  >
-                    <button 
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        toggleStar(currentCard.id);
-                      }}
-                      className="absolute top-6 right-6 sm:top-8 sm:right-8 p-2 hover:bg-white/10 rounded-full transition-colors"
-                    >
-                      <Star className={`w-6 h-6 ${currentCard?.isStarred ? 'fill-amber-400 text-amber-400' : 'text-indigo-300'}`} />
-                    </button>
-                    {currentCard?.type !== 'simple' && (
-                      <span className="absolute top-6 left-6 sm:top-8 sm:left-8 text-[10px] font-bold text-indigo-200 uppercase tracking-[0.2em]">Translation</span>
-                    )}
-                    
-                    <div className="flex-1 flex flex-col items-center justify-center w-full px-4">
-                      <div className="flex items-center gap-4 sm:gap-6 justify-center max-w-full px-4">
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            speak(currentCard?.back, getCardLanguages(currentCard).backLang);
-                          }}
-                          disabled={isSpeaking}
-                          className={`p-2 rounded-full transition-all flex-shrink-0 ${isSpeaking ? 'text-indigo-300' : 'text-white hover:bg-white/10'}`}
-                        >
-                          <Volume2 className={`w-6 h-6 ${isSpeaking ? 'animate-pulse' : ''}`} />
-                        </button>
-                        <h3 className={`${currentCard?.type === 'simple' ? 'text-sm sm:text-base md:text-lg' : 'text-lg sm:text-xl md:text-2xl'} font-bold text-white leading-tight break-words text-center max-w-[70%]`}>
-                          {currentCard?.back}
-                        </h3>
-                        <a
-                          href={getTranslateUrl(currentCard?.back || '', getCardLanguages(currentCard).backLang, getCardLanguages(currentCard).frontLang)}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className="p-2 rounded-full text-indigo-200 hover:text-white hover:bg-white/10 transition-all flex-shrink-0 ml-2 sm:ml-4"
-                          title="Google Translate"
-                        >
-                          <Languages className="w-5 h-5" />
-                        </a>
-                      </div>
-
-                      {cardSentences && cardSentences.length > 0 && (
-                        <div 
-                          onClick={(e) => e.stopPropagation()} 
-                          className="mt-6 space-y-3 w-full max-h-48 overflow-y-auto pr-1 custom-card-scrollbar-back"
-                        >
-                          <div className="flex flex-col gap-1 items-center">
-                            <span className="text-[10px] font-bold text-indigo-200 uppercase tracking-widest">Usage</span>
-                            <div className="w-8 h-0.5 bg-indigo-400/30 rounded-full" />
+                            <button
+                              onClick={stopAutoPlay}
+                              className="p-1.5 bg-red-50 text-red-500 hover:bg-red-100 rounded-lg transition-all cursor-pointer"
+                              title="Stop Auto-play"
+                            >
+                              <Square className="w-3.5 h-3.5 fill-current" />
+                            </button>
                           </div>
-                          {cardSentences.map((s, i) => (
-                            <div key={i} className="flex items-center gap-2 justify-center group bg-white/5 hover:bg-white/10 p-2.5 rounded-2xl transition-all border border-white/5">
-                              <button 
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  speak(s.original, getCardLanguages(currentCard).frontLang);
-                                }}
-                                disabled={isSpeaking}
-                                className={`p-1.5 rounded-lg transition-all flex-shrink-0 ${isSpeaking ? 'text-indigo-400' : 'text-indigo-200 hover:text-white hover:bg-white/10'}`}
-                                title="Listen"
-                              >
-                                <Play className="w-3.5 h-3.5 fill-current text-white" />
-                              </button>
-                              
-                              <div className="flex-1 text-center">
-                                <p className="text-white italic text-sm sm:text-base leading-snug font-medium">
-                                  {s.original}
-                                </p>
-                                {s.translation && (
-                                  <p className="text-indigo-200 text-xs sm:text-sm leading-snug mt-0.5 opacity-80">
-                                    {s.translation}
-                                  </p>
-                                )}
-                              </div>
+                        ) : (
+                          <div className="flex items-center gap-1">
+                            <select
+                              value={autoPlayMode}
+                              onChange={(e) => setAutoPlayMode(e.target.value as any)}
+                              className="text-[10px] font-bold text-slate-500 bg-transparent outline-none px-2 py-0.5 cursor-pointer hover:text-indigo-600 font-mono"
+                            >
+                              <option value="front-back">{getDeckLanguageLabel().toUpperCase()} → EN</option>
+                              <option value="back-front">EN → {getDeckLanguageLabel().toUpperCase()}</option>
+                              <option value="front-only">{getDeckLanguageLabel().toUpperCase()} Only</option>
+                              <option value="back-only">EN Only</option>
+                            </select>
+                            <button
+                              onClick={startAutoPlay}
+                              className="p-1.5 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all cursor-pointer"
+                              title="Start Auto-play"
+                            >
+                              <PlayCircle className="w-4 h-4" />
+                            </button>
+                          </div>
+                        )}
 
-                              <div className="flex items-center gap-1 transition-all">
-                                <button
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    startSentenceChunking(s.original, currentCard.id);
-                                  }}
-                                  className="p-1.5 rounded-lg text-indigo-200 hover:text-white hover:bg-white/10 transition-all"
-                                  title="Analyze Sentence Structure"
-                                >
-                                  {isChunking === s.original ? (
-                                    <Loader2 className="w-3.5 h-3.5 animate-spin text-white" />
-                                  ) : (
-                                    <Sparkles className="w-3.5 h-3.5 text-white" />
-                                  )}
-                                </button>
-                                
-                                <button
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    window.open(getTranslateUrl(s.original, 'es', 'en'), "_blank");
-                                  }}
-                                  className="p-1.5 rounded-lg text-indigo-200 hover:text-white hover:bg-white/10 transition-all"
-                                  title="Google Translate"
-                                >
-                                  <Languages className="w-3.5 h-3.5 text-white" />
-                                </button>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Footer Actions */}
-                    <div className="mt-auto pt-6 w-full flex flex-col items-center gap-4">
-                      <div className="flex gap-2 w-full">
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            updateMastery(currentCard.id, 'learning');
-                          }}
-                          className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${
-                            currentCard?.mastery === 'learning' 
-                            ? 'bg-white/20 border-white/30 text-white' 
-                            : 'bg-transparent border-white/10 text-indigo-200 hover:border-white/30 hover:text-white'
-                          }`}
+                        <button
+                          onClick={() => setShowSettingsModal(true)}
+                          className="p-1.5 rounded-lg transition-all cursor-pointer text-slate-400 hover:text-indigo-600 hover:bg-slate-100"
+                          title="Autoplay & Repeat Setup"
                         >
-                          <Circle className="w-2.5 h-2.5 sm:w-3 h-3" />
-                          Learning
-                        </button>
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            updateMastery(currentCard.id, 'mastered');
-                          }}
-                          className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${
-                            currentCard?.mastery === 'mastered' 
-                            ? 'bg-white/20 border-white/30 text-white' 
-                            : 'bg-transparent border-white/10 text-indigo-200 hover:border-white/30 hover:text-white'
-                          }`}
-                        >
-                          <CheckCircle2 className="w-2.5 h-2.5 sm:w-3 h-3" />
-                          Mastered
+                          <Settings className="w-3.5 h-3.5" />
                         </button>
                       </div>
-                      <p className="text-indigo-300 text-[10px] font-bold uppercase tracking-widest">Tap to flip back</p>
+                    </div>
+
+                  </div>
+
+                  {/* Progress Bar and Label */}
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center text-xs text-slate-500 font-medium">
+                      <span className="font-bold text-indigo-500 uppercase tracking-widest text-[10px]">
+                        {showStarredOnly ? 'Starred Review' : 'Progress'}
+                      </span>
+                      <span>
+                        Card {currentIndex + 1} of {chunkedCards.length}
+                      </span>
+                    </div>
+                    <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden border border-slate-200/40">
+                      <motion.div
+                        initial={{ width: 0 }}
+                        animate={{ width: `${chunkedCards.length > 0 ? ((currentIndex + 1) / chunkedCards.length) * 100 : 0}%` }}
+                        className="h-full bg-indigo-500 rounded-full"
+                      />
                     </div>
                   </div>
-                </motion.div>
-              </div>
+                </div>
 
-              {/* Right Navigation */}
-              <button 
-                onClick={nextCard}
-                className="hidden md:flex p-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-400 hover:text-indigo-600 transition-all active:scale-95 flex-shrink-0"
-                title="Next Card"
-              >
-                <ChevronRight className="w-6 h-6" />
-              </button>
-            </div>
+                {/* Card Container */}
+                <div className="relative w-full max-w-2xl flex items-center gap-4 px-4">
+                  {/* Left Navigation */}
+                  <button
+                    onClick={prevCard}
+                    className="hidden md:flex p-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-400 hover:text-indigo-600 transition-all active:scale-95 flex-shrink-0"
+                    title="Previous Card"
+                  >
+                    <ChevronLeft className="w-6 h-6" />
+                  </button>
 
-            {/* Mobile Navigation */}
-            <div className="flex md:hidden items-center gap-6 mt-8">
-              <button 
-                onClick={prevCard}
-                className="p-3.5 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-600 transition-all active:scale-95"
-              >
-                <ChevronLeft className="w-5 h-5" />
-              </button>
+                  <div className="relative flex-1 h-[480px] sm:h-[450px] md:h-auto md:aspect-[4/3] perspective-1000">
+                    <motion.div
+                      className="w-full h-full relative preserve-3d cursor-pointer"
+                      animate={{ rotateY: isFlipped ? 180 : 0 }}
+                      transition={{ type: "spring", stiffness: 260, damping: 20 }}
+                      onClick={() => setIsFlipped(!isFlipped)}
+                    >
+                      {/* Front */}
+                      <div className={`absolute inset-0 backface-hidden bg-white rounded-[2.5rem] shadow-2xl shadow-slate-200/60 border border-slate-100 flex flex-col items-center justify-center p-6 sm:p-12 text-center ${isFlipped ? 'pointer-events-none select-none' : 'pointer-events-auto'}`}>
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            toggleStar(currentCard.id);
+                          }}
+                          className="absolute top-6 right-6 sm:top-8 sm:right-8 p-2 hover:bg-slate-50 rounded-full transition-colors"
+                        >
+                          <Star className={`w-6 h-6 ${currentCard?.isStarred ? 'fill-amber-400 text-amber-400' : 'text-slate-300'}`} />
+                        </button>
+                        {currentCard?.type !== 'simple' && (
+                          <span className="absolute top-6 left-6 sm:top-8 sm:left-8 text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em]">{getDeckLanguageLabel()}</span>
+                        )}
 
-              <button 
-                onClick={nextCard}
-                className="p-3.5 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-600 transition-all active:scale-95"
-              >
-                <ChevronRight className="w-5 h-5" />
-              </button>
-            </div>
+                        <div className="flex-1 flex flex-col items-center justify-center w-full">
+                          <div className="flex items-center gap-4 sm:gap-6 mb-2 max-w-full px-4 justify-center">
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                speak(currentCard?.front, getCardLanguages(currentCard).frontLang);
+                              }}
+                              disabled={isSpeaking}
+                              className={`p-2 rounded-full transition-all flex-shrink-0 ${isSpeaking ? 'text-slate-300' : 'text-indigo-600 hover:bg-indigo-50'}`}
+                            >
+                              <Volume2 className={`w-6 h-6 ${isSpeaking ? 'animate-pulse' : ''}`} />
+                            </button>
+                            <h3 className={`${currentCard?.type === 'simple' ? 'text-base sm:text-lg md:text-2xl' : 'text-xl sm:text-2xl md:text-3xl'} font-bold text-slate-800 leading-tight text-center break-words max-w-[70%]`}>
+                              {currentCard?.front}
+                            </h3>
+                            <a
+                              href={getTranslateUrl(currentCard?.front || '', getCardLanguages(currentCard).frontLang, getCardLanguages(currentCard).backLang)}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={(e) => e.stopPropagation()}
+                              className="p-2 rounded-full text-indigo-400 hover:text-indigo-600 hover:bg-indigo-50 transition-all flex-shrink-0 ml-2 sm:ml-4"
+                              title="Google Translate"
+                            >
+                              <Languages className="w-5 h-5" />
+                            </a>
+                          </div>
 
-            <button 
-              onClick={() => setIsFlipped(!isFlipped)}
-              className="mt-8 flex items-center gap-2 text-slate-400 hover:text-indigo-500 text-sm font-medium transition-colors"
-            >
-              <RotateCcw className="w-4 h-4" />
-              <span>Flip Card</span>
-            </button>
-          </div>
-        ) : (
-          <div className="w-full max-w-3xl">
-            <div className="flex items-center justify-between mb-8">
-              <h2 className="text-2xl font-bold text-slate-800">Deck Overview</h2>
-              <div className="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl text-slate-500 text-sm font-bold">
-                <span>{filteredCards.length} Cards</span>
-              </div>
-            </div>
+                          {cardSentences && cardSentences.length > 0 && (
+                            <div
+                              onClick={(e) => e.stopPropagation()}
+                              className="mt-4 space-y-2 w-full max-h-48 overflow-y-auto pr-1 custom-card-scrollbar"
+                            >
+                              {cardSentences.map((s, i) => (
+                                <div key={i} className="flex items-center gap-2 justify-center group bg-slate-50/50 hover:bg-slate-50 p-2 rounded-xl transition-all border border-slate-100/50">
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      speak(s.original, getCardLanguages(currentCard).frontLang);
+                                    }}
+                                    disabled={isSpeaking}
+                                    className={`p-1.5 rounded-lg transition-all flex-shrink-0 ${isSpeaking ? 'text-slate-200' : 'text-slate-400 hover:text-indigo-600 hover:bg-indigo-50'}`}
+                                    title="Listen"
+                                  >
+                                    <Play className="w-3.5 h-3.5 fill-current" />
+                                  </button>
 
-            <div className="grid gap-4">
-              {filteredCards.map((card, index) => (
-                <motion.div 
-                  key={card.id}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.05 }}
-                  className="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-center gap-6 group hover:border-indigo-200 hover:shadow-md transition-all"
+                                  <p className="text-slate-600 italic text-sm sm:text-base leading-relaxed flex-1 text-center font-medium">
+                                    {s.original}
+                                  </p>
+
+                                  <div className="flex items-center gap-1 transition-all">
+                                    <button
+                                      onClick={(e) => {
+                                        e.stopPropagation();
+                                        startSentenceChunking(s.original, currentCard.id);
+                                      }}
+                                      className="p-1.5 rounded-lg text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 transition-all"
+                                      title="Analyze Sentence Structure"
+                                    >
+                                      {isChunking === s.original ? (
+                                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                                      ) : (
+                                        <Sparkles className="w-3.5 h-3.5" />
+                                      )}
+                                    </button>
+
+                                    <button
+                                      onClick={(e) => {
+                                        e.stopPropagation();
+                                        window.open(getTranslateUrl(s.original, getCardLanguages(currentCard).frontLang, getCardLanguages(currentCard).backLang), "_blank");
+                                      }}
+                                      className="p-1.5 rounded-lg text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 transition-all"
+                                      title="Google Translate"
+                                    >
+                                      <Languages className="w-3.5 h-3.5" />
+                                    </button>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+
+                        {/* Footer Actions */}
+                        <div className="mt-auto pt-6 w-full flex flex-col items-center gap-4">
+                          <div className="flex gap-2 w-full">
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                updateMastery(currentCard.id, 'learning');
+                              }}
+                              className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${currentCard?.mastery === 'learning'
+                                  ? 'bg-amber-50 border-amber-200 text-amber-700'
+                                  : 'bg-white border-slate-100 text-slate-400 hover:border-amber-200 hover:text-amber-600'
+                                }`}
+                            >
+                              <Circle className="w-2.5 h-2.5 sm:w-3 h-3" />
+                              Learning
+                            </button>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                updateMastery(currentCard.id, 'mastered');
+                              }}
+                              className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${currentCard?.mastery === 'mastered'
+                                  ? 'bg-emerald-50 border-emerald-200 text-emerald-700'
+                                  : 'bg-white border-slate-100 text-slate-400 hover:border-emerald-200 hover:text-emerald-600'
+                                }`}
+                            >
+                              <CheckCircle2 className="w-2.5 h-2.5 sm:w-3 h-3" />
+                              Mastered
+                            </button>
+                          </div>
+                          <p className="text-slate-300 text-[10px] font-bold uppercase tracking-widest">Tap to flip</p>
+                        </div>
+                      </div>
+
+                      {/* Back */}
+                      <div
+                        className={`absolute inset-0 backface-hidden bg-indigo-600 rounded-[2.5rem] shadow-2xl shadow-indigo-200 border border-indigo-500 flex flex-col items-center justify-center p-6 sm:p-12 text-center rotate-y-180 ${!isFlipped ? 'pointer-events-none select-none' : 'pointer-events-auto'}`}
+                      >
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            toggleStar(currentCard.id);
+                          }}
+                          className="absolute top-6 right-6 sm:top-8 sm:right-8 p-2 hover:bg-white/10 rounded-full transition-colors"
+                        >
+                          <Star className={`w-6 h-6 ${currentCard?.isStarred ? 'fill-amber-400 text-amber-400' : 'text-indigo-300'}`} />
+                        </button>
+                        {currentCard?.type !== 'simple' && (
+                          <span className="absolute top-6 left-6 sm:top-8 sm:left-8 text-[10px] font-bold text-indigo-200 uppercase tracking-[0.2em]">Translation</span>
+                        )}
+
+                        <div className="flex-1 flex flex-col items-center justify-center w-full px-4">
+                          <div className="flex items-center gap-4 sm:gap-6 justify-center max-w-full px-4">
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                speak(currentCard?.back, getCardLanguages(currentCard).backLang);
+                              }}
+                              disabled={isSpeaking}
+                              className={`p-2 rounded-full transition-all flex-shrink-0 ${isSpeaking ? 'text-indigo-300' : 'text-white hover:bg-white/10'}`}
+                            >
+                              <Volume2 className={`w-6 h-6 ${isSpeaking ? 'animate-pulse' : ''}`} />
+                            </button>
+                            <h3 className={`${currentCard?.type === 'simple' ? 'text-sm sm:text-base md:text-lg' : 'text-lg sm:text-xl md:text-2xl'} font-bold text-white leading-tight break-words text-center max-w-[70%]`}>
+                              {currentCard?.back}
+                            </h3>
+                            <a
+                              href={getTranslateUrl(currentCard?.back || '', getCardLanguages(currentCard).backLang, getCardLanguages(currentCard).frontLang)}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={(e) => e.stopPropagation()}
+                              className="p-2 rounded-full text-indigo-200 hover:text-white hover:bg-white/10 transition-all flex-shrink-0 ml-2 sm:ml-4"
+                              title="Google Translate"
+                            >
+                              <Languages className="w-5 h-5" />
+                            </a>
+                          </div>
+
+                          {cardSentences && cardSentences.length > 0 && (
+                            <div
+                              onClick={(e) => e.stopPropagation()}
+                              className="mt-6 space-y-3 w-full max-h-48 overflow-y-auto pr-1 custom-card-scrollbar-back"
+                            >
+                              <div className="flex flex-col gap-1 items-center">
+                                <span className="text-[10px] font-bold text-indigo-200 uppercase tracking-widest">Usage</span>
+                                <div className="w-8 h-0.5 bg-indigo-400/30 rounded-full" />
+                              </div>
+                              {cardSentences.map((s, i) => (
+                                <div key={i} className="flex items-center gap-2 justify-center group bg-white/5 hover:bg-white/10 p-2.5 rounded-2xl transition-all border border-white/5">
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      speak(s.original, getCardLanguages(currentCard).frontLang);
+                                    }}
+                                    disabled={isSpeaking}
+                                    className={`p-1.5 rounded-lg transition-all flex-shrink-0 ${isSpeaking ? 'text-indigo-400' : 'text-indigo-200 hover:text-white hover:bg-white/10'}`}
+                                    title="Listen"
+                                  >
+                                    <Play className="w-3.5 h-3.5 fill-current text-white" />
+                                  </button>
+
+                                  <div className="flex-1 text-center">
+                                    <p className="text-white italic text-sm sm:text-base leading-snug font-medium">
+                                      {s.original}
+                                    </p>
+                                    {s.translation && (
+                                      <p className="text-indigo-200 text-xs sm:text-sm leading-snug mt-0.5 opacity-80">
+                                        {s.translation}
+                                      </p>
+                                    )}
+                                  </div>
+
+                                  <div className="flex items-center gap-1 transition-all">
+                                    <button
+                                      onClick={(e) => {
+                                        e.stopPropagation();
+                                        startSentenceChunking(s.original, currentCard.id);
+                                      }}
+                                      className="p-1.5 rounded-lg text-indigo-200 hover:text-white hover:bg-white/10 transition-all"
+                                      title="Analyze Sentence Structure"
+                                    >
+                                      {isChunking === s.original ? (
+                                        <Loader2 className="w-3.5 h-3.5 animate-spin text-white" />
+                                      ) : (
+                                        <Sparkles className="w-3.5 h-3.5 text-white" />
+                                      )}
+                                    </button>
+
+                                    <button
+                                      onClick={(e) => {
+                                        e.stopPropagation();
+                                        window.open(getTranslateUrl(s.original, 'es', 'en'), "_blank");
+                                      }}
+                                      className="p-1.5 rounded-lg text-indigo-200 hover:text-white hover:bg-white/10 transition-all"
+                                      title="Google Translate"
+                                    >
+                                      <Languages className="w-3.5 h-3.5 text-white" />
+                                    </button>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+
+                        {/* Footer Actions */}
+                        <div className="mt-auto pt-6 w-full flex flex-col items-center gap-4">
+                          <div className="flex gap-2 w-full">
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                updateMastery(currentCard.id, 'learning');
+                              }}
+                              className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${currentCard?.mastery === 'learning'
+                                  ? 'bg-white/20 border-white/30 text-white'
+                                  : 'bg-transparent border-white/10 text-indigo-200 hover:border-white/30 hover:text-white'
+                                }`}
+                            >
+                              <Circle className="w-2.5 h-2.5 sm:w-3 h-3" />
+                              Learning
+                            </button>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                updateMastery(currentCard.id, 'mastered');
+                              }}
+                              className={`flex-1 py-2 sm:py-2.5 rounded-xl text-[10px] sm:text-xs font-bold transition-all flex items-center justify-center gap-2 border ${currentCard?.mastery === 'mastered'
+                                  ? 'bg-white/20 border-white/30 text-white'
+                                  : 'bg-transparent border-white/10 text-indigo-200 hover:border-white/30 hover:text-white'
+                                }`}
+                            >
+                              <CheckCircle2 className="w-2.5 h-2.5 sm:w-3 h-3" />
+                              Mastered
+                            </button>
+                          </div>
+                          <p className="text-indigo-300 text-[10px] font-bold uppercase tracking-widest">Tap to flip back</p>
+                        </div>
+                      </div>
+                    </motion.div>
+                  </div>
+
+                  {/* Right Navigation */}
+                  <button
+                    onClick={nextCard}
+                    className="hidden md:flex p-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-400 hover:text-indigo-600 transition-all active:scale-95 flex-shrink-0"
+                    title="Next Card"
+                  >
+                    <ChevronRight className="w-6 h-6" />
+                  </button>
+                </div>
+
+                {/* Mobile Navigation */}
+                <div className="flex md:hidden items-center gap-6 mt-8">
+                  <button
+                    onClick={prevCard}
+                    className="p-3.5 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-600 transition-all active:scale-95"
+                  >
+                    <ChevronLeft className="w-5 h-5" />
+                  </button>
+
+                  <button
+                    onClick={nextCard}
+                    className="p-3.5 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-sm text-slate-600 transition-all active:scale-95"
+                  >
+                    <ChevronRight className="w-5 h-5" />
+                  </button>
+                </div>
+
+                <button
+                  onClick={() => setIsFlipped(!isFlipped)}
+                  className="mt-8 flex items-center gap-2 text-slate-400 hover:text-indigo-500 text-sm font-medium transition-colors"
                 >
-                  <div className="w-10 h-10 bg-slate-50 rounded-xl flex items-center justify-center text-slate-400 font-bold text-sm group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors">
-                    {index + 1}
+                  <RotateCcw className="w-4 h-4" />
+                  <span>Flip Card</span>
+                </button>
+              </div>
+            ) : (
+              <div className="w-full max-w-3xl">
+                <div className="flex items-center justify-between mb-8">
+                  <h2 className="text-2xl font-bold text-slate-800">Deck Overview</h2>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl text-slate-500 text-sm font-bold">
+                    <span>{filteredCards.length} Cards</span>
                   </div>
-                  
-                  <div className="flex-1 grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider block mb-1">{getDeckLanguageLabel()}</span>
-                      <p className="text-slate-800 font-bold line-clamp-2">{card.front}</p>
-                    </div>
-                    <div>
-                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">English</span>
-                      <p className="text-slate-600 font-medium line-clamp-2">{card.back}</p>
-                    </div>
-                  </div>
+                </div>
 
-                  <div className="flex items-center gap-2">
-                    <button 
-                      onClick={() => {
-                        setCurrentIndex(index);
-                        setViewMode('flashcard');
-                        setIsFlipped(false);
-                      }}
-                      className="p-2.5 bg-slate-50 text-slate-400 hover:bg-indigo-600 hover:text-white rounded-xl transition-all"
-                      title="Study this card"
+                <div className="grid gap-4">
+                  {filteredCards.map((card, index) => (
+                    <motion.div
+                      key={card.id}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: index * 0.05 }}
+                      className="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-center gap-6 group hover:border-indigo-200 hover:shadow-md transition-all"
                     >
-                      <Play className="w-4 h-4 fill-current" />
-                    </button>
-                    <button 
-                      onClick={() => toggleStar(card.id)}
-                      className={`p-2.5 rounded-xl transition-all ${card.isStarred ? 'bg-amber-50 text-amber-500' : 'bg-slate-50 text-slate-300 hover:text-amber-500'}`}
-                    >
-                      <Star className={`w-4 h-4 ${card.isStarred ? 'fill-current' : ''}`} />
-                    </button>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
+                      <div className="w-10 h-10 bg-slate-50 rounded-xl flex items-center justify-center text-slate-400 font-bold text-sm group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-colors">
+                        {index + 1}
+                      </div>
+
+                      <div className="flex-1 grid sm:grid-cols-2 gap-4">
+                        <div>
+                          <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider block mb-1">{getDeckLanguageLabel()}</span>
+                          <p className="text-slate-800 font-bold line-clamp-2">{card.front}</p>
+                        </div>
+                        <div>
+                          <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">English</span>
+                          <p className="text-slate-600 font-medium line-clamp-2">{card.back}</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => {
+                            setCurrentIndex(index);
+                            setViewMode('flashcard');
+                            setIsFlipped(false);
+                          }}
+                          className="p-2.5 bg-slate-50 text-slate-400 hover:bg-indigo-600 hover:text-white rounded-xl transition-all"
+                          title="Study this card"
+                        >
+                          <Play className="w-4 h-4 fill-current" />
+                        </button>
+                        <button
+                          onClick={() => toggleStar(card.id)}
+                          className={`p-2.5 rounded-xl transition-all ${card.isStarred ? 'bg-amber-50 text-amber-500' : 'bg-slate-50 text-slate-300 hover:text-amber-500'}`}
+                        >
+                          <Star className={`w-4 h-4 ${card.isStarred ? 'fill-current' : ''}`} />
+                        </button>
+                      </div>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
-      </div>
-    )}
       </main>
 
       {/* Sentence Breakdown Modal */}
@@ -2986,7 +3001,7 @@ export default function App() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="absolute top-0 left-0 w-full h-1.5 bg-indigo-600 z-10" />
-              
+
               <div className="p-4 sm:p-6 pb-2 flex items-center justify-between border-b border-slate-50">
                 <div className="flex items-center gap-3 sm:gap-4 text-left pl-2">
                   <div className="p-2 sm:p-3 bg-indigo-50 rounded-xl text-indigo-600 flex-shrink-0">
@@ -3001,12 +3016,12 @@ export default function App() {
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center gap-1.5">
                   <button
                     onClick={() => {
-                      const wordsOrChunks = isWordMode 
-                        ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" })) 
+                      const wordsOrChunks = isWordMode
+                        ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" }))
                         : activeSentence.chunks;
                       const text = wordsOrChunks.map(c => c.text).join(" ").trim() || activeSentence.sentence;
                       window.open(getTranslateUrl(text, 'es', 'en'), "_blank");
@@ -3017,7 +3032,7 @@ export default function App() {
                     <Languages className="w-5 h-5 text-indigo-500" />
                     <span className="text-[11px] font-bold text-indigo-600 hidden sm:inline">Translate</span>
                   </button>
-                  
+
                   <button
                     onClick={() => setActiveSentence(null)}
                     className="p-2 rounded-full hover:bg-slate-50 transition-colors text-slate-400"
@@ -3030,10 +3045,10 @@ export default function App() {
               <div className="flex-1 overflow-y-auto px-4 sm:px-8 py-4 space-y-6 scrollbar-hide">
                 <div className="w-full space-y-6">
                   {(() => {
-                    const chunksList = isWordMode 
-                      ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" })) 
+                    const chunksList = isWordMode
+                      ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" }))
                       : activeSentence.chunks;
-                    
+
                     const stepIndices: number[][] = [];
                     chunksList.forEach((_, idx) => {
                       if (gradualSlowMode) {
@@ -3072,18 +3087,17 @@ export default function App() {
                                 <Languages className="w-3.5 h-3.5 text-indigo-500" />
                                 <span>Translate</span>
                               </button>
-                              
+
                               <button
                                 onClick={() => {
                                   setGradualSlowMode(prev => !prev);
                                   setCurrentBreakdownStep(1);
                                   setFocusedChunkIndex(null);
                                 }}
-                                className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-[9px] sm:text-[10px] font-bold tracking-wider uppercase transition-all border ${
-                                  gradualSlowMode 
-                                    ? "bg-amber-50 border-amber-200 text-amber-700 hover:bg-amber-100/80" 
+                                className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-[9px] sm:text-[10px] font-bold tracking-wider uppercase transition-all border ${gradualSlowMode
+                                    ? "bg-amber-50 border-amber-200 text-amber-700 hover:bg-amber-100/80"
                                     : "bg-indigo-50 border-indigo-100 text-indigo-600 hover:bg-indigo-100/80"
-                                } cursor-pointer`}
+                                  } cursor-pointer`}
                                 title={gradualSlowMode ? "Switch to standard fast mode" : "Switch to gradual slow mode"}
                               >
                                 <span className="relative flex h-1.5 w-1.5">
@@ -3102,11 +3116,10 @@ export default function App() {
                                   }
                                 }}
                                 disabled={!showSentenceMeaning}
-                                className={`flex items-center gap-1 px-2 py-1 rounded-full text-[9px] sm:text-[10px] font-bold tracking-wider uppercase transition-all border ${
-                                  isWordMode 
-                                    ? "bg-violet-50 border-violet-200 text-violet-600 hover:bg-violet-100/80" 
+                                className={`flex items-center gap-1 px-2 py-1 rounded-full text-[9px] sm:text-[10px] font-bold tracking-wider uppercase transition-all border ${isWordMode
+                                    ? "bg-violet-50 border-violet-200 text-violet-600 hover:bg-violet-100/80"
                                     : "bg-slate-50 border-slate-200 text-slate-500 hover:bg-slate-100/80 hover:text-slate-700"
-                                } ${showSentenceMeaning ? "cursor-pointer" : "opacity-65 cursor-not-allowed"}`}
+                                  } ${showSentenceMeaning ? "cursor-pointer" : "opacity-65 cursor-not-allowed"}`}
                                 title={showSentenceMeaning ? "Toggle Word-by-word mode" : "Word-by-word fallback mode (standard chunks unavailable)"}
                               >
                                 <Layers className="w-3.5 h-3.5" />
@@ -3123,9 +3136,8 @@ export default function App() {
                             {Array.from({ length: totalSteps }).map((_, idx) => (
                               <div
                                 key={idx}
-                                className={`h-1.5 flex-1 rounded-full transition-all duration-500 ${
-                                  idx + 1 <= currentBreakdownStep ? "bg-indigo-600" : "bg-slate-100"
-                                }`}
+                                className={`h-1.5 flex-1 rounded-full transition-all duration-500 ${idx + 1 <= currentBreakdownStep ? "bg-indigo-600" : "bg-slate-100"
+                                  }`}
                               />
                             ))}
                           </div>
@@ -3160,15 +3172,14 @@ export default function App() {
                                           speak(chunk.text, getCardLanguages(currentCard).frontLang);
                                           setFocusedChunkIndex(prev => prev === idx ? null : idx);
                                         }}
-                                        className={`text-lg sm:text-2xl font-bold tracking-tight cursor-pointer select-none transition-all duration-300 px-1.5 sm:px-2 py-1 rounded-xl border ${
-                                          isFocused 
-                                            ? "text-indigo-700 bg-indigo-100/90 border-indigo-300 font-extrabold shadow-sm scale-110" 
-                                            : isActive && !isCompleted && isLastActive 
-                                            ? "text-indigo-600 font-extrabold border-indigo-100 bg-indigo-50/20" 
-                                            : isActive 
-                                            ? "text-slate-800 border-transparent hover:bg-slate-200/40 hover:border-slate-200/50" 
-                                            : "text-slate-400 border-transparent opacity-30 hover:opacity-100 hover:scale-105"
-                                        }`}
+                                        className={`text-lg sm:text-2xl font-bold tracking-tight cursor-pointer select-none transition-all duration-300 px-1.5 sm:px-2 py-1 rounded-xl border ${isFocused
+                                            ? "text-indigo-700 bg-indigo-100/90 border-indigo-300 font-extrabold shadow-sm scale-110"
+                                            : isActive && !isCompleted && isLastActive
+                                              ? "text-indigo-600 font-extrabold border-indigo-100 bg-indigo-50/20"
+                                              : isActive
+                                                ? "text-slate-800 border-transparent hover:bg-slate-200/40 hover:border-slate-200/50"
+                                                : "text-slate-400 border-transparent opacity-30 hover:opacity-100 hover:scale-105"
+                                          }`}
                                         title="Click to play and focus on this part"
                                       >
                                         {chunk.text}
@@ -3193,17 +3204,17 @@ export default function App() {
                                       </div>
                                     ) : (
                                       <p className="text-slate-500 font-medium text-sm sm:text-base italic">
-                                        {isWordMode 
-                                          ? activeStepIndices.length === 1 
-                                            ? `Word practice: "${chunksList[activeStepIndices[0]].text}"` 
-                                            : activeStepIndices.length === 2 
-                                            ? `Words: "${chunksList[activeStepIndices[0]].text} + ${chunksList[activeStepIndices[1]].text}"` 
-                                            : "Full sentence progress..."
-                                          : activeStepIndices.length === 1 
-                                          ? `"${chunksList[activeStepIndices[0]].meaning}"` 
-                                          : activeStepIndices.length === 2 
-                                          ? `"${chunksList[activeStepIndices[0]].meaning} + ${chunksList[activeStepIndices[1]].meaning}"` 
-                                          : "Full sentence progress..."
+                                        {isWordMode
+                                          ? activeStepIndices.length === 1
+                                            ? `Word practice: "${chunksList[activeStepIndices[0]].text}"`
+                                            : activeStepIndices.length === 2
+                                              ? `Words: "${chunksList[activeStepIndices[0]].text} + ${chunksList[activeStepIndices[1]].text}"`
+                                              : "Full sentence progress..."
+                                          : activeStepIndices.length === 1
+                                            ? `"${chunksList[activeStepIndices[0]].meaning}"`
+                                            : activeStepIndices.length === 2
+                                              ? `"${chunksList[activeStepIndices[0]].meaning} + ${chunksList[activeStepIndices[1]].meaning}"`
+                                              : "Full sentence progress..."
                                         }
                                       </p>
                                     )}
@@ -3257,11 +3268,10 @@ export default function App() {
                       setFocusedChunkIndex(null);
                     }}
                     disabled={currentBreakdownStep === 1}
-                    className={`flex-1 py-3 px-4 rounded-2xl font-bold transition-all flex items-center justify-center gap-2 text-sm sm:text-base ${
-                      currentBreakdownStep === 1 
-                        ? "text-slate-200 cursor-not-allowed" 
+                    className={`flex-1 py-3 px-4 rounded-2xl font-bold transition-all flex items-center justify-center gap-2 text-sm sm:text-base ${currentBreakdownStep === 1
+                        ? "text-slate-200 cursor-not-allowed"
                         : "text-slate-500 hover:bg-white hover:shadow-sm cursor-pointer"
-                    }`}
+                      }`}
                   >
                     <ChevronLeft className="w-5 h-5" />
                     Back
@@ -3269,10 +3279,10 @@ export default function App() {
 
                   <button
                     onClick={() => {
-                      const wordsOrChunks = isWordMode 
-                        ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" })) 
+                      const wordsOrChunks = isWordMode
+                        ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" }))
                         : activeSentence.chunks;
-                      
+
                       const stepIndicesList: number[][] = [];
                       wordsOrChunks.forEach((_, idx) => {
                         if (gradualSlowMode) {
@@ -3301,10 +3311,10 @@ export default function App() {
                     className="flex-[2] py-3 px-6 bg-slate-900 text-white rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-slate-800 transition-all shadow-lg active:scale-[0.98] text-sm sm:text-base cursor-pointer"
                   >
                     {(() => {
-                      const wordsOrChunks = isWordMode 
-                        ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" })) 
+                      const wordsOrChunks = isWordMode
+                        ? activeSentence.sentence.trim().split(/\s+/).filter(Boolean).map(w => ({ text: w, meaning: "" }))
                         : activeSentence.chunks;
-                      
+
                       const stepIndicesList: number[][] = [];
                       wordsOrChunks.forEach((_, idx) => {
                         if (gradualSlowMode) {
@@ -3346,7 +3356,7 @@ export default function App() {
       <AnimatePresence>
         {showSaveModal && (
           <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-[100] flex items-center justify-center p-4" onClick={() => setShowSaveModal(false)}>
-            <motion.div 
+            <motion.div
               initial={{ scale: 0.9, opacity: 0, y: 20 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 20 }}
@@ -3370,7 +3380,7 @@ export default function App() {
                   <span className="text-emerald-600 font-bold">{user?.email ? 'Logged In' : 'Not Logged In'}</span>
                 </div>
               </div>
-              
+
               {firestoreError && (
                 <div className="mb-6 p-4 bg-red-50 border border-red-100 rounded-2xl flex items-center gap-3 text-red-600">
                   <X className="w-5 h-5 flex-shrink-0" />
@@ -3378,7 +3388,7 @@ export default function App() {
                 </div>
               )}
 
-              <input 
+              <input
                 type="text"
                 value={newDeckName}
                 onChange={(e) => setNewDeckName(e.target.value)}
@@ -3387,10 +3397,10 @@ export default function App() {
                 autoFocus
                 onKeyDown={(e) => e.key === 'Enter' && newDeckName && saveToFirestore(newDeckName, cards, !currentDeckId)}
               />
-              
+
               <div className="flex flex-col gap-3">
                 {currentDeckId && (
-                  <button 
+                  <button
                     onClick={() => saveToFirestore(newDeckName, cards, false)}
                     disabled={!newDeckName || isSaving}
                     className="w-full px-6 py-4 bg-indigo-600 text-white rounded-2xl font-bold shadow-lg shadow-indigo-100 hover:bg-indigo-700 disabled:opacity-50 transition-all flex items-center justify-center gap-2"
@@ -3399,21 +3409,20 @@ export default function App() {
                     <span>Update Current Deck</span>
                   </button>
                 )}
-                
-                <button 
+
+                <button
                   onClick={() => saveToFirestore(newDeckName, cards, true)}
                   disabled={!newDeckName || isSaving}
-                  className={`w-full px-6 py-4 rounded-2xl font-bold transition-all flex items-center justify-center gap-2 ${
-                    currentDeckId 
-                      ? 'bg-white border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-50' 
+                  className={`w-full px-6 py-4 rounded-2xl font-bold transition-all flex items-center justify-center gap-2 ${currentDeckId
+                      ? 'bg-white border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-50'
                       : 'bg-indigo-600 text-white shadow-lg shadow-indigo-100 hover:bg-indigo-700'
-                  } disabled:opacity-50`}
+                    } disabled:opacity-50`}
                 >
                   {isSaving && !currentDeckId ? <Loader2 className="w-5 h-5 animate-spin" /> : <Plus className="w-5 h-5" />}
                   <span>{currentDeckId ? 'Save as New Deck' : 'Add to History'}</span>
                 </button>
 
-                <button 
+                <button
                   onClick={() => setShowSaveModal(false)}
                   className="w-full px-6 py-3 text-slate-400 font-bold hover:text-slate-600 transition-all"
                 >
@@ -3429,7 +3438,7 @@ export default function App() {
       <AnimatePresence>
         {showLogoutConfirm && (
           <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-[110] flex items-center justify-center p-4" onClick={() => setShowLogoutConfirm(false)}>
-            <motion.div 
+            <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
@@ -3441,9 +3450,9 @@ export default function App() {
               </div>
               <h2 className="text-xl font-bold text-slate-800 mb-2">Logout?</h2>
               <p className="text-slate-500 text-sm mb-8">Are you sure you want to log out of your cloud account?</p>
-              
+
               <div className="flex flex-col gap-3">
-                <button 
+                <button
                   onClick={() => {
                     logout();
                     setShowLogoutConfirm(false);
@@ -3452,7 +3461,7 @@ export default function App() {
                 >
                   Logout
                 </button>
-                <button 
+                <button
                   onClick={() => setShowLogoutConfirm(false)}
                   className="w-full py-4 text-slate-400 font-bold hover:text-slate-600 transition-all"
                 >
@@ -3468,7 +3477,7 @@ export default function App() {
       <AnimatePresence>
         {showConfirmClear && (
           <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-[100] flex items-center justify-center p-4" onClick={() => setShowConfirmClear(false)}>
-            <motion.div 
+            <motion.div
               initial={{ scale: 0.9, opacity: 0, y: 20 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 20 }}
@@ -3480,15 +3489,15 @@ export default function App() {
               </div>
               <h2 className="text-xl font-bold text-slate-800 text-center mb-2">Clear Session?</h2>
               <p className="text-slate-500 text-sm text-center mb-8">This will remove all cards from your current session. Saved decks in the cloud will not be affected.</p>
-              
+
               <div className="flex gap-3">
-                <button 
+                <button
                   onClick={() => setShowConfirmClear(false)}
                   className="flex-1 px-6 py-3 bg-slate-100 text-slate-600 rounded-xl font-bold hover:bg-slate-200 transition-all"
                 >
                   Cancel
                 </button>
-                <button 
+                <button
                   onClick={() => {
                     setCards([]);
                     setQuizQuestions([]);
@@ -3510,7 +3519,7 @@ export default function App() {
       <AnimatePresence>
         {showDeleteConfirm && (
           <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-[110] flex items-center justify-center p-4" onClick={() => setShowDeleteConfirm(false)}>
-            <motion.div 
+            <motion.div
               initial={{ scale: 0.9, opacity: 0, y: 20 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 20 }}
@@ -3522,18 +3531,18 @@ export default function App() {
               </div>
               <h2 className="text-xl font-bold text-slate-800 text-center mb-2">Delete Deck?</h2>
               <p className="text-slate-500 text-sm text-center mb-8">
-                Are you sure you want to delete <span className="font-bold text-slate-700">"{deckToDelete?.name}"</span>? 
+                Are you sure you want to delete <span className="font-bold text-slate-700">"{deckToDelete?.name}"</span>?
                 This action cannot be undone.
               </p>
-              
+
               <div className="flex gap-3">
-                <button 
+                <button
                   onClick={() => setShowDeleteConfirm(false)}
                   className="flex-1 px-6 py-3 bg-slate-100 text-slate-600 rounded-xl font-bold hover:bg-slate-200 transition-all"
                 >
                   Cancel
                 </button>
-                <button 
+                <button
                   onClick={confirmDeleteDeck}
                   className="flex-1 px-6 py-3 bg-red-600 text-white rounded-xl font-bold shadow-lg shadow-red-100 hover:bg-red-700 transition-all"
                 >
@@ -3549,14 +3558,14 @@ export default function App() {
       <AnimatePresence>
         {showLibraryModal && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setShowLibraryModal(false)}
               className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"
             />
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
@@ -3572,7 +3581,7 @@ export default function App() {
                     <p className="text-slate-500 text-sm">Browse curated study materials</p>
                   </div>
                 </div>
-                <button 
+                <button
                   onClick={() => setShowLibraryModal(false)}
                   className="p-2 hover:bg-slate-100 rounded-full transition-colors text-slate-400"
                 >
@@ -3597,9 +3606,9 @@ export default function App() {
                 ) : (
                   <div className="space-y-2">
                     {filteredLibrary.map((node) => (
-                      <LibraryTreeItem 
-                        key={node.path} 
-                        node={node} 
+                      <LibraryTreeItem
+                        key={node.path}
+                        node={node}
                         onFileSelect={loadFromLibrary}
                         expandedFolders={expandedFolders}
                         toggleFolder={toggleFolder}
@@ -3616,14 +3625,14 @@ export default function App() {
       {/* Decks Modal */}
       <AnimatePresence>
         {showDecksModal && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-[80] flex items-center justify-center p-6"
             onClick={() => setShowDecksModal(false)}
           >
-            <motion.div 
+            <motion.div
               initial={{ scale: 0.9, opacity: 0, y: 20 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 20 }}
@@ -3639,7 +3648,7 @@ export default function App() {
                   <X className="w-5 h-5 text-slate-400" />
                 </button>
               </div>
-              
+
               <div className="max-h-[400px] overflow-y-auto p-4">
                 {isLoadingDecks ? (
                   <div className="py-12 text-center">
@@ -3675,9 +3684,9 @@ export default function App() {
                           </div>
                           <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-indigo-400" />
                         </button>
-                        <button 
+                        <button
                           onClick={(e) => deleteDeckFromFirestore(deck.id, deck.name, e)}
-                          className="absolute right-4 top-1/2 -translate-y-1/2 p-2 text-slate-300 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all opacity-0 group-hover:opacity-100"
+                          className="absolute right-4 top-1/2 -translate-y-1/2 p-2 text-slate-400 sm:text-slate-300 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all opacity-100 sm:opacity-0 sm:group-hover:opacity-100"
                           title="Delete Deck"
                         >
                           <Trash2 className="w-4 h-4" />
@@ -3698,18 +3707,18 @@ export default function App() {
         )}
       </AnimatePresence>
 
-       {/* Language Selection Modal */}
+      {/* Language Selection Modal */}
       <AnimatePresence>
         {showLangDropdown && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setShowLangDropdown(false)}
               className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm"
             />
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95, y: 15 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 15 }}
@@ -3723,7 +3732,7 @@ export default function App() {
                     </div>
                     <h2 className="text-lg font-bold text-slate-800">Deck Language</h2>
                   </div>
-                  <button 
+                  <button
                     onClick={() => setShowLangDropdown(false)}
                     className="p-1.5 hover:bg-slate-100 rounded-full transition-colors"
                   >
@@ -3748,11 +3757,10 @@ export default function App() {
                         }
                         setShowLangDropdown(false);
                       }}
-                      className={`px-4 py-3 rounded-2xl text-left text-sm flex items-center gap-2.5 transition-all border ${
-                        deckLanguage === lang.code 
-                          ? 'bg-indigo-50 border-indigo-200 text-indigo-700 font-bold shadow-sm' 
+                      className={`px-4 py-3 rounded-2xl text-left text-sm flex items-center gap-2.5 transition-all border ${deckLanguage === lang.code
+                          ? 'bg-indigo-50 border-indigo-200 text-indigo-700 font-bold shadow-sm'
                           : 'border-slate-100 text-slate-600 hover:bg-slate-50 hover:border-slate-200'
-                      }`}
+                        }`}
                     >
                       <span className="text-lg">{lang.flag}</span>
                       <span className="font-semibold">{lang.name}</span>
@@ -3769,14 +3777,14 @@ export default function App() {
       <AnimatePresence>
         {showSettingsModal && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setShowSettingsModal(false)}
               className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"
             />
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
@@ -3790,7 +3798,7 @@ export default function App() {
                     </div>
                     <h2 className="text-xl font-bold text-slate-800">AI Settings</h2>
                   </div>
-                  <button 
+                  <button
                     onClick={() => setShowSettingsModal(false)}
                     className="p-2 hover:bg-slate-100 rounded-full transition-colors"
                   >
@@ -3840,7 +3848,7 @@ export default function App() {
                   {/* Auto-Play Settings */}
                   <div className="pt-4 border-t border-slate-100 space-y-4">
                     <h3 className="text-base font-bold text-slate-700">Auto-Play Settings</h3>
-                    
+
                     {/* Turtle Mode Speed */}
                     <div className="space-y-2">
                       <div className="flex items-center justify-between">
@@ -3882,11 +3890,10 @@ export default function App() {
                             key={num}
                             type="button"
                             onClick={() => setTargetAudioRepeats(num)}
-                            className={`flex-1 py-2 text-sm font-bold rounded-xl transition-all border ${
-                              targetAudioRepeats === num
+                            className={`flex-1 py-2 text-sm font-bold rounded-xl transition-all border ${targetAudioRepeats === num
                                 ? 'bg-indigo-600 border-indigo-600 text-white shadow-md shadow-indigo-100'
                                 : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
-                            }`}
+                              }`}
                           >
                             {num}
                           </button>
@@ -3910,11 +3917,10 @@ export default function App() {
                             key={speed}
                             type="button"
                             onClick={() => setTargetAudioPlaySpeed(speed)}
-                            className={`flex-1 py-2 text-sm font-bold rounded-xl transition-all border capitalize ${
-                              targetAudioPlaySpeed === speed
+                            className={`flex-1 py-2 text-sm font-bold rounded-xl transition-all border capitalize ${targetAudioPlaySpeed === speed
                                 ? 'bg-indigo-600 border-indigo-600 text-white shadow-md shadow-indigo-100'
                                 : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
-                            }`}
+                              }`}
                           >
                             {speed}
                           </button>
@@ -3938,19 +3944,18 @@ export default function App() {
                             key={mode}
                             type="button"
                             onClick={() => setAutoPlayBreakDownMode(mode)}
-                            className={`flex-1 py-2 text-sm font-bold rounded-xl transition-all border ${
-                              autoPlayBreakDownMode === mode
+                            className={`flex-1 py-2 text-sm font-bold rounded-xl transition-all border ${autoPlayBreakDownMode === mode
                                 ? 'bg-indigo-600 border-indigo-600 text-white shadow-md shadow-indigo-100'
                                 : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
-                            }`}
+                              }`}
                           >
                             {mode === 'side' ? 'Card Side' : 'Word/Sentence'}
                           </button>
                         ))}
                       </div>
                       <p className="text-[10px] text-slate-500 leading-relaxed font-medium">
-                        {autoPlayBreakDownMode === 'side' 
-                          ? `Side: Plays the entire ${getDeckLanguageLabel()} side (Word, Sentences, Examples) together, then the English side.` 
+                        {autoPlayBreakDownMode === 'side'
+                          ? `Side: Plays the entire ${getDeckLanguageLabel()} side (Word, Sentences, Examples) together, then the English side.`
                           : 'Word/Sentence: Alternates word with translation, then each sentence with translation.'}
                       </p>
                     </div>
@@ -3959,7 +3964,7 @@ export default function App() {
                   <div className="pt-4 border-t border-slate-100">
                     <div className="flex items-center justify-between mb-4">
                       <h3 className="text-base font-bold text-slate-700">Diagnostics</h3>
-                      <button 
+                      <button
                         onClick={() => setShowAdvancedDiagnostics(!showAdvancedDiagnostics)}
                         className="text-xs text-indigo-600 font-bold uppercase tracking-wider hover:underline"
                       >
@@ -4022,7 +4027,7 @@ export default function App() {
                         )}
 
                         {testResult && (
-                          <motion.div 
+                          <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
                             className={`p-4 rounded-2xl text-xs font-medium flex items-start gap-3 ${testResult.success ? 'bg-emerald-50 text-emerald-700 border border-emerald-100' : 'bg-red-50 text-red-700 border border-red-100'}`}
@@ -4054,7 +4059,7 @@ export default function App() {
       <AnimatePresence>
         {showHelpModal && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
@@ -4071,7 +4076,7 @@ export default function App() {
                   <X className="w-6 h-6" />
                 </button>
               </div>
-              
+
               <div className="p-8 space-y-8 max-h-[70vh] overflow-y-auto">
                 <section>
                   <h4 className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-4">AI Status</h4>
@@ -4099,7 +4104,7 @@ export default function App() {
                         <p className="font-mono text-xs font-bold">gemini-flash</p>
                       </div>
                     </div>
-                    
+
                     {(isApiKeyMissing || isApiKeyInvalid) && (
                       <div className="p-4 bg-white/5 rounded-2xl border border-white/10 text-[11px] leading-relaxed space-y-3">
                         <div className="flex items-start gap-2">
@@ -4114,9 +4119,9 @@ export default function App() {
                           <div className="w-4 h-4 rounded-full bg-indigo-500 flex-shrink-0 flex items-center justify-center text-[10px] font-bold">3</div>
                           <p>If it's not showing, <strong>Refresh the entire PC browser tab</strong> to sync projects.</p>
                         </div>
-                        
+
                         {window.aistudio && (
-                          <button 
+                          <button
                             onClick={() => window.aistudio.openSelectKey()}
                             className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold transition-all text-xs shadow-lg shadow-indigo-600/20"
                           >
@@ -4127,7 +4132,7 @@ export default function App() {
                     )}
 
                     {!showAdvancedDiagnostics ? (
-                      <button 
+                      <button
                         onClick={() => setShowAdvancedDiagnostics(true)}
                         className="text-[10px] font-bold uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity text-center py-2"
                       >
@@ -4148,7 +4153,7 @@ export default function App() {
                             )}
                             Run Test
                           </button>
-                          
+
                           <button
                             onClick={async () => {
                               setIsTestingConnection(true);
@@ -4162,13 +4167,13 @@ export default function App() {
                                   localStorage.setItem('manual_gemini_api_key', key);
                                 }
                                 const prefix = key ? `${key.substring(0, 4)}...${key.substring(key.length - 4)}` : 'None';
-                                
+
                                 setTestResult({
                                   success: key ? true : false,
                                   message: key ? "Sync successful!" : "Sync returned no key.",
                                   debug: `Server Key: ${prefix}`
                                 });
-                                
+
                                 if (key) {
                                   setIsApiKeyMissing(false);
                                   setIsApiKeyInvalid(false);
@@ -4193,7 +4198,7 @@ export default function App() {
                         <div className="pt-4 border-t border-white/10">
                           <p className="font-mono text-[10px] opacity-50 uppercase tracking-widest mb-2">Manual Override</p>
                           <div className="flex gap-2">
-                            <input 
+                            <input
                               type="password"
                               placeholder="Paste API Key here..."
                               className="flex-1 bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-indigo-500"
@@ -4206,7 +4211,7 @@ export default function App() {
                                 }
                               }}
                             />
-                            <button 
+                            <button
                               onClick={() => {
                                 localStorage.removeItem('manual_gemini_api_key');
                                 setDynamicApiKey(null);
@@ -4235,7 +4240,7 @@ export default function App() {
                           </div>
                         )}
 
-                        <button 
+                        <button
                           onClick={() => setShowAdvancedDiagnostics(false)}
                           className="w-full py-2 text-[10px] font-bold uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity"
                         >
@@ -4289,7 +4294,7 @@ export default function App() {
               </div>
 
               <div className="p-6 bg-slate-50 border-t border-slate-100">
-                <button 
+                <button
                   onClick={() => setShowHelpModal(false)}
                   className="w-full py-4 bg-indigo-600 text-white rounded-2xl font-bold shadow-lg shadow-indigo-100 hover:bg-indigo-700 transition-all"
                 >
@@ -4331,7 +4336,7 @@ export default function App() {
                     Guest Mode
                   </div>
                 )}
-                <button 
+                <button
                   onClick={() => setShowAuthModal(false)}
                   disabled={isAuthLoading}
                   className="p-2 hover:bg-slate-50 rounded-full transition-colors text-slate-400"
@@ -4359,7 +4364,7 @@ export default function App() {
                 {authMode === 'register' && (
                   <div className="space-y-2">
                     <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-1">Display Name</label>
-                    <input 
+                    <input
                       type="text"
                       value={authDisplayName}
                       onChange={(e) => setAuthDisplayName(e.target.value)}
@@ -4372,7 +4377,7 @@ export default function App() {
                 )}
                 <div className="space-y-2">
                   <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-1">Email Address</label>
-                  <input 
+                  <input
                     type="email"
                     value={authEmail}
                     onChange={(e) => setAuthEmail(e.target.value)}
@@ -4384,7 +4389,7 @@ export default function App() {
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-1">Password</label>
-                  <input 
+                  <input
                     type="password"
                     value={authPassword}
                     onChange={(e) => setAuthPassword(e.target.value)}
@@ -4431,7 +4436,7 @@ export default function App() {
 
               <p className="mt-8 text-center text-sm text-slate-500">
                 {authMode === 'login' ? "Don't have an account?" : "Already have an account?"}{' '}
-                <button 
+                <button
                   onClick={() => setAuthMode(authMode === 'login' ? 'register' : 'login')}
                   className="text-indigo-600 font-bold hover:underline"
                 >
@@ -4440,7 +4445,7 @@ export default function App() {
               </p>
 
               {!user && (
-                <button 
+                <button
                   onClick={() => setShowAuthModal(false)}
                   className="mt-4 w-full py-2 text-slate-400 text-sm font-bold hover:text-slate-600 transition-all"
                 >
@@ -4475,7 +4480,7 @@ export default function App() {
                   </div>
                   <h2 className="text-xl font-bold text-slate-800">Magic Generate</h2>
                 </div>
-                <button 
+                <button
                   onClick={() => setShowMagicModal(false)}
                   disabled={isGeneratingMagic}
                   className="p-2 hover:bg-slate-50 rounded-full transition-colors text-slate-400"
@@ -4497,7 +4502,7 @@ export default function App() {
 
               <div className="space-y-4 mb-8">
                 <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-1">Topic or Theme</label>
-                <input 
+                <input
                   type="text"
                   value={magicTopic}
                   onChange={(e) => setMagicTopic(e.target.value)}
@@ -4552,7 +4557,7 @@ export default function App() {
                   <h2 className="text-xl sm:text-2xl font-bold text-slate-800">Load Flashcards</h2>
                   <p className="text-slate-400 text-sm font-medium mt-1">Select a JSON file to import</p>
                 </div>
-                <button 
+                <button
                   onClick={() => setShowFilePicker(false)}
                   className="p-2 hover:bg-slate-50 rounded-full transition-colors text-slate-400"
                 >
@@ -4569,9 +4574,9 @@ export default function App() {
                 ) : (
                   <div className="space-y-1">
                     {fileList.map((node) => (
-                      <FileTreeItem 
-                        key={node.path} 
-                        node={node} 
+                      <FileTreeItem
+                        key={node.path}
+                        node={node}
                         onFileSelect={loadFile}
                         expandedFolders={expandedFolders}
                         toggleFolder={toggleFolder}
@@ -4612,7 +4617,7 @@ export default function App() {
               <div className="flex-1">
                 <p className="text-sm font-medium">{firestoreError}</p>
               </div>
-              <button 
+              <button
                 onClick={() => setFirestoreError(null)}
                 className="p-1 hover:bg-white/10 rounded-lg transition-colors"
               >
@@ -4639,7 +4644,7 @@ export default function App() {
               <div className="flex-1">
                 <p className="text-sm font-medium">{quotaError}</p>
               </div>
-              <button 
+              <button
                 onClick={() => setQuotaError(null)}
                 className="p-1 hover:bg-white/10 rounded-lg transition-colors"
               >
@@ -4684,19 +4689,19 @@ interface FileTreeItemProps {
   level?: number;
 }
 
-function FileTreeItem({ 
-  node, 
-  onFileSelect, 
-  expandedFolders, 
+function FileTreeItem({
+  node,
+  onFileSelect,
+  expandedFolders,
   toggleFolder,
-  level = 0 
+  level = 0
 }: FileTreeItemProps) {
   const isExpanded = expandedFolders.has(node.path);
 
   if (node.type === 'directory') {
     return (
       <div className="flex flex-col">
-        <button 
+        <button
           onClick={() => toggleFolder(node.path)}
           className="flex items-center gap-2 w-full p-3 hover:bg-slate-50 rounded-xl transition-colors text-left group"
           style={{ paddingLeft: `${level * 1.5 + 0.75}rem` }}
@@ -4708,9 +4713,9 @@ function FileTreeItem({
         {isExpanded && node.children && (
           <div className="flex flex-col">
             {node.children.map((child) => (
-              <FileTreeItem 
-                key={child.path} 
-                node={child} 
+              <FileTreeItem
+                key={child.path}
+                node={child}
                 onFileSelect={onFileSelect}
                 expandedFolders={expandedFolders}
                 toggleFolder={toggleFolder}
@@ -4724,7 +4729,7 @@ function FileTreeItem({
   }
 
   return (
-    <button 
+    <button
       onClick={() => onFileSelect(node.path)}
       className="flex items-center gap-2 w-full p-3 hover:bg-indigo-50 rounded-xl transition-colors text-left group"
       style={{ paddingLeft: `${level * 1.5 + 2.25}rem` }}
@@ -4768,19 +4773,19 @@ interface LibraryTreeItemProps {
   level?: number;
 }
 
-function LibraryTreeItem({ 
-  node, 
-  onFileSelect, 
-  expandedFolders, 
+function LibraryTreeItem({
+  node,
+  onFileSelect,
+  expandedFolders,
   toggleFolder,
-  level = 0 
+  level = 0
 }: LibraryTreeItemProps) {
   const isExpanded = expandedFolders.has(node.path);
 
   if (node.type === 'directory') {
     return (
       <div className="flex flex-col">
-        <button 
+        <button
           onClick={() => toggleFolder(node.path)}
           className="flex items-center gap-3 w-full p-3.5 hover:bg-purple-50/50 rounded-2xl transition-all text-left group cursor-pointer"
           style={{ paddingLeft: `${level * 1.5 + 0.75}rem` }}
@@ -4794,9 +4799,9 @@ function LibraryTreeItem({
         {isExpanded && node.children && (
           <div className="flex flex-col mt-0.5 border-l-2 border-purple-100/50 ml-6 pl-1 gap-0.5">
             {node.children.map((child) => (
-              <LibraryTreeItem 
-                key={child.path} 
-                node={child} 
+              <LibraryTreeItem
+                key={child.path}
+                node={child}
                 onFileSelect={onFileSelect}
                 expandedFolders={expandedFolders}
                 toggleFolder={toggleFolder}
@@ -4810,7 +4815,7 @@ function LibraryTreeItem({
   }
 
   return (
-    <button 
+    <button
       onClick={() => onFileSelect(node.path)}
       className="flex items-center gap-3 w-full p-3 hover:bg-purple-50 rounded-2xl transition-all text-left group cursor-pointer"
       style={{ paddingLeft: `${level * 1.5 + 1.25}rem` }}
